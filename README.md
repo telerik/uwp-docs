@@ -11,7 +11,7 @@ This repository contains the common infrastructure for building markdown documen
 1. Add a new git remote to the docs-base repository. This will be used to merge any new features and fixes from the documentation base repository.
 
          git remote add base git@github.com:telerik/docs-base.git
-1. Fetch the "base" remote. This will retrieve the latest files.
+1. Fetch the "base" remote. This will retrieve the latest files. If you get an error that you don't have access make sure you have [generated SSH keys](https://help.github.com/articles/generating-ssh-keys) for github.
       
          git fetch base
 1. Merge the "base/master" branch to your documentation repository branch. 
