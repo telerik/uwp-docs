@@ -4,7 +4,7 @@ This repository contains the common infrastructure for building markdown documen
 
 ## Set up a new documentation repository
 
-1. Install Ruby 1.9.x (2.x may or may not work).
+1. Install Ruby 1.9.x (2.x may or may not work). Windows users need to install the [Ruby DevKit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit) as well.
 2. Install NodeJS (or delete the line ` js_compressor: uglifier` from `_config.yml`).
 1. Open a terminal or "Git Bash" if on Windows.
 1. `cd` to the directory where your markdown documentation github repository is.
