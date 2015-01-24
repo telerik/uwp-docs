@@ -1,21 +1,31 @@
 # The public documentation URL, used for sitemap.xml
-url: "http://docs.telerik.com/product"
+url: "http://docs.telerik.com/devtools/windows-universal"
 
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock]
 navigation:
 ## List your directory names and order here, like this:
-    getting-started:
+    installation-and-deployment:
+        title: "Installation and Deployment"
         position: 2
-        title: Getting Started
-    "*foo":
-        title: Foo
+    common:
+        title: "Common"
+        position: 3
+    controls:
+        title: "Controls"
+        position: 4
+    data-storage:
+        title: "Data Storage"
+        position: 5
+    telerik-examples:
+        title: "Telerik Examples"
+        position: 6
 
 ## The application virtual path
-baseurl: /kendo-ui
+baseurl: /devtools/windows-universal
 
 ## The product name
-productName: "AppBuilder"
+productName: "Telerik UI for Windows Universal"
 
 ## Assign layout and category per different paths
 defaults:
