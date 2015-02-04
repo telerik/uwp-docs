@@ -79,7 +79,7 @@ are ordered in columns and scrolled horizontally.
 
 ### Defining Orientation
 
-You can define which wrap layout mode will be used by setting the Orientation property of the **WrapVirtualizationStrategyDefinition** instance. You can also specify fixed width or height for the visual items. This is done by setting the *ItemHeight* and *ItemWidth* properties exposed by **WrapVirtualizationStrategyDefinition**.
+You can define which wrap layout mode will be used by setting the Orientation property of the **WrapVirtualizationStrategyDefinition** instance.
 
 ### Defining Wrap Line Alignment
 
