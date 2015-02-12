@@ -21,7 +21,7 @@ When using **RadarAreaSeries** the data points are connected with straight line 
 ## Properties
 
 >**RadarAreaSeries** class inherits from the **RadarLineSeries** class -
-[See the inherited properties]({%slug %radchart-series-polarchart-series-radar-radarline}).
+[See the inherited properties]({% slug radchart-series-polarchart-series-radar-radarline %}).
 
 * **Fill** (Brush): Gets or sets the **Brush** that defines the interior of the area.
 
