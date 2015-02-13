@@ -19,7 +19,7 @@ The **RadarSplineSeries** are represented on the chart as data points connected 
 ## Properties
 
 >**RadarSplineSeries** class inherits from the **RadarLineSeries** class -
-[See the inherited properties]({%slug %radchart-series-polarchart-series-radar-radarline}).
+[See the inherited properties]({% slug radchart-series-polarchart-series-radar-radarline %}).
 
 ## Example
 
