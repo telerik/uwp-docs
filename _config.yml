@@ -1,5 +1,5 @@
 # The public documentation URL, used for sitemap.xml
-url: "http://docs.telerik.com/devtools/windows-universal"
+url: "http://testdocs.telerik.com/windows-universal"
 
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock]
@@ -22,7 +22,7 @@ navigation:
         position: 6
 
 ## The application virtual path
-baseurl: /devtools/windows-universal
+baseurl: /windows-universal
 
 ## The product name
 productName: "Telerik UI for Windows Universal"
