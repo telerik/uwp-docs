@@ -11,9 +11,63 @@ navigation:
     common:
         title: "Common"
         position: 3
+    common/localization:
+        title: "Localization"
+        position: 3
+    common/troubleshooting:
+        title: "Troubleshooting"
+        position: 4
     controls:
         title: "Controls"
         position: 4
+    controls/radautocompletebox:
+        title: "RadAutocompletebox"
+        position: 4
+    controls/radbulletgraph:
+        title: "RadBulletgraph"
+        position: 4
+    controls/radbusyindicator:
+        title: "RadBusyindicator"
+        position: 4
+    controls/radcalendar:
+        title: "RadCalendar"
+        position: 4
+    controls/radchart:
+        title: "RadChart"
+        position: 4
+    controls/raddataboundlistbox:
+        title: "RadDataboundListbox"
+        position: 4
+    controls/raddatagrid:
+        title: "RadDataGrid"
+        position: 4
+    controls/raddatepicker-and-radtimepicker:
+        title: "RadDatepicker and RadTimepicker"
+        position: 4
+    controls/radgauge:
+        title: "RadGauge"
+        position: 4
+    controls/radhubtile:
+        title: "RadHubtile"
+        position: 4
+    controls/radmap:
+        title: "RadMap"
+        position: 4
+    controls/radnumericbox:
+        title: "RadNumericBox"
+        position: 4
+    controls/radpagination:
+        title: "RadPagination"
+        position: 4
+    controls/radradialmenu:
+        title: "RadRadialMenu"
+        position: 4
+    controls/radrangeslider:
+        title: "RadRangeSlider"
+        position: 4
+    controls/radrating:
+        title: "RadRating"
+        position: 4		
     data-storage:
         title: "Data Storage"
         position: 5
