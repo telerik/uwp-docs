@@ -13,7 +13,8 @@ position: 1
 Here are listed all Telerik named brushes that define the appearance of the **RadAutoCompleteBox** control. To see how to use them, first you have to read this section: [Telerik Named Brushes]({%slug common-teleriknamedbrushes%})
 
 > All resources are of type **SolidColorBrush**.
-        Keys
+
+## Keys
 
 Brushes that affect the **RadAutoCompleteBox** control are shown in the following table. The first column is the **x:Key** of the **SolidColorBrush**, and the changes are shown with **Green** on the images in the second column.
 

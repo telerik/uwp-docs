@@ -26,6 +26,6 @@ In order to utilize this behavior, users simply have to add it to the chart's Be
 	* **Both**:The chart can be zoomed/panned both vertically and horizontally.
 * **HandleDoubleTap** (bool): Determines whether a double-tap gesture will be handled by the behavior to reset the values of the **Zoom** and **ScrollOffset** properties of the chart.
 
-	<telerik:RadCartesianChart.Behaviors>
-		<telerik:ChartPanAndZoomBehavior ZoomMode="Both" PanMode="Horizontal"/>
-	</telerik:RadCartesianChart.Behaviors>
+		<telerik:RadCartesianChart.Behaviors>
+			<telerik:ChartPanAndZoomBehavior ZoomMode="Both" PanMode="Horizontal"/>
+		</telerik:RadCartesianChart.Behaviors>

@@ -105,6 +105,7 @@ used to visualize each major tick on the axis. The **Style** should target the *
 
 	The following code demonstrates how to provide a custom **Fill** value to each **Rectangle**:
 
+	
 		<telerikChart:LinearAxis>
 		    <telerikChart:LinearAxis.MajorTickStyle>
 		        <Style TargetType="Rectangle">
@@ -119,15 +120,15 @@ for each major tick on the axis. Instead of **Rectangle** instances, the axis wi
 
 	Here is a code snippet that demonstrates setting up a custom template:
 
-	<telerikChart:LinearAxis>
-	    <telerikChart:LinearAxis.LabelTemplate>
-	        <DataTemplate>
-	            <Border BorderBrush="Orange" BorderThickness="2">
-	                <TextBlock Text="{Binding}" Margin="4"/>
-	            </Border>
-	        </DataTemplate>
-	    </telerikChart:LinearAxis.LabelTemplate>
-	</telerikChart:LinearAxis>
+		<telerikChart:LinearAxis>
+			<telerikChart:LinearAxis.LabelTemplate>
+				<DataTemplate>
+					<Border BorderBrush="Orange" BorderThickness="2">
+						<TextBlock Text="{Binding}" Margin="4"/>
+					</Border>
+				</DataTemplate>
+			</telerikChart:LinearAxis.LabelTemplate>
+		</telerikChart:LinearAxis>
 
 	>Using the **MajorTickTemplate** property together with **ContentPresenters** will degrade the performance of the chart as more complex visual trees are created.
 

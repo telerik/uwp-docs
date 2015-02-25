@@ -18,8 +18,8 @@ The **AnimationStyle** property allows you to specify the type of animation curr
 ![Busy Indicator Animation Style 1](images/BusyIndicator_AnimationStyle1.png)
 * **AnimationStyle2**  
 ![Busy Indicator Animation Style 2](images/BusyIndicator_AnimationStyle2.png)
-* **AnimationStyle3**!  
-[Busy Indicator Animation Style 3](images/BusyIndicator_AnimationStyle3.png)
+* **AnimationStyle3**
+![Busy Indicator Animation Style 3](images/BusyIndicator_AnimationStyle3.png)
 * **AnimationStyle4**  
 ![Busy Indicator Animation Style 4](images/BusyIndicator_AnimationStyle4.png)
 * **AnimationStyle5**  

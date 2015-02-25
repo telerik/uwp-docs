@@ -32,6 +32,8 @@ The code below demonstrates how to change the drop-down width with implicit styl
 ![Rad Auto Complete Box-Suggestions Control Style](images/RadAutoCompleteBox-SuggestionsControlStyle.png)
 
 To change the font size and foreground of every suggestion item, for example, you can apply a custom SuggestionItem style like this:
+	
+	
 	<telerikInput:RadAutoCompleteBox >
 	    <telerikInput:RadAutoCompleteBox.Resources>
 	        <Style TargetType="autoComplete:SuggestionItem" >

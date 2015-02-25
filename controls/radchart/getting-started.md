@@ -30,8 +30,9 @@ Now there are two ways to proceed with the setup of the chart:
 
 * Setting all properties and behaviors of your chart from scratch.
 
-
+<!---
 * With Galleries - you can choose the basic look of your chart from the gallery database and the XAML code will be automatially generated for you. Then you can edit it to customize the chart.
+-->
 
 Both approaches will be described in the sections below.
 
@@ -65,7 +66,7 @@ In addition, you use the ItemsSource property of the series to bind the data to 
 	this.radChart.DataContext = new double[] { 20, 30, 50, 10, 60, 40, 20, 80 };
 
 You now have simple line chart setup. To summarize, you used a Cartesian Chart object with the proper axes - depending on the data you plan to display. Then you added the desired series object to visualize the data and, finally, filled the series with data.
-
+<!---
 ## Working with Galleries
 
 The Galleries provide very convenient way to generate charts in just a few seconds. They contain sample XAML definitions for all basic scenarios for all chart types. You just have to choose a chart from the samples and its XAML definition will be auto-generated in your code. When you have the base of the chart, you can easily change it's properties to fit in your model.
@@ -119,3 +120,4 @@ And this is the result of the auto-generated code:
 ![Gallery 3](images/getting-started/Gallery3.png)
 
 Now you are free to edit!
+-->
