@@ -36,7 +36,7 @@ Gets the computed aggregate values for all the PropertyAggregateDescriptor insta
 	* *propertyName*: The name of the property to filter aggregates by.
 	* *group*: The IDataGroup instance to get the value for. Pass null to retrieve the computed Grand Total value.
 * **GetGroups**(*Predicate<IDataGroup> condition = null*)  
-Enumerates all the present **IDataGroup**instances using depth-first approach.
+Enumerates all the present **IDataGroup** instances using depth-first approach.
 
 >An optional condition may be used to filter the results.
 

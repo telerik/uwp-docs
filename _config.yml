@@ -21,55 +21,223 @@ navigation:
         title: "Controls"
         position: 4
     controls/radautocompletebox:
-        title: "RadAutocompletebox"
+        title: "AutoCompleteBox"
+        position: 4
+    controls/radautocompletebox/features:
+        title: "Features"
+        position: 4
+    controls/radautocompletebox/styling:
+        title: "Styling"
         position: 4
     controls/radbulletgraph:
-        title: "RadBulletgraph"
+        title: "Bulletgraph"
+        position: 4
+    controls/radbulletgraph/customizing-radbulletgraph:
+        title: "Customizing"
+        position: 4
+    controls/radbulletgraph/how-to:
+        title: "How to"
         position: 4
     controls/radbusyindicator:
-        title: "RadBusyindicator"
+        title: "Busy Indicator"
         position: 4
     controls/radcalendar:
-        title: "RadCalendar"
+        title: "Calendar"
+        position: 4
+    controls/radcalendar/commands:
+        title: "Commands"
+        position: 4
+    controls/radcalendar/how-to:
+        title: "How to"
+        position: 4
+    controls/radcalendar/navigation-support:
+        title: "Navigation Support"
+        position: 4
+    controls/radcalendar/styling:
+        title: "Styling"
         position: 4
     controls/radchart:
-        title: "RadChart"
+        title: "Chart"
+        position: 4
+    controls/radchart/annotations:
+        title: "Annotations"
+        position: 4
+    controls/radchart/axes:
+        title: "Axes"
+        position: 4
+    controls/radchart/behaviors:
+        title: "Behaviors"
+        position: 4
+    controls/radchart/cartesianchart:
+        title: "CartesianChart"
+        position: 4
+    controls/radchart/cartesianchart/axes:
+        title: "Axes"
+        position: 4
+    controls/radchart/cartesianchart/series:
+        title: "Series"
+        position: 4
+    controls/radchart/how-to:
+        title: "How to"
+        position: 4
+    controls/radchart/labels:
+        title: "Labels"
+        position: 4
+    controls/radchart/legend-control:
+        title: "Legend Control"
+        position: 4
+    controls/radchart/piechart:
+        title: "PieChart"
+        position: 4
+    controls/radchart/polarchart:
+        title: "PolarChart"
+        position: 4
+    controls/radchart/polarchart/axes:
+        title: "Axes"
+        position: 4
+    controls/radchart/polarchart/series:
+        title: "Series"
+        position: 4
+    controls/radchart/series:
+        title: "Series"
+        position: 4
+    controls/radchart/styling:
+        title: "Styling"
         position: 4
     controls/raddataboundlistbox:
-        title: "RadDataboundListbox"
+        title: "DataboundListbox"
+        position: 4
+    controls/raddataboundlistbox/features:
+        title: "Features"
+        position: 4
+    controls/raddataboundlistbox/item-animations:
+        title: "Item Animations"
         position: 4
     controls/raddatagrid:
-        title: "RadDataGrid"
+        title: "DataGrid"
+        position: 4
+    controls/raddatagrid/aggregates:
+        title: "Aggregates"
+        position: 4
+    controls/raddatagrid/columns:
+        title: "Columns"
+        position: 4
+    controls/raddatagrid/columns/how-to:
+        title: "How to"
+        position: 4
+    controls/raddatagrid/commands:
+        title: "Commands"
+        position: 4
+    controls/raddatagrid/data-storage-provider:
+        title: "Data Storage Provider"
+        position: 4
+    controls/raddatagrid/editing:
+        title: "Editing"
+        position: 4
+    controls/raddatagrid/filtering:
+        title: "Filtering"
+        position: 4
+    controls/raddatagrid/grouping:
+        title: "Grouping"
+        position: 4
+    controls/raddatagrid/how-to:
+        title: "How to"
+        position: 4
+    controls/raddatagrid/programatic-scrolling:
+        title: "Programatic Scrolling"
+        position: 4
+    controls/raddatagrid/sorting:
+        title: "Sorting"
+        position: 4
+    controls/raddatagrid/styling:
+        title: "Styling"
         position: 4
     controls/raddatepicker-and-radtimepicker:
-        title: "RadDatepicker and RadTimepicker"
+        title: "Datepicker and Timepicker"
+        position: 4
+    controls/raddatepicker-and-radtimepicker/features:
+        title: "Features"
+        position: 4
+    controls/raddatepicker-and-radtimepicker/properties-and-configuration:
+        title: "Properties and Configuration"
+        position: 4
+    controls/raddatepicker-and-radtimepicker/styling:
+        title: "Styling"
         position: 4
     controls/radgauge:
-        title: "RadGauge"
+        title: "Gauge"
+        position: 4
+    controls/radgauge/gauges:
+        title: "Gauges"
+        position: 4
+    controls/radgauge/how-to:
+        title: "How to"
+        position: 4
+    controls/radgauge/indicators:
+        title: "Indicators"
         position: 4
     controls/radhubtile:
-        title: "RadHubtile"
+        title: "Hubtile"
+        position: 4
+    controls/radhubtile\hubtiles:
+        title: "Hubtiles"
         position: 4
     controls/radmap:
-        title: "RadMap"
+        title: "Map"
+        position: 4
+    controls/radmap/behaviors:
+        title: "Behaviors"
+        position: 4
+    controls/radmap/layers:
+        title: "Layers"
+        position: 4
+    controls/radmap/styling:
+        title: "Styling"
         position: 4
     controls/radnumericbox:
-        title: "RadNumericBox"
+        title: "NumericBox"
+        position: 4
+    controls/radnumericbox/styling:
+        title: "Styling"
         position: 4
     controls/radpagination:
-        title: "RadPagination"
+        title: "Pagination"
+        position: 4
+    controls/radpagination/properties-and-configuration:
+        title: "Properties and Configuration"
         position: 4
     controls/radradialmenu:
-        title: "RadRadialMenu"
+        title: "Radial Menu"
+        position: 4
+    controls/radradialmenu/commands:
+        title: "Commands"
+        position: 4
+    controls/radradialmenu/how-to:
+        title: "How to"
+        position: 4
+    controls/radradialmenu/styling:
+        title: "Styling"
         position: 4
     controls/radrangeslider:
-        title: "RadRangeSlider"
+        title: "Range Slider"
+        position: 4
+    controls/radrangeslider/how-to:
+        title: "How to"
         position: 4
     controls/radrating:
-        title: "RadRating"
-        position: 4		
+        title: "Rating"
+        position: 4 
+    controls/radrating/features:
+        title: "Features"
+        position: 4			
     data-storage:
         title: "Data Storage"
+        position: 5
+    data-storage/context-object:
+        title: "Context Object"
+        position: 5
+    data-storage/domain-classes:
+        title: "Domain Classes"
         position: 5
     telerik-examples:
         title: "Telerik Examples"
