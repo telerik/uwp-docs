@@ -16,13 +16,13 @@ The **ItemAddedAnimation** property can be used to define animations for visual 
 
 The following code sample demonstrates how to define an animation for items added to the viewport in XAML:
 
-	<telerikPrimitives:RadDataBoundListBox.ItemAddedAnimation>
+	<telerikDataControls:RadDataBoundListBox.ItemAddedAnimation>
 	    <telerikCore:RadFadeAnimation EndOpacity="0" Duration="0:0:1">
 	        <telerikCore:RadFadeAnimation.Easing>
 	            <CubicEase EasingMode="EaseOut"/>
 	        </telerikCore:RadFadeAnimation.Easing>
 	    </telerikCore:RadFadeAnimation>
-	</telerikPrimitives:RadDataBoundListBox.ItemAddedAnimation>
+	</telerikDataControls:RadDataBoundListBox.ItemAddedAnimation>
 
 After defining an animation for items added to the viewport, it will be used each time an item is added
 to the source collection and it has to be realized in the viewport. Also, when the **ItemsSource**

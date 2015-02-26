@@ -14,16 +14,18 @@ position: 1
 
 To use **RadDataBoundListBox** in your application you have to reference the following assemblies:
 
-* **Telerik.Universal.Core.dll**
-* **Telerik.Universal.UI.Xaml.Primitives.dll**
+* **Telerik.Core.dll**
+* **Telerik.Data.dll**
+* **Telerik.UI.Xaml.Primitives.dll**
+* **Telerik.UI.Xaml.Controls.Data.dll**
 
 After adding reference to the dlls, you can declare a new RadDataBoundListBox as any normal control. To use RadDataBoundListBox in XAML you have to add the following namespace declaration:
 
-	xmlns:telerikPrimitives="using:Telerik.UI.Xaml.Controls.Primitives"
+	xmlns:telerikDataControls="using:Telerik.UI.Xaml.Controls.Data"
 
 Here is the control declaration:
 
-	<telerikPrimitives:RadDataBoundListBox x:Name="radDataBoundListBox" Height="200" Width="180"/>
+	<telerikDataControls:RadDataBoundListBox x:Name="radDataBoundListBox" Height="200" Width="180"/>
 
 RadDataBoundListBox accepts IEnumerable as items source.
 

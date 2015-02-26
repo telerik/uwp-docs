@@ -18,7 +18,7 @@ position of the items in the provided data source.
 
 To enable the Item Reorder feature in **DataBoundListBox** you need to set the **IsItemReorderEnabled** property to *true* and make sure that the provided data source implements the **IList** interface.
 
-	<telerikPrimitives:RadDataBoundListBox x:Name="radDataBoundListBox" IsItemReorderEnabled="True"/>
+	<telerikDataControls:RadDataBoundListBox x:Name="radDataBoundListBox" IsItemReorderEnabled="True"/>
 
 Already enabled, the Item Reorder feature can be activated by holding on a the visual item that will be
 target of reordering. In this case a popup is shown containing two buttons that shift the item position:

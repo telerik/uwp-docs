@@ -12,6 +12,8 @@ position: 1
 
 > The **RadListView** control is available for **Windows 8.1** and **Windows Phone 8.1**.
 
+## Features
+
 - [Layouts]({% slug listview-layouts %})
 - [Header and Footer]({% slug listview-header-footer %})
 - [Selection]({% slug listview-selection %})

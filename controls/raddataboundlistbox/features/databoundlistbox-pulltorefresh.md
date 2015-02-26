@@ -65,8 +65,8 @@ displayed in the last-refresh-time label.
 
 The following code snippet demonstrates how a custom time format is set via a Style:
 	
-	<telerikPrimitives:RadDataBoundListBox.PullToRefreshIndicatorStyle>
+	<telerikDataControls:RadDataBoundListBox.PullToRefreshIndicatorStyle>
 	    <Style TargetType="telerikListBox:PullToRefreshIndicatorControl">
 	        <Setter Property="RefreshTimeLabelFormat" Value="last refresh time: {0:H:mm}"/>
 	    </Style>
-	</telerikPrimitives:RadDataBoundListBox.PullToRefreshIndicatorStyle>
+	</telerikDataControls:RadDataBoundListBox.PullToRefreshIndicatorStyle>

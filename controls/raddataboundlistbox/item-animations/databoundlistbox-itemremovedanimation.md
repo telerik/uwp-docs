@@ -17,13 +17,13 @@ is reset and all items are animated out of the viewport in sequential manner. In
 
 The following code sample demonstrates how to define an animation for items removed out of the viewport in XAML:
 
-	<telerikPrimitives:RadDataBoundListBox.ItemRemovedAnimation>
+	<telerikDataControls:RadDataBoundListBox.ItemRemovedAnimation>
 	    <telerikCore:RadFadeAnimation Duration="0:0:10">
 	        <telerikCore:RadFadeAnimation.Easing>
 	            <CubicEase EasingMode="EaseIn"/>
 	        </telerikCore:RadFadeAnimation.Easing>
 	    </telerikCore:RadFadeAnimation>
-	</telerikPrimitives:RadDataBoundListBox.ItemRemovedAnimation>
+	</telerikDataControls:RadDataBoundListBox.ItemRemovedAnimation>
 
 After defining an animation for items removed out of the viewport, it will be used each time an item is removed
 from the source collection and it has to be removed from the viewport. Also, when the **ItemsSource**

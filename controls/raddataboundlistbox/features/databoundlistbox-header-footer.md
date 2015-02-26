@@ -16,16 +16,16 @@ position: 2
 
 The following XAML code demonstrates how to define and set a header for the *RadDataBoundListBox* control:
 
-	<telerikPrimitives:RadDataBoundListBox>
-	    <telerikPrimitives:RadDataBoundListBox.ListHeaderTemplate>
+	<telerikDataControls:RadDataBoundListBox>
+	    <telerikDataControls:RadDataBoundListBox.ListHeaderTemplate>
 	        <DataTemplate>
 	            <StackPanel>
 	                <Image Source="Images/HeaderAndFooter/header.png" Stretch="None" />
 	                <TextBlock Text="your day with" HorizontalAlignment="Right" FontFamily="Segoe WP Semibold" FontSize="22" Margin="0, 23, 28, 0" />
 	            </StackPanel>
 	        </DataTemplate>
-	    </telerikPrimitives:RadDataBoundListBox.ListHeaderTemplate>
-	</telerikPrimitives:RadDataBoundListBox>
+	    </telerikDataControls:RadDataBoundListBox.ListHeaderTemplate>
+	</telerikDataControls:RadDataBoundListBox>
 
 You can also use the *ListHeaderContent* property in context with *ListHeaderTemplate.*
 
@@ -33,16 +33,16 @@ You can also use the *ListHeaderContent* property in context with *ListHeaderTem
 
 The following XAML code demonstrates how to define and set a footer for the *RadDataBoundListBox* control:
 
-	<telerikPrimitives:RadDataBoundListBox>
-	    <telerikPrimitives:RadDataBoundListBox.ListFooterTemplate>
+	<telerikDataControls:RadDataBoundListBox>
+	    <telerikDataControls:RadDataBoundListBox.ListFooterTemplate>
 	        <DataTemplate>
 	            <StackPanel>
 	                <Image Source="Images/HeaderAndFooter/footer.png" Stretch="None" />
 	                <TextBlock Text="do it again" FontFamily="Segoe WP Semibold" FontSize="22" Margin="28, 23, 0, 0" />
 	            </StackPanel>
 	        </DataTemplate>
-	    </telerikPrimitives:RadDataBoundListBox.ListFooterTemplate>
-	</telerikPrimitives:RadDataBoundListBox>
+	    </telerikDataControls:RadDataBoundListBox.ListFooterTemplate>
+	</telerikDataControls:RadDataBoundListBox>
 
 You can also use the *ListFooterContent* property in context with *ListFooterTemplate*.
 

@@ -23,7 +23,9 @@ The RadListView also supports LoadMoreDataCommand that by default is executed to
 
 ## Example
 
-	xmlns:telerikDataControls="using:Telerik.UI.Xaml.Controls.Data"
+This example demonstrates how to use the incremental loading functionality.
+
+Here is the RadListView XAML declaration:
 	
 	<telerikDataControls:RadListView x:Name="listView" IncrementalLoadingMode="Explicit" ItemsSource="{Binding Items}">
 		<telerikDataControls:RadListView.DataContext>
@@ -35,6 +37,12 @@ The RadListView also supports LoadMoreDataCommand that by default is executed to
 	        </DataTemplate>
 	    </telerikDataControls:RadListView.ItemTemplate>
 	</telerikDataControls:RadListView>
+
+Where:
+
+	xmlns:telerikDataControls="using:Telerik.UI.Xaml.Controls.Data"
+
+This is the view model class:
 
  	public class ViewModel
     {
@@ -61,5 +69,6 @@ The RadListView also supports LoadMoreDataCommand that by default is executed to
         public string Text { get; set; }
     }
 
+Here is the result:
 
 ![RadListView data virtualization](images/listview-data-virtualization.png "RadListView data virtualization")

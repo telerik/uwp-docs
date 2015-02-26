@@ -63,8 +63,8 @@ Here are listed the properties related to incremental loading:
 
 Auto:
 
-	<telerikPrimitives:RadDataBoundListBox x:Name="listbox" IncrementalLoadingMode="Auto" ItemLoadingContent="loading..."/>
+	<telerikDataControls:RadDataBoundListBox x:Name="listbox" IncrementalLoadingMode="Auto" ItemLoadingContent="loading..."/>
 
 Explicit:
 
-	<telerikPrimitives:RadDataBoundListBox x:Name="listbox" IncrementalLoadingMode="Explicit" IncrementalLoadingItemContent="load more items" ItemLoadingContent="loading..."/>
+	<telerikDataControls:RadDataBoundListBox x:Name="listbox" IncrementalLoadingMode="Explicit" IncrementalLoadingItemContent="load more items" ItemLoadingContent="loading..."/>

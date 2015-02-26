@@ -34,11 +34,11 @@ an instance of the **StackVirtualizationStrategyDefinition** class.
 
 The following XAML code snippet demonstrates how this is done:
 
-	<telerikPrimitives:RadDataBoundListBox x:Name="stackDataBoundListBox">
-	    <telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
-	        <telerikPrimitives:StackVirtualizationStrategyDefinition Orientation="Vertical"/>
-	    </telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
-	</telerikPrimitives:RadDataBoundListBox>
+	<telerikDataControls:RadDataBoundListBox x:Name="stackDataBoundListBox">
+	    <telerikDataControls:RadDataBoundListBox.VirtualizationStrategyDefinition>
+	        <telerikDataControls:StackVirtualizationStrategyDefinition Orientation="Vertical"/>
+	    </telerikDataControls:RadDataBoundListBox.VirtualizationStrategyDefinition>
+	</telerikDataControls:RadDataBoundListBox>
 
 A **StackVirtualizationStrategy** manages the viewport by ordering the visual items
 in a stack layout. Items at the top and bottom edges of the stack are recycled to be further reused depending on the
@@ -65,11 +65,11 @@ an instance of the **WrapVirtualizationStrategyDefinition** class.
 
 The following XAML code snippet demonstrates how this is done:
 
-	<telerikPrimitives:RadDataBoundListBox x:Name="wrapDataBoundListBox">
-	    <telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
-	        <telerikPrimitives:WrapVirtualizationStrategyDefinition Orientation="Vertical" WrapLineAlignment="Center"/>
-	    </telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
-	</telerikPrimitives:RadDataBoundListBox>
+	<telerikDataControls:RadDataBoundListBox x:Name="wrapDataBoundListBox">
+	    <telerikDataControls:RadDataBoundListBox.VirtualizationStrategyDefinition>
+	        <telerikDataControls:WrapVirtualizationStrategyDefinition Orientation="Vertical" WrapLineAlignment="Center"/>
+	    </telerikDataControls:RadDataBoundListBox.VirtualizationStrategyDefinition>
+	</telerikDataControls:RadDataBoundListBox>
 
 A **WrapVirtualizationStrategy** manages the viewport by ordering the visual items
 in a wrap layout. Just as the stack layout, a wrap layout supports two orientations: hirozontal and vertical. In
@@ -97,11 +97,11 @@ an instance of the **DynamicGridVirtualizationStrategyDefinition** class.
 
 The following XAML code snippet demonstrates how this is done:
 
-	<telerikPrimitives:RadDataBoundListBox x:Name="gridDataBoundListBox">
-	    <telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
-	        <telerikPrimitives:DynamicGridVirtualizationStrategyDefinition Orientation="Horizontal" StackCount="3"/>
-	    </telerikPrimitives:RadDataBoundListBox.VirtualizationStrategyDefinition>
-	</telerikPrimitives:RadDataBoundListBox>
+	<telerikDataControls:RadDataBoundListBox x:Name="gridDataBoundListBox">
+	    <telerikDataControls:RadDataBoundListBox.VirtualizationStrategyDefinition>
+	        <telerikDataControls:DynamicGridVirtualizationStrategyDefinition Orientation="Horizontal" StackCount="3"/>
+	    </telerikDataControls:RadDataBoundListBox.VirtualizationStrategyDefinition>
+	</telerikDataControls:RadDataBoundListBox>
 
 A **DynamicGridVirtualizationStrategy** manages the viewport by ordering the visual items in a mansory-like wrap layout. This wrap layout mode resembles the way bricks are ordered when building a house. Just as the stack layout, a wrap layout supports two orientations: hirozontal and vertical. In horizontal mode, the wrap layout strategy orders the items starting from left to right and scrolls them vertically, whereas in vertical mode - items
 are ordered in from top to bottom and scrolled horizontally.
