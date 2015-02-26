@@ -1,0 +1,65 @@
+---
+title: Data Virtualization
+page_title: Data Virtualization
+description: RadListView Data Virtualization
+slug: radlistview-data-virtualization
+tags: radlistview,listview,data,virtualization
+published: True
+position: 
+---
+
+# Data Virtualization
+
+This topic describes how to enable incremental data loading in RadListView.
+
+To enable incremental loading, you have to use as ItemsSource a collection that implements the **ISupportIncrementalLoading** interface. You can also take advantage of the **IncrementalLoadingCollection** which is our default implementation.
+
+The **IncrementalLoadingMode** property specifies how new items are requested. Two loading modes are supported:
+
+- **Automatic**: Scrolling to the end of the control automatically loads more items.
+- **Explicit**: The user has to explicitly request more items by click/tap on the button.  
+
+The RadListView also supports LoadMoreDataCommand that by default is executed to load new data. You can find more information about the list view commands [here]({% slug radlistview-commands %}).
+
+## Example
+
+	xmlns:telerikDataControls="using:Telerik.UI.Xaml.Controls.Data"
+	
+	<telerikDataControls:RadListView x:Name="listView" IncrementalLoadingMode="Explicit" ItemsSource="{Binding Items}">
+		<telerikDataControls:RadListView.DataContext>
+    		<local:ViewModel/>
+		</telerikDataControls:RadListView.DataContext>
+	    <telerikDataControls:RadListView.ItemTemplate>
+	        <DataTemplate>
+	            <TextBlock Text="{Binding Text}"/>
+	        </DataTemplate>
+	    </telerikDataControls:RadListView.ItemTemplate>
+	</telerikDataControls:RadListView>
+
+ 	public class ViewModel
+    {
+        private int currentCount = 0;
+
+        public ViewModel()
+        {
+            this.Items = new IncrementalLoadingCollection<Item>(this.GetMoreItems) { BatchSize = 5 };
+        }
+
+        public IncrementalLoadingCollection<Item> Items { get; set; }
+
+        private async Task<IEnumerable<Item>> GetMoreItems(uint count)
+        {
+            await Task.Delay(1000);
+            var result = Enumerable.Range(this.currentCount, (int)count).Select(x => new Item { Text = "item " + x }).ToList();
+            currentCount += (int)count;
+            return result;
+        }
+    }
+
+	public class Item 
+    {
+        public string Text { get; set; }
+    }
+
+
+![RadListView data virtualization](images/listview-data-virtualization.png "RadListView data virtualization")
