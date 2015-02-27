@@ -36,6 +36,7 @@ Telerik UI for Windows Universal is built to target Windows Universal(Windows 8.
 * [RadPagination]({%slug radpagination-overview%}) *Windows 8.1
 * [RadRadialMenu]({%slug radialmenu-overview%}) *Windows 8.1
 * [RadRangeSlider]({%slug radrangeslider-overview%}) *Windows 8.1
+* [RadSideDrawer]({%slug sidedrawer-getting-started%}) *Universal
             
 **Telerik UI for Windows Universal** suite also offers [Telerik Data Storage]({%slug datastorage-overview%}) (*Windows 8.1) that provides users with local database support backed with the fast and server-less engine of SQLite.
         
