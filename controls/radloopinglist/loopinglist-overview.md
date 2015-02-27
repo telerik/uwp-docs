@@ -5,7 +5,7 @@ description: RadLoopingList Overview
 slug: loopinglist-overview
 tags: radloopinglist,loopinglist
 published: True
-position: 1
+position: 0
 ---
 
 # Overview

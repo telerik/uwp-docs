@@ -5,7 +5,7 @@ description: RadListView Getting Started
 slug: radlistview-getting-started
 tags: radlistview,listview
 published: True
-position: 2
+position: 1
 ---
 
 # Getting Started

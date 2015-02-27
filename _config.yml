@@ -179,11 +179,16 @@ navigation:
     controls/radhubtile:
         title: "Hubtile"
         position: 4
-    controls/radhubtile\hubtiles:
+    controls/radhubtile/hubtiles:
         title: "Hubtiles"
         position: 4
     controls/radlistview:
         title: "RadListView"
+        position: 4
+    controls/radlistview/features:
+        title: "Features"
+    controls/radloopinglist:
+        title: "RadLoopingList"
         position: 4
     controls/radmap:
         title: "Map"

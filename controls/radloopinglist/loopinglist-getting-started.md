@@ -5,7 +5,7 @@ description: RadLoopingList Getting Started
 slug: loopinglist-getting-started
 tags: radloopinglist,loopinglist
 published: True
-position: 2
+position: 1
 ---
 
 # Getting Started
