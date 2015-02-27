@@ -10,14 +10,21 @@ position: 1
 
 # Getting Started
 
-**RadDataBoundListBox** allows you to bind a large amount of data to a list box with experiencing optimized performance. For example, you can bound the control to a collection of 1000 and more items.
+**RadDataBoundListBox** allows you to bind a large amount of data to a list box with experiencing optimized performance. For example, you can bind the control to a collection of 1000 and more items.
 
-To use **RadDataBoundListBox** in your application you have to reference the following assemblies:
-
-* **Telerik.Core.dll**
-* **Telerik.Data.dll**
-* **Telerik.UI.Xaml.Primitives.dll**
-* **Telerik.UI.Xaml.Controls.Data.dll**
+>Since version **Q1 2015** the **RadDataBoundListBox** needs the following assemblies:
+>
+>* **Telerik.Core.dll**
+>* **Telerik.Data.dll**
+>* **Telerik.UI.Xaml.Primitives.dll**
+>* **Telerik.UI.Xaml.Controls.Data.dll**
+>
+>If you use a version prior to **Q1 2015**, you will have to add reference to the following assemblies:
+>
+>* **Telerik.Core.dll**
+>* **Telerik.UI.Xaml.Primitives.dll**
+>
+>Alternatively, you can add a reference to **Telerik UI for Windows Universal SDK**.
 
 After adding reference to the dlls, you can declare a new RadDataBoundListBox as any normal control. To use RadDataBoundListBox in XAML you have to add the following namespace declaration:
 

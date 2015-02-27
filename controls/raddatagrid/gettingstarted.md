@@ -12,14 +12,23 @@ position: 1
 
 This help article shows how to create a DataGrid from scratch using the DataGrid related classes in the Telerik UI for Windows Universal.
 
-First, add a reference to the needed assemblies:
 
-* **Telerik.Core.dll**
-* **Telerik.UI.Xaml.Primitives.dll**
-* **Telerik.UI.Xaml.Input.dll**
-* **Telerik.UI.Xaml.Grid.dll**
-
-Alternatively, you can add a reference to **Telerik UI for Windows Universal SDK**.
+>Since version **Q1 2015** the **RadDataGrid** needs references to the following assemblies:
+>
+>* **Telerik.Core.dll**
+>* **Telerik.Data.dll**
+>* **Telerik.UI.Xaml.Primitives.dll**
+>* **Telerik.UI.Xaml.Input.dll**
+>* **Telerik.UI.Xaml.Grid.dll**
+>
+>If you use a version prior to **Q1 2015**, you will have to add referencse to the following assemblies:
+>
+> * **Telerik.Core.dll**
+> * **Telerik.UI.Xaml.Primitives.dll**
+> * **Telerik.UI.Xaml.Input.dll**
+> * **Telerik.UI.Xaml.Grid.dll**
+>
+>Alternatively, you can add a reference to **Telerik UI for Windows Universal SDK**.
 
 Next, add the **Telerik.UI.Xaml.Controls.Grid** namespace:
 	
