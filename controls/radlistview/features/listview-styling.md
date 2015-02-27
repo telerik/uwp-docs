@@ -22,9 +22,11 @@ The RadListView control exposes the following properties that can help you custo
 - **GroupHeaderStyleSelector**
 
 
-## Action Buttons
+## Item Actions Customization
 
-	<telerikDataControls:RadListView IsActionOnSwipeEnabled="True">
+This example will demonstrate how to to customize the RadListView items and action content.
+
+	<telerikDataControls:RadListView IsActionOnSwipeEnabled="True" x:Name="listView">
 	    <telerikDataControls:RadListView.ItemStyle>
 	        <Style TargetType="telerikListView:RadListViewItem">
 	            <Setter Property="Margin" Value="0,5,0,5"/>
@@ -46,10 +48,12 @@ The RadListView control exposes the following properties that can help you custo
 	    </telerikDataControls:RadListView.SecondActionContent>
 	    <telerikDataControls:RadListView.ItemTemplate>
 	        <DataTemplate>
-	            <TextBlock Text="{Binding Text}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+	            <TextBlock Text="{Binding}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 	        </DataTemplate>
 	    </telerikDataControls:RadListView.ItemTemplate>
 	</telerikDataControls:RadListView>
+
+	listView.ItemsSource = new List<string> { "item 0", "item 1", "item 2" };
 
 Here is the result:
 
