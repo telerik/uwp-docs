@@ -238,6 +238,9 @@ navigation:
     controls/radrating/features:
         title: "Features"
         position: 4            
+    controls/radsidedrawer:
+        title: "RadSideDrawer"
+        position: 4            
     data-storage:
         title: "Data Storage"
         position: 5
