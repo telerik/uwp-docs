@@ -32,17 +32,16 @@ Brushes that affect the **RadCalendar** control are shown in the following list.
 * TelerikCalendarAnotherViewCellForegroundBrush  
 ![Telerik Calendar Another View Cell Foreground Brush](images/TelerikCalendarAnotherViewCellForegroundBrush.png)
 * TelerikCalendarBlackoutCellForegroundBrush!  
-[Telerik Calendar Blackout Cell Foreground Brush](images/TelerikCalendarBlackoutCellForegroundBrush.png)
+![Telerik Calendar Blackout Cell Foreground Brush](images/TelerikCalendarBlackoutCellForegroundBrush.png)
 * TelerikCalendarBlackoutCellBackgroundBrush  
 ![Telerik Calendar Blackout Cell Background Brush](images/TelerikCalendarBlackoutCellBackgroundBrush.png)
 
 ### Cells
 
 * TelerikCalendarSelectedCellForegroundBrush!  
-[Telerik Calendar Selected Cell Foreground Brush](images/TelerikCalendarSelectedCellForegroundBrush.png)
+![Telerik Calendar Selected Cell Foreground Brush](images/TelerikCalendarSelectedCellForegroundBrush.png)
 * TelerikCalendarSelectedCellBackgroundBrush  
 ![Telerik Calendar Selected Cell Background Brush](images/TelerikCalendarSelectedCellBackgroundBrush.png)
-
 * TelerikCalendarSelectedCellBorderBrush  
 ![Telerik Calendar Selected Cell Border Brush](images/TelerikCalendarSelectedCellBorderBrush.png)
 * TelerikCalendarHighlightedCellBorderBrush  
