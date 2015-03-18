@@ -20,13 +20,18 @@ The new **ThemeResource** markup extension is used when styling the conrols. The
 
 	<SolidColorBrush x:Key="TelerikNumericBoxForegroundBrush" Color="Green"/>
 
-1. In the **ResourceDictionary** in your application resources (**App.xaml**) you have to define an instance of the **UserThemeResources** class defined in the **Telerik.UI.Xaml.Controls** namespace. This class exposes two *static* properties:
+1. In a **ResourceDictionary** in your application resources (**App.xaml**) you have to define an instance of the **UserThemeResources** class defined in the **Telerik.UI.Xaml.Controls** namespace. This class exposes two *static* properties:
 	* **DarkResourcesPath** (string): Gets or sets the Uri path to the resoure distionary containing theme resource definitions for the Dark theme. If no value is set, the default Dark theme will be used.
 	* **LightResourcesPath** (string): Gets or sets the Uri path to the resoure distionary containing theme resource definitions for the Light theme. If no value is set, the default Light theme will be used.
 
-			<telerik:UserThemeResources x:Key="MyResources" DarkResourcesPath="ms-appx:///Assets/MyResourcesDark.xaml"/>
-
 	This class will override the default Telerik resources defined for the specific theme.
+
+		<telerik:UserThemeResources x:Key="MyResources" DarkResourcesPath="ms-appx:///Assets/MyResourcesDark.xaml"/>
+
+	Where:
+
+		xmlns:telerik="using:Telerik.UI.Xaml.Controls"
+
 1. Now you can change theme of an element:
 
 		<telerikInput:RadNumericBox x:Name="numericBox"/>
