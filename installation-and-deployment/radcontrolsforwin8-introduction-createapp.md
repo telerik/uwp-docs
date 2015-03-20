@@ -14,7 +14,7 @@ The following example describes what steps you should perform in order to add **
 
 ## Prerequisites
 
-Before walking through this example, you must have installed **Telerik UI for Windows Universal**, **Windows 8.1 / Windows Phone 8.1** and **Visual Studio 2014** on your machine.
+Before walking through this example, you must have installed **Telerik UI for Windows Universal**, **Windows 8.1 / Windows Phone 8.1** and **Visual Studio 2013** on your machine.
 
 ## Steps
 
