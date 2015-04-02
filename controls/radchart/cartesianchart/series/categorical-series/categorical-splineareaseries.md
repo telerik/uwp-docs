@@ -5,7 +5,7 @@ description: Spline Area Series
 slug: radchart-cartesianchart-series-categorical-splineareaseries
 tags: spline,area,series
 published: True
-position: 7
+position: 2
 ---
 
 # Spline Area Series

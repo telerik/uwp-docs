@@ -5,7 +5,7 @@ description: Spline Series
 slug: radchart-cartesianchart-series-categorical-splineseries
 tags: spline,series
 published: True
-position: 8
+position: 2
 ---
 
 # Spline Series

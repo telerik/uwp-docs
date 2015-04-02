@@ -5,7 +5,7 @@ description: Range Series
 slug: radchart-cartesianchart-series-categorical-rangeseries
 tags: range,series
 published: True
-position: 11
+position: 2
 ---
 
 # Range Series

@@ -5,7 +5,7 @@ description: Step Area Series
 slug: radchart-cartesianchart-series-categoricalseries-stepareaseries
 tags: step,area,series
 published: True
-position: 9
+position: 2
 ---
 
 # Step Area Series

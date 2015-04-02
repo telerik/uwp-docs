@@ -101,6 +101,24 @@ navigation:
     controls/radchart/series:
         title: "Series"
         position: 4
+    controls/radchart/cartesianchart/series/categorical-series:
+        title: "Categorical Series"
+        position: 1
+    controls/radchart/cartesianchart/series/scatter-series:
+        title: "Scatter Series"
+        position: 2
+    controls/radchart/cartesianchart/series/ohlc-series:
+        title: "OHLC Series"
+        position: 3
+    controls/radchart/cartesianchart/series/dynamic-series:
+        title: "Dynamic Series"
+        position: 4
+    controls/radchart/polarchart/series/polar-series:
+        title: "Polar Series"
+        position: 1
+    controls/radchart/polarchart/series/radar-series:
+        title: "Radar Series"
+        position: 2
     controls/radchart/styling:
         title: "Styling"
         position: 4

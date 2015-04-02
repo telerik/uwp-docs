@@ -5,7 +5,7 @@ description: Bar Series
 slug: radchart-cartesianchart-series-categorical-barseries
 tags: bar,series
 published: True
-position: 4
+position: 2
 ---
 
 # Bar Series

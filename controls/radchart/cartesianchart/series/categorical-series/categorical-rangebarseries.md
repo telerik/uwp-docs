@@ -5,7 +5,7 @@ description: RangeBar Series
 slug: radchart-cartesianchart-series-categorical-rangebarseries
 tags: rangebar,series
 published: True
-position: 12
+position: 2
 ---
 
 # RangeBar Series

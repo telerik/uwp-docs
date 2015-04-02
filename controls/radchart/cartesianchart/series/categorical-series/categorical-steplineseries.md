@@ -5,7 +5,7 @@ description: Step Line Series
 slug: radchart-cartesianchart-series-categoricalseries-steplineseries
 tags: step,line,series
 published: True
-position: 10
+position: 2
 ---
 
 # Step Line Series

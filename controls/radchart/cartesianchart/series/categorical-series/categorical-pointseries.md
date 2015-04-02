@@ -1,11 +1,11 @@
 ---
-title: Categorical Stroked Series Class
-page_title: Categorical Stroked Series Class
-description: Categorical Stroked Series Class
+title: Point Series
+page_title: Point Series
+description: Point Series
 slug: radchart-series-cartesianchart-series-categoricalseries-categoricalstrokedseriesclass
-tags: categorical,stroked,series,class
+tags: categorical,stroked,series,class,pointseries,point
 published: True
-position: 1
+position: 2
 ---
 
 # Categorical Stroked Series Class

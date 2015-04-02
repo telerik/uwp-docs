@@ -5,7 +5,7 @@ description: Line Series
 slug: radchart-cartesianchart-series-categorical-lineseries
 tags: line,series
 published: True
-position: 5
+position: 2
 ---
 
 # Line Series

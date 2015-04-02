@@ -5,7 +5,7 @@ description: Area Series
 slug: radchart-cartesianchart-series-categorical-areaseries
 tags: area,series
 published: True
-position: 3
+position: 2
 ---
 
 # Area Series
