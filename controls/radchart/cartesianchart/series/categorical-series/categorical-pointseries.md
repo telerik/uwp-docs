@@ -3,37 +3,9 @@ title: Point Series
 page_title: Point Series
 description: Point Series
 slug: radchart-cartesianchart-series-categorical-pointseries
-tags: categorical,stroked,series,class,pointseries,point
+tags: pointseries,point
 published: True
 position: 2
----
-
-# Categorical Stroked Series Class
-
-
-
-The **CategoricalStrokedSeries** class is a base class for all series that are visually represented by data points connected with strokes.
-
-
-## Properties
-
->**CategoricalStrokedSeries** class inherits from the **CategoricalSeries** class -
-[See the inherited properties]({%slug radchart-series-cartesianchart-series-categorical-categoricalseriesclass%}).
-
-
-* **Stroke** (Brush): Gets or setst the **Brush** instance that defines the stroke of the line used to present the series.
-
-
-* **StrokeThickness** (double): Gets or sets the thickness of the line used to present the series.
-
----
-title: Point Series
-page_title: Point Series
-description: Point Series
-slug: radchart-cartesianchart-series-categoricalseries-pointseries
-tags: point,series
-published: True
-position: 6
 ---
 
 # Point Series
