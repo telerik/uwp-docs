@@ -26,6 +26,7 @@ Here are listed all supported series grouped by the chart types that can use the
 
 #### CategoricalSeries
 
+* [PointSeries]({%slug radchart-cartesianchart-series-categorical-pointseries%})
 * [BarSeries]({%slug radchart-cartesianchart-series-categorical-barseries%})
 * [LineSeries]({%slug radchart-cartesianchart-series-categorical-lineseries%})
 * [SplineSeries]({%slug radchart-cartesianchart-series-categorical-splineseries%})

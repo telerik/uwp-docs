@@ -2,7 +2,7 @@
 title: Point Series
 page_title: Point Series
 description: Point Series
-slug: radchart-series-cartesianchart-series-categoricalseries-categoricalstrokedseriesclass
+slug: radchart-cartesianchart-series-categorical-pointseries
 tags: categorical,stroked,series,class,pointseries,point
 published: True
 position: 2
