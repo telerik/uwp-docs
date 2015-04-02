@@ -201,12 +201,12 @@ navigation:
         title: "Hubtiles"
         position: 4
     controls/radlistview:
-        title: "RadListView"
+        title: "ListView"
         position: 4
     controls/radlistview/features:
         title: "Features"
     controls/radloopinglist:
-        title: "RadLoopingList"
+        title: "LoopingList"
         position: 4
     controls/radmap:
         title: "Map"
@@ -257,7 +257,7 @@ navigation:
         title: "Features"
         position: 4            
     controls/radsidedrawer:
-        title: "RadSideDrawer"
+        title: "SideDrawer"
         position: 4            
     data-storage:
         title: "Data Storage"
