@@ -27,7 +27,7 @@ Multiple group descriptors define multiple group levels.
 (DataGridUserGroupMode): Gets or sets a value that determines whether the User is allowed to change the current Grouping state through the User Interface.
 * **[UserColumnReorderMode]({%slug datagrid-columns-overview%})**
 (DataGridUserColumnReorderMode): Gets or sets a value that defines how User Input (draging column header over another headers) affects the current column position in the grid.
-* **FrozenColimnsCount**: Specifies how many columns will be frozen from the beginning of the grid.
+* **FrozenColumnsCount**: Specifies how many columns will be frozen from the beginning of the grid.
 * **UserFilterMode**
 (DataGridUserFilterMode): Gets or sets a value that defines whether the Filter Glyph is present in the header of the currently available filterable columns.
 * **DragBehavior**: Gets or sets the behavior controling drag operations inside the DataGrid.
