@@ -200,6 +200,9 @@ navigation:
     controls/radhubtile/hubtiles:
         title: "Hubtiles"
         position: 4
+    controls/radhexview:
+        title: "HexView"
+        position: 4
     controls/radlistview:
         title: "ListView"
         position: 4
