@@ -21,7 +21,7 @@ Here's a list of the **RadHexHubTile** properties:
 
 ![HexOrientation](Images/hex-orientation.png)
 
-> The **RadHexHubTile** control inherits from the **HubTileBase** class - see the inherited properties [here]({%slug adhubtile-properties%}).
+> The **RadHexHubTile** control inherits from the **HubTileBase** class - see the inherited properties [here]({%slug radhubtile-properties%}).
 
 ## Example
 
