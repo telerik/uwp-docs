@@ -44,11 +44,12 @@ Where:
 * **ItemStyle** (Style): Gets or sets the style of the items. The Style should target the RadHexHubTile type.
 * **ItemStyleSelector** (StyleSelector): Gets or sets a selector that is used when applying the style to an item.
 * **LayoutDefinition** (HexLayoutDefinitionBase): Gets or sets the layout definition that specifies how the items will be arranged.
+* **ScrollOffset** (double): Gets the current scroll offset.
 * **MaxUpdateInterval** (TimeSpan): Gets or sets the maximum update interval of the tiles in the RadHexView.
 * **MinUpdateInterval** (TimeSpan): Gets or sets the minimum update interval of the tiles in the RadHexView.
 * **UpdateIntervalStep** (double): Gets or sets the step of the update interval values applied to the tiles in the RadHexView.
-The update interval of the items is set to a random value between the MinUpdateInterval and MaxUpdateInterval, considering the UpdateIntervalStep.
-* **ScrollOffset** (double): Gets the current scroll offset.
+
+>The update interval of the items is set to a random value between the MinUpdateInterval and MaxUpdateInterval, considering the UpdateIntervalStep.
 
 ### Events:
 
@@ -67,14 +68,28 @@ This is a base class for all layout definitions. Here are the available properti
 * **Orientation** (Orientation): Gets or sets the orientation of the layout.
 * **ViewPortExtension** (double): Gets or sets a value that specifies the amount of space added to the top and the bottom of the viewport, to be filled with items. The value is in relative units. For example: if you set it to 0.5, then half viewport will be added to the top and to the bottom of the visible area.
 
-### AngledHexLayoutDefinition
- 
+Here is an example of how to set LayoutDefinition:
+
+	<telerikDataControls:RadHexView>
+	    <telerikDataControls:RadHexView.LayoutDefinition>
+	        <telerikHexView:FlatTightHexLayoutDefinition ItemLength="100" ItemsSpacing="4" ViewPortExtension="1"/>
+	    </telerikDataControls:RadHexView.LayoutDefinition>
+	</telerikDataControls:RadHexView>
+
+Where:
+
+	xmlns:telerikHexView="using:Telerik.UI.Xaml.Controls.Data.HexView"
+
+The available definitions are:
+
+* **AngledHexLayoutDefinition**:
+
 ![](images/angled.png)
 
-### FlatLooseHexLayoutDefinition
- 
+* **FlatLooseHexLayoutDefinition**:  
+
 ![](images/flat-loose.png)
 
-### FlatTightHexLayoutDefinition
- 
+* **FlatTightHexLayoutDefinition**:
+
 ![](images/flat-tight.png)
