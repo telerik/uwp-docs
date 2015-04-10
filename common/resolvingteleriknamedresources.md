@@ -18,14 +18,14 @@ To refer the predefined Telerik named resources in **Windows 8.1 / Windows Phone
 		<ResourceDictionary.ThemeDictionaries>
 			<ResourceDictionary x:Key="Default">
 				<ResourceDictionary.MergedDictionaries>
-					<ResourceDictionary Source="ms-appx:///ControlNamespace/Themes/ThemeResourcesDark.xaml"/>
-					<ResourceDictionary Source="ms-appx:///OtherControlNamespace/Themes/ThemeResourcesDark.xaml"/>
+					<ResourceDictionary Source="ms-appx:///ControlAssembly/Themes/ThemeResourcesDark.xaml"/>
+					<ResourceDictionary Source="ms-appx:///OtherControlAssemmbly/Themes/ThemeResourcesDark.xaml"/>
 				</ResourceDictionary.MergedDictionaries>
 			</ResourceDictionary>
 			<ResourceDictionary x:Key="Light">
 				<ResourceDictionary.MergedDictionaries>
-					<ResourceDictionary Source="ms-appx:///ControlNamespace/Themes/ThemeResourcesLight.xaml"/>
-					<ResourceDictionary Source="ms-appx:///OtherControlNamespace/Themes/ThemeResourcesLight.xaml"/>
+					<ResourceDictionary Source="ms-appx:///ControlAssembly/Themes/ThemeResourcesLight.xaml"/>
+					<ResourceDictionary Source="ms-appx:///OtherControlAssembly/Themes/ThemeResourcesLight.xaml"/>
 				</ResourceDictionary.MergedDictionaries>
 			</ResourceDictionary>
 		</ResourceDictionary.ThemeDictionaries>
@@ -46,15 +46,15 @@ If you wish to override some of the Telerik named resources (e.g. to change the 
 		<ResourceDictionary.ThemeDictionaries>
 			<ResourceDictionary x:Key="Default">
 				<ResourceDictionary.MergedDictionaries>
-					<ResourceDictionary Source="ms-appx:///ControlNamespace/Themes/ThemeResourcesDark.xaml"/>
-					<ResourceDictionary Source="ms-appx:///OtherControlNamespace/Themes/ThemeResourcesDark.xaml"/>
+					<ResourceDictionary Source="ms-appx:///ControlAssembly/Themes/ThemeResourcesDark.xaml"/>
+					<ResourceDictionary Source="ms-appx:///OtherControlAssembly/Themes/ThemeResourcesDark.xaml"/>
 					<ResourceDictionary Source="{CustomResource DarkResourcesPath}"/>
 				</ResourceDictionary.MergedDictionaries>
 			</ResourceDictionary>
 			<ResourceDictionary x:Key="Light">
 				<ResourceDictionary.MergedDictionaries>
-					<ResourceDictionary Source="ms-appx:///ControlNamespace/Themes/ThemeResourcesLight.xaml"/>
-					<ResourceDictionary Source="ms-appx:///OtherControlNamespace/Themes/ThemeResourcesLight.xaml"/>
+					<ResourceDictionary Source="ms-appx:///ControlAssembly/Themes/ThemeResourcesLight.xaml"/>
+					<ResourceDictionary Source="ms-appx:///OtherControlAssembly/Themes/ThemeResourcesLight.xaml"/>
 					<ResourceDictionary Source="{CustomResource LightResourcesPath}"/>
 				</ResourceDictionary.MergedDictionaries>
 			</ResourceDictionary>
