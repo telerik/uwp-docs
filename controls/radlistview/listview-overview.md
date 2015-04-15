@@ -26,5 +26,5 @@ position: 0
 - **[Data virtualization]({% slug radlistview-data-virtualization %})**
 - **[Gestures – reorder, item actions]({% slug radlistview-gestures %})**
 - **[Commands]({% slug radlistview-commands %})**
-- **[Animations]({% slug radlistview-animations %})**
+- **[Animations]({% slug radlistview-item-animations %})**
 - **[Styling]({% slug radlistview-styling %})**
