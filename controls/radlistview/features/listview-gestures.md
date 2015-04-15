@@ -42,7 +42,7 @@ When an action button is tapped, the following command is executed:
  - **Item** 
  - **SourceType**: Specifies whether the first or the second action button is tapped.
 
->You can find more information about the RadListView commands [here]({% slug listview-commands %}).
+>You can find more information about the RadListView commands [here]({% slug radlistview-commands %}).
 
 ## How to implement reorder functionality
 
