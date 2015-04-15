@@ -17,14 +17,14 @@ position: 0
 
 ## Features
 
-- [Layouts]({% slug radlistview-layouts %})
-- [Header and Footer]({% slug radlistview-header-footer %})
-- [Selection]({% slug radlistview-selection %})
-- [Grouping]({% slug radlistview-grouping %})
-- [Filtering]({% slug radlistview-filtering %})
-- [Sorting]({% slug radlistview-sorting %})
-- [Data virtualization]({% slug radlistview-data-virtualization %})
-- [Gestures – reorder, item actions]({% slug radlistview-gestures %})
-- [Commands]({% slug radlistview-commands %})
-- [Animations]({% slug radlistview-animations %})
-- [Styling]({% slug radlistview-styling %})
+- **[Layouts]({% slug radlistview-layouts %})**
+- **[Header and Footer]({% slug radlistview-header-footer %})**
+- **[Selection]({% slug radlistview-selection %})**
+- **[Grouping]({% slug radlistview-grouping %})**
+- **[Filtering]({% slug radlistview-filtering %})**
+- **[Sorting]({% slug radlistview-sorting %})**
+- **[Data virtualization]({% slug radlistview-data-virtualization %})**
+- **[Gestures – reorder, item actions]({% slug radlistview-gestures %})**
+- **[Commands]({% slug radlistview-commands %})**
+- **[Animations]({% slug radlistview-animations %})**
+- **[Styling]({% slug radlistview-styling %})**
