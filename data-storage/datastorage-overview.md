@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
->importantTelerik Data Storage is available for Windows 8.1.
+>important Telerik Data Storage is available for **Windows 8.1** and **Windows Phone 8.1**.
 
 Teleriks Storage implementation provides users with local database support backed with the fast and server-less engine of SQLite. With Telerik’s storage solution developers can take advantage of relational databases (not BLOB files only) for processing data in their Windows Store apps, which widens the scope of the application types they can develop.
 
