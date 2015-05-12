@@ -10,6 +10,8 @@ position: 0
 
 # Overview
 
+> RadBusyIndicator is available for Windows 8.1 and Windows Pnone 8.1.
+
 The RadBusyIndicator control allows you to display an animation which indicates that your application is busy waiting for an asynchronous operation to finish. The control comes with a bunch of predefined animations that can be easily set. You can define your own animations and use them with the RadBusyIndicator control.
 
 You can use the following properties to fine-tune the behavior of RadBusyIndicator:
