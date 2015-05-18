@@ -5,7 +5,7 @@ description: Decorations
 slug: raddatagrid-decorations
 tags: decorations
 published: True
-position: 16
+position: 5
 ---
 
 # Decorations

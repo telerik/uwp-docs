@@ -5,7 +5,7 @@ description: DataView
 slug: raddatagrid-dataview
 tags: dataview
 published: True
-position: 6
+position: 5
 ---
 
 # DataView

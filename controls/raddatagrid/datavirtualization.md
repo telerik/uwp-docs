@@ -5,7 +5,7 @@ description: Data Virtualization
 slug: raddatagrid-datavirtualization
 tags: data,virtualization
 published: True
-position: 11
+position: 5
 ---
 
 # Data Virtualization

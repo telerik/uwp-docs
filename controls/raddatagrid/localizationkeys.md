@@ -5,7 +5,7 @@ description: Localization Keys
 slug: raddatagrid-localizationkeys
 tags: localization,keys
 published: True
-position: 18
+position: 5
 ---
 
 # Localization Keys

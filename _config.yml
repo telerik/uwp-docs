@@ -161,9 +161,6 @@ navigation:
     controls/raddatagrid/how-to:
         title: "How to"
         position: 4
-    controls/raddatagrid/programatic-scrolling:
-        title: "Programatic Scrolling"
-        position: 4
     controls/raddatagrid/sorting:
         title: "Sorting"
         position: 4
