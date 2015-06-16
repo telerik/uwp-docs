@@ -19,9 +19,12 @@ Here is an example of how to add a PropertyAggregateDescriptor to a RadDataGrid.
 
 	<telerikGrid:RadDataGrid>
 	    <telerikGrid:RadDataGrid.AggregateDescriptors>
-	        <telerikGrid:PropertyAggregateDescriptor PropertyName="Points" Function="Average"/>
+	        <telerikCore:PropertyAggregateDescriptor PropertyName="Points" Function="Average"/>
 	    </telerikGrid:RadDataGrid.AggregateDescriptors>
 	</telerikGrid:RadDataGrid>
+You will need to define the telerikCore namespace like this
 
->You can get the aggregate value/s through the GetAggregateValue and GetAggregateValues methods of the[IDataView]({%slug raddatagrid-dataview%}) interface.
+	xmlns:telerikGrid="using:Telerik.UI.Xaml.Controls.Grid"
+ 
+>You can get the aggregate value/s through the GetAggregateValue and GetAggregateValues methods of the [IDataView]({%slug raddatagrid-dataview%}) interface.
 
