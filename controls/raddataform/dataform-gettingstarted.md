@@ -24,10 +24,10 @@ After referencing the required assemblies you can proceed with setting up the co
 
 Create the business item
 
-	class DataItem
+	class UserData
     {
         private string name;
-        string Name
+        public string Name
         {
             get
             {
@@ -40,7 +40,7 @@ Create the business item
         }
 
         private string lastName;
-        string LastName
+        public string LastName
         {
             get
             {
@@ -53,7 +53,7 @@ Create the business item
         }
 
         private int age;
-        int Age
+        public int Age
         {
             get
             {
@@ -65,11 +65,25 @@ Create the business item
             }
         }
 
-        public DataItem(string name = "", string lastName = "", int age = -1)
+        private DateTime birthDate;
+        public DateTime BirthDate
+        {
+            get
+            {
+                return birthDate;
+            }
+            set
+            {
+                birthDate = value;
+            }
+        }
+
+        public UserData(string name = "", string lastName = "", int age = -1, DateTime birthDate = new DateTime())
         {
             this.Name = name;
             this.LastName = lastName;
             this.Age = age;
+            this.BirthDate = birthDate;
         }
     }
 
@@ -80,7 +94,7 @@ Initialize the **RadDataForm** and add it to the page
         this.InitializeComponent();
 
         var form = new RadDataForm();
-        form.Item = new DataItem();
+        form.Item = new UserData("FirstName", "LastName", 19, new DateTime(1995, 10, 24));
 
         this.root.Children.Add(form);
     }
@@ -89,4 +103,4 @@ The result should be similar to the picture below.
 
 Figure 1: 
 
-# insert picture here
+![](images/dataform-overview.png)

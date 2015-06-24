@@ -12,4 +12,5 @@ position: 0
 
 **RadDataForm** is a data control that automatically populates typed editors for each public property of the object set to the *RadDataForm.Item* property. RadDataForm allows you to easily create forms for creating and editing data objects in your application.
 
-# insert a picture here
+
+![](images/dataform-overview.png)
