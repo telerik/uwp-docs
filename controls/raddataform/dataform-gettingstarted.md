@@ -3,7 +3,7 @@ title: Getting Started
 page_title: Getting Started
 description: Getting Started
 slug: dataform-gettingstarted
-tags: overview
+tags: gettingstarted, raddataform
 published: True
 position: 1
 ---
@@ -18,13 +18,24 @@ position: 1
 
 # Getting Started
 
-After referencing the required assemblies you can proceed with setting up the control itself. The only property that is required to be set in order to visualize any data in our application is the Item property. It is of type object and gets or sets the business item that is about to be visualized.
+After referencing the required assemblies you can proceed with setting up the control itself. The only property that is required to be set in order to visualize any data in our application is the Item property. It is of type object and gets or sets the business item that is about to be visualized. It is important to keep in mind that the control will resolve only the public properties of the business class by default.
+
+# How the control works?
+
+For each property exposed by the object set as **Item** the RadDataForm control creates an **EntityPropertyControl**. This control is responsible for visualizing the information held by the respective property. The RadDataForm supports out of the box the following types and creates the respective EntityPropertyControl:
+
+1. **bool** - BooleanEditor
+2. **string** - StringEditor
+3. **double** - NumericEditor
+4. **int** - NumericEditor
+5. **DateTime** - DateEditor or TimeEditor
+6. **enum** - EnumEditor
 
 ## Example
 
 Create the business item
 
-	class UserData
+    public class UserData
     {
         private string name;
         public string Name

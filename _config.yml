@@ -129,8 +129,14 @@ navigation:
         title: "Features"
         position: 4
     controls/raddataform:
-        title: "Data Form"
+        title: "DataForm"
         position: 4
+    controls/raddataform/features:
+        title: "Features"
+        position: 2
+    controls/raddataform/styling:
+        title: "Styling"
+        position: 3
     controls/raddatagrid:
         title: "DataGrid"
         position: 5
