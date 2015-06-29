@@ -34,10 +34,10 @@ Here are listed the properties affecting the Date/Time Selector:
 
 	>You can set one, two or all the three components in the order you want them to appear.For example let's say you want to select only the time part and hour in this order in RadTimePicker.
 
-		<telerik:RadTimePicker SelectorFormat="th"/>
+		<telerik:RadTimePicker SelectorOrder="th"/>
 	
 	This is the expected result:  
-	![Selector Format](images/SelectorFormat.png)
+	![Selector Format](images/selectororder.png)
 
 * **SelectorDefaultValue** (DateTime?): Sets the default value of the Date/Time Selector in the Popup.
 * **SelectorHeader** (object): Sets the header of the Popup.
