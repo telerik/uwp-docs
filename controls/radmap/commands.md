@@ -15,14 +15,14 @@ The **RadMap** control exposes a **Commands** property that allows you to regist
 
 * **Unknown**: The command is not familiar to the **RadMap** and it will not execute. This is the default value.
 * **ViewChanged**: The command is associated with a change either in the **Center** or **ZoomLevel** (or both) properties of the **RadMap**. It is triggered by a user input through the **MapPanAndZoomBehavior**. The parameter passed to the command is of type **ViewChangedContext** and exposes the following properties:
-* **NewCenter** (Location): Gets or sets a value that will be set as the new **Center** of the **RadMap**.
-* **NewZoomLevel** (double): Gets or sets a value that will be set as the new **ZoomLevel** of the **RadMap**.
-* **PreviousCenter** (Location): Gets the previous **Center** value of the **RadMap**.
-* **PreviousZoomLevel** (double): Gets the previous **ZoomLevel** value of the **RadMap**.
-* **ShapeSelectionChanged**: The command is associated with a change in the **SelectedShapes** property of a **MapShapeSelectionBehavior** instance. The parameter passed to the command is of type **SelectionChangedEventArgs** and exposes the following properties:
-* **AddedItems**
-* **RemovedItems**
-* **ShapeLayerSourceChanged**: The command is that is triggered when an **IShapeDataSource** instance is specified as a source to a **[MapShapeLayer]({%slug radmap-mapshapelayer%})** and the **IShapeDataSource.Shapes** are prepared. The parameter passed to the command is the **MapShapeLayer** instance.
+ * **NewCenter** (Location): Gets or sets a value that will be set as the new **Center** of the **RadMap**.
+ * **NewZoomLevel** (double): Gets or sets a value that will be set as the new **ZoomLevel** of the **RadMap**.
+ * **PreviousCenter** (Location): Gets the previous **Center** value of the **RadMap**.
+ * **PreviousZoomLevel** (double): Gets the previous **ZoomLevel** value of the **RadMap**.
+ * **ShapeSelectionChanged**: The command is associated with a change in the **SelectedShapes** property of a **MapShapeSelectionBehavior** instance. The parameter passed to the command is of type **SelectionChangedEventArgs** and exposes the following properties:
+ * **AddedItems**
+ * **RemovedItems**
+ * **ShapeLayerSourceChanged**: The command is that is triggered when an **IShapeDataSource** instance is specified as a source to a **[MapShapeLayer]({%slug radmap-mapshapelayer%})** and the **IShapeDataSource.Shapes** are prepared. The parameter passed to the command is the **MapShapeLayer** instance.
 
 >If no custom commands are defined, then the default ones will be used. The custom behaviors have higher priority than the default ones.
 
