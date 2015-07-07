@@ -22,7 +22,7 @@ The **RadMap** control exposes a **Commands** property that allows you to regist
  * **ShapeSelectionChanged**: The command is associated with a change in the **SelectedShapes** property of a **MapShapeSelectionBehavior** instance. The parameter passed to the command is of type **SelectionChangedEventArgs** and exposes the following properties:
  * **AddedItems**
  * **RemovedItems**
- * **ShapeLayerSourceChanged**: The command is that is triggered when an **IShapeDataSource** instance is specified as a source to a **[MapShapeLayer]({%slug radmap-mapshapelayer%})** and the **IShapeDataSource.Shapes** are prepared. The parameter passed to the command is the **MapShapeLayer** instance.
+* **ShapeLayerSourceChanged**: The command is that is triggered when an **IShapeDataSource** instance is specified as a source to a **[MapShapeLayer]({%slug radmap-mapshapelayer%})** and the **IShapeDataSource.Shapes** are prepared. The parameter passed to the command is the **MapShapeLayer** instance.
 
 >If no custom commands are defined, then the default ones will be used. The custom behaviors have higher priority than the default ones.
 
