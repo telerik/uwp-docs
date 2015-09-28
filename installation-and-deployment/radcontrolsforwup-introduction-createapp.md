@@ -29,7 +29,7 @@ Next step is to uninstall the Telerik extensions.
 
 If there are no results after searching any telerik extensions customers are ready to install the latest version of Telerik UI for UWP suite.
 
-#### Install **Telerik UI for UWP** suite
+#### Install Telerik UI for UWP suite
 
 Customers need to download from their Telerik account the latest official release of the Telerik UI for UWP suite available. After unzipping the downloaded file customers should be able to find three Visual Studio extension installers. They are placed under the **\Binaries\VSIX** folder. 
 
@@ -37,13 +37,13 @@ Customers need to download from their Telerik account the latest official releas
 
 First should be installed the **VISX.UWP.vsix** extension since the other two depend on it. Next customers should install the other two extensions (installation order does not matter).
 
-### Create application
+#### Create application
 
 Once the extensions are installed customers are ready to continue with creating their application. Visual Studio 2015 provides Blank App template which can be used for easier start. It can be created by the New Project wizard.
 
 ![Blank App project Template](images/newprojectblankapp.png)
 
-### Add required references
+#### Add required references
 
 Once the wizard finishes creating the Blank App customers are ready to reference the already installed packages. 
 ![Open Reference Manager](images/openreferencemanager.png)
