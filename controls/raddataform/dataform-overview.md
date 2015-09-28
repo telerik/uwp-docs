@@ -10,6 +10,8 @@ position: 0
 
 # Overview
 
+> RadDataForm is available for **Widndows 8.1**, **Widndows Phone 8.1** and **WUP**.
+
 **RadDataForm** is a data control that automatically populates typed editors for each public property of the object set to the *RadDataForm.Item* property. RadDataForm allows you to easily create forms for creating and editing data objects in your application.
 
 

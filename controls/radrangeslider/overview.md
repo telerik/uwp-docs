@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
->RadRangeSlider is available for Windows 8.1.
+>RadRangeSlider is available for **Windows 8.1** and **WUP**.
 
 
 RadRangeSlider is a flexible UI component that allows value-range selection.

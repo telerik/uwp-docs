@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
-> RadBulletGraph is available for **Windows 8.1**.
+> RadBulletGraph is available for **Windows 8.1** and **WUP**.
 
 **RadBulletGraph** serves as a replacement for dashboard gauges and meters, which typically display too little information, require too much space, and can be cluttered with useless and distracting decoration. The RadBulletGraph features a single measure that is compared to one or more other measures to enrich its meaning (for example, compared to a target), and displays results in the context of qualitative ranges of performance, such as poor, satisfactory, and good.
 

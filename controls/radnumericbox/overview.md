@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
->RadNumericBox is available for Windows 8.1 and Windows Phone 8.1.
+>RadNumericBox is available for **Windows 8.1**, **Windows Phone 8.1** and **WUP**.
 
 **RadNumericBox** is a TextBox control that provides functionality for selecting numeric values within a predefined range. The control exposes a convenient API to customize its behavior to best fit customer’s business requirements.
 

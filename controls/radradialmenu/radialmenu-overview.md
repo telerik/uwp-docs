@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
-> RadRadialMenu is available for Windows 8.1.
+> RadRadialMenu is available for **Windows 8.1**.
 
 ## Optional section title
 

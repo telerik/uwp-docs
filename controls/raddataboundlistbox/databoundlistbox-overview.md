@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
-> RadDataBoundListBox is available for Widndows 8.1 and Widndows Phone 8.1.
+> RadDataBoundListBox is available for **Widndows 8.1**, **Widndows Phone 8.1** and **WUP**.
 
 **RadDataBoundListBox** allows you to visualize large amount of data in a ListBox-like control with greatly optimized performance and user interaction
 responsiveness.

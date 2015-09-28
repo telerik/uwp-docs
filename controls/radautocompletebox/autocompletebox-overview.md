@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
-> RadAutoCompleteBox is available for **Windows 8.1** and **Windows Phone 8.1**.
+> RadAutoCompleteBox is available for **Windows 8.1**, **Windows Phone 8.1** and **WUP**
         
 **RadAutoCompleteBox for Windows Universal** is a textbox control with extended functionality similar to the search box on Google and Bing - offering suggestions as you type. RadAutoCompleteBox exposes a convenient API to control its behavior and uses optimized filtering algorithms to boost up its performance.
       
