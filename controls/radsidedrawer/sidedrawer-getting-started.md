@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
-> The **SideDrawer** control is available for **Windows 8.1**, **Windows Phone 8.1** and **WUP**.
+> The **SideDrawer** control is available for **Windows 8.1**, **Windows Phone 8.1** and **UWP**.
 
 The **SideDrawer** is a control enabling quick and easy navigation across all levels of your app. It can be accessed from anywhere within your app as it has 4 built-in opening directions and an array of predefined open/close animations.
 

@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
->RadPagination is available for **Windows 8.1** and **WUP**.
+>RadPagination is available for **Windows 8.1** and **UWP**.
 
 Thank you for using RadPagination for Windows Universal!
 

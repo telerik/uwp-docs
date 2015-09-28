@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
->**RadDatePicker** and **RadTimePicker** are available for **Windows 8.1**, **Windows Phone 8.1** and **WUP**.
+>**RadDatePicker** and **RadTimePicker** are available for **Windows 8.1**, **Windows Phone 8.1** and **UWP**.
 
 Thank you for using Telerik **RadDatePicker** and **RadTimePicker**!
 

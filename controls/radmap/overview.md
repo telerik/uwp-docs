@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
->RadMap is available for **Windows 8.1** and **WUP**.
+>RadMap is available for **Windows 8.1** and **UWP**.
 
 
 A map control is a data visualization control whose primary purpose is to visualize rich spatial data.

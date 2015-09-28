@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
-> The RadLoopingList control is available for **Windows 8.1**, **Windows Phone 8.1** and **WUP**.
+> The RadLoopingList control is available for **Windows 8.1**, **Windows Phone 8.1** and **UWP**.
 
 Thank you for choosing **RadLoopingList**!
 

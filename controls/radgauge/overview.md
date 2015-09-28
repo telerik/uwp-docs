@@ -10,7 +10,7 @@ position: 0
 
 # Overview
 
-> RadGauge is available for **Windows 8.1** and **WUP**.
+> RadGauge is available for **Windows 8.1** and **UWP**.
 
 If you are building business dashboards or you just need graphical indicators, you will find the new RadGauge control indispensable. With the rich assortment of circular, linear and numeric gauge types and the powerful customization capabilities of the control, you are free to build the exact dynamic data visualization tool that you need.
 
