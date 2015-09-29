@@ -23,7 +23,7 @@ position: 2
 6. **IsExpanded** (bool) - Gets or sets a boolean value indicating the current state of the control.
 7. **UseOptimizedMeasure** (bool) - Gets or sets a boolean value which determines whether the expandable content is measured only when the control is being expanded or at the initial layout pass for the whole control.
 
-tip>When an optimized measure pass is used, some delays in the expansion may occur depending on the complexity of the expandable content's template.
+>When an optimized measure pass is used, some delays in the expansion may occur depending on the complexity of the expandable content's template.
 
 ### Events
 
