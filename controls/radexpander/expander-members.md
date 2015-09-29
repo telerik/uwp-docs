@@ -10,6 +10,7 @@ position: 2
 
 ## Members
 
+
 ### Properties
 
 1. **AnimatedIndicatorContent** (object) - Gets or sets the content of the expander indicator. By default this property is set to an image visualizing arrow.
@@ -23,7 +24,7 @@ position: 2
 6. **IsExpanded** (bool) - Gets or sets a boolean value indicating the current state of the control.
 7. **UseOptimizedMeasure** (bool) - Gets or sets a boolean value which determines whether the expandable content is measured only when the control is being expanded or at the initial layout pass for the whole control.
 
->When an optimized measure pass is used, some delays in the expansion may occur depending on the complexity of the expandable content's template.
+>tipWhen an optimized measure pass is used, some delays in the expansion may occur depending on the complexity of the expandable content's template.
 
 ### Events
 
