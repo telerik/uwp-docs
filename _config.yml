@@ -128,6 +128,9 @@ navigation:
     controls/raddataboundlistbox/features:
         title: "Features"
         position: 4
+    controls/radexpander:
+        title: "ExpanderControl"
+        position: 4
     controls/raddataform:
         title: "DataForm"
         position: 4
