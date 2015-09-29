@@ -197,15 +197,15 @@ navigation:
     controls/radgauge/indicators:
         title: "Indicators"
         position: 4
+    controls/radhexview:
+        title: "HexView"
+        position: 8
     controls/radhubtile:
         title: "Hubtile"
-        position: 8
+        position: 9
     controls/radhubtile/hubtiles:
         title: "Hubtiles"
         position: 4
-    controls/radhexview:
-        title: "HexView"
-        position: 9
     controls/radlistview:
         title: "ListView"
         position: 10
