@@ -133,7 +133,7 @@ navigation:
         position: 4
     controls/raddataform:
         title: "DataForm"
-        position: 4
+        position: 5
     controls/raddataform/features:
         title: "Features"
         position: 2
@@ -142,7 +142,7 @@ navigation:
         position: 3
     controls/raddatagrid:
         title: "DataGrid"
-        position: 5
+        position: 6
     controls/raddatagrid/aggregates:
         title: "Aggregates"
         position: 4
@@ -178,7 +178,7 @@ navigation:
         position: 4
     controls/raddatepicker-and-radtimepicker:
         title: "Datepicker and Timepicker"
-        position: 6
+        position: 7
     controls/raddatepicker-and-radtimepicker/features:
         title: "Features"
         position: 4
@@ -190,7 +190,7 @@ navigation:
         position: 4
     controls/radgauge:
         title: "Gauge"
-        position: 7
+        position: 8
     controls/radgauge/gauges:
         title: "Gauges"
         position: 4
@@ -202,24 +202,24 @@ navigation:
         position: 4
     controls/radhexview:
         title: "HexView"
-        position: 8
+        position: 9
     controls/radhubtile:
         title: "Hubtile"
-        position: 9
+        position: 10
     controls/radhubtile/hubtiles:
         title: "Hubtiles"
         position: 4
     controls/radlistview:
         title: "ListView"
-        position: 10
+        position: 11
     controls/radlistview/features:
         title: "Features"
     controls/radloopinglist:
         title: "LoopingList"
-        position: 11
+        position: 12
     controls/radmap:
         title: "Map"
-        position: 12
+        position: 13
     controls/radmap/behaviors:
         title: "Behaviors"
         position: 4
@@ -231,19 +231,19 @@ navigation:
         position: 4
     controls/radnumericbox:
         title: "NumericBox"
-        position: 13
+        position: 14
     controls/radnumericbox/styling:
         title: "Styling"
         position: 4
     controls/radpagination:
         title: "Pagination"
-        position: 14
+        position: 15
     controls/radpagination/properties-and-configuration:
         title: "Properties and Configuration"
         position: 4
     controls/radradialmenu:
         title: "Radial Menu"
-        position: 15
+        position: 16
     controls/radradialmenu/commands:
         title: "Commands"
         position: 4
@@ -255,19 +255,19 @@ navigation:
         position: 4
     controls/radrangeslider:
         title: "Range Slider"
-        position: 16
+        position: 17
     controls/radrangeslider/how-to:
         title: "How to"
         position: 4
     controls/radrating:
         title: "Rating"
-        position: 17 
+        position: 18 
     controls/radrating/features:
         title: "Features"
         position: 4            
     controls/radsidedrawer:
         title: "SideDrawer"
-        position: 18            
+        position: 19            
     data-storage:
         title: "Data Storage"
         position: 5
