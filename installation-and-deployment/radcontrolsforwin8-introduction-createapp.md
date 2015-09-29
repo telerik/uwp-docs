@@ -30,20 +30,17 @@ Before walking through this example, you must have installed **Telerik UI for Wi
 #### Add a Reference to Telerik UI for Windows Universal Extension SDK
 
 1. Right-click on project References and choose Add Reference.
-
 1. In the Reference Manager, select Windows -> Extensions.
+1. Select Telerik UI for Windows Universal and click OK.
 
-1. Select Telerik UI for Windows Universal and click OK.![Getting Started AddSDK](images/Introduction/GettingStartedAddSDK.png)
+![Getting Started AddSDK](images/Introduction/GettingStartedAddSDK.png)
 
 #### Add a control to a Page
 
 1. Define telerik namespace:
-				
+
 		xmlns:telerik="using:Telerik.UI.Xaml.Controls.Input"
 
 1. Define control (e.g. RadDatePicker):
 
 		<telerik:RadDatePicker/>
-                
-
-
