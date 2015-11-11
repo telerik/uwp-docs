@@ -5,7 +5,7 @@ description: Introduction UWP
 slug: radcontrolsforUWP-introduction-overview
 tags: introduction
 published: True
-position: 0
+position: 7
 ---
 
 ![Rad Controls-Introduction-Overview](../images/uwp/radcontrols-introduction-overview-uwp.png)
