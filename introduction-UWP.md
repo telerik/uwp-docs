@@ -2,8 +2,8 @@
 title: Introduction UWP
 page_title: Introduction UWP
 description: Introduction UWP
-slug: radcontrolsforUWP-introduction-overview
-tags: introduction
+slug: introduction-uwp
+tags: introduction, Universal
 published: True
 position: 7
 ---
