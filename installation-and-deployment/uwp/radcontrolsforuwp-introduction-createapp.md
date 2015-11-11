@@ -2,7 +2,7 @@
 title: Start Using Telerik UI for UWP
 page_title: Start Using Telerik UI for UWP
 description: Start Using Telerik UI for UWP
-slug: UWP
+slug: createapp-uwp
 tags: UWP,windows,universal,platform
 published: True
 position: 3

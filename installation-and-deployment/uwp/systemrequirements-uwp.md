@@ -1,7 +1,7 @@
 ---
-title: System Requirements
-page_title: System Requirements
-description: System Requirements
+title: System Requirements UWP
+page_title: System Requirements UWP
+description: System Requirements for UWP
 slug: systemrequirements-uwp
 tags: system,requirements
 published: True

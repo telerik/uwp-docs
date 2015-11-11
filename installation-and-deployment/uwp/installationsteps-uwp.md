@@ -2,7 +2,7 @@
 title: Installation Steps
 page_title: Installation Steps
 description: Installation Steps
-slug: installationsteps
+slug: installationsteps-uwp
 tags: installation,steps
 published: True
 position: 1
