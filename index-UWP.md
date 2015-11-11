@@ -1,8 +1,8 @@
 	---
-title: Introduction
-page_title: Introduction
-description: Introduction
-slug: radcontrolsforwin8-introduction-overview
+title: Introduction UWP
+page_title: Introduction UWP
+description: Introduction UWP
+slug: radcontrolsforUWP-introduction-overview
 tags: introduction
 published: True
 position: 0
