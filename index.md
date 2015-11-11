@@ -26,7 +26,7 @@ Telerik UI for Windows Universal is built to target Windows Universal(Windows 8.
 * [RadDataGrid]({%slug raddatagrid-overview%}) *Windows 8.1
 * [RadDataGrid DataStorage Provider]({%slug raddatagrid-datastorageprovider-overview%}) *Windows 8.1
 * [RadDatePicker and RadTimePicker]({%slug raddatetimepickers-overview%}) *Universal apps for Windows 8.1
-* [RadExpanerControl]({%slug radexpander-overview%}) *Universal apps for Windows 8.1
+* [RadExpaner]({%slug radexpander-overview%}) *Universal apps for Windows 8.1
 * [RadGauge]({%slug radgauge-overview%}) *Universal apps for Windows 8.1
 * [RadHexView]({%slug radhexview%}) *Universal apps for Windows 8.1
 * [RadHubTile]({%slug radhubtile-overview%}) *Universal apps for Windows 8.1

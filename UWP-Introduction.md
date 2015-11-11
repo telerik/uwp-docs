@@ -24,7 +24,7 @@ Telerik UI for Windows Universal is built to target Universal Windows Platform a
 * [RadDataBoundListBox]({%slug databoundlistbox-overview%}) 
 * [RadDataForm]({%slug dataform-overview%})
 * [RadDatePicker and RadTimePicker]({%slug raddatetimepickers-overview%}) 
-* [RadExpanerControl]({%slug radexpander-overview%}) 
+* [RadExpaner]({%slug radexpander-overview%}) 
 * [RadGauge]({%slug radgauge-overview%}) 
 * [RadHexView]({%slug radhexview%}) 
 * [RadHubTile]({%slug radhubtile-overview%}) 
