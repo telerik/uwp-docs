@@ -33,7 +33,7 @@ Before walking through this example, you must have installed **Telerik UI for Wi
 1. In the Reference Manager, select Windows -> Extensions.
 1. Select Telerik UI for Windows Universal and click OK.
 
-![Getting Started AddSDK](images/gettingstartedaddsdk.png)
+![Getting Started AddSDK](../images/gettingstartedaddsdk.png)
 
 #### Add a control to a Page
 

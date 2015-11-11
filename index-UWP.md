@@ -8,7 +8,7 @@ published: True
 position: 0
 ---
 
-![Rad Controls-Introduction-Overview](images/uwp/radcontrols-introduction-overview-uwp.png)
+![Rad Controls-Introduction-Overview](../images/uwp/radcontrols-introduction-overview-uwp.png)
 
 # Introduction
 

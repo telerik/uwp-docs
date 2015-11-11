@@ -1,7 +1,7 @@
 ---
 title: System Requirements
-page_title: System Requirements
-description: System Requirements
+page_title: System Requirements for UI for Windows Universal
+description: System Requirements for UI for Windows Universal
 slug: systemrequirements
 tags: system,requirements
 published: True

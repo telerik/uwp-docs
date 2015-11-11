@@ -1,7 +1,7 @@
 ---
 title: Installation Steps
-page_title: Installation Steps
-description: Installation Steps
+page_title: Installation Steps for Windows 8.1
+description: Installation Steps for Windows 8.1
 slug: installationsteps
 tags: installation,steps
 published: True
