@@ -5,10 +5,10 @@ description: Introduction UWP
 slug: UWP-Introduction
 tags: introduction, universal
 published: True
-position: 8
+position: -1
 ---
 
-![Rad Controls-Introduction-Overview](../images/uwp/radcontrols-introduction-overview-uwp.png)
+![Rad Controls-Introduction-Overview](images/uwp/radcontrols-introduction-overview-uwp.png)
 
 # Introduction
 
