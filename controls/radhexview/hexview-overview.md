@@ -10,7 +10,7 @@ position: 0
 
 ## Overview
 
-> RadHexView is available for **Widndows 8.1**, **Widndows Phone 8.1** and **UWP**.
+> RadHexView is available for **Widndows 8.1** and **Widndows Phone 8.1**.
 
 The **RadHexView** control is an items control that arranges [RadHexHubTile]({%slug radhubtile-radhexhubtile%}) items in a honeycomb pattern.
 
