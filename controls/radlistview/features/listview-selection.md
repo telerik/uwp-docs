@@ -39,7 +39,7 @@ The RadListView exposes the following methods that allow programmatic modificati
 
 ## Commands
 
-When the user taps on an item the ItemTapCommand is executed. You can find more information about the RadListView commands [here]({% slug listview-commands %}).
+When the user taps on an item the ItemTapCommand is executed. You can find more information about the RadListView commands [here]({%slug radlistview-commands%}).
 
 ## Example
 
