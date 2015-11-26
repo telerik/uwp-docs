@@ -12,18 +12,16 @@ The developer can provide information about the object and its properties which 
 
 # Property Attributes
 
+- **Display** (Header, Group, Position, PlaceholderText)
 - **ReadOnly**
-- **Label**
-- **Group**
-- **Index**
-- **IgnoreProperty**
-- **IsRequired**
+- **Ignore**
+- **Required**
 
 ##Sample##
 
     public class Item
     {
-        [Label("First Name")]
+        [Display(Header = "First Name")]
         public string Name { get; set; }
         
         [IgnoreProperty]

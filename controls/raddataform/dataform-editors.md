@@ -39,22 +39,6 @@ The developer can register **Custom Editors** or **Views**(for read-only propert
 
 #Example#
 
-    public class ListEditor : TypeEditor
-    {
-        public ListEditor()
-        {
-            this.DefaultStyleKey = typeof(ListEditor);
-        }
-    }
-
-        <Style TargetType="local:ListEditor">
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate>
-                        <data:RadListView ItemsSource="{Binding PropertyValue, Mode=TwoWay}" />
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
      this.form.RegisterTypeEditor(typeof(List<string>), typeof(ListEditor));
+
+Where the ListEditor implements the **ITypeEditor** interface.

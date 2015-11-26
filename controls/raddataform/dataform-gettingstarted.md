@@ -8,7 +8,7 @@ published: True
 position: 1
 ---
 
-**RadDataForm** is easily setup by adding the control to a UserControl and setting its **Item** property to an object which properties are to be visualized in the Data Form. In order to use the control in your application you need to reference the following binaries:
+**RadDataForm** is easily setup by adding the control to a Page and setting its **Item** property to an object which properties are to be visualized in the Data Form. In order to use the control in your application you need to reference the following binaries:
 
 1. Telerik.Core.dll
 2. Telerik.Data.dll
@@ -24,12 +24,11 @@ After referencing the required assemblies you can proceed with setting up the co
 
 For each property exposed by the object set as **Item** the RadDataForm control creates an **EntityPropertyControl**. This control is responsible for visualizing the information held by the respective property. The RadDataForm supports out of the box the following types and creates the respective EntityPropertyControl:
 
-1. **bool** - BooleanEditor
-2. **string** - StringEditor
-3. **double** - NumericEditor
-4. **int** - NumericEditor
-5. **DateTime** - DateEditor or TimeEditor
-6. **enum** - EnumEditor
+- **bool** - BooleanEditor
+- **string** - StringEditor
+- **double** - NumericEditor
+- **DateTime** - DateEditor or TimeEditor
+- **enum** - EnumEditor
 
 ## Example
 
