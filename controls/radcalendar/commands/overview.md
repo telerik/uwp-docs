@@ -20,8 +20,7 @@ with the CommandService. Custom commands have higher priority than the built-in 
 
 ### CalendarUserCommand
 
-This command type provides the abstraction of the
-UI-related commands (that all the built-in commands are) over a stateless and UI-agnostic generic
+This command type provides the abstraction of the UI-related commands (that all the built-in commands are) over a stateless and UI-agnostic generic
 command implementation. The command exposes the following properties:
 
 * **Id**: Gets or sets the CommandId member this command is associated with.
