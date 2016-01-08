@@ -17,9 +17,13 @@ register custom commands with each control’s instance through the RadCalendar.
 
 * **Commands**: Gets the collection with all the custom commands registered
 with the CommandService. Custom commands have higher priority than the built-in (default) ones.
-* **CalendarUserCommand**: This command type provides the abstraction of the
+
+### CalendarUserCommand
+
+This command type provides the abstraction of the
 UI-related commands (that all the built-in commands are) over a stateless and UI-agnostic generic
 command implementation. The command exposes the following properties:
+
 * **Id**: Gets or sets the CommandId member this command is associated with.
 * **Command**: Gets or sets the generic ICommand implementation that may come from the ViewModel.
 * **EnableDefaultCommand** (bool): Gets or sets a value indicating whether the default (built-in)
