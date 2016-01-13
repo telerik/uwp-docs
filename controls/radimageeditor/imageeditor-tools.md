@@ -3,15 +3,18 @@ title: Tools
 page_title: ImageEditor Tools
 description: ImageEditor Tools
 slug: imageeditor-tools
-tags: imageEditor,tools
+tags: imageeditor,tools
 published: True
 position: 4
 ---
 
-
 # Tools
 
-The tools are organized in tool groups. Each group has a **Name** and an **Icon** property and can contain a number of tools. There are three predefined tool groups:
+RadImageEditor tools apply a specific effect to the image. Each tool can have immediate effect, or it cam be more complex and its settings can be controled with the tool UI or the tool layer. The RadImageEditor supports a large number of tools that are listed below.
+
+## Tool Groups
+
+The tools are organized in [tool groups]({%slug imageeditor-visual-structure#basic-view%}). Each group has a **Name** and an **Icon** property and can contain a number of tools. There are three predefined tool groups:
 
 - **ImageEditorBasicGroup**
  - BrightnessTool
@@ -58,6 +61,8 @@ You can also define your own groups:
 	    </imageEditor:ImageEditorToolGroup>
 	</input:RadImageEditor>
 
+## Custom Tools
+
 You can also create your own tools. Here are the abstract classes that could be used as a base for all image editor tools:
 
 * **ImageEditorTool**: The most basic tool type.
@@ -67,19 +72,13 @@ You can also create your own tools. Here are the abstract classes that could be 
 
 > There are some specifics in the application of the different types of tools. Generally, the tool effect is applied when another tool is selected. The effect tools are exception - if an effect is selected, any previously selected effect in the same tool group will be discarded.
 
-Example:
-
-
-
 ## Customization
-
-
 
 ### Custom UI
 
-Each tool can support custom UI that appears above the tools list. For example the UI of the range tools is a [slider]({%slug imageeditor-getting-started#toolsview%}). You can modify the UI with the RadListView.ToolFactory property.
+Each tool can support custom UI that appears above the tools list. For example the UI of the range tools is a [slider]({%slug imageeditor-getting-started#toolsview%}). You can modify the UI with the **RadListView.ToolFactory** property.
 
-Here is an example of how to add a custom UI to the AntiqueTool. You have to create a class that inherits from the ImageEditorToolFactory and override the GetTemplate method.
+Here is an example of how to add a custom UI to the AntiqueTool. You have to create a class that inherits from the **ImageEditorToolFactory** and override the **GetTemplate** method.
 
 	public class CustomToolFactory : ImageEditorToolFactory
 	{
@@ -119,7 +118,7 @@ Here is the result:
 
 ### Custom Tool Layer
 
-Some tools require a custom layer that is drawn on top of the image. For example the CropTool has a layer with a rectangle that specifies the crop area. You can add a custom layers with the RadImageEditor.LayerSelector property.
+Some tools require a custom layer that is drawn on top of the image. For example the CropTool has a layer with a rectangle that specifies the crop area. You can add a custom layers with the **RadImageEditor.LayerSelector** property.
 
 Here is an example of how to add a custom layer to the AntiqueTool.
 
@@ -160,7 +159,7 @@ Here is the custom layer that will be added on top of the image. It inherits fro
 	}
 
 
-Then we have to create a layer selector class and override the SelectLayer method:
+Then we have to create a layer selector class and override the **SelectLayer** method:
 
 	public class LayerSelector : ImageEditorLayerSelector
 	{
@@ -175,7 +174,7 @@ Then we have to create a layer selector class and override the SelectLayer metho
 	    }
 	}
 
-Finally, set the RadImageEditor.LayerSelector property to an instance of the created layer selector class:
+Finally, set the **RadImageEditor.LayerSelector** property to an instance of the created layer selector class:
 
 	<input:RadImageEditor x:Name="imageEditor">
 	    <imageEditor:ImageEditorToolGroup Icon="ms-appx:///Images/effects-tool.png">
