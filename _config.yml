@@ -62,6 +62,9 @@ navigation:
     controls/radcalendar/styling:
         title: "Styling"
         position: 4
+    controls/imageeditor:
+        title: "ImageEditor"
+        position: 4
     controls/radchart:
         title: "Chart"
         position: 4
