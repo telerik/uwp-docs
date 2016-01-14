@@ -10,7 +10,7 @@ position: 4
 
 # Tools
 
-RadImageEditor tools apply a specific effect to the image. Each tool can have immediate effect, or it cam be more complex and its settings can be controled with the tool UI or the tool layer. The RadImageEditor supports a large number of tools that are listed below.
+RadImageEditor tools apply a specific effect to the image. Each tool can have immediate effect, or it cam be more complex and its settings can be controled with the tool UI or a tool layer. The RadImageEditor supports a large number of tools that are listed below.
 
 ## Tool Groups
 

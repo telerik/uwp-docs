@@ -1,19 +1,26 @@
 ---
-title: Commands
-page_title: ImageEditor Commands
-description: ImageEditor Commands
-slug: imageeditor-commands
-tags: imageeditor,commands
+title: Commands and Events
+page_title: ImageEditor Commands and Events
+description: ImageEditor Commands and Events
+slug: imageeditor-commands-and-events
+tags: imageeditor,commands, events
 published: True
 position: 5
 ---
 
-# Commands
+## Events
 
-The **RadImageEditor** control exposes a commands collection that allows you to register custom commands with each control’s instance through the **RadImageEditor.Commands** property. Each command is associated with an id from the **Telerik.UI.Xaml.Controls.Input.ImageEditor.Commands.CommandId** enumeration. Here are the default commands:
+The RadImageEditor exposes the following events:
+
+- **ImageSaving**: Occurs when the [save image button]({%slug imageeditor-visual-structure%}) is pressed.
+- **ImageReverted**: Occurs when the [revert to original]({%slug imageeditor-visual-structure%}) is pressed.
+
+## Commands
+
+There is a more MVVM friendly way to perform custom actions when an event occures. The **RadImageEditor** control exposes a commands collection that allows you to register custom commands with each control’s instance through the **RadImageEditor.Commands** property. Each command is associated with an id from the **Telerik.UI.Xaml.Controls.Input.ImageEditor.Commands.CommandId** enumeration. Here are the default commands:
 
 - **ImageEditorSavingCommand**: Executed when the [save image button]({%slug imageeditor-visual-structure%}) is pressed. **Id** = CommandId.**Saving**
-- **ImageEditorRevertImageCommand**: Executed when [revert to original/discard changes button]({%slug imageeditor-visual-structure%}) is pressed. **Id** = CommandId.**RevertImage**
+- **ImageEditorRevertImageCommand**: Executed when [revert to original]({%slug imageeditor-visual-structure%}) is pressed. **Id** = CommandId.**RevertImage**
 
 You can also add custom commands that inherit from the **ImageEditorCommand** class. Here is an example of a custom command that will save the image to a specific folder:
 
