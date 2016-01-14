@@ -17,7 +17,7 @@ Here are described all the visual elements and terms used in a RadImageEditor co
 ## Basic View
 
 - **Revert to Original Button**: Reverts all changes applied to the image. 
-- **Save Image Button**: Saves the image to disk.
+- **Save Image Button**: Pressing this button results in an [event/command]({%slug imageeditor-commands-and-events%}) where the user has access to the edited image as a InMemoryRandomAccessStream.
 - **Groups**: A collection of all groups. Each group contains a collection of tools.
 
 ## Tools View

@@ -21,9 +21,7 @@ First, you need to add reference to the following Telerik assemblies:
 
 Alternatively, you can add a reference to **Telerik UI for Windows Universal SDK**.
 
-Then you have to add the [Lumia Imaging SDK 2.0](https://msdn.microsoft.com/en-us/library/dn859593.aspx). You can do this via **NUGet** package manager.
-
-And finally, add the following assembly that provides integration with the Lumia Imaging SDK which is CPU architecture dependent:
+If you wish to use our [set of predefined tools]({%slug imageeditor-tools%}) you have to add the [Lumia Imaging SDK 2.0](https://msdn.microsoft.com/en-us/library/dn859593.aspx) (you can do this via **NUGet** package manager) and the following assembly that provides integration with the Lumia Imaging SDK which is CPU architecture dependent:
 
 * **Telerik.UI.Xaml.Controls.Input.ImageEditor.Tools.dll**
 

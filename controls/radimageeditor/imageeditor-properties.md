@@ -17,7 +17,6 @@ The RadImageEditor exposes the following properties:
 Example:
 
         imageEditor.CommandService.ExecuteCommand(CommandId.Saving, parameter);
-- **CurrentTool** (ImageEditorTool): Gets or sets the currently selected tool.
 - **DisplayOriginalImage** (bool): Specifies whether the compare button will be added to the tools view.
 - **FileNamePrefix** (string): Gets or sets the prefix that will be added to the saved image file name.
 - **HandleBackButton** (bool): For Windows Phone - specifies whether back button press will navigate from the tools view to the groups view.
