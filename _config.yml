@@ -28,7 +28,7 @@ navigation:
         position: 4
     controls/radautocompletebox:
         title: "AutoCompleteBox"
-        position: 4
+        position: 1
     controls/radautocompletebox/features:
         title: "Features"
         position: 4
@@ -37,7 +37,7 @@ navigation:
         position: 4
     controls/radbulletgraph:
         title: "Bulletgraph"
-        position: 4
+        position: 1
     controls/radbulletgraph/customizing-radbulletgraph:
         title: "Customizing"
         position: 4
@@ -46,10 +46,10 @@ navigation:
         position: 4
     controls/radbusyindicator:
         title: "Busy Indicator"
-        position: 4
+        position: 1
     controls/radcalendar:
         title: "Calendar"
-        position: 4
+        position: 1
     controls/radcalendar/commands:
         title: "Commands"
         position: 4
@@ -64,10 +64,10 @@ navigation:
         position: 4
     controls/radimageeditor:
         title: "ImageEditor"
-        position: 4
+        position: 1
     controls/radchart:
         title: "Chart"
-        position: 4
+        position: 1
     controls/radchart/annotations:
         title: "Annotations"
         position: 4
@@ -133,16 +133,16 @@ navigation:
         position: 4
     controls/raddataboundlistbox:
         title: "DataboundListbox"
-        position: 4
+        position: 1
     controls/raddataboundlistbox/features:
         title: "Features"
         position: 4
     controls/radexpander:
         title: "ExpanderControl"
-        position: 4
+        position: 1
     controls/raddataform:
         title: "DataForm"
-        position: 5
+        position: 1
     controls/raddataform/features:
         title: "Features"
         position: 2
@@ -151,7 +151,7 @@ navigation:
         position: 3
     controls/raddatagrid:
         title: "DataGrid"
-        position: 6
+        position: 1
     controls/raddatagrid/aggregates:
         title: "Aggregates"
         position: 4
@@ -186,8 +186,8 @@ navigation:
         title: "Styling"
         position: 4
     controls/raddatepicker-and-radtimepicker:
-        title: "Datepicker and Timepicker"
-        position: 7
+        title: "DatePicker and TimePicker"
+        position: 1
     controls/raddatepicker-and-radtimepicker/features:
         title: "Features"
         position: 4
@@ -199,7 +199,7 @@ navigation:
         position: 4
     controls/radgauge:
         title: "Gauge"
-        position: 8
+        position: 1
     controls/radgauge/gauges:
         title: "Gauges"
         position: 4
@@ -211,24 +211,24 @@ navigation:
         position: 4
     controls/radhexview:
         title: "HexView"
-        position: 9
+        position: 1
     controls/radhubtile:
         title: "Hubtile"
-        position: 10
+        position: 1
     controls/radhubtile/hubtiles:
         title: "Hubtiles"
         position: 4
     controls/radlistview:
         title: "ListView"
-        position: 11
+        position: 1
     controls/radlistview/features:
         title: "Features"
     controls/radloopinglist:
         title: "LoopingList"
-        position: 12
+        position: 1
     controls/radmap:
         title: "Map"
-        position: 13
+        position: 1
     controls/radmap/behaviors:
         title: "Behaviors"
         position: 4
@@ -240,7 +240,7 @@ navigation:
         position: 4
     controls/radnumericbox:
         title: "NumericBox"
-        position: 14
+        position: 1
     controls/radnumericbox/styling:
         title: "Styling"
         position: 4
@@ -252,7 +252,7 @@ navigation:
         position: 4
     controls/radradialmenu:
         title: "Radial Menu"
-        position: 16
+        position: 1
     controls/radradialmenu/commands:
         title: "Commands"
         position: 4
@@ -264,19 +264,19 @@ navigation:
         position: 4
     controls/radrangeslider:
         title: "Range Slider"
-        position: 17
+        position: 1
     controls/radrangeslider/how-to:
         title: "How to"
         position: 4
     controls/radrating:
         title: "Rating"
-        position: 18 
+        position: 1 
     controls/radrating/features:
         title: "Features"
         position: 4            
     controls/radsidedrawer:
         title: "SideDrawer"
-        position: 19            
+        position: 1            
     data-storage:
         title: "Data Storage"
         position: 5
