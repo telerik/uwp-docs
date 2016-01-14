@@ -10,6 +10,6 @@ position: 1
 
 # Overview
 
-**RadImageEditor** is a component that allows developers to integrate image editing functionality into their apps.
+> **RadImageEditor** is available for **Windows 8.1** and **Windows Phone 8.1**.
 
-## Features
+**RadImageEditor** is a component that allows developers to integrate image editing functionality into their apps. It supports a large set of editing tools.
