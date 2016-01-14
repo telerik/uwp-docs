@@ -5,7 +5,7 @@ description: ImageEditor Tools
 slug: imageeditor-tools
 tags: imageeditor,tools
 published: True
-position: 4
+position: 5
 ---
 
 # Tools
@@ -91,7 +91,7 @@ Here is an example of how to add a custom UI to the AntiqueTool. You have to cre
 	            return this.AntiqueTemplate;
 	        }
 	
-	        return null;
+	        return base.GetTemplate(tool);
 	    }
 	}
 
