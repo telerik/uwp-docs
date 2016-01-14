@@ -14,7 +14,7 @@ RadImageEditor tools apply a specific effect to the image. Each tool can have im
 
 ## Tool Groups
 
-The tools are organized in [tool groups]({%slug imageeditor-visual-structure%#basic-view}). Each group has a **Name** and an **Icon** property and can contain a number of tools. There are three predefined tool groups:
+The tools are organized in [tool groups]({%slug imageeditor-visual-structure%}#basic-view). Each group has a **Name** and an **Icon** property and can contain a number of tools. There are three predefined tool groups:
 
 - **ImageEditorBasicGroup**
  - BrightnessTool
@@ -76,7 +76,7 @@ You can also create your own tools. Here are the abstract classes that could be 
 
 ### Custom UI
 
-Each tool can support custom UI that appears above the tools list. For example the UI of the range tools is a [slider]({%slug imageeditor-getting-started%#toolsview}). You can modify the UI with the **RadListView.ToolFactory** property.
+Each tool can support custom UI that appears above the tools list. For example the UI of the range tools is a [slider]({%slug imageeditor-getting-started%}#toolsview). You can modify the UI with the **RadListView.ToolFactory** property.
 
 Here is an example of how to add a custom UI to the AntiqueTool. You have to create a class that inherits from the **ImageEditorToolFactory** and override the **GetTemplate** method.
 

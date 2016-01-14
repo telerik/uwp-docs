@@ -28,5 +28,5 @@ Here are described all the visual elements and terms used in a RadImageEditor co
 - **Tools**: A collection of all tools in the current group.
 - **Tool UI**: The UI of the selected tool.
 - **Tool Tooltip**: Shows information related to the current tool.
-- **[Tool Layer] ({%slug imageeditor-tools%#custom-tool-layer})**
+- **[Tool Layer] ({%slug imageeditor-tools%}#custom-tool-layer)**
 
