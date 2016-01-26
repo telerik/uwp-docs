@@ -17,8 +17,8 @@ In UI for Universal Windows Platform, reflection is used in Telerik.Core.Binding
 	<Application>
 	  ................. 
 	  <Type Name="Telerik.Core.BindingExpressionHelper">
-        <MethodInstantiation Name="ToUntypedFunc" Arguments="MyApp.MyDataItem,System.Double" />
-	    <MethodInstantiation Name="ToUntypedFunc" Arguments="MyApp.MyDataItem,System.String" />
+        <MethodInstantiation Name="ToUntypedFunc" Arguments="MyApp.MyDataItem,System.Double" Dynamic="Required" />
+	    <MethodInstantiation Name="ToUntypedFunc" Arguments="MyApp.MyDataItem,System.String" Dynamic="Required" />
       </Type>
 	</Application>
 
