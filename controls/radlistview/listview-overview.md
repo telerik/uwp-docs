@@ -22,7 +22,7 @@ position: 0
 - **[Grouping]({% slug radlistview-grouping %})**
 - **[Filtering]({% slug radlistview-filtering %})**
 - **[Sorting]({% slug radlistview-sorting %})**
-- **[Data virtualization]({% slug radlistview-data-virtualization %})**
+- **[Incremental Loading]({% slug radlistview-incremental-loading %})**
 - **[Gestures – reorder, item actions]({% slug radlistview-gestures %})**
 - **[Commands]({% slug radlistview-commands %})**
 - **[Animations]({% slug radlistview-item-animations %})**

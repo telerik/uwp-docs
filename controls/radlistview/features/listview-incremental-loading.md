@@ -2,7 +2,7 @@
 title: Incremental Loading
 page_title: Incremental Loading
 description: RadListView Incremental Loading
-slug: radlistview-data-virtualization
+slug: radlistview-incremental-loading
 tags: radlistview,listview,data,virtualization,incremental,loading
 published: True
 position: 
@@ -71,4 +71,4 @@ This is the view model class:
 
 Here is the result:
 
-![RadListView data virtualization](images/listview-data-virtualization.png "RadListView Incremental Loading")
+![RadListView incremental loading](images/listview-data-virtualization.png "RadListView Incremental Loading")
