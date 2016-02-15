@@ -1,14 +1,14 @@
 ---
-title: Data Virtualization
-page_title: Data Virtualization
-description: RadListView Data Virtualization
+title: Incremental Loading
+page_title: Incremental Loading
+description: RadListView Incremental Loading
 slug: radlistview-data-virtualization
-tags: radlistview,listview,data,virtualization
+tags: radlistview,listview,data,virtualization,incremental,loading
 published: True
 position: 
 ---
 
-# Data Virtualization
+# Incremental Loading
 
 This topic describes how to enable incremental data loading in RadListView.
 
@@ -71,4 +71,4 @@ This is the view model class:
 
 Here is the result:
 
-![RadListView data virtualization](images/listview-data-virtualization.png "RadListView data virtualization")
+![RadListView data virtualization](images/listview-data-virtualization.png "RadListView Incremental Loading")
