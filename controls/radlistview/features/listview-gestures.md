@@ -12,39 +12,93 @@ position:
 
 The RadListView control provides support for item drag gestures. Depending on how the user interacts with the control, two different behaviors are available:
 
-- **Reordering**: Enabled by first holding on an item until the reorder mode is triggered and then you are allowed to drag and drop the item at the desired position.
-- **Item Action Buttons**: Swiping left or right over the **swipe area** (see the image below) displays the **item action buttons**.
+- **Reordering**: There are two reorder modes:
+	- With hold gesture: Enabled by first holding on an item until the reorder mode is triggered and then you are allowed to drag and drop the item at the desired position.
+	- With reorder handle: Enabled by dragging the item reorder handle.
+- **Swiping**: Swiping left or right over the **swipe area** (see the image below) displays the **SwipeActionContent**.
 
-![](images/listview-action-buttons.png)
+![Swipe Area](images/listview-gestures-swipe-area.png)
 
-The RadListView provides the following properties that enable the reorder/item actions functionality:
+## Swiping
 
-- **IsActionOnSwipeEnabled**
+The RadListViewcontrol exposes the following properties related to item swiping:
+
+- **IsActionOnSwipeEnabled**: Enables the item swiping.
+- **SwipeActionContent**: Gets or sets the content below the swiped item.
+- **ItemSwipeThreshold**: When an item is released after swipe, this threshold defines whether the item will remain swiped at the ItemSwipeOffset position or it will return to its normal state.
+- **ItemSwipeOffset**: Sets the offset of the item if the swiping is successful.
+
+Example:
+
+	<telerikData:RadListView ItemsSource="{Binding}" IsActionOnSwipeEnabled="True" SelectionMode="None" ItemSwipeOffset="50">
+	    <telerikData:RadListView.SwipeActionContent>
+	        <Grid>
+	            <Grid.ColumnDefinitions>
+	                <ColumnDefinition Width="50"/>
+	                <ColumnDefinition Width="*"/>
+	                <ColumnDefinition Width="50"/>
+	            </Grid.ColumnDefinitions>
+	            <Border Background="Green">
+	                <TextBlock Text="&#xE0B4;" FontFamily="Segoe UI Symbol" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Foreground="White"/>
+	            </Border>
+	            <Border Background="Red" Grid.Column="2">
+	                <TextBlock Text="&#xE0A5;" FontFamily="Segoe UI Symbol" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Foreground="White"/>
+	            </Border>
+	        </Grid>
+	    </telerikData:RadListView.SwipeActionContent>
+	</telerikData:RadListView>
+
+![Swiping](images/listview-swipe-action-content.png)
+
+## Reordering
+
 - **IsItemReorderEnabled**
+- **ReorderMode**: Gets or sets the reorder mode
+ - *Default*: The reordering starts with holding on the item. 
+ - *Handle*: The reordering starts when the item is dragged using the reorder handle
+ 
+Example:
+	
+	<telerikData:RadListView ItemsSource="{Binding}" ReorderMode="Handle" IsItemReorderEnabled="True"/>
 
-When user starts dragging an item, the following commands is executed:
+![ReorderMode: Handle](images/listview-gestures-reorder-handles.png)
 
-- **ItemDragStartingCommand**: The default command that is executed when dragging is initiated. The command parameter is of type **ItemDragStartingContext** and provides the following properties:
- - **Item**: The interaction item.
- - **Action**: Member of the **DragAction** enumeration, that specifies whether the action is related to reordering or action buttons. The available values are **Reorder** or **ItemAction**.
+## Commands
 
-When the item is released, the following command is executed:
+The RadListView provides number of commands that are executed when a certain event occurs:
 
-- **ItemDragCompleteCommand**: The default command that is executed when the item is dropped. The command parameter is of type **ItemDragCompleteContext** and provides the following properties:
- - **Item**: The interaction item.
- - **Action**: Member of the **DragAction** enumeration, that specifies whether the action is related to reordering or action buttons. The available values are **Reorder** or **ItemAction**.
- - **DragDelta**: The distance that the item has traveled. 
- - **DestinationItem**: when reordering, this is the item that is shifted by the dragged item.
+- **ItemDragStartingCommand**: Executed when the user starts dragging an item.  
+  The command parameter is of type **ItemDragStartingContext** and provides the following properties:
+	- **Item**: The interaction item.
+	- **Action**: Member of the **DragAction** enumeration, that specifies whether the action is related to reordering or swiping. The available values are { *Reorder*, *ItemAction* }.
+- **ItemDragCompleteCommand**: Executed when the item is released.  
+  The command parameter is of type **ItemDragCompleteContext** and provides the following properties:
+	- **Item**: The interaction item.
+	- **Action**: Specifies whether the action is related to reordering or swiping.
+	- **DragDelta**: The distance that the item has traveled. 
+	- **DestinationItem**: When the Action is *Reorder*, this is the item that is shifted by the dragged item.
+- **ItemActionTapCommand**: Executed when the SwipeActionButton is tapped.  
+  The command parameter is of type **ItemActionTapContext** and provides the following properties:
+	- **Item**: The interaction item.
+	- **Offset**: The current offset of the item.
+- **ItemSwipingCommand**: Executed while item is being swiped.  
+  The command parameter is of type **ItemSwipingContext** and provides the following properties:
+	- **Item**: The interaction item.
+	- **DragDelta**: The distance that the item has traveled. 
+- **ItemSwipeActionCompleteCommand**: Executed when the swiping of the item has finished.  
+  The command parameter is of type **ItemSwipeActionCompleteContext** and provides the following properties:
+	- **Item**: The interaction item.
+	- **FinalDragOffset**: The final drag offset that the item will be positioned.
+	- **DragDelta**: The distance that the item has traveled.
 
-When an action button is tapped, the following command is executed:
-
-- **ItemActionTapCommand**: The command parameter is of type **ItemDragCompleteContext** and provides the following properties:
- - **Item** 
- - **SourceType**: Specifies whether the first or the second action button is tapped.
 
 >You can find more information about the RadListView commands [here]({% slug radlistview-commands %}).
 
-## How to implement reorder functionality
+## Methods
+
+- **EndItemDrag**(): Ends all drag currently running operations.
+
+## How to Implement Reorder Functionality
 
 The RadListView does not automatically reorder the items in its ItemsSource, but you can use the ItemDragCompleteCommand to do this.
 

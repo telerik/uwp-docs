@@ -29,14 +29,50 @@ There are two types of commands:
 ### CommandId Enumeration
 
 All the predefined commands within a RadListView instance are identified by a member of the **CommandId** enumeration. This is actually the key that relates a command instance to a particular action/routine within the owning list view. In order to register a custom command within a RadListView instance you may either inherit the **ListViewCommand** class and override its CanExecute and Execute methods or instantiate a **ListViewUserCommand** instance and set its Command property. In both cases you need to set the Id property of the new command so that it can be properly associated with the desired action/event. Following are the members of the CommandId enumerations:
-
-- **LoadMoreData**: A command associated with requesting and loading more data when available
-- **ItemTap**: A command associated with the Tap event that occurs over a list view item.
-- **ItemDragStarting**: A command associated with the starting a drag action on an item.
-- **ItemDragComplete**: A command associated with the completion of a drag action on an item.
-- **ItemActionTap**: A command associated with the Tap event that occurs on an action item.
+ 
+- **LoadMoreData**: A command associated with requesting and loading more data when available. 
+- **ItemTap**: A command associated with the Tap event that occurs over an item. 
+- **ItemDragStarting**: A command associated with the starting a drag action on an item. 
+- **ItemReorderComplete**: A command associated with the completion of a item reorder action on an item. 
+- **ItemSwiping**: A command associated with the swiping action on an item. 
+- **ItemSwipeActionComplete**: A command associated with the completion of a item swipe action on an item. 
+- **ItemActionTap**: A command associated with the Tap event that occurs on an action item. 
+- **RefreshRequested**: A command associated with requesting an update with the pull to refresh control.
 
 ## Examples
+
+### Using the ListViewCommand class
+
+This example demonstrates how to use the ListViewCommand class to create a command that overrides the default one.
+
+	<telerikDataControls:RadListView>
+	    <telerikDataControls:RadListView.Commands>
+	        <local:CustomItemTapCommand/>
+	    </telerikDataControls:RadListView.Commands>
+	</telerikDataControls:RadListView>
+
+	public class CustomItemTapCommand : ListViewCommand
+	{
+	    public CustomItemTapCommand()
+	    {
+	        this.Id = CommandId.ItemTap;
+	    }
+	
+	    public override bool CanExecute(object parameter)
+	    {
+	        return true;
+	    }
+	
+	    public override void Execute(object parameter)
+	    {
+	        var tapContext = parameter as ItemTapContext;
+	        var item = tapContext.Item;
+	        // add your logic here
+	
+	        // execute the default command:
+	        this.Owner.CommandService.ExecuteDefaultCommand(this.Id, parameter);
+	    }
+	}
 
 ### Using the ListViewUserCommand class
 
@@ -112,38 +148,5 @@ And here are the view model, data item and custom command classes:
 	        var itemInfo = parameter as ItemTapContext;
 	        var item = itemInfo.Item as Item;
 			// add your logic here
-	    }
-	}
-
-### Using the ListViewCommand class
-
-This example demonstrates how to use the ListViewCommand class  to create our own command that overrides the default one.
-
-	<telerikDataControls:RadListView>
-	    <telerikDataControls:RadListView.Commands>
-	        <local:CustomItemTapCommand/>
-	    </telerikDataControls:RadListView.Commands>
-	</telerikDataControls:RadListView>
-
-	public class CustomItemTapCommand : ListViewCommand
-	{
-	    public CustomItemTapCommand()
-	    {
-	        this.Id = CommandId.ItemTap;
-	    }
-	
-	    public override bool CanExecute(object parameter)
-	    {
-	        return true;
-	    }
-	
-	    public override void Execute(object parameter)
-	    {
-	        var tapContext = parameter as ItemTapContext;
-	        var item = tapContext.Item;
-	        // add your logic here
-	
-	        // execute the default command:
-	        this.Owner.CommandService.ExecuteDefaultCommand(this.Id, parameter);
 	    }
 	}
