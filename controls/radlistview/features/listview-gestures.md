@@ -15,7 +15,8 @@ The RadListView control provides support for item drag gestures. Depending on ho
 - **Reordering**: There are two reorder modes:
 	- With hold gesture: Enabled by first holding on an item until the reorder mode is triggered and then you are allowed to drag and drop the item at the desired position.
 	- With reorder handle: Enabled by dragging the item reorder handle.
-- **Swiping**: Swiping left or right over the **swipe area** displays the **SwipeActionContent**.
+- **Swiping**: Swiping left or right over the **swipe area** displays the **SwipeActionContent**.  
+![Swipe Area](images/listview-gestures-swipe-area.png)
 
 ## Swiping
 
