@@ -15,9 +15,7 @@ The RadListView control provides support for item drag gestures. Depending on ho
 - **Reordering**: There are two reorder modes:
 	- With hold gesture: Enabled by first holding on an item until the reorder mode is triggered and then you are allowed to drag and drop the item at the desired position.
 	- With reorder handle: Enabled by dragging the item reorder handle.
-- **Swiping**: Swiping left or right over the **swipe area** (see the image below) displays the **SwipeActionContent**.
-
-![Swipe Area](images/listview-gestures-swipe-area.png)
+- **Swiping**: Swiping left or right over the **swipe area** displays the **SwipeActionContent**.
 
 ## Swiping
 
@@ -71,25 +69,22 @@ The RadListView control provides number of commands that are executed when a cer
   The command parameter is of type **ItemDragStartingContext** and provides the following properties:
 	- **Item** (object): The interaction item.
 	- **Action** (DragAction): Specifies whether the action is related to reordering or swiping. The available values are { *Reorder*, *ItemAction* }.
-- **ItemDragCompleteCommand**: Executed when the item is released.  
-  The command parameter is of type **ItemDragCompleteContext** and provides the following properties:
-	- **Item** (object): The interaction item.
-	- **Action** (DragAction): Specifies whether the action is related to reordering or swiping. The available values are { *Reorder*, *ItemAction* }.
-	- **DragDelta** (double): The distance that the item has traveled. 
-	- **DestinationItem** (object): When the Action is *Reorder*, this is the item that is shifted by the dragged item.
 - **ItemActionTapCommand**: Executed when the SwipeActionButton is tapped.  
   The command parameter is of type **ItemActionTapContext** and provides the following properties:
 	- **Item** (object): The interaction item.
 	- **Offset** (double): The current offset of the item.
-- **ItemSwipingCommand**: Executed while item is being swiped.  
-  The command parameter is of type **ItemSwipingContext** and provides the following properties:
-	- **Item** (object): The interaction item.
-	- **DragDelta** (double): The distance that the item has traveled. 
 - **ItemSwipeActionCompleteCommand**: Executed when the swiping of the item has finished.  
   The command parameter is of type **ItemSwipeActionCompleteContext** and provides the following properties:
 	- **Item** (object): The interaction item.
 	- **FinalDragOffset** (double): The final drag offset that the item will be positioned.
 	- **DragDelta** (double): The distance that the item has traveled.
+- **ItemReorderCompleteCommand**: Executed when reordering of an item has finished.
+  The command parameter is of type **ItemReorderCompleteContext** and provides the following properties:
+	- **Item** (object): The interaction item.
+	- **DestinationItem** (object): The destination item, where the item being reordered has been dropped.
+- **ItemTapCommand**: Executed when an item has been tapped.
+  The command parameter is of type **ItemTapContext** and provides the following property:
+	- **Item** (object): The item that has been tapped.
 
 
 >You can find more information about the RadListView commands [here]({% slug radlistview-commands %}).
@@ -99,8 +94,6 @@ The RadListView control provides number of commands that are executed when a cer
 - **EndItemDrag**(): Ends all drag currently running operations.
 
 ## How to Implement Reorder Functionality
-
-The RadListView does not automatically reorder the items in its ItemsSource, but you can use the ItemDragCompleteCommand to do this.
 
 Here is the XAML definition of the RadListView. The view model class should be defined as a static resource.
  
@@ -115,7 +108,7 @@ Here is the XAML definition of the RadListView. The view model class should be d
 	        </DataTemplate>
 	    </telerikDataControls:RadListView.ItemTemplate>
 	    <telerikDataControls:RadListView.Commands>
-	        <telerikListViewCommands:ListViewUserCommand Id="ItemDragComplete" Command="{Binding ReorderItemsCommand, Source={StaticResource viewModel}}"/>
+	        <telerikListViewCommands:ListViewUserCommand Id="ItemReorderComplete" Command="{Binding ReorderItemsCommand, Source={StaticResource viewModel}}"/>
 	    </telerikDataControls:RadListView.Commands>
 	</telerikDataControls:RadListView>
 		
@@ -153,15 +146,13 @@ Here are the view model and data classes:
 	    {
 	        var context = parameter as ItemDragCompleteContext;
 	
-	        if (context.Action == DragAction.Reorder)
-	        {
-	            var item = context.Item as Item;
-	            var destItem = context.DestinationItem as Item;
+            var item = context.Item as Item;
+            var destItem = context.DestinationItem as Item;
 	
-	            int sourceIndex = this.Items.IndexOf(item);
-	            int targetIndex = this.Items.IndexOf(destItem);
-	
-	            this.Items.Move(sourceIndex, targetIndex);
+            int sourceIndex = this.Items.IndexOf(item);
+            int targetIndex = this.Items.IndexOf(destItem);
+
+            this.Items.Move(sourceIndex, targetIndex);
 	        }
 	    }
 	}
@@ -170,3 +161,46 @@ Here are the view model and data classes:
 	{
 	    public string Text { get; set; }
 	}
+
+Finally, here is a sample implementation of DelegateCommand:
+
+	public class DelegateCommand : ICommand
+    {
+        private readonly Predicate<object> canExecute;
+        private readonly Action<object> action;
+
+        public event EventHandler CanExecuteChanged;
+
+        public DelegateCommand(Action<object> execute): this(execute, null)
+        {
+        }
+
+        public DelegateCommand(Action<object> execute, Predicate<object> canExecute)
+        {
+            this.action = execute;
+            this.canExecute = canExecute;
+        }
+
+        public bool CanExecute(object parameter)
+        {
+            if (canExecute == null)
+            {
+                return true;
+            }
+
+            return canExecute(parameter);
+        }
+
+        public void Execute(object parameter)
+        {
+            action(parameter);
+        }
+
+        public void RaiseCanExecuteChanged()
+        {
+            if (CanExecuteChanged != null)
+            {
+                CanExecuteChanged(this, EventArgs.Empty);
+            }
+        }
+    }
