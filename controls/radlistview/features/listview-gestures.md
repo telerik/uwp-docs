@@ -74,6 +74,10 @@ The RadListView control provides number of commands that are executed when a cer
   The command parameter is of type **ItemActionTapContext** and provides the following properties:
 	- **Item** (object): The interaction item.
 	- **Offset** (double): The current offset of the item.
+- **ItemSwipingCommand**: Executed while item is being swiped.  
+  The command parameter is of type **ItemSwipingContext** and provides the following properties:
+	- **Item** (object): The interaction item.
+	- **DragDelta** (double): The distance that the item has traveled. 
 - **ItemSwipeActionCompleteCommand**: Executed when the swiping of the item has finished.  
   The command parameter is of type **ItemSwipeActionCompleteContext** and provides the following properties:
 	- **Item** (object): The interaction item.
