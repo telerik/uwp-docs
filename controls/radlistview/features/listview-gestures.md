@@ -23,10 +23,10 @@ The RadListView control provides support for item drag gestures. Depending on ho
 
 The RadListViewcontrol exposes the following properties related to item swiping:
 
-- **IsActionOnSwipeEnabled**: Enables the item swiping.
-- **SwipeActionContent**: Gets or sets the content below the swiped item.
-- **ItemSwipeThreshold**: When an item is released after swipe, this threshold defines whether the item will remain swiped at the ItemSwipeOffset position or it will return to its normal state.
-- **ItemSwipeOffset**: Sets the offset of the item if the swiping is successful.
+- **IsActionOnSwipeEnabled** (bool): Enables the item swiping.
+- **SwipeActionContent** (object): Gets or sets the content below the swiped item.
+- **ItemSwipeThreshold** (double): When an item is released after swipe, this threshold defines whether the item will remain swiped at the ItemSwipeOffset position or it will return to its normal state.
+- **ItemSwipeOffset** (Thickness): Sets the offset of the item if the swiping is successful.
 
 Example:
 
@@ -52,10 +52,10 @@ Example:
 
 ## Reordering
 
-- **IsItemReorderEnabled**
-- **ReorderMode**: Gets or sets the reorder mode
- - *Default*: The reordering starts with holding on the item. 
- - *Handle*: The reordering starts when the item is dragged using the reorder handle
+- **IsItemReorderEnabled** (bool): Enabled the reordering.
+- **ReorderMode** (ListViewReorderMode): Gets or sets the reorder mode.
+	- *Default*: The reordering starts with holding on the item. 
+	- *Handle*: The reordering starts when the item is dragged using the reorder handle. The handle is visible only in this mode. 
  
 Example:
 	
@@ -65,31 +65,31 @@ Example:
 
 ## Commands
 
-The RadListView provides number of commands that are executed when a certain event occurs:
+The RadListView control provides number of commands that are executed when a certain gesture occurs:
 
 - **ItemDragStartingCommand**: Executed when the user starts dragging an item.  
   The command parameter is of type **ItemDragStartingContext** and provides the following properties:
-	- **Item**: The interaction item.
-	- **Action**: Member of the **DragAction** enumeration, that specifies whether the action is related to reordering or swiping. The available values are { *Reorder*, *ItemAction* }.
+	- **Item** (object): The interaction item.
+	- **Action** (DragAction): Specifies whether the action is related to reordering or swiping. The available values are { *Reorder*, *ItemAction* }.
 - **ItemDragCompleteCommand**: Executed when the item is released.  
   The command parameter is of type **ItemDragCompleteContext** and provides the following properties:
-	- **Item**: The interaction item.
-	- **Action**: Specifies whether the action is related to reordering or swiping.
-	- **DragDelta**: The distance that the item has traveled. 
-	- **DestinationItem**: When the Action is *Reorder*, this is the item that is shifted by the dragged item.
+	- **Item** (object): The interaction item.
+	- **Action** (DragAction): Specifies whether the action is related to reordering or swiping. The available values are { *Reorder*, *ItemAction* }.
+	- **DragDelta** (double): The distance that the item has traveled. 
+	- **DestinationItem** (object): When the Action is *Reorder*, this is the item that is shifted by the dragged item.
 - **ItemActionTapCommand**: Executed when the SwipeActionButton is tapped.  
   The command parameter is of type **ItemActionTapContext** and provides the following properties:
-	- **Item**: The interaction item.
-	- **Offset**: The current offset of the item.
+	- **Item** (object): The interaction item.
+	- **Offset** (double): The current offset of the item.
 - **ItemSwipingCommand**: Executed while item is being swiped.  
   The command parameter is of type **ItemSwipingContext** and provides the following properties:
-	- **Item**: The interaction item.
-	- **DragDelta**: The distance that the item has traveled. 
+	- **Item** (object): The interaction item.
+	- **DragDelta** (double): The distance that the item has traveled. 
 - **ItemSwipeActionCompleteCommand**: Executed when the swiping of the item has finished.  
   The command parameter is of type **ItemSwipeActionCompleteContext** and provides the following properties:
-	- **Item**: The interaction item.
-	- **FinalDragOffset**: The final drag offset that the item will be positioned.
-	- **DragDelta**: The distance that the item has traveled.
+	- **Item** (object): The interaction item.
+	- **FinalDragOffset** (double): The final drag offset that the item will be positioned.
+	- **DragDelta** (double): The distance that the item has traveled.
 
 
 >You can find more information about the RadListView commands [here]({% slug radlistview-commands %}).
