@@ -51,7 +51,7 @@ Example:
 
 ## Reordering
 
-- **IsItemReorderEnabled** (bool): Enabled the reordering.
+- **IsItemReorderEnabled** (bool): Enables the reordering.
 - **ReorderMode** (ListViewReorderMode): Gets or sets the reorder mode.
 	- *Default*: The reordering starts with holding on the item. 
 	- *Handle*: The reordering starts when the item is dragged using the reorder handle. The handle is visible only in this mode. 
