@@ -18,14 +18,10 @@ There are two type of descriptors:
   This descriptor exposes the following properties:
   - *PropertyName*: Gets or sets the string name of the property that is used to retrieve the key to sort by.
   - *SortOrder*: Changes the sort order to Ascending or Descending.
-<!--  - *Comparer*: Gets or sets a custom IComparer instance. If this property is null, the default comparer will be used.
--->
-
 * **DelegateSortDescriptor** : This descriptor enables you to sort by a custom key(e.g. some complex expression combining two or more properties) instead of being limited by the value of a single property of your item.
 This descriptor exposes the following properties:
  - *KeyLookup*: Gets or sets the IKeyLookup instance used to retrieve the sort key for each data item.
  - *SortOrder*: Changes the sort order to Ascending or Descending.
-<!-- - *Comparer*: Gets or sets a custom IComparer instance. If this property is null, the default comparer will be used. -->
 
 ## Example
 

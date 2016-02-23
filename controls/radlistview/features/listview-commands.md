@@ -37,7 +37,6 @@ All the predefined commands within a RadListView instance are identified by a me
 - **ItemSwipeActionComplete**: A command associated with the completion of a item swipe action on an item. 
 - **ItemActionTap**: A command associated with the Tap event that occurs on an action item. 
 - **RefreshRequested**: A command associated with requesting an update with the pull to refresh control.
-<!-- - **ItemSwiping**: A command associated with the swiping action on an item.--> 
 
 ## Examples
 
