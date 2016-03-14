@@ -27,6 +27,10 @@ The RadListViewcontrol exposes the following properties related to item swiping:
 - **ItemSwipeThreshold** (double): When an item is released after swipe, this threshold defines whether the item will remain swiped at the ItemSwipeOffset position or it will return to its normal state.
 - **ItemSwipeOffset** (Thickness): Sets the offset of the item if the swiping is successful.
 
+The swiped item can be set to its default position with the following method:
+
+- void **EndItemSwipe()**
+
 Example:
 
 	<telerikData:RadListView ItemsSource="{Binding}" IsActionOnSwipeEnabled="True" SelectionMode="None" ItemSwipeOffset="50">
