@@ -63,7 +63,7 @@ Here's an example of how to create a **RadCartesianChart** with **OhlcSeries**.
 		        <telerikChart:LinearAxis/>
 		    </telerikChart:RadCartesianChart.VerticalAxis>
 		    <telerikChart:RadCartesianChart.HorizontalAxis>
-		        <telerikChart:LinearAxis/>
+		        <telerikChart:CategoricalAxis/>
 		    </telerikChart:RadCartesianChart.HorizontalAxis>
 		
 		    <telerikChart:OhlcSeries ItemsSource="{Binding}">

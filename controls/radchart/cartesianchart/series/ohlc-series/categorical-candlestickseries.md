@@ -13,6 +13,7 @@ position: 2
 ## Overview
 
 The **CandlestickSeries** is similar to the **[OhlcSeries]({%slug radchart-cartesianchart-series-categorical-ohlcseries%})**, but instead of tick marks, it uses a rectangle which horizontal sides define the opening and closing price. The rectangle is filled if the opening price is lower than closing one, otherwise it's empty.
+
 ![Candle Stick Series](images/CandleStickSeries.png)
 
 >**CandlestickSeries** class inherits from the **OhlcSeriesBase** class - [See the inherited properties]({%slug radchart-series-cartesianchart-series-ohlcseries-ohlcbase%}).
@@ -52,7 +53,7 @@ Here's an example how to create **RadCartesianChart**with **CandleStickSeries**.
 		        <telerikChart:LinearAxis/>
 		    </telerikChart:RadCartesianChart.VerticalAxis>
 		    <telerikChart:RadCartesianChart.HorizontalAxis>
-		        <telerikChart:LinearAxis/>
+		        <telerikChart:CategoricalAxis/>
 		    </telerikChart:RadCartesianChart.HorizontalAxis>
 		
 		    <telerikChart:CandlestickSeries ItemsSource="{Binding}">
