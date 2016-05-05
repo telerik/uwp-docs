@@ -163,7 +163,7 @@ navigation:
         position: 1000
     controls/raddatagrid/features:
         title: "Features"
-        position: 
+        position: 100
     controls/raddatagrid/features/commands:
         title: "Commands"
         position: 100
