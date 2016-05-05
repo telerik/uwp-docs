@@ -152,45 +152,48 @@ navigation:
     controls/raddatagrid:
         title: "DataGrid"
         position: 1
-    controls/raddatagrid/aggregates:
+    controls/raddatagrid/features/aggregates:
         title: "Aggregates"
-        position: 4
+        position: 100
     controls/raddatagrid/columns:
         title: "Columns"
-        position: 4
+        position: 100
     controls/raddatagrid/columns/how-to:
         title: "How to"
+        position: 1000
+    controls/raddatagrid/features:
+        title: "Features"
         position: 
     controls/raddatagrid/features/commands:
         title: "Commands"
-        position: 4
+        position: 100
     controls/raddatagrid/features/commands/editing-commands:
         title: "Editing Commands"
         position: 
-    controls/raddatagrid/data-storage-provider:
+    controls/raddatagrid/features/data-storage-provider:
         title: "Data Storage Provider"
-        position: 4
+        position: 100
     controls/raddatagrid/features/editing:
         title: "Editing"
-        position: 4
+        position: 100
     controls/raddatagrid/features/filtering:
         title: "Filtering"
-        position: 4
+        position: 100
     controls/raddatagrid/features/filtering/how-to:
         title: "How To"
-        position: 
+        position: 1000
     controls/raddatagrid/features/grouping:
         title: "Grouping"
-        position: 4
+        position: 100
     controls/raddatagrid/how-to:
         title: "How to"
-        position: 
+        position: 1000
     controls/raddatagrid/features/sorting:
         title: "Sorting"
-        position: 4
+        position: 100
     controls/raddatagrid/styling:
         title: "Styling"
-        position: 4
+        position: 
     controls/raddatepicker-and-radtimepicker:
         title: "DatePicker and TimePicker"
         position: 1
