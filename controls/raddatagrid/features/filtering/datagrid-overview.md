@@ -34,6 +34,13 @@ The filtering functionality will be enabled out-of-the-box for most .NET primiti
 
 >You can use the **UserFilterMode** property of RadGridView to enable/disable the filtering UI. To enable/disable the filtering of a specific column you can use the **CanUserFilter**property of the column.
 
+There are two filter modes that depend on the value of the RadDataGrid.**ColumnDataOperationsDisplayMode** property.
+
+- **Inline Filter UI**: The ColumnDataOperationsDisplayMode is set to **Inline**. The Filter UI is integrated in the column header.
+- **Flyout Filter UI**: The ColumnDataOperationsDisplayMode is set to **Flyout**. The Filter UI is displayed with slide animation from the top of the grid.
+
+![Filter UI modes](images/grid-filtering-modes.png)
+
 ### Functionality Overview
 
 The default functonality of the **FilteringFlyout** UI will be discussed here. It consists of the following elements:
