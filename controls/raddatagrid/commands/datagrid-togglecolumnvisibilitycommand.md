@@ -10,7 +10,10 @@ position: 12
 
 ## ToggleColumnVisibility Command
 
-Handles the process of switching the **IsVisible** property of a column. Default implementation will simply toggle the visibility. This command is useful when customers need notification when the end user excludes or includes a column.
+Handles the process of switching the **IsVisible** property of a column. Default implementation will simply toggle the visibility. This command is useful when customers need notification when the end user excludes or includes a column. The execution parameter is of type *ToggleColumnVisibilityContext* and exposes the following properties:
+
+* **IsVisible** (bool) - a value indicating if this particular column will be visualized.
+* **Column** - the column itself.
 
 Here is how a custom ToggleColumnVisibility command can be created.
 
