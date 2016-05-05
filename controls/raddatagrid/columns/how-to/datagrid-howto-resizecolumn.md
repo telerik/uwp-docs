@@ -68,3 +68,7 @@ Here's the XAML definition:
 	        <telerikGrid:DataGridTextColumn PropertyName="Capital" Header="Capital" />
 	    </telerikGrid:RadDataGrid.Columns>
 	</telerikGrid:RadDataGrid>
+
+Where:
+
+	xmlns:telerikGrid="using:Telerik.UI.Xaml.Controls.Grid"
