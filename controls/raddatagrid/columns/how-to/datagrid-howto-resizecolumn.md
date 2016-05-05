@@ -16,9 +16,9 @@ The **RadDataGrid** control supports manual resizing of the grid columns using a
 
 The display mode of the resize handle can be specified with the **ColumnResizeHandleDisplayMode** property of the grid. The possible values are:
 
-- Always: The handle is always visible.
-- OnColumnHeaderActionFlyoutOpen: The handle is displayed only when the [column header action flyout is open]({%slug %}).
-- None: The handle is not visible. This is the default option. 
+- **Always**: The handle is always visible.
+- **OnColumnHeaderActionFlyoutOpen**: The handle is displayed only when the [column header action flyout is open]({%slug %}).
+- **None**: The handle is not visible. This is the default option. 
 
 > If you set the **ColumnResizeHandleDisplayMode** to `OnColumnHeaderActionFlyoutOpen`, you have to also set the **ColumnDataOperationsMode** property to `Flyout`.
 

@@ -26,9 +26,9 @@ RadDataGrid also supports Data Validation out of the box.
 
 RadDataGrid supports several edit modes through the **UserEditMode** property. The possible values are:
 
-* Inline: User can edit the values using the inline row editor.
-* External: External control is used for editing.
-* None: Editing is not allowed.
+* **Inline**: User can edit the values using the inline row editor.
+* **External**: External control is used for editing.
+* **None**: Editing is not allowed.
 
 ![Grid Edit Modes](images/grid-edit-modes.png)
 
