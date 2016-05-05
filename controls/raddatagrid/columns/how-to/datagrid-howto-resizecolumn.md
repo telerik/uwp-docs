@@ -10,7 +10,7 @@ position: 1
 
 # Resize a Column with the UI
 
-The **RadDataGrid** control supports manual resizing of the grid columns using a column resize handle. This article describes the different options for the resize UI.
+The **RadDataGrid** control supports manual resizing of the grid columns using a column resize handle. This article describes the options for the column resizing UI.
 
 ## Display Mode
 
