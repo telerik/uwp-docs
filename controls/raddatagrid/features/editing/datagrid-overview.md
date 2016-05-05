@@ -30,6 +30,8 @@ RadDataGrid supports several edit modes through the **UserEditMode** property. T
 * External: External control is used for editing.
 * None: Editing is not allowed.
 
+![Grid Edit Modes](images/grid-edit-modes.png)
+
 ## External Editor
 
 Our default implementation of external editor uses a [RadDataForm control]({% slug dataform-overview %}). Using the **ExternalEditor** property you can set your custom external editor. It has to implement the **IGridExternalEditor** interface, that requires the following members:
