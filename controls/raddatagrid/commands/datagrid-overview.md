@@ -61,3 +61,4 @@ In order to register a custom command within a RadDataGrid instance you may eith
 * [DataBindingComplete ]({%slug datagrid-commands-databindingcompletecommand%})
 * [FlyoutGroupHeader]({%slug datagrid-commands-flyoutgroupheadertapcommand%})
 * [FilterButtonTap]({%slug datagrid-commands-filterbuttontapcommand%})
+* [ToggleColumnVisibility]({%slug datagrid-commands-togglecolumnvisibilitycommand%})

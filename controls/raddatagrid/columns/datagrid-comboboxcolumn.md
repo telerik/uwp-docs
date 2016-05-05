@@ -5,7 +5,7 @@ description: ComboBox Column
 slug: datagrid-columns-comboboxcolumn
 tags: combobox,column
 published: True
-position: 
+position: 8
 ---
 
 # ComboBox Column

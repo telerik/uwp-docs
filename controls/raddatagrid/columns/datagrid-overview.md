@@ -52,3 +52,4 @@ to the column, you have to use a [Sort Descriptor]({%slug datagrid-sorting-overv
 * **CanUserGroup** (bool) - Gets or sets a value indicating whether the user can group the data by tha values in the column using the built-in Grouping UI.
 * **CanUserSort** (bool) - Gets or sets a value indicating whether the user can sort the data by the values in the column isong the built-in Sorting UI.
 * **CanUserReorder** (bool) - Gets or sets a value indicating whether the user can reorder the column.
+* **IsVisible** (bool) - Gets a value indicating if a specific column should be visualized.
