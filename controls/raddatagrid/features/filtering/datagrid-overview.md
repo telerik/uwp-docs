@@ -32,7 +32,7 @@ RadDataGrid provides the following way of filtering:
 The built-in Filtering UI allows the user to easily filter data by column values.
 The filtering functionality will be enabled out-of-the-box for most .NET primitive types such as strings, numeric types, DateTimes and so on.
 
->You can use the **UserFilterMode** property of RadGridView to enable/disable the filtering UI. To enable/disable the filtering of a specific column you can use the **CanUserFilter**property of the column.
+>You can use the **UserFilterMode** property of RadGridView to enable/disable the filtering UI. To enable/disable the filtering of a specific column you can use the **CanUserFilter** property of the column.
 
 There are two filter modes that depend on the value of the RadDataGrid.**ColumnDataOperationsDisplayMode** property.
 

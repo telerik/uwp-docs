@@ -22,14 +22,14 @@ The display mode of the resize handle can be specified with the **ColumnResizeHa
 
 > If you set the **ColumnResizeHandleDisplayMode** to `OnColumnHeaderActionFlyoutOpen`, you have to also set the **ColumnDataOperationsMode** property to `Flyout`.
 
+![Column Resize Handle](images/grid-howto-resizehandlemode.png)
+
 Here is an example:
 
 	<telerikGrid:RadDataGrid ColumnDataOperationsMode="Flyout" ColumnResizeHandleDisplayMode="OnColumnHeaderActionFlyoutOpen"/>
 
 See the full example setup in the [Example]({%slug datagrid-howto-resizecolumn%}#example) section of this article.
 
-![Column Resize Handle](images/grid-howto-resizehandlemode.png)
- 
 ## Disable Resize UI for Specific Columns
 
 The user can disable the resizing UI for specific columns with the **CanUserResize** column property.
