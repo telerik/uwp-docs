@@ -193,7 +193,7 @@ navigation:
         position: 100
     controls/raddatagrid/styling:
         title: "Styling"
-        position: 
+        position: 100
     controls/raddatepicker-and-radtimepicker:
         title: "DatePicker and TimePicker"
         position: 1
