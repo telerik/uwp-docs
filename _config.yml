@@ -161,31 +161,31 @@ navigation:
     controls/raddatagrid/columns/how-to:
         title: "How to"
         position: 
-    controls/raddatagrid/commands:
+    controls/raddatagrid/features/commands:
         title: "Commands"
         position: 4
-    controls/raddatagrid/commands/editing-commands:
+    controls/raddatagrid/features/commands/editing-commands:
         title: "Editing Commands"
         position: 
     controls/raddatagrid/data-storage-provider:
         title: "Data Storage Provider"
         position: 4
-    controls/raddatagrid/editing:
+    controls/raddatagrid/features/editing:
         title: "Editing"
         position: 4
-    controls/raddatagrid/filtering:
+    controls/raddatagrid/features/filtering:
         title: "Filtering"
         position: 4
-    controls/raddatagrid/filtering/how-to:
+    controls/raddatagrid/features/filtering/how-to:
         title: "How To"
         position: 
-    controls/raddatagrid/grouping:
+    controls/raddatagrid/features/grouping:
         title: "Grouping"
         position: 4
     controls/raddatagrid/how-to:
         title: "How to"
         position: 
-    controls/raddatagrid/sorting:
+    controls/raddatagrid/features/sorting:
         title: "Sorting"
         position: 4
     controls/raddatagrid/styling:
