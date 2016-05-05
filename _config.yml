@@ -43,7 +43,7 @@ navigation:
         position: 4
     controls/radbulletgraph/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radbusyindicator:
         title: "Busy Indicator"
         position: 1
@@ -55,7 +55,7 @@ navigation:
         position: 4
     controls/radcalendar/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radcalendar/navigation-support:
         title: "Navigation Support"
         position: 4
@@ -88,7 +88,7 @@ navigation:
         position: 4
     controls/radchart/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radchart/labels:
         title: "Labels"
         position: 4
@@ -166,7 +166,7 @@ navigation:
         position: 4
     controls/raddatagrid/commands/editing-commands:
         title: "Editing Commands"
-        position: 12
+        position: 
     controls/raddatagrid/data-storage-provider:
         title: "Data Storage Provider"
         position: 4
@@ -211,7 +211,7 @@ navigation:
         position: 4
     controls/radgauge/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radgauge/indicators:
         title: "Indicators"
         position: 4
@@ -264,7 +264,7 @@ navigation:
         position: 4
     controls/radradialmenu/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radradialmenu/styling:
         title: "Styling"
         position: 4
@@ -273,7 +273,7 @@ navigation:
         position: 1
     controls/radrangeslider/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radrating:
         title: "Rating"
         position: 1 
