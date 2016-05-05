@@ -160,10 +160,13 @@ navigation:
         position: 4
     controls/raddatagrid/columns/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/raddatagrid/commands:
         title: "Commands"
         position: 4
+    controls/raddatagrid/commands/editing-commands:
+        title: "Editing Commands"
+        position: 12
     controls/raddatagrid/data-storage-provider:
         title: "Data Storage Provider"
         position: 4
@@ -173,12 +176,15 @@ navigation:
     controls/raddatagrid/filtering:
         title: "Filtering"
         position: 4
+    controls/raddatagrid/filtering/how-to:
+        title: "How To"
+        position: 
     controls/raddatagrid/grouping:
         title: "Grouping"
         position: 4
     controls/raddatagrid/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/raddatagrid/sorting:
         title: "Sorting"
         position: 4
