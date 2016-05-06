@@ -21,6 +21,7 @@ Multiple sort descriptors define a sorting operation by multiple keys.
 * **[GroupDescriptors]({%slug datagrid-grouping-overview%})**: Gets the collection of *GroupDescriptorBase* objects that defines the current grouping within this instance.
 Multiple group descriptors define multiple group levels.
 * **[FilterDescriptors]({%slug datagrid-filtering-overview%})**: Gets the collection of *FilterDescriptorBase* objects that defines the current filtering within this instance.
+* **[ColumnDataOperationsMode]({%slug raddatagrid-howto-diplaycolumnheaderflyout%})** (ColumnDataOperationsMode): Gets or sets the columns related data operations (filtering, sort and grouping) display mode.
 * **[UserEditMode]({%slug datagrid-editing-overview%})** (DataGridUserEditMode): Gets or sets the user edit mode of the DataGrid.
 * **UserSortMode** (DataGridUserSortMode): Gets or sets a value that defines how User Input (column header tap) affects the current Sort state of the grid.
 * **[UserGroupMode]({%slug datagrid-grouping-overview%})**
