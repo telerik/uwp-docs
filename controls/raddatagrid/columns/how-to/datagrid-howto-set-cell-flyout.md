@@ -47,7 +47,7 @@ Here's the XAML definition:
 	    </telerikGrid:RadDataGrid.Columns>
 	</telerikGrid:RadDataGrid>
 
-![Data Grid Cell-Flyout](images/datagrid-howto-set-cell-flyout.png)
+![Data Grid Cell-Flyout](../../images/datagrid-howto-set-cell-flyout.png)
 
 If you are looking to alter the contents of the flyout displayed check [CellFlyoutAction command]({%slug datagrid-cellflyoutaction%}).
 
