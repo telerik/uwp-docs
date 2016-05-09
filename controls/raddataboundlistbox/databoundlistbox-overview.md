@@ -15,7 +15,7 @@ position: 0
 **RadDataBoundListBox** allows you to visualize large amount of data in a ListBox-like control with greatly optimized performance and user interaction
 responsiveness.
 
-> RadDataBoundListBox is a lightweight component mainly used for easy migration from windows 8.0 to windows 8.1. In order to take advantage of features like [selection]({%slug radlistview-selection%}), [filtering]({%slug radlistview-filtering%}), [grouping]({% slug radlistview-grouping%}) and [sorting]({%slug radlistview-sorting%}) customers should use [RadListView]({%slug radlistview-overview%}) 
+> RadDataBoundListBox is a lightweight component mainly used for easy migration from Windows 8.0. In order to take advantage of features like [selection]({%slug radlistview-selection%}), [filtering]({%slug radlistview-filtering%}), [grouping]({% slug radlistview-grouping%}) and [sorting]({%slug radlistview-sorting%}) customers should use [RadListView]({%slug radlistview-overview%}) 
 
 ## Key Features
 
