@@ -98,10 +98,6 @@ The RadListView control provides number of commands that are executed when a cer
 
 >You can find more information about the RadListView commands [here]({% slug radlistview-commands %}).
 
-## Methods
-
-- **EndItemDrag**(): Ends all drag currently running operations.
-
 ## How to Implement Reorder Functionality
 
 Here is the XAML definition of the RadListView. The view model class should be defined as a static resource.

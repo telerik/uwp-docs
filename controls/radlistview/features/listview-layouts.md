@@ -10,21 +10,33 @@ position:
 
 # Layouts
 
-The RadListView supports two different layouts - wrap and stack. The layout could be modified with the following properties:
+The RadListView supports different layouts. The layout could be modified with the following properties:
 
-- **LayoutDefinition**: Takes values of type LayoutDefinitionBase, which is base class for the following classes:
- - **WrapLayoutDefinition** { ItemWidth }
- - **StackLayoutDefinition**
 - **Orientation**: Each layout supports horizontal and vertical orientation.
+- **LayoutDefinition**: Takes values of type LayoutDefinitionBase, which is base for the following classes:
+ - **StackLayoutDefinition**: A layout definition that arranges the items in a stack.
 
-> Currently the **WrapLayoutDefinition** supports only items with equal width.
+		     <telerikDataControls:RadListView>
+		         <telerikDataControls:RadListView.LayoutDefinition>
+		             <telerikListView:StackLayoutDefinition/>
+		         </telerikDataControls:RadListView.LayoutDefinition>
+		     </telerikDataControls:RadListView>
+		![StackLayoutDefinition](images/listview-layouts-stack.png)  
+ - **GridLayoutDefinition**: A layout definition that arranges the items in a grid. It has the following property:  
+   **SpanCount** (int): Gets or sets the span count of the grid.
 
-![](images/listview-layouts.png)
+	        <telerikDataControls:RadListView>
+	            <telerikDataControls:RadListView.LayoutDefinition>
+	                <telerikListView:GridLayoutDefinition SpanCount="2"/>
+	            </telerikDataControls:RadListView.LayoutDefinition>
+	        </telerikDataControls:RadListView>
+        ![GridLayoutDefinition](images/listview-layouts-grid.png)    
+ - **WrapLayoutDefinition**:  A layout definition that wraps the items. Currently  only items with equal width are supported. It has the following property:  
+    **ItemWidth** (int): Gets or sets the width of the items.
 
-Here is an example:
-
-	<telerikDataControls:RadListView>
-	    <telerikDataControls:RadListView.LayoutDefinition>
-	        <telerikListView:WrapLayoutDefinition ItemWidth="50"/>
-	    </telerikDataControls:RadListView.LayoutDefinition>
-	</telerikDataControls:RadListView>
+			<telerikDataControls:RadListView ItemsSource="{Binding}" Height="350" Width="300" >
+			    <telerikDataControls:RadListView.LayoutDefinition>
+			        <telerikListView:WrapLayoutDefinition ItemWidth="100"/>
+			    </telerikDataControls:RadListView.LayoutDefinition>
+			</telerikDataControls:RadListView>
+        ![WrapLayoutDefinition](images/listview-layouts-wrap.png)    
