@@ -45,8 +45,10 @@ For each supported architecture there is different version of the assemblies.
 The version you refer should match the CPU architecture of your application.
 
 You also have to add reference to:
+* **Microsoft Visual C++ 2013 Runtime Package for Windows** (for Windows 8.1)
+* or
+* **Microsoft Visual C++ 2015 Runtime Package for Universal Windows Platform Apps** (for UWP)
 
-* **Microsoft Visual C++ 2013 Runtime Package for Windows**
 
 > The **RadMap** control is defined in the following namespace: **Telerik.UI.Xaml.Controls.Map**
 
