@@ -34,7 +34,7 @@ In order developers to use the predefined resources throughout the entire applic
 						<ResourceDictionary.MergedDictionaries>
 
 							<!--Merges all Telrik Named Brushes defined in respective binary-->
-							<!-- Respectively the resources used by every UI component defined in the Input binary will be available-->
+							<!--the resources used by every UI component defined in the Input binary will be available-->
 							<ResourceDictionary Source="ms-appx:///ControlAssembly/Themes/ThemeResourcesDark.xaml"/>
 
 							<!--Merges the custom resource dictioanly set as DarkResourcesPath of the themeResourceInitializer-->
