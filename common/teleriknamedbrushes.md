@@ -53,7 +53,7 @@ In order developers to use the predefined resources throughout the entire applic
 		</Application.Resources>
 	</Application>
 
-Where `ControlAssembly` is the name of the assembly the UI component is defined in. The following table lists all controls and assembly names:
+Where `ControlAssembly` is the name of the assembly the UI component is defined in. The following table lists all controls and their corresponding  assembly names:
 
 <table>
 	<tr>
