@@ -14,12 +14,16 @@ position: 2
 
 # UserThemeResources extension
 
-The **UserThemeReources** class is a markup extension provided by Telerik. It is designed to allow developers to easily override the default resources used in the default themes. It exposes two static properties:
+The **UserThemeReources** class is a markup extension provided by Telerik. It is designed to allow developers to easily override the default resources used in the default themes. This class exposes two static properties:
 
 - **DarkResourcePath** (string): Gets or sets the Uri path to the resource dictionary containing theme resource definitions for the Dark theme. If no value is set, the default Dark theme will be used.
 - **LightResourcesPath** (string): Gets or sets the Uri path to the resource dictionary containing theme resource definitions for the Light theme. If no value is set, the default Light theme will be used.
 	
-This markup extension is also used as custom resource loader. Meaning that the Telerik Named Brushes will be available in an application **only** after instantiating this extension. In order developers to use the predefined resources throughout the entire application it is recommended this extension to be used in the **App.xaml** file. Here is an example how this can be done:
+This markup extension is also used as custom resource loader. Meaning that 
+
+>Telerik Named Brushes will be available in an application **only** after instantiating this extension.
+
+In order developers to use the predefined resources throughout the entire application it is recommended this extension to be used in the **App.xaml** file. Here is an example how this can be done:
 
 	<Application xmlns:telerik="using:Telerik.UI.Xaml.Controls" . . . >
 		<Application.Resources>
