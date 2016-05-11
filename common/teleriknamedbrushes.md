@@ -3,7 +3,7 @@ title: Telerik Named Brushes
 page_title: Telerik Named Brushes
 description: Telerik Named Brushes
 slug: common-teleriknamedbrushes
-tags: telerik,named,brushes
+tags: telerik,named,brushes,userthemeresources,extension
 published: True
 position: 2
 ---
@@ -29,11 +29,12 @@ This markup extension is also used as custom resource loader. Meaning that the T
 					<ResourceDictionary x:Key="Default">
 						<ResourceDictionary.MergedDictionaries>
 
-							<!--Merges all Telrik Named Brushes defined in Telrik.UI.Xaml.Input.UWP binary-->
+							<!--Merges all Telrik Named Brushes defined in respective binary-->
 							<!-- Respectively the resources used by every UI component defined in the Input binary will be available-->
 							<ResourceDictionary Source="ms-appx:///ControlAssembly/Themes/ThemeResourcesDark.xaml"/>
 
 							<!--Merges the custom resource dictioanly set as DarkResourcesPath of the themeResourceInitializer-->
+							<!--In this particular case the default resource dictionaly is merged-->
 							<ResourceDictionary Source="{CustomResource DarkResourcesPath}"/>
 						</ResourceDictionary.MergedDictionaries>
 					</ResourceDictionary>
@@ -50,7 +51,7 @@ This markup extension is also used as custom resource loader. Meaning that the T
 
 Where `ControlAssembly` is the name of the assembly the UI component is defined in. The following table lists all controls and assembly names:
 
-|**UI component**|**WinRT** assembly name|**UWP** assembly name|
+|UI component|WinRT assembly name|UWP assembly name|
 |:-|:-|:-|
 |RadChart|Telerik.UI.Xaml.Chart|Telerik.UI.Xaml.Chart.UWP|
 |RadGrid|Telerik.UI.Xaml.Grid|Telerik.UI.Xaml.Grid.UWP|
