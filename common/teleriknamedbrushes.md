@@ -10,14 +10,14 @@ position: 2
 
 # Telerik Named Brushes
 
-**Telerik Named Brushes** is a resource naming convention used throughout Telerik UI components. Each **SolidColorBrush** used in the default ControlTemplates of the controls is uniquely named. The benefit of this convention shines when the colors of the default themes (Dark and Light) should be customized. The combination of such convention and the **ThemeResource** markup extension provides developers access to a flexible customization approach. Following this approach, they can apply the required changes either to a specific control or to all controls in an application. The names of the resources used in a UI component are listed in an article named **Telerik Named Brushes** under the **Styling** folder of that specific component (e.g. [RadDataGrid]({%slug datagrid-teleriknamedbrushes%}), [RadNumericBox]({%slug teleriknamedbrushes%}), [RadRadialMenu]({%slug radialmenu-teleriknamedbrushes%})…)
+**Telerik Named Brushes** is a resource naming convention used throughout Telerik UI components. Each **SolidColorBrush** used in the default ControlTemplates of the controls is uniquely named. The benefit of this convention shines when the colors of the default themes (Dark and Light) should be customized. The combination of such convention and the **ThemeResource** markup extension provides developers access to a flexible customization approach. Following this approach, they can apply the required changes either to a specific control or to all controls in an application. The names of the resources used in a UI component are listed in an article named **Telerik Named Brushes** under the **Styling** folder of that specific component (e.g. [RadDataGrid]({%slug datagrid-styling-teleriknamedbrushes%}), [RadNumericBox]({%slug radnumericbox-styling-teleriknamedbrushes%}), [RadRadialMenu]({%slug radialmenu-teleriknamedbrushes%})…)
 
 # UserThemeResources extension
 
 The **UserThemeReources** class is a markup extension provided by Telerik. It is designed to allow developers to easily override the default resources used in the default themes. It exposes two static properties:
 
-	- **DarkResourcePath** (string): Gets or sets the Uri path to the resource dictionary containing theme resource definitions for the Dark theme. If no value is set, the default Dark theme will be used.
-	- **LightResourcesPath** (string): Gets or sets the Uri path to the resource dictionary containing theme resource definitions for the Light theme. If no value is set, the default Light theme will be used.
+- **DarkResourcePath** (string): Gets or sets the Uri path to the resource dictionary containing theme resource definitions for the Dark theme. If no value is set, the default Dark theme will be used.
+- **LightResourcesPath** (string): Gets or sets the Uri path to the resource dictionary containing theme resource definitions for the Light theme. If no value is set, the default Light theme will be used.
 	
 This markup extension is also used as custom resource loader. Meaning that the Telerik Named Brushes will be available in an application **only** after instantiating this extension. In order developers to use the predefined resources throughout the entire application it is recommended this extension to be used in the **App.xaml** file. Here is an example how this can be done:
 
