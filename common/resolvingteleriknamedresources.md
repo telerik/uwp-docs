@@ -4,15 +4,15 @@ page_title: Resolving Telerik named resources
 description: Resolving Telerik named resources
 slug: common-resolvingteleriknamedresources
 tags: resolving,telerik,named,resources
-published: True
+published: False
 position: 1
 ---
 
 # Resolving Telerik named resources
 
-Before customizing the default control template of any of our **Telerik Controls** what you need to know is that each default control template contains references to predefined Telerik resources. Due to the specific way of styling these resources are loaded dynamically in the application resources.     
+Before customizing the default control template of any **Telerik Controls** what you need to know is that each default control template contains references to predefined Telerik resources. Due to the specific way of styling these resources are loaded dynamically in the application resources.     
 
-To refer the predefined Telerik named resources in **Windows 8.1 / Windows Phone 8.1** you have to add the resource dictionaries that contain these resources in your **Application.Resources** (in the **App.xaml** file). For each theme you would like to support, you have to add a **ResourceDictionary** with the corresponding theme key. In this dictionary you have to merge all dictionaries where the needed resources are defined in order to freely refer them in your project.
+To refer the predefined Telerik named resources in **Windows 8.1 / Windows Phone 8.1 and UWP** you have to add the resource dictionaries that contain these resources in your **Application.Resources** (in the **App.xaml** file). For each theme you would like to support, you have to add a **ResourceDictionary** with the corresponding theme key. In this dictionary you have to merge all dictionaries where the needed resources are defined in order to freely refer them in your project.
 
 	<ResourceDictionary>
 		<ResourceDictionary.ThemeDictionaries>
@@ -33,11 +33,13 @@ To refer the predefined Telerik named resources in **Windows 8.1 / Windows Phone
 
 Where *ControlNamespace* is the specific namespace where the control you restyle is defined.
 
-* **Telerik.UI.Xaml.Chart**: RadChart
-* **Telerik.UI.Xaml.Grid**: RadGrid
-* **Telerik.UI.Xaml.Input**: RadDatePicker, RadTimePicker, RadAutoCompleteBox, RadNumericBox or RadRangeSlider
-* **Telerik.UI.Xaml.Primitives**: RadHubTile, RadLegendControl or RadRadialMenu
-* **Telerik.UI.Xaml.DataVisualization**: RadGauge or RadBulletGraph
+|UI component|WinRT namespace|UWP namespace|
+|:-|:-|:-|
+|RadChart|Telerik.UI.Xaml.Chart|Telerik.UI.Xaml.Chart.UWP|
+|RadGrid|Telerik.UI.Xaml.Grid|Telerik.UI.Xaml.Grid.UWP|
+|RadDatePicker, RadTimePicker, RadAutoCompleteBox, RadNumericBox, RadRangeSlider|Telerik.UI.Xaml.Input|Telerik.UI.Xaml.Input.UWP|
+|RadHubTile, RadLegendControl, RadRadialMenu|Telerik.UI.Xaml.Primitives|Telerik.UI.Xaml.Primitives.UWP|
+|RadGauge, RadBulletGraph|Telerik.UI.Xaml.DataVisualization|Telerik.UI.Xaml.DataVisualization.UWP|
 
 If you wish to override some of the Telerik named resources (e.g. to change the color of a Telerik named brush), you have to use the mechanism described in the [Telerik Named Brushes]({%slug common-teleriknamedbrushes%}) article and you will need to merge the following **ResourceDictionary** in the **Application.Resources**:
 

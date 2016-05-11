@@ -10,37 +10,50 @@ position: 2
 
 # Telerik Named Brushes
 
-In order to globally style the **Telerik Controls** in your application you can use the predefined Telerik named resources. These resources have to be added with a specific key in a ResourceDictionary that will be used when sytling your application. In the examples below the foreground color of the **[RadNumericBox]({%slug radnumericbox-overview%})** will be changed to Green using a **SolidColorBrush** with **TelerikNumericBoxForegroundBrush** key.
+**Telerik Named Brushes** is a resource naming convention used throughout Telerik UI components. Each **SolidColorBrush** used in the default ControlTemplates of the controls is uniquely named. The benefit of this convention shines when the colors of the default themes (Dark and Light) should be customized. The combination of such convention and the **ThemeResource** markup extension provides developers access to a flexible customization approach. Following this approach, they can apply the required changes either to a specific control or to all controls in an application. The names of the resources used in a UI component are listed in an article named **Telerik Named Brushes** under the **Styling** folder of that specific component (e.g. [RadDataGrid]({%slug datagrid-teleriknamedbrushes%}), [RadNumericBox]({%slug teleriknamedbrushes%}), [RadRadialMenu]({%slug radialmenu-teleriknamedbrushes%})…)
 
->The specific resource keys defined for each control are listed in the `[Control Name]` > `Styling` > `Telerik Named Brushes` documentation sections.       
+# UserThemeResources extension
 
-The new **ThemeResource** markup extension is used when styling the conrols. The theme could be applied on a per element basis.
+The **UserThemeReources** class is a markup extension provided by Telerik. It is designed to allow developers to easily override the default resources used in the default themes. It exposes two static properties:
 
-1. Create a **ResourceDictionary** file in which you define all the resources that you would like to set.
+	- **DarkResourcePath** (string): Gets or sets the Uri path to the resource dictionary containing theme resource definitions for the Dark theme. If no value is set, the default Dark theme will be used.
+	- **LightResourcesPath** (string): Gets or sets the Uri path to the resource dictionary containing theme resource definitions for the Light theme. If no value is set, the default Light theme will be used.
+	
+This markup extension is also used as custom resource loader. Meaning that the Telerik Named Brushes will be available in an application **only** after instantiating this extension. In order developers to use the predefined resources throughout the entire application it is recommended this extension to be used in the **App.xaml** file. Here is an example how this can be done:
 
-	<SolidColorBrush x:Key="TelerikNumericBoxForegroundBrush" Color="Green"/>
+	<Application xmlns:telerik="using:Telerik.UI.Xaml.Controls" . . . >
+		<Application.Resources>
+			<ResourceDictionary>
+				<telerik:UserThemeResources x:Key="themeResourceInitializer"/>
+				<ResourceDictionary.ThemeDictionaries>
+					<ResourceDictionary x:Key="Default">
+						<ResourceDictionary.MergedDictionaries>
 
-1. In a **ResourceDictionary** in your application resources (**App.xaml**) you have to define an instance of the **UserThemeResources** class defined in the **Telerik.UI.Xaml.Controls** namespace. This class exposes two *static* properties:
-	* **DarkResourcesPath** (string): Gets or sets the Uri path to the resoure distionary containing theme resource definitions for the Dark theme. If no value is set, the default Dark theme will be used.
-	* **LightResourcesPath** (string): Gets or sets the Uri path to the resoure distionary containing theme resource definitions for the Light theme. If no value is set, the default Light theme will be used.
+							<!--Merges all Telrik Named Brushes defined in Telrik.UI.Xaml.Input.UWP binary-->
+							<!-- Respectively the resources used by every UI component defined in the Input binary will be available-->
+							<ResourceDictionary Source="ms-appx:///ControlAssembly/Themes/ThemeResourcesDark.xaml"/>
 
-	This class will override the default Telerik resources defined for the specific theme.
+							<!--Merges the custom resource dictioanly set as DarkResourcesPath of the themeResourceInitializer-->
+							<ResourceDictionary Source="{CustomResource DarkResourcesPath}"/>
+						</ResourceDictionary.MergedDictionaries>
+					</ResourceDictionary>
+					<ResourceDictionary x:Key="Light">
+						<ResourceDictionary.MergedDictionaries>
+							<ResourceDictionary Source="ms-appx:///ControlAssembly /Themes/ThemeResourcesLight.xaml"/>
+							<ResourceDictionary Source="{CustomResource LightResourcesPath}"/>
+						</ResourceDictionary.MergedDictionaries>
+					</ResourceDictionary>
+				</ResourceDictionary.ThemeDictionaries>
+			</ResourceDictionary>
+		</Application.Resources>
+	</Application>
 
-		<telerik:UserThemeResources x:Key="MyResources" DarkResourcesPath="ms-appx:///Assets/MyResourcesDark.xaml"/>
+Where `ControlAssembly` is the name of the assembly the UI component is defined in. The following table lists all controls and assembly names:
 
-	Where:
-
-		xmlns:telerik="using:Telerik.UI.Xaml.Controls"
-
-1. Now you can change theme of an element:
-
-		<telerikInput:RadNumericBox x:Name="numericBox"/>
-
-		this.numericBox.RequestedTheme = ElementTheme.Dark;
-
-And this is the result:  
-![Telerik Numeric Box Foreground Brush](images/Controls/NumericBox/Styling/TelerikNumericBoxForegroundBrush.png)
-
-# See Also
-
- * [Resolving Telerik named resources]({%slug common-resolvingteleriknamedresources%})
+|**UI component**|**WinRT** assembly name|**UWP** assembly name|
+|:-|:-|:-|
+|RadChart|Telerik.UI.Xaml.Chart|Telerik.UI.Xaml.Chart.UWP|
+|RadGrid|Telerik.UI.Xaml.Grid|Telerik.UI.Xaml.Grid.UWP|
+|RadDatePicker, RadTimePicker, RadAutoCompleteBox, RadNumericBox, RadRangeSlider|Telerik.UI.Xaml.Input|Telerik.UI.Xaml.Input.UWP|
+|RadHubTile, RadLegendControl, RadRadialMenu|Telerik.UI.Xaml.Primitives|Telerik.UI.Xaml.Primitives.UWP|
+|RadGauge, RadBulletGraph|Telerik.UI.Xaml.DataVisualization|Telerik.UI.Xaml.DataVisualization.UWP|
