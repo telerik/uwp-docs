@@ -113,8 +113,3 @@ Where `ControlAssembly` is the name of the assembly the UI component is defined 
 		</td>
 	</tr>
 </table>
-
-# See Also
-[RadDataGrid]({%slug datagrid-styling-teleriknamedbrushes%})
-[RadDataGrid]({%slug datagrid-styling-teleriknamedbrushes%})
-[RadDataGrid]({%slug datagrid-styling-teleriknamedbrushes%})
