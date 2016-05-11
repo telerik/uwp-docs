@@ -51,10 +51,65 @@ This markup extension is also used as custom resource loader. Meaning that the T
 
 Where `ControlAssembly` is the name of the assembly the UI component is defined in. The following table lists all controls and assembly names:
 
-|UI component|WinRT assembly name|UWP assembly name|
-|:-|:-|:-|
-|RadChart|Telerik.UI.Xaml.Chart|Telerik.UI.Xaml.Chart.UWP|
-|RadGrid|Telerik.UI.Xaml.Grid|Telerik.UI.Xaml.Grid.UWP|
-|RadDatePicker, RadTimePicker, RadAutoCompleteBox, RadNumericBox, RadRangeSlider|Telerik.UI.Xaml.Input|Telerik.UI.Xaml.Input.UWP|
-|RadHubTile, RadLegendControl, RadRadialMenu|Telerik.UI.Xaml.Primitives|Telerik.UI.Xaml.Primitives.UWP|
-|RadGauge, RadBulletGraph|Telerik.UI.Xaml.DataVisualization|Telerik.UI.Xaml.DataVisualization.UWP|
+<table>
+		<tr>
+			<th>UI component</th>
+			<th>WinRT assembly name</th>
+			<th>UWP assembly name</th>
+		</tr>
+		<tr>
+			<td>
+				RadChart
+			</td>
+			<td>
+				Telerik.UI.Xaml.Chart
+			</td>
+			<td>
+				Telerik.UI.Xaml.Chart.UWP
+			</td>
+		</tr>
+		<tr>
+			<td>
+				RadGrid
+			</td>
+			<td>
+				Telerik.UI.Xaml.Grid
+			</td>
+			<td>
+				Telerik.UI.Xaml.Grid.UWP
+			</td>
+		</tr>
+		<tr>
+			<td>
+				RadDatePicker, RadTimePicker, RadAutoCompleteBox, RadNumericBox, RadRangeSlider
+			</td>
+			<td>
+				Telerik.UI.Xaml.Input
+			</td>
+			<td>
+				Telerik.UI.Xaml.Input.UWP
+			</td>
+		</tr>
+		<tr>
+			<td>
+				RadHubTile, RadLegendControl, RadRadialMenu
+			</td>
+			<td>
+				Telerik.UI.Xaml.Primitives
+			</td>
+			<td>
+				Telerik.UI.Xaml.Primitives.UWP
+			</td>
+		</tr>
+		<tr>
+			<td>
+				RadGauge, RadBulletGraph
+			</td>
+			<td>
+				Telerik.UI.Xaml.DataVisualization
+			</td>
+			<td>
+				Telerik.UI.Xaml.DataVisualization.UWP
+			</td>
+		</tr>
+	</table>
