@@ -8,8 +8,6 @@ published: True
 position: 0
 ---
 
-![Rad Controls-Introduction-Overview](images/Introduction/RadControls-Introduction-Overview.png)
-
 # Introduction
 
 Thank you for choosing **Telerik UI for Windows Universal!**
