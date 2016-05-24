@@ -20,7 +20,7 @@ The **AnimationStyle** property allows you to specify the type of animation curr
 * **AnimationStyle2**  
 ![RadBusyIndicator Animation Style 2](images/AnimationStyle2.gif)
 
-* **AnimationStyle3**
+* **AnimationStyle3**  
 ![RadBusyIndicator Animation Style 3](images/AnimationStyle3.gif)
 
 * **AnimationStyle4**  
