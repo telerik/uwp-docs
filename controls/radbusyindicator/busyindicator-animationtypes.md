@@ -15,20 +15,28 @@ position: 1
 The **AnimationStyle** property allows you to specify the type of animation currently played by RadBusyIndicator. The control supports 9 predefined animation styles which are defined by the values exposed by the AnimationStyle enum:
 
 * **AnimationStyle1**  
-![Busy Indicator Animation Style 1](images/BusyIndicator_AnimationStyle1.png)
+![RadBusyIndicator Animation Style 1](images/AnimationStyle1.gif)
+
 * **AnimationStyle2**  
-![Busy Indicator Animation Style 2](images/BusyIndicator_AnimationStyle2.png)
-* **AnimationStyle3**
-![Busy Indicator Animation Style 3](images/BusyIndicator_AnimationStyle3.png)
+![RadBusyIndicator Animation Style 2](images/AnimationStyle2.gif)
+
+* **AnimationStyle3**  
+![RadBusyIndicator Animation Style 3](images/AnimationStyle3.gif)
+
 * **AnimationStyle4**  
-![Busy Indicator Animation Style 4](images/BusyIndicator_AnimationStyle4.png)
+![RadBusyIndicator Animation Style 4](images/AnimationStyle4.gif)
+
 * **AnimationStyle5**  
-![Busy Indicator Animation Style 5](images/BusyIndicator_AnimationStyle5.png)
+![RadBusyIndicator Animation Style 5](images/AnimationStyle5.gif)
+
 * **AnimationStyle6**  
-![Busy Indicator Animation Style 6](images/BusyIndicator_AnimationStyle6.png)
+![RadBusyIndicator Animation Style 6](images/AnimationStyle6.gif)
+
 * **AnimationStyle7**  
-![Busy Indicator Animation Style 7](images/BusyIndicator_AnimationStyle7.png)
+![RadBusyIndicator Animation Style 7](images/AnimationStyle7.gif)
+
 * **AnimationStyle8**  
-![Busy Indicator Animation Style 8](images/BusyIndicator_AnimationStyle8.png)
+![RadBusyIndicator Animation Style 8](images/AnimationStyle8.gif)
+
 * **AnimationStyle9**  
-![Busy Indicator Animation Style 9](images/BusyIndicator_AnimationStyle9.png)
+![RadBusyIndicator Animation Style 9](images/AnimationStyle9.gif)
