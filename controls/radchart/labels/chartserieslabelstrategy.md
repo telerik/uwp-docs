@@ -50,50 +50,56 @@ Or you can assign all values:
 
 ## Example
 
->tipYou can use the example for CartesianChart with BarSeries and add the LabelStrategy in the Series to see the result: [Example](74714019-86ba-4a69-8944-4de7eeea2536#CartesianBarSeriesExample)
+> You can use the [Bar Series]({%slug radchart-cartesianchart-series-categorical-barseries%}) article to see how to create a chart with bar series.
 
->importantIf you use elements that do not have desired size you have to override the **GetLabelDesiredSize** method
+Here is the custom label strategy:
 
-	
 	public class BarLabelStrategy : ChartSeriesLabelStrategy
 	{
-		public LabelStrategyOptions options = LabelStrategyOptions.DefaultVisual | LabelStrategyOptions.Measure;
-		
-		public override LabelStrategyOptions Options
-		{
-			get
-			{
-				return this.options;
-			}
-		}
-		
-		public override FrameworkElement CreateDefaultVisual(DataPoint point, int labelIndex)
-		{
-			ChartSeries series = point.Presenter as ChartSeries;
-			return new Ellipse()
-			{
-				Stroke = new SolidColorBrush(Colors.Green),
-				Fill = series.Chart.Palette.GetBrush(point.CollectionIndex, PaletteVisualPart.Fill)
-			};
-		}
-		
-		public override RadSize GetLabelDesiredSize(DataPoint point, FrameworkElement visual, int labelIndex)
-			{
-				return new RadSize(10, 10);
-			}
-		}
+	    private readonly LabelStrategyOptions options = LabelStrategyOptions.DefaultVisual | LabelStrategyOptions.Measure;
 	
+	    public override LabelStrategyOptions Options
+	    {
+	        get
+	        {
+	            return this.options;
+	        }
+	    }
+	
+	    public override FrameworkElement CreateDefaultVisual(DataPoint point, int labelIndex)
+	    {
+	        var series = point.Presenter as ChartSeries;
+	        
+	        return new Ellipse()
+	        {
+	            Stroke = new SolidColorBrush(Colors.Green),
+	            Fill = series.Chart.Palette.GetBrush(point.CollectionIndex, PaletteVisualPart.Fill)
+	        };
+	    }
+	
+	    public override RadSize GetLabelDesiredSize(DataPoint point, FrameworkElement visual, int labelIndex)
+	    {
+	        return new RadSize(10, 10);
+	    }
 	}
 
 
- 
-	<local:BarLabelStrategy x:Name="Strategy"/> 
+>If you use elements that do not have desired size you have to override the **GetLabelDesiredSize** method.
 
+Here is how you can use the strategy with your Bar Series: 
 
- 
-	<telerik:BarSeries.LabelDefinitions>
-		<telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center" Margin="0,0,0,10" Strategy="{StaticResource Strategy}"/>
-	</telerik:BarSeries.LabelDefinitions>
+	<chart:BarSeries.LabelDefinitions>
+	    <chart:ChartSeriesLabelDefinition HorizontalAlignment="Center" Margin="0,0,0,10" >
+	        <chart:ChartSeriesLabelDefinition.Strategy>
+	            <local:BarLabelStrategy/>
+	        </chart:ChartSeriesLabelDefinition.Strategy>
+	    </chart:ChartSeriesLabelDefinition>
+	</chart:BarSeries.LabelDefinitions>
 
+Where:
+
+	xmlns:chart="using:Telerik.UI.Xaml.Controls.Chart"
+
+Here is the result:
 
 ![Chart Label Strategy Option](images/chartlabelstrategyoption.png)
