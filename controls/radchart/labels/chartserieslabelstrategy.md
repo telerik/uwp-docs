@@ -54,53 +54,46 @@ Or you can assign all values:
 
 >importantIf you use elements that do not have desired size you have to override the **GetLabelDesiredSize** method
 
-
-{{region LabelStrategyOptions}}
 	
 	public class BarLabelStrategy : ChartSeriesLabelStrategy
 	{
-	public LabelStrategyOptions options = LabelStrategyOptions.DefaultVisual | LabelStrategyOptions.Measure;
+		public LabelStrategyOptions options = LabelStrategyOptions.DefaultVisual | LabelStrategyOptions.Measure;
+		
+		public override LabelStrategyOptions Options
+		{
+			get
+			{
+				return this.options;
+			}
+		}
+		
+		public override FrameworkElement CreateDefaultVisual(DataPoint point, int labelIndex)
+		{
+			ChartSeries series = point.Presenter as ChartSeries;
+			return new Ellipse()
+			{
+				Stroke = new SolidColorBrush(Colors.Green),
+				Fill = series.Chart.Palette.GetBrush(point.CollectionIndex, PaletteVisualPart.Fill)
+			};
+		}
+		
+		public override RadSize GetLabelDesiredSize(DataPoint point, FrameworkElement visual, int labelIndex)
+			{
+				return new RadSize(10, 10);
+			}
+		}
 	
-	public override LabelStrategyOptions Options
-	{
-	get
-	{
-	return this.options;
 	}
-	}
-	
-	public override FrameworkElement CreateDefaultVisual(DataPoint point, int labelIndex)
-	{
-	ChartSeries series = point.Presenter as ChartSeries;
-	return new Ellipse()
-	{
-	Stroke = new SolidColorBrush(Colors.Green),
-	Fill = series.Chart.Palette.GetBrush(point.CollectionIndex, PaletteVisualPart.Fill)
-	};
-	}
-	
-	public override RadSize GetLabelDesiredSize(DataPoint point, FrameworkElement visual, int labelIndex)
-	{
-	return new RadSize(10, 10);
-	}
-	}
-	
-	{{endregion}}
 
 
-
-{{region StrategyOptionsDictionary}}
-	<local:BarLabelStrategy x:Name="Strategy"/>
-	{{endregion}}
+ 
+	<local:BarLabelStrategy x:Name="Strategy"/> 
 
 
-
-{{region StrategyOptionsXAML}}
+ 
 	<telerik:BarSeries.LabelDefinitions>
-	<telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center" 
-	Margin="0,0,0,10"
-	Strategy="{StaticResource Strategy}"/>
+		<telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center" Margin="0,0,0,10" Strategy="{StaticResource Strategy}"/>
 	</telerik:BarSeries.LabelDefinitions>
-	{{endregion}}
 
-![Chart Label Strategy Option](images/Controls/Chart/Labels/ChartLabelStrategyOption.png)
+
+![Chart Label Strategy Option](images/chartlabelstrategyoption.png)
