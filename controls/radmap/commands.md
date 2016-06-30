@@ -10,7 +10,6 @@ position: 7
 
 # Commands
 
-
 The **RadMap** control exposes a **Commands** property that allows you to register custom commands that are triggered through the map [behaviors]({%slug radmap-behaviors%}). The commands have an **Id** property that defines which behavior will trigger the execution, and the default action of the command. The type of the parameter passed to the command also depends on the **Id**. Here are the available values:
 
 * **Unknown**: The command is not familiar to the **RadMap** and it will not execute. This is the default value.
