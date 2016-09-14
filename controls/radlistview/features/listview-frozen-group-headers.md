@@ -16,8 +16,8 @@ The RadListView supports frozen group headers which can be turned off/on through
 
    - **Frozen** : The first group header stays static until the next group header takes its place while scrolling: 
    
-     ![GridLayoutDefinition](images/listview-frozen-header.png)  
+     ![Frozen Group Header](images/listview-frozen-header.png)  
    
    - **Scrollable**: All group headers respond to scrolling:
 
-     ![GridLayoutDefinition](images/listview-scrollable-header.png)  
+     ![Scrollable Group Header](images/listview-scrollable-header.png)  

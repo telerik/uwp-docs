@@ -50,4 +50,4 @@ The RadListView supports different layouts. The layout could be modified with th
 			        <telerikListView:StaggeredLayoutDefinition SpanCount="3" />
 			    </telerikDataControls:RadListView.LayoutDefinition>
 			</telerikDataControls:RadListView>
-        ![WrapLayoutDefinition](images/listview-staggered-layout.png)   
+        ![StaggeredLayout](images/listview-staggered-layout.png)   
