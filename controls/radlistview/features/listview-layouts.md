@@ -40,3 +40,14 @@ The RadListView supports different layouts. The layout could be modified with th
 			    </telerikDataControls:RadListView.LayoutDefinition>
 			</telerikDataControls:RadListView>
         ![WrapLayoutDefinition](images/listview-layouts-wrap.png)    
+
+ - **StaggeredLayoutDefinition**: A layout definition that arranges variable sized items in columns. It has the following property:  
+   **SpanCount** (int): Gets or sets the column count of the layout.
+
+
+			<telerikDataControls:RadListView ItemsSource="{Binding}" Height="350" Width="300" >
+			    <telerikDataControls:RadListView.LayoutDefinition>
+			        <telerikListView:StaggeredLayoutDefinition SpanCount="3" />
+			    </telerikDataControls:RadListView.LayoutDefinition>
+			</telerikDataControls:RadListView>
+        ![WrapLayoutDefinition](images/listview-staggered-layout.png)   
