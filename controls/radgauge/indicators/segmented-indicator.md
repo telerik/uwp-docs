@@ -18,7 +18,7 @@ position: 5
 the indicator with **BarIndicatorSegment** objects.
 
 
->**SegmentedGaugeIndicator** class inherits from the **GaugeIndicator** class - [See the inherited properties](%slug radgauge-indicators-gaugeindicatorclass%).
+>**SegmentedGaugeIndicator** class inherits from the **GaugeIndicator** class - [See the inherited properties]({%slug radgauge-indicators-gaugeindicatorclass%}).
 
 Two classes implement the functionality of SegmentedGaugeIndicator class in different
 ways:
