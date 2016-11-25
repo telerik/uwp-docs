@@ -1,7 +1,8 @@
 # The public documentation URL, used for sitemap.xml
-url: "http://docs.telerik.com/windows-universal"
-site_name: UWP
+url: "http://docs.telerik.com/windows8"
+site_name: WIN8
 
+destination: _site_WIN8
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock]
 navigation:
@@ -44,7 +45,7 @@ navigation:
         position: 4
     controls/radbulletgraph/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radbusyindicator:
         title: "Busy Indicator"
         position: 1
@@ -56,7 +57,7 @@ navigation:
         position: 4
     controls/radcalendar/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radcalendar/navigation-support:
         title: "Navigation Support"
         position: 4
@@ -89,7 +90,7 @@ navigation:
         position: 4
     controls/radchart/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radchart/labels:
         title: "Labels"
         position: 4
@@ -153,39 +154,48 @@ navigation:
     controls/raddatagrid:
         title: "DataGrid"
         position: 1
-    controls/raddatagrid/aggregates:
+    controls/raddatagrid/features/aggregates:
         title: "Aggregates"
-        position: 4
+        position: 100
     controls/raddatagrid/columns:
         title: "Columns"
-        position: 4
+        position: 100
     controls/raddatagrid/columns/how-to:
         title: "How to"
-        position: 4
-    controls/raddatagrid/commands:
+        position: 1000
+    controls/raddatagrid/features:
+        title: "Features"
+        position: 100
+    controls/raddatagrid/features/commands:
         title: "Commands"
-        position: 4
-    controls/raddatagrid/data-storage-provider:
+        position: 100
+    controls/raddatagrid/features/commands/editing-commands:
+        title: "Editing Commands"
+        position: 
+    controls/raddatagrid/features/data-storage-provider:
         title: "Data Storage Provider"
-        position: 4
-    controls/raddatagrid/editing:
+        position: 100
+    controls/raddatagrid/features/editing:
         title: "Editing"
-        position: 4
-    controls/raddatagrid/filtering:
+        position: 100
+    controls/raddatagrid/features/filtering:
         title: "Filtering"
-        position: 4
-    controls/raddatagrid/grouping:
+        position: 100
+    controls/raddatagrid/features/filtering/how-to:
+        title: "How To"
+        position: 1000
+    controls/raddatagrid/features/grouping:
         title: "Grouping"
-        position: 4
+        position: 100
     controls/raddatagrid/how-to:
         title: "How to"
-        position: 4
-    controls/raddatagrid/sorting:
+        position: 1000
+    controls/raddatagrid/features/sorting:
         title: "Sorting"
-        position: 4
+        position: 100
     controls/raddatagrid/styling:
         title: "Styling"
-        position: 4
+        position: 100
     controls/raddatepicker-and-radtimepicker:
         title: "DatePicker and TimePicker"
         position: 1
@@ -206,7 +216,7 @@ navigation:
         position: 4
     controls/radgauge/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radgauge/indicators:
         title: "Indicators"
         position: 4
@@ -259,7 +269,7 @@ navigation:
         position: 4
     controls/radradialmenu/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radradialmenu/styling:
         title: "Styling"
         position: 4
@@ -268,7 +278,7 @@ navigation:
         position: 1
     controls/radrangeslider/how-to:
         title: "How to"
-        position: 4
+        position: 
     controls/radrating:
         title: "Rating"
         position: 1 
@@ -292,10 +302,10 @@ navigation:
         position: 6
 
 ## The application virtual path
-baseurl: /windows-universal
+baseurl: /windows8
 
 ## The product name
-productName: "Telerik UI for Windows Universal"
+productName: "Telerik UI for Windows 8.1"
 
 ## Assign layout and category per different paths
 defaults:
@@ -309,9 +319,6 @@ defaults:
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
 
-# Define any custom fields that you use in the site here
-framework_name: UWP
-
 # The google services configuration
 google_tag_manager: GTM-6X92
 google_custom_search: '001595215763381649090:eblhnfskwrk'
@@ -320,6 +327,9 @@ google_custom_search: '001595215763381649090:eblhnfskwrk'
 assets:
     cachebust: soft
     js_compressor: uglifier
+
+# Define any custom fields that you use in the site here
+framework_name: WINDOWS81
 
 ## Do not edit below this line
 safe: false
