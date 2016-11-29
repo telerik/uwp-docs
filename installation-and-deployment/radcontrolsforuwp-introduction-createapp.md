@@ -19,16 +19,16 @@ Before walking through this example, you must have installed **Telerik UI for UW
 
 Once the extensions are installed customers are ready to continue with creating their application. Visual Studio 2015 provides Blank App template which can be used for easier start. It can be created using the New Project wizard.
 
-![Blank App project Template](../images/newprojectblankapp.png)
+![Blank App project Template](images/newprojectblankapp.png)
 
 ### Add required references
 
 Once the wizard finishes creating the Blank App customers are ready to reference the already installed packages. 
-![Open Reference Manager](../images/openreferencemanager.png)
+![Open Reference Manager](images/openreferencemanager.png)
 
 In the Reference Manager all the extensions should be visible. Customers can reference the necessary one(s).
 
-![Open Reference Manager](../images/addreferences.png)
+![Open Reference Manager](images/addreferences.png)
 
 Referencing all three packages equals to referencing all binaries in the suite. This means customers will be allowed to utilize every single component from the suite. 
 

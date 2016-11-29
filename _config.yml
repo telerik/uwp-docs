@@ -3,18 +3,15 @@ url: "http://docs.telerik.com/windows-universal"
 site_name: UWP
 
 # Exclude files which should not be in the output
-exclude: [README.md,Gemfile,Gemfile.lock]
+exclude: [README.md,Gemfile,Gemfile.lock,
+    index.md,
+    installation-and-deployment/radcontrolsforwin8-introduction-createapp.md,
+]
 navigation:
 ## List your directory names and order here, like this:
     installation-and-deployment:
         title: "Installation and Deployment"
-        position: 2
-    installation-and-deployment/uwp:
-        title: "Universal Windows Platform"
-        position: 1
-    installation-and-deployment/windows8:
-        title: "Windows Universal (Windows 8.1)"
-        position: 2
+        position: 2   
     common:
         title: "Common"
         position: 3
@@ -304,7 +301,7 @@ navigation:
 baseurl: /windows-universal
 
 ## The product name
-productName: "Telerik UI for Windows Universal"
+productName: "Telerik UI for Universal Windows Platform"
 
 ## Assign layout and category per different paths
 defaults:
