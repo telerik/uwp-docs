@@ -1,5 +1,5 @@
 ---
-title: Introduction UWP
+title: Introduction
 page_title: Introduction UWP
 description: Introduction UWP
 slug: UWP-Introduction

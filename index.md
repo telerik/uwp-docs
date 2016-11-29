@@ -1,5 +1,5 @@
 ---
-title: Introduction Universal Windows 
+title: Introduction
 page_title: Introduction Universal Windows 
 description: Introduction Universal Windows 
 slug: radcontrolsforwin8-introduction-overview
@@ -14,7 +14,7 @@ position: 0
 
 Thank you for choosing **Telerik UI for Windows Universal!**
 
-Telerik UI for Windows Universal is built to target Windows Universal(Windows 8.1 and Windows Phone 8.1) application development and deliver a unique experience based on the [Microsoft UX guidelines for Windows Runtime apps](http://msdn.microsoft.com/en-us/library/windows/apps/hh465424.aspx).  
+Telerik UI for Windows Universal is built to target Windows Universal (Windows 8.1 and Windows Phone 8.1) application development and deliver a unique experience based on the [Microsoft UX guidelines for Windows Runtime apps](http://msdn.microsoft.com/en-us/library/windows/apps/hh465424.aspx).  
 
 * [RadAutoCompleteBox]({%slug autocompletebox-overview%}) *Universal apps for Windows 8.1
 * [RadBulletGraph]({%slug bulletgraph-overview%}) *Universal apps for Windows 8.1
