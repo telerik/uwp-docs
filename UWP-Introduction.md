@@ -1,5 +1,5 @@
 ---
-title: Introduction UWP
+title: Introduction
 page_title: Introduction UWP
 description: Introduction UWP
 slug: UWP-Introduction
@@ -40,5 +40,5 @@ Telerik UI for Windows Universal is built to target Universal Windows Platform a
                 
 # See Also
 
- * [System Requirements]({%slug systemrequirements-uwp%})
- * [Installation Steps]({%slug installationsteps-uwp%})
+ * [System Requirements]({%slug systemrequirements%})
+ * [Installation Steps]({%slug installationsteps%})
