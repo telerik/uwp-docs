@@ -13,6 +13,18 @@ navigation:
     installation-and-deployment:
         title: "Installation and Deployment"
         position: 2 
+    controls/raddatagrid/features/data-storage-provider:
+        title: "Data Storage Provider"
+        position: 100
+    data-storage:
+        title: "Data Storage"
+        position: 5
+    data-storage/context-object:
+        title: "Context Object"
+        position: 5
+    data-storage/domain-classes:
+        title: "Domain Classes"
+        position: 5
     
 ## The application virtual path
 baseurl: /windows8
