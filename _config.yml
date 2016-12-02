@@ -6,6 +6,8 @@ site_name: UWP
 exclude: [README.md,Gemfile,Gemfile.lock,
     index.md,
     installation-and-deployment/radcontrolsforwin8-introduction-createapp.md,
+    data-storage,
+    controls/raddatagrid/features/data-storage-provider,
 ]
 navigation:
 ## List your directory names and order here, like this:
@@ -167,10 +169,7 @@ navigation:
         position: 100
     controls/raddatagrid/features/commands/editing-commands:
         title: "Editing Commands"
-        position: 
-    controls/raddatagrid/features/data-storage-provider:
-        title: "Data Storage Provider"
-        position: 100
+        position:    
     controls/raddatagrid/features/editing:
         title: "Editing"
         position: 100
@@ -283,16 +282,7 @@ navigation:
         position: 4            
     controls/radsidedrawer:
         title: "SideDrawer"
-        position: 1            
-    data-storage:
-        title: "Data Storage"
-        position: 5
-    data-storage/context-object:
-        title: "Context Object"
-        position: 5
-    data-storage/domain-classes:
-        title: "Domain Classes"
-        position: 5
+        position: 1
     telerik-examples:
         title: "Telerik Examples"
         position: 6
