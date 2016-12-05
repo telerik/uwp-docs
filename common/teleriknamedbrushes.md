@@ -58,62 +58,82 @@ Where `ControlAssembly` is the name of the assembly the UI component is defined 
 <table>
 	<tr>
 		<th>UI component</th>
-		<th>WinRT assembly name</th>
-		<th>UWP assembly name</th>
+		{% if site.site_name == 'WIN8' %}<th>WinRT assembly name</th>{% endif %}
+		{% if site.site_name == 'UWP' %}<th>UWP assembly name</th>{% endif %}
 	</tr>
 	<tr>
 		<td>
 			RadChart
 		</td>
+		{% if site.site_name == 'WIN8' %}
 		<td>
 			Telerik.UI.Xaml.Chart
 		</td>
+		{% endif %}
+		{% if site.site_name == 'UWP' %}
 		<td>
 			Telerik.UI.Xaml.Chart.UWP
 		</td>
+		{% endif %}
 	</tr>
 	<tr>
 		<td>
 			RadGrid
 		</td>
+		{% if site.site_name == 'WIN8' %}
 		<td>
 			Telerik.UI.Xaml.Grid
 		</td>
+		{% endif %}
+		{% if site.site_name == 'UWP' %}
 		<td>
 			Telerik.UI.Xaml.Grid.UWP
 		</td>
+		{% endif %}
 	</tr>
 	<tr>
 		<td>
 			RadDatePicker, RadTimePicker, RadAutoCompleteBox, RadNumericBox, RadRangeSlider
 		</td>
+		{% if site.site_name == 'WIN8' %}
 		<td>
 			Telerik.UI.Xaml.Input
 		</td>
+		{% endif %}
+		{% if site.site_name == 'UWP' %}
 		<td>
 			Telerik.UI.Xaml.Input.UWP
 		</td>
+		{% endif %}
 	</tr>
 	<tr>
 		<td>
 			RadHubTile, RadLegendControl, RadRadialMenu
 		</td>
+		{% if site.site_name == 'WIN8' %}
 		<td>
 			Telerik.UI.Xaml.Primitives
 		</td>
+		{% endif %}
+		{% if site.site_name == 'UWP' %}
 		<td>
 			Telerik.UI.Xaml.Primitives.UWP
 		</td>
+		{% endif %}
 	</tr>
 	<tr>
 		<td>
 			RadGauge, RadBulletGraph
 		</td>
+		{% if site.site_name == 'WIN8' %}
 		<td>
 			Telerik.UI.Xaml.DataVisualization
 		</td>
+		{% endif %}
+		{% if site.site_name == 'UWP' %}
 		<td>
 			Telerik.UI.Xaml.DataVisualization.UWP
 		</td>
+		{% endif %}
 	</tr>
 </table>

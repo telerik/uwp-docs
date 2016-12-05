@@ -39,7 +39,7 @@ Telerik UI for Windows Universal is built to target Windows Universal (Windows 8
 * [RadRating]({%slug rating-overview%}) *Universal apps for Windows 8.1
 * [RadSideDrawer]({%slug sidedrawer-getting-started%}) *Universal apps for Windows 8.1
             
-**Telerik UI for Windows Universal** suite also offers [Telerik Data Storage]({%slug datastorage-overview%}) (*Universal) that provides users with local database support backed with the fast and server-less engine of SQLite.
+**Telerik UI for Windows Universal** suite also offers [Telerik Data Storage]({%slug datastorage-overview%}) that provides users with local database support backed with the fast and server-less engine of SQLite.
         
 # See Also
 
