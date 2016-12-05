@@ -8,6 +8,7 @@ exclude: [README.md,Gemfile,Gemfile.lock,
     installation-and-deployment/radcontrolsforwin8-introduction-createapp.md,
     data-storage,
     controls/raddatagrid/features/data-storage-provider,
+    telerik-examples/samples-demos.md,
 ]
 navigation:
 ## List your directory names and order here, like this:
@@ -306,7 +307,7 @@ defaults:
 # "foo": "Bar"
 
 # Define any custom fields that you use in the site here
-framework_name: UWP
+framework_name: Universal Windows Platform
 
 # The google services configuration
 google_tag_manager: GTM-6X92

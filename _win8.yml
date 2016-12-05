@@ -7,6 +7,7 @@ destination: _site_WIN8
 exclude: [README.md,Gemfile,Gemfile.lock,
     UWP-Introduction.md,
     installation-and-deployment/radcontrolsforuwp-introduction-createapp.md,    
+    telerik-examples/samples-telerikdashboard.md,
 ]
 navigation:
 ## List your directory names and order here, like this:    

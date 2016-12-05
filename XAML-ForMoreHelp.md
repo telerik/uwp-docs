@@ -10,13 +10,13 @@ position: 6
 
 # For More Help
 
-Below you can find listed the rest of the main resources of information about using **Telerik UI for Windows Universal**.
+Below you can find listed the rest of the main resources of information about using **{{ site.productName }}**.
 
 ## Support
 
-You can contact Telerik support with a technical question using your Client.net account.
+You can contact the support team with a technical question using your **Telerik** account.
 
-[Client.net account](http://www.telerik.com/account/support-tickets.aspx)
+[Support Tickets Account Page](https://www.telerik.com/account/support-tickets)
 
 ## Forums
 
@@ -26,12 +26,17 @@ Telerik Forums are a place where you can communicate and consult with other peop
 
 ## Demos
 
-You can download examples that demonstrate possible use cases and configuration scenarios with Telerik UI for Windows Universal from the demos page.
+You can download examples that demonstrate possible use cases and configuration scenarios with {{ site.productName }} from the demos page.
 
+{% if site.site_name == 'UWP' %}
+[Demo Applications Page](http://www.telerik.com/universal-windows-platform-ui)
+{% endif %}
+{% if site.site_name == 'WIN8' %}
 [Demo Applications Page](http://www.telerik.com/windows-universal-ui)
+{% endif %}
 
 ## Blogs
 
 You can find some tips about working with the controls as well as the introduction of new controls and features in the Telerik blogs.
 
-[Telerik Blogs](http://blogs.telerik.com/windows8team/posts.aspx)
+[Telerik Blogs](http://www.telerik.com/blogs)
