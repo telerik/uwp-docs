@@ -9,6 +9,8 @@ exclude: [README.md,Gemfile,Gemfile.lock,
     data-storage,
     controls/raddatagrid/features/data-storage-provider,
     telerik-examples/samples-demos.md,
+    controls/radimageeditor,	
+    controls/radhexview,
 ]
 navigation:
 ## List your directory names and order here, like this:
