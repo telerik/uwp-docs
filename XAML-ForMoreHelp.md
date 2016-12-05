@@ -24,19 +24,19 @@ Telerik Forums are a place where you can communicate and consult with other peop
 
 [Product Forums](http://www.telerik.com/community/forums.aspx)
 
-## Demos
-
-You can download examples that demonstrate possible use cases and configuration scenarios with {{ site.productName }} from the demos page.
-
-{% if site.site_name == 'UWP' %}
-[Demo Applications Page](http://www.telerik.com/universal-windows-platform-ui)
-{% endif %}
-{% if site.site_name == 'WIN8' %}
-[Demo Applications Page](http://www.telerik.com/windows-universal-ui)
-{% endif %}
-
 ## Blogs
 
 You can find some tips about working with the controls as well as the introduction of new controls and features in the Telerik blogs.
 
 [Telerik Blogs](http://www.telerik.com/blogs)
+
+## Product Page
+
+You can find the key features of {{ site.productName }} highlighted in the product page of the suite.
+
+{% if site.site_name == 'UWP' %}
+[Product Page](http://www.telerik.com/universal-windows-platform-ui)
+{% endif %}
+{% if site.site_name == 'WIN8' %}
+[Product Page](http://www.telerik.com/windows-universal-ui)
+{% endif %}
