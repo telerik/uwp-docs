@@ -10,7 +10,7 @@ position: 0
 
 # CartesianSeries Class
 
-The **CartesianSeries** class inherits from the base**PointTemplateSeries** class and adds notation for series that are used to visualize data points in the Cartesian coordinate system, by **RadCartesianChart**. Generally, the Cartesian series can be associated either with the owning chart's horizontal and vertical axes or they can be assigned arbitrary axis (axes), thus providing support for multiple-axes Cartesian chart.
+The **CartesianSeries** class inherits from the base **PointTemplateSeries** class and adds notation for series that are used to visualize data points in the Cartesian coordinate system, by **RadCartesianChart**. Generally, the Cartesian series can be associated either with the owning chart's horizontal and vertical axes or they can be assigned arbitrary axis (axes), thus providing support for multiple-axes Cartesian chart.
 
 ## Properties
 

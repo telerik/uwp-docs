@@ -10,7 +10,7 @@ position: 1
 
 # Getting Started
 
-This help article shows how to create a DataGrid from scratch using the DataGrid related classes in the Telerik UI for Windows Universal.
+This help article shows how to create a DataGrid from scratch using the DataGrid related classes in the Telerik UI for {{ site.framework_name }}.
 
 
 >Since version **Q1 2015** the **RadDataGrid** needs references to the following assemblies:
@@ -28,7 +28,7 @@ This help article shows how to create a DataGrid from scratch using the DataGrid
 > * **Telerik.UI.Xaml.Input.dll**
 > * **Telerik.UI.Xaml.Grid.dll**
 >
->Alternatively, you can add a reference to **Telerik UI for Windows Universal SDK**.
+>Alternatively, you can add a reference to **Telerik UI for {{ site.framework_name }} SDK**.
 
 >Here is a complete list of all breaking changes introduced in Q1 2015: [Breaking Changes And Backwards Compatibility]({%slug common-breakingchanges%})
 

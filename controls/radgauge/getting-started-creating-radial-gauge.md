@@ -14,7 +14,7 @@ This tutorial will help you quickly setup and integrate a gauge into a running a
 
 ## Add References
 
-Add a reference to the **Telerik UI for Windows Universal** extension SDK or to your binaries folder.
+Add a reference to the **Telerik UI for {{ site.framework_name }}** extension SDK or to your binaries folder.
 If you choose to add binaries, you will need the following references:
 
 * **Telerik.Core**

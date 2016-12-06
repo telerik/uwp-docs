@@ -24,7 +24,7 @@ position: 1
 >* **Telerik.Core.dll**
 >* **Telerik.UI.Xaml.Primitives.dll**
 >
->Alternatively, you can add a reference to **Telerik UI for Windows Universal SDK**.
+>Alternatively, you can add a reference to **Telerik UI for {{ site.framework_name }} SDK**.
 
 After adding reference to the dlls, you can declare a new RadDataBoundListBox as any normal control. To use RadDataBoundListBox in XAML you have to add the following namespace declaration:
 

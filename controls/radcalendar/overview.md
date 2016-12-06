@@ -10,9 +10,7 @@ position: 0
 
 # Overview
 
-> RadCalendar is available for **Windows 8.1**, **Windows Phone 8.1** and **UWP**.
-
-RadCalendar for Windows Universal is an advanced date input control that allows single or multiple date and range selection as well as displaying dates in different views.
+RadCalendar for {{ site.framework_name }} is an advanced date input control that allows single or multiple date and range selection as well as displaying dates in different views.
 
 ## Key Features
 

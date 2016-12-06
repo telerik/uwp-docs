@@ -10,9 +10,7 @@ position: 0
 
 # Overview
 
->RadHubTile is available for **Windows 8.1**, **Windows Phone 8.1** and **UWP**.
-
-Thank you for using RadHubTile for Windows Universal!
+Thank you for using RadHubTile for {{ site.framework_name }}!
 
 RadHubTile is a rectangular UI element designed specifically to update itself dynamically and show the latest up to date information from different services or apps even when they are not running.
 

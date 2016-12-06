@@ -19,7 +19,7 @@ In order to use RadLoopingList for Windows Phone, the following references are r
 - **Telerik.Core.dll**
 - **Telerik.UI.Xaml.Primitives.dll**
 
-Alternatively, you can add a reference to **Telerik UI for Windows Universal SDK**.
+Alternatively, you can add a reference to **Telerik UI for {{ site.framework_name }} SDK**.
 
 After adding references, you can declare a new RadLoopingList instance. To use the RadLoopingList in the XAML you have to add the following namespace declaration:
 

@@ -38,7 +38,7 @@ productName: "Telerik UI for Windows Universal"
 # "foo": "Bar"
 
 # Define any custom fields that you use in the site here
-framework_name: WINDOWS81
+framework_name: Windows Universal
 
 ## Do not edit below this line
 safe: false

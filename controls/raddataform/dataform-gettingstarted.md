@@ -8,15 +8,15 @@ published: True
 position: 1
 ---
 
+# Getting Started
+
 **RadDataForm** is easily setup by adding the control to a Page and setting its **Item** property to an object which properties are to be visualized in the Data Form. In order to use the control in your application you need to reference the following binaries:
 
 1. Telerik.Core.dll
 2. Telerik.Data.dll
-4. Telerik.UI.Xaml.Input.dll
-5. Telerik.UI.Xaml.Primitives.dll
-3. Telerik.UI.Xaml.Controls.Data.dll
-
-# Getting Started
+3. Telerik.UI.Xaml.Input.dll
+4. Telerik.UI.Xaml.Primitives.dll
+5. Telerik.UI.Xaml.Controls.Data.dll
 
 After referencing the required assemblies you can proceed with setting up the control itself. The only property that is required to be set in order to visualize any data in our application is the Item property. It is of type object and gets or sets the business item that is about to be visualized. It is important to keep in mind that the control will resolve only the public properties of the business class by default.
 

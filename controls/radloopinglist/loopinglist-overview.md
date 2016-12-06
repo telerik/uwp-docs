@@ -10,8 +10,6 @@ position: 0
 
 # Overview
 
-> The RadLoopingList control is available for **Windows 8.1**, **Windows Phone 8.1** and **UWP**.
-
 Thank you for choosing **RadLoopingList**!
 
 **RadLoopingList** allows users to visualize a list of data items in a single column (more columns can be simulated with a custom item data template) with great performance and a looping capability. The control uses its own UI virtualized data source and items-representation mechanism that are highly optimized. The looping capability means that once the control reaches the end of the data list, it seamlessly continues from the beginning, wrapping to the first data item. This is most easily demonstrated in the RadDatePicker control which can display the week days for example and when the list scrolls to Sunday it wraps back to Monday so that the user does not have to flick backwards.

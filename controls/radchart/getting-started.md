@@ -16,7 +16,7 @@ This help article demonstrates how to create a chart from scratch using the char
 * **Telerik.UI.Xaml.Primitives.dll**
 * **Telerik.UI.Xaml.Chart.dll**
 
-Alternatively, you can add reference to **Telerik UI for Windows Universal SDK**.
+Alternatively, you can add reference to **Telerik UI for {{ site.framework_name }} SDK**.
 
 The following example demonstrates how to add RadCartesianChart to your application. Here is the XAML declaration: 
 

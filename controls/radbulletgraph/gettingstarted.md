@@ -14,7 +14,7 @@ position: 1
 
 This quick start tutorial will help you setup and add **RadBulletGraph** control to an application.
 
-1. First, you need to add a reference to **Telerik UI for Windows Universal** extension SDK or to the binaries folder.
+1. First, you need to add a reference to **Telerik UI for {{ site.framework_name }}** extension SDK or to the binaries folder.
 If you choose to add binaries, you will need the following references:
 
 	* **Telerik.Core**

@@ -10,8 +10,6 @@ position: 0
 
 # Overview
 
-> The **SideDrawer** control is available for **Windows 8.1**, **Windows Phone 8.1** and **UWP**.
-
 The **SideDrawer** is a control enabling quick and easy navigation across all levels of your app. It can be accessed from anywhere within your app as it has 4 built-in opening directions and an array of predefined open/close animations.
 
 ## Getting Started
@@ -21,7 +19,7 @@ This article shows how to create a RadSideDrawer. First, add references to the f
 * **Telerik.Core**
 * **Telerik.UI.Xaml.Primitives**
 
-Alternatively, you can add a reference to **Telerik UI for Windows Universal SDK**.
+Alternatively, you can add a reference to **Telerik UI for {{ site.framework_name }} SDK**.
 
 Then add the **Telerik.UI.Xaml.Primitives** namespace in your xaml page:
 

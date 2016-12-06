@@ -10,13 +10,13 @@ position: 1
 
 # Getting Started
 
-In this help article, we are going to create a Pagination control using the Telerik UI for Windows Universal.
+In this help article, we are going to create a Pagination control using the Telerik UI for {{ site.framework_name }}.
 
 ## Add References
 
-In order to use TelerikRadPagination control in your application, you have to add reference to the Telerik UI for Windows Universal SDK:
+In order to use TelerikRadPagination control in your application, you have to add reference to the Telerik UI for {{ site.framework_name }} SDK:
 
-* Right-click on your project and from the menu, choose `Add Reference` > `Windows` > `Extensions` > select *Telerik UI for Windows Universal* > `OK`.
+* Right-click on your project and from the menu, choose `Add Reference` > `Windows` > `Extensions` > select *Telerik UI for {{ site.framework_name }}* > `OK`.
 
 If you choose to add binaries instead, you will need to add references to the following assemblies:
 
@@ -25,7 +25,7 @@ If you choose to add binaries instead, you will need to add references to the fo
 
 To add them:
 
-* Right-click on your project and from the menu, choose `Add Reference` > `Browse` > navigate to *C:\Program Files (x86)\Telerik\UI for Windows Universal QX 20XX\Binaries* > select the relevant files > `OK`.
+* Right-click on your project and from the menu, choose `Add Reference` > `Browse` > navigate to *C:\Program Files (x86)\Telerik\UI for {{ site.framework_name }} Rx 20xx\Binaries* > select the relevant files > `OK`.
 
 
 ## Declare Instance

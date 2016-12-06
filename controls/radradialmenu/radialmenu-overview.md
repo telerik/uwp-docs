@@ -10,8 +10,6 @@ position: 0
 
 # Overview
 
-> RadRadialMenu is available for **Windows 8.1**.
-
 ## Optional section title
 
 The RadialMenu is an innovative and space-saving toolbar providing the end-user with variety of options to choose from.
@@ -19,7 +17,6 @@ The RadialMenu is especially useful on touch devices as they enable the develope
 in a flexible and dynamic UI container.
 
 >The Telerik's RadRadialMenu can be also used as a context menu.
-
 
 ## Key Features
 

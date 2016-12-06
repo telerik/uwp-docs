@@ -10,13 +10,13 @@ position: 1
 
 # GettingStarted
 
-In this help article you'll learn how to create all variations of RadHubTile controls using the Telerik UI for Windows Universal. 
+In this help article you'll learn how to create all variations of RadHubTile controls using the Telerik UI for {{ site.framework_name }}. 
 
 ## Add References
 
-In order to use a **Telerik RadHubTile** control in your application, you have to add a reference to the **Telerik UI for Windows Universal SDK**:
+In order to use a **Telerik RadHubTile** control in your application, you have to add a reference to the **Telerik UI for {{ site.framework_name }} SDK**:
 
-* Right-click on your project and from the menu, choose > `Add Reference` > `Windows 8.1` > `Extensions` > *Telerik UI for Windows Universal* > tap/click `OK`.
+* Right-click on your project and from the menu, choose > `Add Reference` > `Windows 8.1` > `Extensions` > *Telerik UI for {{ site.framework_name }}* > tap/click `OK`.
 
 If you choose to add binaries, you will need references to the following files:
 

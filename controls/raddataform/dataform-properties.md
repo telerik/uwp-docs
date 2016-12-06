@@ -8,6 +8,8 @@ published: True
 position: 7
 ---
 
+# Properties
+
 - **Item** - Gets or sets the Item that should be exposed for editing by the DataForm.
 - **CommitMode** - Gets or sets the CommitMode that DataForm uses to decide when to commit the new value.
 - **ValidationMode** - Gets or sets the ValidationMode which DataForm uses to decide when to validate the edited property.
