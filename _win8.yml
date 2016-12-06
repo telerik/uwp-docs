@@ -38,6 +38,20 @@ productName: "Telerik UI for Windows Universal"
 # Define any custom fields that you use in the site here
 framework_name: WINDOWS81
 
+# Available for names: 
+platforms: ["Windows 8.1", "Windows Phone 8.1"]
+# In articles use as shown below: 
+# platforms: windows 8.1, windows phone 8.1
+
+# Folders not supporting Windows Phone 8.1:
+non-winphone-folders: [
+    "radmap", 
+    "radradialmenu", 
+    "radrangeslider", 
+    "radpagination",
+    "data-storage", 
+]
+
 ## Do not edit below this line
 safe: false
 markdown: MarkdownProcessor
