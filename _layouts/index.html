@@ -8,6 +8,9 @@
         <link href="http://cdn.kendostatic.com/2014.2.716/styles/kendo.common.min.css" rel="stylesheet" />
         {% stylesheet styles %}
         {% stylesheet theme %}
+		{% if site.site_name == 'WIN8' %}
+			{% stylesheet platforms-styles %}
+		{% endif %}
         <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="http://cdn.kendostatic.com/2014.2.716/js/kendo.web.min.js"></script>
         {% javascript prettify %}

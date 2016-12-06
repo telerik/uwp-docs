@@ -37,7 +37,9 @@ layout: index
                 {% include search.html %}
             </div>
         </div>
-
+		{% if site.site_name == 'WIN8' %}
+			{% platforms Available for: %}
+		{% endif %}		
         <article>
             {{ content }}
         </article>
