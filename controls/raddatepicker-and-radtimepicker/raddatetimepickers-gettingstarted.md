@@ -14,7 +14,7 @@ position: 1
 
 In order to use Telerik RadDatePicker and RadTimePicker controls in your application you have to add reference to the **Telerik UI for {{ site.framework_name }} SDK**:
 
-Right-click on your project > `Add Reference` > `Windows 8.1` > `Extensions` > `Telerik UI for {{ site.framework_name }}` > `OK`.
+Right-click on your project > `Add Reference` > {% if site.site_name == 'WIN8' %}`Windows 8.1`{% endif %}{% if site.site_name == 'UWP' %}`Universal Windows`{% endif %} > `Extensions` > `Telerik UI for {{ site.framework_name }}` > `OK`.
 
 You can alternatively use binaries. You will need to add reference to the the following assemblies:
 
