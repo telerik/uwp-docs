@@ -10,9 +10,6 @@ position: 0
 
 # Overview
 
->RadMap is available for **Windows 8.1** and **UWP**.
-
-
 A map control is a data visualization control whose primary purpose is to visualize rich spatial data.
 The control is ultra fast thanks to the native C++ library, using Direct2D for rendering the RadMap's shapes.
 It can display spatial data from ESRI shapefiles, as well as any user defined content in a geographical context.

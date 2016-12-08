@@ -10,6 +10,4 @@ position: 1
 
 # Overview
 
-> **RadImageEditor** is available for **Windows 8.1** and **Windows Phone 8.1**.
-
 **RadImageEditor** is a component that allows developers to integrate image editing functionality into their apps. It supports a large set of editing tools and integration with [Lumia Imaging SDK 2.0](https://msdn.microsoft.com/en-us/library/dn859593.aspx).

@@ -15,14 +15,14 @@ position: 1
 * RadMap's Shape rendering is based on a native **C++** library, using **Direct2D** for superior performance. It depends on the **Microsoft Visual C++ Runtime Package**, which is different for Windows 8.0 and 8.1.
 * The RadMap control depends on a native C++ rendering layer and it requires concrete processor architecture to be built against. The supported architectures are: **x86**, **x64**, **ARM**.
 * For your application deployment for the Windows Store you will need to prepare three separate packages built for the three supported processor architectures: **x86**, **x64**, **ARM**.
-* **RadMap for Windows Universal SDK** automatically adds a reference to the **UI for Windows Universal SDK** because it depends on the **Telerik.Core.dll** and **Telerik.UI.Xaml.Primitives.dll** assemblies, available in the **Telerik UI for Windows Universal SDK**.
+* **RadMap for {{ site.framework_name }} SDK** automatically adds a reference to the **UI for {{ site.framework_name }} SDK** because it depends on the **Telerik.Core.dll** and **Telerik.UI.Xaml.Primitives.dll** assemblies, available in the **Telerik UI for {{ site.framework_name }} SDK**.
 * RadMap is built in **Release** only; the SDK does not provide a Debug build. Hence, when you deploy to a remote machine that does not have Visual Studio installed you will need to build you application in Release.
 
 >If you have Visual Studio installed (e.g. on your Desktop Machine), this issue will not be present.
 
 ## Adding a RadMap Control to Your Application
 
-In order to use the **RadMap** control in your application you have to add reference to the **RadMap for Windows Universal SDK**:
+In order to use the **RadMap** control in your application you have to add reference to the **RadMap for {{ site.framework_name }} SDK**:
 
 * Right-click on your project > Add Reference > Windows > Extensions > Select the SDKs > tap/click OK.
 
@@ -38,17 +38,15 @@ Alternatively, you can use binaries. You will need a reference to the following 
 
 To add them: 
 
-* Right click on your project > Add reference > Browse > C:\Program Files (x86)\Telerik\UI for Windows Universal Qx 20xx\Binaries > Select the specific files > tap/click OK
+* Right click on your project > Add reference > Browse > C:\Program Files (x86)\Telerik\UI for {{ site.framework_name }} Rx 20xx\Binaries > Select the specific files > tap/click OK
 
 > **Telerik.UI.Drawing.winmd** and **Telerik.UI.Xaml.Map.dll** are CPU dependent.
 For each supported architecture there is different version of the assemblies.
 The version you refer should match the CPU architecture of your application.
 
 You also have to add reference to:
-* **Microsoft Visual C++ 2013 Runtime Package for Windows** (for Windows 8.1)
-* or
-* **Microsoft Visual C++ 2015 Runtime Package for Universal Windows Platform Apps** (for UWP)
-
+{% if site.site_name == 'WIN8' %}* **Microsoft Visual C++ 2013 Runtime Package for Windows**{% endif %}
+{% if site.site_name == 'UWP' %}* **Microsoft Visual C++ 2015 Runtime Package for Universal Windows Platform Apps**{% endif %}
 
 > The **RadMap** control is defined in the following namespace: **Telerik.UI.Xaml.Controls.Map**
 

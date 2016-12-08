@@ -15,7 +15,7 @@ position: 1
 This quick start tutorial will help you setup and add a **RadRangeSlider**
 control to an application.
 
-1. First you have to add a reference to the Telerik UI for Windows Universal extension SDK or
+1. First you have to add a reference to the Telerik UI for {{ site.framework_name }} extension SDK or
 to the binaries. If you choose to add binaries, you will need the following
 references:
 

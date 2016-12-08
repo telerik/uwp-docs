@@ -10,8 +10,6 @@ position: 0
 
 # Overview
 
-> RadBusyIndicator is available for **Windows 8.1**, **Windows Phone 8.1** and **UWP**.
-
 The RadBusyIndicator control allows you to display an animation which indicates that your application is busy waiting for an asynchronous operation to finish. The control comes with a bunch of predefined animations that can be easily set. You can define your own animations and use them with the RadBusyIndicator control.
 
 You can use the following properties to fine-tune the behavior of RadBusyIndicator:
@@ -23,7 +21,7 @@ You can use the following properties to fine-tune the behavior of RadBusyIndicat
 * **AnimationStyle**: Gets or sets a value defined by the AnimationStyle enumeration that determines the type of animation shown in the RadBusyIndicator.
 * **IndicatorAnimationStyle**: Accepts a Style instance which defines the actual indicator animation. Can be used to define a custom indicator animation. For more information on this property take a look at the Custom animations topic.
 
-> In order to use RadBusyIndicator for Windows Universal, the following references are required:
+> In order to use RadBusyIndicator for {{ site.framework_name }}, the following references are required:
 
 * **Telerik.Core.dll**
 * **Telerik.UI.Xaml.Primitives.dll**

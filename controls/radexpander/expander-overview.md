@@ -7,7 +7,6 @@ tags: overview
 published: True
 position: 0
 ---
->RadExpander is available for **Windows 8.1**, **Windows Phone 8.1** and **UWP**.
 
 # Overview
 

@@ -8,7 +8,7 @@ published: True
 position: 10
 ---
 
-#Overview#
+# Inline Editor Icons
 
 Some of the predefined editors in RadDataForm support inline icons which can be used instead of labels or to show that the property has an error.
 

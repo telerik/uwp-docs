@@ -17,11 +17,8 @@ Example:
 	<theming:PaletteInitializer x:Key="PaletteInitializer"/>
 
 Where: 
-        
 
 * *xmlns:theming="using:Telerik.UI.Xaml.Controls.Chart.Theming"* - when customizing the default control template of RadChart
 * *xmlns:theming="using:Telerik.UI.Xaml.Controls.Input.Theming"* - when customizing the default control template of RadDatePicker, RadTimePicker or RadAutoCompleteBox
 * *xmlns:theming="using:Telerik.UI.Xaml.Controls.Primitives.Theming"* - when customizing the default control template of RadHubTile or RadLegendControl
 * *xmlns:theming="using:Telerik.UI.Xaml.Controls.DataVisualization.Theming"* - when customizing the default control template of RadGauge or RadBulletGraph
-
->More information about the **PaletteInitializer** class can be found in the following article : [Resolving Telerik named resources]({%slug common-resolvingteleriknamedresources%})

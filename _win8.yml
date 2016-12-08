@@ -7,6 +7,8 @@ destination: _site_WIN8
 exclude: [README.md,Gemfile,Gemfile.lock,
     UWP-Introduction.md,
     installation-and-deployment/radcontrolsforuwp-introduction-createapp.md,    
+    telerik-examples/samples-telerikdashboard.md,
+    common/troubleshooting/appthrowsexceptioninreleasemode.md
 ]
 navigation:
 ## List your directory names and order here, like this:    
@@ -36,7 +38,7 @@ productName: "Telerik UI for Windows Universal"
 # "foo": "Bar"
 
 # Define any custom fields that you use in the site here
-framework_name: WINDOWS81
+framework_name: Windows Universal
 
 # Available for names: 
 platforms: ["Windows 8.1", "Windows Phone 8.1"]

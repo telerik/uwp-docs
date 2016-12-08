@@ -14,7 +14,7 @@ position: 1
 
 This quick start tutorial will help you setup and add a **RadAutoCompleteBox** control to an application.
         
-1. First you have to add a reference to **Telerik UI for Windows Universal** extension SDK or to your binaries folder. If you choose to add binaries, you will need the following references:
+1. First you have to add a reference to **Telerik UI for {{ site.framework_name }}** extension SDK or to your binaries folder. If you choose to add binaries, you will need the following references:
 
 	* **Telerik.Core**
 	* **Telerik.UI.Xaml.Primitives**
