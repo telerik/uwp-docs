@@ -4,7 +4,7 @@ site_name: UWP
 
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,
-    index.md,
+    introduction-wu.md,
     installation-and-deployment/radcontrolsforwin8-introduction-createapp.md,
     data-storage,
     controls/raddatagrid/features/data-storage-provider,

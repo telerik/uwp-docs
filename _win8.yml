@@ -5,7 +5,7 @@ site_name: WIN8
 destination: _site_WIN8
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,
-    UWP-Introduction.md,
+    introduction-uwp.md,
     installation-and-deployment/radcontrolsforuwp-introduction-createapp.md,    
     telerik-examples/samples-telerikdashboard.md,
     common/troubleshooting/appthrowsexceptioninreleasemode.md
