@@ -15,7 +15,7 @@ position: 1
 * RadMap's Shape rendering is based on a native **C++** library, using **Direct2D** for superior performance. It depends on the **Microsoft Visual C++ Runtime Package**, which is different for Windows 8.0 and 8.1.
 * The RadMap control depends on a native C++ rendering layer and it requires concrete processor architecture to be built against. The supported architectures are: **x86**, **x64**, **ARM**.
 * For your application deployment for the Windows Store you will need to prepare three separate packages built for the three supported processor architectures: **x86**, **x64**, **ARM**.
-* **RadMap for Windows Universal SDK** automatically adds a reference to the **UI for {{ site.framework_name }} SDK** because it depends on the **Telerik.Core.dll** and **Telerik.UI.Xaml.Primitives.dll** assemblies, available in the **Telerik UI for {{ site.framework_name }} SDK**.
+* **RadMap for {{ site.framework_name }} SDK** automatically adds a reference to the **UI for {{ site.framework_name }} SDK** because it depends on the **Telerik.Core.dll** and **Telerik.UI.Xaml.Primitives.dll** assemblies, available in the **Telerik UI for {{ site.framework_name }} SDK**.
 * RadMap is built in **Release** only; the SDK does not provide a Debug build. Hence, when you deploy to a remote machine that does not have Visual Studio installed you will need to build you application in Release.
 
 >If you have Visual Studio installed (e.g. on your Desktop Machine), this issue will not be present.
