@@ -12,7 +12,7 @@ position: 1
 
 In order to use **Telerik RadNumericBox** control in your application you have to add reference to the **Telerik UI for {{ site.framework_name }} SDK**:
 
-Right-click on your project > `Add Reference` > `Windows 8.1` > `Extensions` > select *Telerik UI for {{ site.framework_name }}* > tap/click `OK`.
+Right-click on your project > `Add Reference` > {% if site.site_name == 'WIN8' %}`Windows 8.1`{% endif %}{% if site.site_name == 'UWP' %}`Universal Windows`{% endif %} > `Extensions` > select *Telerik UI for {{ site.framework_name }}* > tap/click `OK`.
 
 If adding binaries instead, you will need references to the following files:
 
