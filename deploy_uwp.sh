@@ -30,7 +30,7 @@ do
         echo 'Deployment failed :(';
         exit 1;
     else
-        RESULT=$(curl -s http://deploy.telerik.com/api/deployment/v1/workspaces/Documentation/stacks/UniversalWindowsPlatform.Docs/environments/Test/status)
+        RESULT=$(curl -s http://deploy.telerik.com/api/deployment/v1/workspaces/Documentation/stacks/Universal.Windows.Platform.Docs/environments/Test/status)
         echo "Deployment in progress, current status: $RESULT"
         sleep 2
     fi
