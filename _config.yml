@@ -1,5 +1,5 @@
 # The public documentation URL, used for sitemap.xml
-url: "http://docs.telerik.com/windows-universal"
+url: "http://docs.telerik.com/devtools/universal-windows-platform/"
 site_name: UWP
 
 # Exclude files which should not be in the output
@@ -291,7 +291,7 @@ navigation:
         position: 6
 
 ## The application virtual path
-baseurl: /windows-universal
+baseurl: /devtools/universal-windows-platform
 
 ## The product name
 productName: "Telerik UI for Universal Windows Platform"

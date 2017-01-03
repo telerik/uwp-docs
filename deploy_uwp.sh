@@ -4,7 +4,7 @@
 bundle install --without development || { echo 'Installing Ruby gems failed.'; exit 1; }
 
 # Build the documentation
-bundle exec jekyll build --config _config.yml,_win8.yml || { echo 'Building the documentation with Jekyll failed.'; exit 1; }
+bundle exec jekyll build || { echo 'Building the documentation with Jekyll failed.'; exit 1; }
 
 # Copy the _site directory to  //telerik.com/Resources/AppDirector/Drops/UWP/Universal.Windows.Platform.Docs
 robocopy _site //telerik.com/Resources/AppDirector/Drops/UWP/Universal.Windows.Platform.Docs -purge -s
