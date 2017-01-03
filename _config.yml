@@ -2,6 +2,7 @@
 url: "http://docs.telerik.com/devtools/universal-windows-platform/"
 site_name: UWP
 
+destination: _site
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,
     introduction-wu.md,

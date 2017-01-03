@@ -1,6 +1,6 @@
 # The public documentation URL, used for sitemap.xml
-url: "http://docs.telerik.com/windows8"
-site_name: WIN8
+url: "http://docs.telerik.com/windows-universal"
+site_name: Windows Universal
 
 destination: _site_WIN8
 # Exclude files which should not be in the output
@@ -29,7 +29,7 @@ navigation:
         position: 5
     
 ## The application virtual path
-baseurl: /windows8
+baseurl: "/windows-universal"
 
 ## The product name
 productName: "Telerik UI for Windows Universal"
