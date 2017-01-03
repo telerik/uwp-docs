@@ -1,6 +1,6 @@
 # The public documentation URL, used for sitemap.xml
 url: "http://docs.telerik.com/windows-universal"
-site_name: Windows Universal
+site_name: WIN8
 
 destination: _site_WIN8
 # Exclude files which should not be in the output
