@@ -15,13 +15,11 @@ To install **Telerik UI for Windows Universal** suite, you have to follow these 
 
 1. Go to your [Telerik account](http://www.telerik.com/account/).
 
-2. Click on the **Products & Subscriptions** link and then click the **DevCraft Ultimate** link or the **UI for Windows Universal** product link.
+2. Click on the **Downloads** tab and then choose the **UI for Windows Universal** product link.
 
-3. On the next page click the **Download Installer and other resources** button.
+3. The next page allows you to download the DLLs, NuGet packages, source code and the **automatic installation .msi file** for the suite.
 
-4. Locate **Telerik UI for Windows Universal** in the displayed list of products and click the **Browse all product files** link.
-
-5. From the displayed list choose the version of the controls you wish to install.
+4. From the displayed list, choose the installation file you would like to download.
 {% endif %}
 
 {% if site.site_name == 'UWP' %}
