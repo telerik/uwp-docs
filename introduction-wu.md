@@ -1,7 +1,7 @@
 ---
 title: Introduction
-page_title: Introduction Universal Windows 
-description: Introduction Universal Windows 
+page_title: Introduction
+description: Introduction
 slug: radcontrolsforwin8-introduction-overview
 tags: introduction
 published: True
