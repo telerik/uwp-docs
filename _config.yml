@@ -6,7 +6,7 @@ destination: _site
 # Exclude files which should not be in the output
 exclude: [README.md,Gemfile,Gemfile.lock,
     introduction-wu.md,
-    installation-and-deployment/radcontrolsforwin8-introduction-createapp.md,
+    installation-and-deployment/wu-createapp.md,
     data-storage,
     controls/raddatagrid/features/data-storage-provider,
     telerik-examples/samples-demos.md,
