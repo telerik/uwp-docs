@@ -1,6 +1,16 @@
+
+{% if site.site_name == 'WIN8' %}
 <div id="logo-bar-sl">
     <a href="/windows-universal/" title="UI for Windows Universal">
         <span>UI for Windows Universal</span>
     </a>
 </div> 
+{% endif %}
 
+{% if site.site_name == 'UWP' %}
+<div id="logo-bar">
+    <a href="/devtools/universal-windows-platform/" title="UI for Universal Windows Platform">
+        <span>UI for Universal Windows Platform</span>
+    </a>
+</div> 
+{% endif %}
