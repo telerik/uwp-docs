@@ -51,7 +51,6 @@ non-winphone-folders: [
     "radradialmenu", 
     "radrangeslider", 
     "radpagination",
-    "data-storage", 
 ]
 
 ## Do not edit below this line
