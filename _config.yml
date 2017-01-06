@@ -12,8 +12,6 @@ exclude: [README.md,Gemfile,Gemfile.lock,
     telerik-examples/samples-demos.md,
     controls/radimageeditor,	
     controls/radhexview,
-    controls/raddatagrid,
-    controls/radradialmenu,
 ]
 navigation:
 ## List your directory names and order here, like this:
