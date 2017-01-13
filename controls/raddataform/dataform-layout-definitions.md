@@ -9,7 +9,7 @@ position: 4
 ---
 
 
-##Overview##
+# Layout Definitions
 
 RadDataForm exposes the LayoutDefinition property of type DataFormLayoutDefinition which can be an entry point for developers to arrange the layout of the DataForm as per his needs.
 
@@ -32,7 +32,3 @@ RadDataForm exposes the LayoutDefinition property of type DataFormLayoutDefiniti
 
 
 The default implementation is a StackDataFormLayoutDefinition which arranges the editors in a horizontal StackPanel.
-
-
-###Example###
-

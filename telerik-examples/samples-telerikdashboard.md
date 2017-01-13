@@ -10,13 +10,13 @@ position: 1
 
 # Dashboard
 
-The **Telerik Dashboard** sample app shows you how to use Telerik UI for Windows Universal Charts and Gauges in a real use-case scenario to bring data to end-users in an appealing and meaningful way.
+The **Telerik Dashboard** sample app shows you how to use Telerik UI for Universal Windows Platform Charts and Gauges in a real use-case scenario to bring data to end-users in an appealing and meaningful way.
 
 The application visualizes statistic data about various economic factors in a number of countries and allows comparison between these countries' values. Included are various Telerik controls, serving two main purposes - visualizing data and filtering the parameters for the displayed statistics.
 
 ## Goals
 
-The Telerik Dashboard application displays some real-world usages of the data visualization and list controls from the Windows Universal suite. It includes:
+The Telerik Dashboard application displays some real-world usages of the data visualization and list controls from the Universal Windows Platform suite. It includes:
 
 * [CartesianChart(LineSeries) ]({%slug radchart-cartesianchart-series-categorical-lineseries%}) visualizing GDP per capita statistics for each chosen country.
 * [CartesianChart(AreaSeries) ]({%slug radchart-cartesianchart-series-categorical-areaseries%}) visualizing GPD per capita statistics for one country.
@@ -29,6 +29,12 @@ The Telerik Dashboard application displays some real-world usages of the data vi
 
 ## Where to Find this Example
 
-You can find the Telerik Dashboard source code in your account. When you follow the **"Browse all product files"** link under the Windows Universal
-product, at the bottom, under **Demos and
-Sample Application**, you will find a download link for **XAML Dashboard**.
+You can find the Telerik Dashboard source code on couple places.
+* In the Telerik UI for Universal Windows Platform installation folder. 
+	
+	You can open the installation folder. The dashboard example is located in the following folder *~\Telerik\UI for Universal Windows Platform RX 201X\SampleApps\SalesDashboard.UWP*.
+
+
+* Under the download page of your **Telerik** account.
+
+	You can __log into your telerik.com account__ and __open the download page__ of the UI for UWP suite. There you can download the archive file with the source code of the suite. When you decompress the archive file you will find a folder with the source code. The dashboard example is located in the following folder *~\source code folder\SampleApps\SalesDashboard.UWP*.

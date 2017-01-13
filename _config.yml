@@ -1,19 +1,23 @@
 # The public documentation URL, used for sitemap.xml
-url: "http://docs.telerik.com/windows-universal"
+url: "http://docs.telerik.com/devtools/universal-windows-platform/"
+site_name: UWP
 
+destination: _site
 # Exclude files which should not be in the output
-exclude: [README.md,Gemfile,Gemfile.lock]
+exclude: [README.md,Gemfile,Gemfile.lock,
+    introduction-wu.md,
+    installation-and-deployment/wu-createapp.md,
+    data-storage,
+    controls/raddatagrid/features/data-storage-provider,
+    telerik-examples/samples-demos.md,
+    controls/radimageeditor,	
+    controls/radhexview,
+]
 navigation:
 ## List your directory names and order here, like this:
     installation-and-deployment:
         title: "Installation and Deployment"
-        position: 2
-    installation-and-deployment/uwp:
-        title: "Universal Windows Platform"
-        position: 1
-    installation-and-deployment/windows8:
-        title: "Windows Universal (Windows 8.1)"
-        position: 2
+        position: 2   
     common:
         title: "Common"
         position: 3
@@ -137,6 +141,9 @@ navigation:
     controls/raddataboundlistbox/features:
         title: "Features"
         position: 4
+    controls/raddataboundlistbox/item-animations:
+        title: "Item Animations"
+        position: 5
     controls/radexpander:
         title: "ExpanderControl"
         position: 1
@@ -169,10 +176,7 @@ navigation:
         position: 100
     controls/raddatagrid/features/commands/editing-commands:
         title: "Editing Commands"
-        position: 
-    controls/raddatagrid/features/data-storage-provider:
-        title: "Data Storage Provider"
-        position: 100
+        position:    
     controls/raddatagrid/features/editing:
         title: "Editing"
         position: 100
@@ -285,25 +289,16 @@ navigation:
         position: 4            
     controls/radsidedrawer:
         title: "SideDrawer"
-        position: 1            
-    data-storage:
-        title: "Data Storage"
-        position: 5
-    data-storage/context-object:
-        title: "Context Object"
-        position: 5
-    data-storage/domain-classes:
-        title: "Domain Classes"
-        position: 5
+        position: 1
     telerik-examples:
         title: "Telerik Examples"
         position: 6
 
 ## The application virtual path
-baseurl: /windows-universal
+baseurl: /devtools/universal-windows-platform
 
 ## The product name
-productName: "Telerik UI for Windows Universal"
+productName: "Telerik UI for Universal Windows Platform"
 
 ## Assign layout and category per different paths
 defaults:
@@ -317,9 +312,13 @@ defaults:
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
 
+# Define any custom fields that you use in the site here
+framework_name: Universal Windows Platform
+
 # The google services configuration
+google_analytics: UA-111455-1
 google_tag_manager: GTM-6X92
-google_custom_search: '001595215763381649090:eblhnfskwrk'
+google_custom_search: '001595215763381649090:lprcix5e19g'
 
 # Assets pipeline configuration
 assets:

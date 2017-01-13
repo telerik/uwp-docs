@@ -1,0 +1,68 @@
+# The public documentation URL, used for sitemap.xml
+url: "http://docs.telerik.com/windows-universal"
+site_name: WIN8
+
+destination: _site_WIN8
+# Exclude files which should not be in the output
+exclude: [README.md,Gemfile,Gemfile.lock,
+    introduction-uwp.md,
+    installation-and-deployment/uwp-createapp.md,    
+    telerik-examples/samples-telerikdashboard.md,
+    common/troubleshooting/appthrowsexceptioninreleasemode.md
+]
+navigation:
+## List your directory names and order here, like this:    
+    installation-and-deployment:
+        title: "Installation and Deployment"
+        position: 2 
+    controls/raddatagrid/features/data-storage-provider:
+        title: "Data Storage Provider"
+        position: 100
+    data-storage:
+        title: "Data Storage"
+        position: 5
+    data-storage/context-object:
+        title: "Context Object"
+        position: 5
+    data-storage/domain-classes:
+        title: "Domain Classes"
+        position: 5
+    
+## The application virtual path
+baseurl: "/windows-universal"
+
+## The product name
+productName: "Telerik UI for Windows Universal"
+
+# Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
+# "foo": "Bar"
+
+# Define any custom fields that you use in the site here
+framework_name: Windows Universal
+
+# Available for names: 
+platforms: ["Windows 8.1", "Windows Phone 8.1"]
+# In articles use as shown below: 
+# platforms: windows 8.1, windows phone 8.1
+
+# Folders not supporting Windows Phone 8.1:
+non-winphone-folders: [
+    "radmap", 
+    "radradialmenu", 
+    "radrangeslider", 
+    "radpagination",
+]
+
+# The google services configuration
+google_analytics: UA-111455-1
+google_tag_manager: GTM-6X92
+google_custom_search: '001595215763381649090:6nej6g71x0y'
+
+## Do not edit below this line
+safe: false
+markdown: MarkdownProcessor
+kramdown:
+    toc_levels: 2..3
+    smart_quotes: ["quot", "quot", "quot", "quot"]
+    input: GFM
+

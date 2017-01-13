@@ -10,9 +10,9 @@ position: 1
 
 # Getting Started
 
-In order to use Telerik RadRadialMenu control in your application you have to add reference to the **Telerik UI for Windows Universal SDK**:
+In order to use Telerik RadRadialMenu control in your application you have to add reference to the **Telerik UI for {{ site.framework_name }} SDK**:
 
-Right-click on your project > `Add Reference` > `Windows 8.1` > `Extensions` > `Telerik UI for Windows Universal` > `OK`.
+Right-click on your project > `Add Reference` > {% if site.site_name == 'WIN8' %}`Windows 8.1`{% endif %}{% if site.site_name == 'UWP' %}`Universal Windows`{% endif %} > `Extensions` > `Telerik UI for {{ site.framework_name }}` > `OK`.
 
 You can alternatively use binaries. You will need to add reference to the the following assemblies:
 
@@ -20,7 +20,7 @@ You can alternatively use binaries. You will need to add reference to the the fo
 * **Telerik.UI.Xaml.Primitives.dll**
 
 To add them:  
-Right click on your project > `Add Reference` > `Browse` > C:\Program Files (x86)\Telerik\UI for Windows Universal Qx 20xx\Binaries > select the relevant assemblies > `OK`
+Right click on your project > `Add Reference` > `Browse` > C:\Program Files (x86)\Telerik\UI for {{ site.framework_name }} Rx 20xx\Binaries > select the relevant assemblies > `OK`
 
 To use RadRadialMenu in XAML you have to add the following namespace declaration:
 

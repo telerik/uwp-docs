@@ -10,22 +10,20 @@ position: 0
 
 ## Overview
 
-> RadHexView is available for **Widndows 8.1** and **Widndows Phone 8.1**.
-
-The **RadHexView** control is an items control that arranges [RadHexHubTile]({%slug radhubtile-radhexhubtile%}) items in a honeycomb pattern.
+**RadHexView** is an items control that arranges [RadHexHubTile]({%slug radhubtile-radhexhubtile%}) items in a honeycomb pattern.
 
 ![](images/hexview-sample.png)
 
 ## Getting Started
 
-This help article shows how to create a RadListView from scratch using the RadListView related classes in the Telerik UI for Windows Universal. First, add a reference to the following assemblies:
+This help article shows how to create a RadListView from scratch using the RadListView related classes in the Telerik UI for {{ site.framework_name }}. First, add a reference to the following assemblies:
 
 * **Telerik.Core.dll**
 * **Telerik.Data.dll**
 * **Telerik.UI.Xaml.Primitives.dll**
 * **Telerik.UI.Xaml.Controls.Data.dll**
 
-Alternatively, you can add a reference to **Telerik UI for Windows Universal SDK**.
+Alternatively, you can add a reference to **Telerik UI for {{ site.framework_name }} SDK**.
 
 Now you can declare the RadHexView control:
 

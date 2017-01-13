@@ -8,6 +8,8 @@ published: True
 position: 2
 ---
 
+# Metadata
+
 The developer can provide information about the object and its properties which will help DataForm to automatically adjust its editors to match the desired result. This is possible through the following approaches:
 
 # Property Attributes

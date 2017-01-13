@@ -10,10 +10,7 @@ position: 0
 
 # Overview
 
-> RadChart is available for **Windows 8.1**, **Windows Phone 8.1** and **UWP**.
-
-RadChart for Windows Universal is a versatile charting component that has been specifically designed from the ground-up with the latest Windows 8 patterns and practices in mind. It offers unmatched performance regarding loading time, drawing capabilities and real-time updates. Its intuitive object model and public API allow complex charts to be easily setup either in XAML or in code-behind. The control is completely data aware and may work in bound or unbound mode, depending on the requirements. Chart types (or series) are organized in hierarchies, depending on the coordinate system, used to plot data points – for example, we have RadCartesianChart (using the Cartesian coordinate system) and RadPieChart (using the radial coordinate system).
-
+RadChart for {{ site.framework_name }} is a versatile charting component that has been specifically designed from the ground-up with the latest Windows patterns and practices in mind. It offers unmatched performance regarding loading time, drawing capabilities and real-time updates. Its intuitive object model and public API allow complex charts to be easily setup either in XAML or in code-behind. The control is completely data aware and may work in bound or unbound mode, depending on the requirements. Chart types (or series) are organized in hierarchies, depending on the coordinate system, used to plot data points – for example, we have RadCartesianChart (using the Cartesian coordinate system) and RadPieChart (using the radial coordinate system).
 
 ## Architecture
 

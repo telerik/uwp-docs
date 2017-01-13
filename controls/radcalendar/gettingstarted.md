@@ -18,7 +18,7 @@ First, add a reference to the needed assemblies:
 * **Telerik.UI.Xaml.Primitives.dll**
 * **Telerik.UI.Xaml.Input.dll**
 
-Alternatively, you can add a reference to **Telerik UI for Windows Universal SDK**.
+Alternatively, you can add a reference to **Telerik UI for {{ site.framework_name }} SDK**.
 
 Next, add the **Telerik.UI.Xaml.Controls.Input** namespace:
 
