@@ -37,6 +37,9 @@ productName: "Telerik UI for Windows Universal"
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
 
+# Feedback Form Google Sheet ID
+ff-sheet-id: 11tz2DXHLD3jdbxSMzW51hCneptuIIT7wtk7VHclhC30
+
 # Define any custom fields that you use in the site here
 framework_name: Windows Universal
 
