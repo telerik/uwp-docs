@@ -51,7 +51,7 @@ The chart needs a horizontal axis and a vertical axis. Specifying the proper axe
 
 Now you have a chart with two axes but no data. In order to visualize data you will need to add the desired chart series. The presentation of the data itself is achieved by declaring a chart series inside our chart and feeding these series with data. Each chart series visualizes its data point collection in a different way. RadChart supports large number of series out of the box, the simplest of which is the line series. Here is how you define the line series:
 
-	<telerikChart:RadCartesianChart x:Name="chart">
+	<telerikChart:RadCartesianChart x:Name="radChart">
 	    <telerikChart:RadCartesianChart.HorizontalAxis>
 	        <telerikChart:CategoricalAxis/>
 	    </telerikChart:RadCartesianChart.HorizontalAxis>
