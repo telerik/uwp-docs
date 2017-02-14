@@ -16,10 +16,10 @@ It also means that you can play a role in making our docs better for everyone, a
 
 There are two ways you can contribute to the public Telerik UI for UWP/Windows Universal documentation: either create an issue in this repository, or fork the repo, make the change and send us a pull request!
 
-* **Create an issue** - If you find an issue with our docs that needs to be addressed, the best way to let us know about it is by [creating an issue in this repository](https://github.com/telerik/WindowsUniversal-docs/issues?state=open). When creating an issue, provide a descriptive title, be as specific as possible and link to the document in question (If you can provide a link to the closest anchor to the issue, all the better). Here's an example:
+* **Create an issue** - If you find an issue with our docs that needs to be addressed, the best way to let us know about it is by [creating an issue in this repository](https://github.com/telerik/uwp-docs/issues?state=open). When creating an issue, provide a descriptive title, be as specific as possible and link to the document in question (If you can provide a link to the closest anchor to the issue, all the better). Here's an example:
 
         Title: api/DataViz/chart.md is missing an image
-        Description : Example 3 is missing an image right after the code sample. https://github.com/telerik/WindowsUniversal-docs/issues?state=open
+        Description : Example 3 is missing an image right after the code sample. https://github.com/telerik/uwp-docs/issues?state=open
 
 > Note: When creating issues, please don't modify the assignee or milestone fields. Also, please create one issue per fix or change. "Bundled" entries will be deleted.
 
@@ -27,7 +27,7 @@ There are two ways you can contribute to the public Telerik UI for UWP/Windows U
 
     Once you've read these — or you've already memorized them — you're ready to contribute to the Telerik UI for UWP/Windows Universal docs. Start by creating a local clone of our repo either using [GitHub for Windows](http://windows.github.com/), [GitHub for Mac](http://mac.github.com/) or your friendly command-line:
 
-        git@github.com:telerik/WindowsUniversal-docs.git
+        git@github.com:telerik/uwp-docs.git
 
     Then, open up the WindowsUniversal-docs folder in your favorite text editor and contribute away! Of course, as you work with the docs, we do ask that you follow a couple of ground rules:
 
