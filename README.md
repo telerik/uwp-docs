@@ -63,14 +63,14 @@ You can generate a static web site from the Telerik UI for UWP/Windows Universal
 
 For the UWP documentaion:
 
- 1. Clone the repository `git clone git@github.com:telerik/WindowsUniversal-docs.git`
+ 1. Clone the repository `git clone git@github.com:telerik/uwp-docs.git`
  2. Run `bundle install` (you must have ruby and bundler installed beforehand)
  3. Run `jekyll serve`
  4. Open "http://localhost:4000/devtools/universal-windows-platform" in your browser
         
 For the Windows Universal documentaion:
 
- 1. Clone the repository `git clone git@github.com:telerik/WindowsUniversal-docs.git`
+ 1. Clone the repository `git clone git@github.com:telerik/uwp-docs.git`
  2. Run `bundle install` (you must have ruby and bundler installed beforehand)
  3. Run `jekyll serve --config _config.yml,_win8.yml`
  4. Open "http://localhost:4000/devtools/windows-universal" in your browser
