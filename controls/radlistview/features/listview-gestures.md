@@ -149,7 +149,7 @@ Here are the view model and data classes:
 	
 	    private void ReorderItems(object parameter)
 	    {
-	        var context = parameter as ItemDragCompleteContext;
+	        var context = parameter as ItemReorderCompleteContext;
 	
             var item = context.Item as Item;
             var destItem = context.DestinationItem as Item;
