@@ -31,18 +31,18 @@ Now, declare the RadSideDrawer:
 
 The next step would be to create Main Content and Drawer Content:
 
-        <telerik:RadSideDrawer>
-            <telerik:RadSideDrawer.MainContent>
+        <telerikPrimitives:RadSideDrawer>
+            <telerikPrimitives:RadSideDrawer.MainContent>
                 <Grid Background="Green">
                     <TextBlock Text="Main Content" />
                 </Grid>
-            </telerik:RadSideDrawer.MainContent>
-            <telerik:RadSideDrawer.DrawerContent>
+            </telerikPrimitives:RadSideDrawer.MainContent>
+            <telerikPrimitives:RadSideDrawer.DrawerContent>
                 <Grid Width="300" Background="Yellow">
                     <TextBlock Text="Drawer Content" />
                 </Grid>
-            </telerik:RadSideDrawer.DrawerContent>
-        </telerik:RadSideDrawer>
+            </telerikPrimitives:RadSideDrawer.DrawerContent>
+        </telerikPrimitives:RadSideDrawer>
 
 For further settings and customizations, you can check  the Features article.
 
