@@ -12,7 +12,7 @@ position: -1
 
 Thank you for choosing **Telerik UI for Universal Windows Platform!**
 
-Telerik UI for Windows Universal is built to target Universal Windows Platform application development and deliver a unique experience based on the [Microsoft UX guidelines for Windows Runtime apps](http://msdn.microsoft.com/en-us/library/windows/apps/hh465424.aspx).  
+Telerik UI for Universal Windows Platform is built to target Universal Windows Platform application development and deliver a unique experience based on the [Microsoft UX guidelines for Windows Runtime apps](http://msdn.microsoft.com/en-us/library/windows/apps/hh465424.aspx).  
 
 * [RadAutoCompleteBox]({%slug autocompletebox-overview%})
 * [RadBulletGraph]({%slug bulletgraph-overview%}) 
