@@ -23,10 +23,10 @@ navigation:
         position: 3
     common/localization:
         title: "Localization"
-        position: 3
+        position: 4
     common/troubleshooting:
         title: "Troubleshooting"
-        position: 4
+        position: 5
     controls:
         title: "Controls"
         position: 4
