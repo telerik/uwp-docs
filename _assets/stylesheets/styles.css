@@ -23,6 +23,62 @@ a img {
     border-width: 0;
 }
 
+.TK-Hat {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #eff0f1;
+    color: #4d4f52;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 42042;
+}
+
+.TK-Hat::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.TK-Hat *,
+.TK-Hat:after,
+.TK-Hat:before {
+    box-sizing: border-box;
+}
+.TK-Hat-Brand {
+    float: left;
+    width: 150px;
+    margin: 0;
+}
+.TK-PRGS-Logo {
+    display: block;
+    outline: none!important;
+    text-decoration: none!important;
+    transition: color .1s linear, background .1s linear, opacity .1s linear;
+}
+.TK-PRGS-Logo:focus,
+.TK-PRGS-Logo:hover {
+    opacity: .75;
+}
+.TK-PRGS-Logo svg {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+@media only screen and (max-width: 1100px) and (min-width: 880px) {
+   .TK-Hat-Brand {
+         width: 120px;
+         min-width: 120px;
+     }
+}
+@media only screen and (max-width: 880px) {
+    .TK-Hat-Brand {
+        width: 100px;
+        min-width: 100px;
+    }
+}
+
 /* Header */
 
 #page-header {
@@ -35,11 +91,9 @@ a img {
 }
 
 #logo-bar {
-    background: url('../images/logo-uwp.png') 0 center no-repeat;
-	 background-size: 360px 46px;
-    height: 60px;
-	width: 550px;
-	color: #fff;
+	width: 330px;
+    float:left;
+    font-size: 14px;
 }
 
 #logo-bar-sl {
@@ -49,7 +103,10 @@ a img {
 	color: #fff;
 }
 
-#logo-bar a,
+#logo-bar a{
+    display: inline-block;
+}
+
 #logo-bar-sl a {
     display: inline-block;
     height: 60px;
@@ -59,6 +116,12 @@ a img {
 
 #logo-bar span {
     display: none;
+}
+
+#logo-bar a img{    
+	display: inline-block;
+	height: 40px;
+	width: 323px;
 }
 
 #logo-bar-sl a{
