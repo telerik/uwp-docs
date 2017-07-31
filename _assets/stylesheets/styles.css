@@ -29,10 +29,7 @@ a img {
     border-bottom: 1px solid #eff0f1;
     color: #4d4f52;
     background: #ffffff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: relative;
     z-index: 42042;
 }
 
@@ -82,25 +79,27 @@ a img {
 /* Header */
 
 #page-header {
-    font-size: 12px;
-    height: 100px;
+    background-color: #2a2d33;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px; 
+    padding: 19px 15px;
+    z-index: 100;
+    height: 32px;
+    overflow: hidden;
+    /* overwriting default set value*/
+    box-sizing: content-box;
 }
 
 #page-header a {
     text-decoration: none;
 }
 
-#logo-bar {
-	width: 330px;
-    float:left;
-    font-size: 14px;
+#logo-bar { 
+    float:left; 
 }
 
 #logo-bar-sl {
-    background: url('../images/logo.png') 0 center no-repeat;
-    height: 60px;
-	width: 450px;
-	color: #fff;
+    float: left;
 }
 
 #logo-bar a{
@@ -108,10 +107,7 @@ a img {
 }
 
 #logo-bar-sl a {
-    display: inline-block;
-    height: 60px;
-    color: #fff;
-    width: 450px;
+    display: inline-block; 
 }
 
 #logo-bar span {
@@ -120,8 +116,7 @@ a img {
 
 #logo-bar a img{    
 	display: inline-block;
-	height: 40px;
-	width: 323px;
+	height: 30px;
 }
 
 #logo-bar-sl a{

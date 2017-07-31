@@ -667,15 +667,13 @@ pre .dec { color: #3e526b; } /* decimal */
 
 #page-header.page-header-uwp{
     background-color: #2a2d33;
-    font-size: 12px;
-    height: 79px;
-    padding: 20px 0 20px 15px;
-    width: 100%;
-    box-sizing: border-box;
-    position: fixed;
-    top: 41px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px; 
+    padding: 19px 15px;
     z-index: 100;
-}
+    height: 32px;
+    overflow: hidden;
+} 
 
 #page-header.page-header-uwp:after {
     clear: both;
@@ -922,7 +920,6 @@ footer > p {
 }
 #page-inner-content.page-inner-content-uwp{    
     height: calc(100% - 152px); /* height of header and footer */
-    top: 120px;
 }
 
 #page-top #page-search {
