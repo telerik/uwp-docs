@@ -23,42 +23,100 @@ a img {
     border-width: 0;
 }
 
+.TK-Hat {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #eff0f1;
+    color: #4d4f52;
+    background: #ffffff;
+    position: relative;
+    z-index: 42042;
+}
+
+.TK-Hat::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.TK-Hat *,
+.TK-Hat:after,
+.TK-Hat:before {
+    box-sizing: border-box;
+}
+.TK-Hat-Brand {
+    float: left;
+    width: 150px;
+    margin: 0;
+}
+.TK-PRGS-Logo {
+    display: block;
+    outline: none!important;
+    text-decoration: none!important;
+    transition: color .1s linear, background .1s linear, opacity .1s linear;
+}
+.TK-PRGS-Logo:focus,
+.TK-PRGS-Logo:hover {
+    opacity: .75;
+}
+.TK-PRGS-Logo svg {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+@media only screen and (max-width: 1100px) and (min-width: 880px) {
+   .TK-Hat-Brand {
+         width: 120px;
+         min-width: 120px;
+     }
+}
+@media only screen and (max-width: 880px) {
+    .TK-Hat-Brand {
+        width: 100px;
+        min-width: 100px;
+    }
+}
+
 /* Header */
 
 #page-header {
-    font-size: 12px;
-    height: 100px;
+    background-color: #2a2d33;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px; 
+    padding: 19px 15px;
+    z-index: 100;
+    height: 32px;
+    overflow: hidden;
+    /* overwriting default set value*/
+    box-sizing: content-box;
 }
 
 #page-header a {
     text-decoration: none;
 }
 
-#logo-bar {
-    background: url('../images/logo-uwp.png') 0 center no-repeat;
-	 background-size: 360px 46px;
-    height: 60px;
-	width: 550px;
-	color: #fff;
+#logo-bar { 
+    float:left; 
 }
 
 #logo-bar-sl {
-    background: url('../images/logo.png') 0 center no-repeat;
-    height: 60px;
-	width: 450px;
-	color: #fff;
+    float: left;
 }
 
-#logo-bar a,
-#logo-bar-sl a {
+#logo-bar a{
     display: inline-block;
-    height: 60px;
-    color: #fff;
-    width: 450px;
+}
+
+#logo-bar-sl a {
+    display: inline-block; 
 }
 
 #logo-bar span {
     display: none;
+}
+
+#logo-bar a img{    
+	display: inline-block;
+	height: 30px;
 }
 
 #logo-bar-sl a{
