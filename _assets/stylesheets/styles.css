@@ -548,13 +548,17 @@ footer
 }
 
 .k-widget.k-window.k-window-titleless {	
-	height: 560px !important;
-	width: 500px !important;
+	width: 460px !important;
 	top: 188px !important;	
 	border: none;
 	position: absolute;
 	background-color: #fff;
 }
+
+#feedback-form span.required-field:after {
+  content: "* required";
+  font-size: 11px;
+  float: right; }
 
 #feedback-form-window input::-webkit-input-placeholder,
 #feedback-form-window textarea::-webkit-input-placeholder,
@@ -585,9 +589,33 @@ footer
 	text-decoration: none;
 }
 
+#feedback-form-window {
+  max-height: 580px !important;
+  padding: 30px 15px 30px 30px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+#feedback-form-window > * {
+  padding-right: 15px; }
+
+#feedback-form {
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  overflow: auto; }
+
 #feedback-form  #feedback-checkbox-area {
 	margin-top: 24px;
 }
+
+#feedback-checkbox-area label {
+  display: block;
+  margin: 5px 0 0;
+  padding: 5px 0 0; }
+
+#feedback-checkbox-area #feedback-email-input {
+  margin-top: 20px !important; }
 
 #feedback-form label {
 	display: block;
@@ -616,6 +644,9 @@ footer
 	margin-left: 5px;
 }
 
+#feedback-form .feedback-extw__textarea {
+  resize: none; }
+  
 #feedback-form .feedback-extw__textarea,
 #feedback-form .feedback-extw__input {
 	padding: 10px;
@@ -623,13 +654,7 @@ footer
 	width: 100%;
 	box-sizing: border-box;
 	font: inherit;
-}
-
-#feedback-form .feedback-extw__textarea {
-	margin-top: 26px;
-	height: 156px;
-	resize: none;
-	overflow: auto;
+	font-style: italic;
 }
 
 #feedback-form .feedback-extw__input {
@@ -670,11 +695,13 @@ button#form-close-button:hover {
 }
 
 #feedback-form span.k-tooltip {
-	border: 0;
-	color: #ff0000;
-	font-style: italic;
-	font-size: 12px;
+  border: 0;
+  color: #ff0000;
+  font-style: italic;
+  font-size: 12px;
+padding: 0 0 6px !important; 
 }
+
 
 div.k-window-content {
 	padding: 27px 30px 10px 30px;
