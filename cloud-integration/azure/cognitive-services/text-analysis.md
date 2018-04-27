@@ -137,3 +137,6 @@ Running the application and typing something positive in English should give you
 ![](images/text_analysis_uwp_app.png)
 
 ## See Also
+
+* [Text Translation]({%slug cloud-integration-text-translation-azure%})
+* [Blob Storage]({%slug cloud-integration-azure-blob-storage%})

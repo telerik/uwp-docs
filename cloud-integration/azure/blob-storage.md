@@ -14,13 +14,13 @@ Azure Blob storage is a service for storing large amounts of unstructured object
 
 ## Set up Storage Account
 
-For the purposes of this article, you will have to create an [Azure Blob Storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account). You can also check the following blog post by Brandon Minnick which explains in details how to set up the service and create a simple Xamarin.Forms application which uses the Azure Blob Storage - [Add Cloud Storage to Xamarin Apps with Azure Blob Storage](https://blog.xamarin.com/xamarin-plus-azure-blob-cloud-storage/).
+For the purposes of this article, you will have to create an [Azure Blob Storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account). You can also check the following blog post by Brandon Minnick which explains in details how to set up the service and create a simple Xamarin.Forms application which uses the Azure Blob Storage - [Add Cloud Storage to Xamarin Apps with Azure Blob Storage](https://blog.xamarin.com/xamarin-plus-azure-blob-cloud-storage/). Most of the information is applicable for the UWP type of project as well.
 
 For the purposes of this sample, we have created a container which consists of several photos:
 
 ![](images/azure_blob_photos.png)
 
-## Create the Xamarin Application
+## Create the UWP Application
 
 We are going to create a simple UWP application which will contain a **RadListView** control used to visualize the different photos stored in the **Azure Blob Storage**. Here is how the simple page is defined:
 
@@ -146,3 +146,6 @@ Here is the appearance of the page:
 ![slideview_images](images/blobstorage_listview_uwp.png)
 
 ## See Also
+
+* [Azure SQL Database]({%slug cloud-integration-azure-sql-database%}) 
+* [Azure Cosmos DB]({%slug cloud-integration-cosmosdb%})

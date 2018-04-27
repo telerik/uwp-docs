@@ -26,9 +26,7 @@ Here are the currently available topics:
 
     * [Text Translation]({%slug cloud-integration-text-translation-azure%})
 
-    * [Image Analysis]({%slug cloud-integration-cognitive-services-image-analysis%})
-
-    * [Text Analysis]({slug cloud-integration-cognitive-services-text-analysis%})
+    * [Text Analysis]({%slug cloud-integration-cognitive-services-text-analysis%})
 
 * Connect to data in the cloud
 

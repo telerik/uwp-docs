@@ -232,3 +232,6 @@ Here is the appearance of the **RadDataGrid** control when you run the UWP appli
 ![](images/datagrid_uwp_azuresql.png)
 
 ## See Also
+
+* [Azure Cosmos DB]({%slug cloud-integration-cosmosdb%})
+* [Azure Blob Storage]({%slug cloud-integration-azure-blob-storage%})

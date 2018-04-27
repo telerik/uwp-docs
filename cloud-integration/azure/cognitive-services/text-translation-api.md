@@ -12,7 +12,7 @@ position: 0
 
 This article will guide you through the process of integrating Azure's [Translator Text API](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/) with the controls from the **Telerik UI for UWP** suite.
 
-## Create a Bing Speech API Account
+## Create a Translator Text API Account
 
 Before you start, you need to create a new Translation Text API account through the Azure portal. This has been explained in great detail in [this article](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account).
 
@@ -125,8 +125,10 @@ Now that we have set up the application and have created the required UI, we nee
         }
     }	
 
-Now that you have everything set correctly, try typing something in English and chose the language to which it will be translated from the **RadSedmented** control's options. Here is the appearance of the view:
+Now that you have everything set correctly, try typing something in English and chose the language to which it will be translated from the **RadSegmented** control's options. Here is the appearance of the view once you have used the translation service:
 
 ![translated text](images/translation_api_uwp.png)
 
 ## See Also
+* [Text Analysis]({%slug cloud-integration-cognitive-services-text-analysis%})
+* [Blob Storage]({%slug cloud-integration-azure-blob-storage%})
