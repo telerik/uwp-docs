@@ -253,5 +253,7 @@ After the updates, you can notice that the individual item marked as complete is
 
 ![radlistview_populated](images/cosmosdb_updated_item.png)
 
-
 ## See Also
+
+* [SQL Database]({%slug cloud-integration-azure-sql-database%})
+* [Azure Blob Storage]({%slug cloud-integration-azure-blob-storage%})
