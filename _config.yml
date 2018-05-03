@@ -293,6 +293,20 @@ navigation:
     telerik-examples:
         title: "Telerik Examples"
         position: 6
+    cloud-integration:
+        title: "Cloud Integration"
+        position: 7
+## Cloud Integration Sub-Folders
+    cloud-integration/azure:
+        title: "Azure"
+        position: 1
+    cloud-integration/azure/connect-to-data-in-the-cloud:
+        title: "Connect to Data in the Cloud"
+        position: 3				
+    cloud-integration/azure/cognitive-services:
+        title: "Cognitive Services"
+        position: 5
+## Cloud Integration Sub-Folders		
 
 ## The application virtual path
 baseurl: /devtools/universal-windows-platform
