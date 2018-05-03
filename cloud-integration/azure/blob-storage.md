@@ -10,7 +10,7 @@ position: 4
 
 # Blob Storage
 
-**Azure Blob storage** is a service for storing large amounts of unstructured object data, such as text or binary data, that can be accessed from anywhere in the world via HTTP or HTTPS. You can use Blob storage to expose data publicly to the world, or to store application data privately. This article will demonstrate how one can use this service from a Xamarin application and manage the uploaded files.
+**Azure Blob storage** is a service for storing large amounts of unstructured object data, such as text or binary data, that can be accessed from anywhere in the world via HTTP or HTTPS. You can use Blob storage to expose data publicly to the world, or to store application data privately. This article will demonstrate how one can use this service from a UWP application and manage the uploaded files.
 
 ## Set up Storage Account
 
