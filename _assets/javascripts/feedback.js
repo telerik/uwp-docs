@@ -16,7 +16,8 @@ $(document).ready(function () {
         outdatedSample: false,
         inaccurateOutdatedCodeSamplesText: "",
         otherFeedback: false,
-        textFeedback: ""
+        textFeedback: "",
+		acceptFeedbackContact: false
     };
 
     $("#feedback-checkbox-area").click(function (e) {
