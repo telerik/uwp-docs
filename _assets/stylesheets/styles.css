@@ -198,11 +198,18 @@ a img {
 #page-search .gsc-input {
     background-image: none !important;
     padding-right: 2px;
+	text-indent: 0 !important;
 }
+
+#page-search .gsc-input::placeholder{
+  opacity: 0 !important;
+}
+
 
 #page-search td.gsc-search-button {
     background: transparent url(../images/search.png) no-repeat 50% 50%;
     cursor: pointer;
+	width: 32px !important;
 }
 
 #page-search input.gsc-search-button {
@@ -212,6 +219,10 @@ a img {
     padding: 13px 13px 12px;
     background: none;
     opacity: 0;
+}
+
+#page-search button.gsc-search-button, #page-search .gcsc-branding {
+  display: none !important;
 }
 
 #page-top #page-search input.gsc-search-button {
