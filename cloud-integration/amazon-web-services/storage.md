@@ -201,7 +201,7 @@ Now that we have defined the **User** model and the **ViewModel** for our applic
             this.s3transferUtility = new TransferUtility(s3client);
         } 
 
-We are going to set the following logic in the event handler of the **RadButton** in order to add the functionality to change the profile picture of the User and upload this picture to the S3 storage:
+We are going to set the following logic in the event handler of the **Button** in order to add the functionality to change the profile picture of the User and upload this picture to the S3 storage:
 
 		private async void upload_button_Click(object sender, RoutedEventArgs e)
         {
