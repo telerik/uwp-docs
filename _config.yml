@@ -312,6 +312,15 @@ navigation:
     cloud-integration/amazon-web-services/connect-to-data-in-the-cloud:
         title: "Connect to Data in the Cloud"
         position: 5
+    cloud-integration/google-cloud:
+        title: "Google Cloud"
+        position: 3
+    cloud-integration/google-cloud/cognitive-services:
+        title: "Cognitive Services"
+        position: 4
+    cloud-integration/google-cloud/connect-to-data-in-the-cloud:
+        title: "Connect to Data in the Cloud"
+        position: 5
 ## Cloud Integration Sub-Folders		
 
 ## The application virtual path
