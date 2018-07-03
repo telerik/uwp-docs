@@ -23,7 +23,7 @@ Google Cloud SQL supports PostgreSQL (in Beta at the time of writing this articl
 
 ## Integration with RadDataGrid
 
-Once you have created the database and added different entities within it, you can use some of **Telerik UI for Xamarin**'s data controls to visualize the data in your .NET application. We are going to use a **RadDataGrid**.
+Once you have created the database and added different entities within it, you can use some of **Telerik UI for UWP**'s data controls to visualize the data in your .NET application. We are going to use a **RadDataGrid**.
 
 As we are going to work with a MySQL database, you need to install some **MySQL .NET Connector** - the connector that enabled .NET applications to communicate with MySQL servers. More information can be found on the following link - [MySQL Connector/NET Developer Guide](https://dev.mysql.com/doc/connector-net/en/)
 

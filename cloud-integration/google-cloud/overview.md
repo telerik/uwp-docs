@@ -32,7 +32,6 @@ Here are the currently available topics:
 
 ## See Also
 
-- [Google Cloud Overview]({%slug cloud-integration-google-overview%})
 - [Google Cloud DataStore]({%slug cloud-services-google-cloud-datastore%})
 - [Google Cloud Translation API]({%slug cloud-integration-cognitive-services-google-translation%})
 - [Google Cloud MySQL Database]({%slug cloud-integration-google-cloud-mysql-database%})
