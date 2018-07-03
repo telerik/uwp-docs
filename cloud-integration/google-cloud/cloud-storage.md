@@ -18,7 +18,7 @@ For the purposes of this article, you will have to enable the Google Cloud Stora
 
 ## Step 1: Create the {{ site.framework_name }} Application
 
-Create a standard {{ site.framework_name }} application and add 3 Buttons and a RadListView control to it. The first button will list all of the files uploaded in our storage. The second button will upload a file and the third one will delete the selected file in the RadListBox.
+Create a standard {{ site.framework_name }} application and add 3 Buttons and a RadListView control to it. The first button will list all of the files uploaded in our storage. The second button will upload a file and the third one will delete the selected file in the RadListView.
 
 #### __[XAML] Example 1: Defining the view__
 
@@ -171,10 +171,10 @@ The next step is to create the ViewModel. It will need a [StorageClient](https:/
     }
 
 
-> the Example uses verification through a JSON string, however, there are different options. Please read the [Setting Up Authentication for Server to Server Production Applications](https://cloud.google.com/docs/authentication/production) article.
+> The example uses verification through a JSON string, however, there are different options. Please read the [Setting Up Authentication for Server to Server Production Applications](https://cloud.google.com/docs/authentication/production) article.
 
 
-All that is left now is to set the DataContext of the MainPage and run the application
+All that is left now is to set the DataContext of the MainPage and run the application.
 
 #### __[C#] Example 3: Set the DataContext__
 
