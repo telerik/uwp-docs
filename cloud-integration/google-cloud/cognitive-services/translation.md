@@ -14,7 +14,7 @@ In this article we are going to show you how to use Google's Translation API. Th
 
 ## Step 1: Create the {{ site.framework_name }} Application
 
-Create a standard {{ site.framework_name }} application with the following setup. The RadListView controls will be used to choose the languages from and to which the translation will be applied:
+Create a standard {{ site.framework_name }} application with the following setup. Two RadListView controls will be used to choose the languages from and to which the translation will be applied:
 
 #### __[XAML] Example 1: Defining the view__
 
