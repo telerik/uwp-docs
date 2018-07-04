@@ -196,15 +196,8 @@ a img {
 }
 
 #page-search .gsc-input {
-    background-image: none !important;
-    padding-right: 2px;
-	text-indent: 0 !important;
+    padding-right: 2px;	
 }
-
-#page-search .gsc-input::placeholder{
-  opacity: 0 !important;
-}
-
 
 #page-search td.gsc-search-button {
     background: transparent url(../images/search.png) no-repeat 50% 50%;
@@ -221,14 +214,22 @@ a img {
     opacity: 0;
 }
 
-#page-search button.gsc-search-button, #page-search .gcsc-branding {
-  display: none !important;
-}
-
 #page-top #page-search input.gsc-search-button {
     padding: 8px 7px 7px;
 }
 
+button.gsc-search-button-v2 { 
+	border: none; 
+	background: none; 
+	background-image: none; 
+	filter: none; 
+	opacity: 0; 
+	padding: 0; 
+	cursor: pointer; 
+	width: 100%; 
+	height: 32px; 
+ } 
+ 
 /* Topic navigation */
 
 #page-nav {
