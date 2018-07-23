@@ -14,14 +14,20 @@ The RadListView supports different layouts. The layout could be modified with th
 
 - **Orientation**: Each layout supports horizontal and vertical orientation.
 - **LayoutDefinition**: Takes values of type LayoutDefinitionBase, which is base for the following classes:
- - **StackLayoutDefinition**: A layout definition that arranges the items in a stack.
+- **StackLayoutDefinition**: A layout definition that arranges the items in a stack.
 
 		     <telerikDataControls:RadListView>
 		         <telerikDataControls:RadListView.LayoutDefinition>
 		             <telerikListView:StackLayoutDefinition/>
 		         </telerikDataControls:RadListView.LayoutDefinition>
 		     </telerikDataControls:RadListView>
-		![StackLayoutDefinition](images/listview-layouts-stack.png)  
+		
+where:
+
+	xmlns:telerikListView="using:Telerik.UI.Xaml.Controls.Data.ListView"
+	
+![StackLayoutDefinition](images/listview-layouts-stack.png) 
+ 
  - **GridLayoutDefinition**: A layout definition that arranges the items in a grid. It has the following property:  
    **SpanCount** (int): Gets or sets the span count of the grid.
 
