@@ -168,7 +168,7 @@ The following code snippet demonstrates how to set a custom template:
 
 Where:
 
-	xmlns:telerikRrangeSliderPrimitives ="using:Telerik.UI.Xaml.Controls.Primitives.RangeSlider"
+	xmlns:sliderPrimitives="using:Telerik.UI.Xaml.Controls.Primitives.RangeSlider"
 
 The result is:  
 ![Rad Range Slider-Styling-Range Tool Tip Style](images/styling/RadRangeSlider-Styling-RangeToolTipStyle.png)

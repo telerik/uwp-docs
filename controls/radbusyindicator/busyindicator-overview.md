@@ -25,3 +25,11 @@ You can use the following properties to fine-tune the behavior of RadBusyIndicat
 
 * **Telerik.Core.dll**
 * **Telerik.UI.Xaml.Primitives.dll**
+
+Then, the following namespace has to be declared:
+	
+	xmlns:telerikPrimitives="using:Telerik.UI.Xaml.Controls.Primitives"
+
+Here is how RadRating is declared in XAML:
+	
+	<telerikPrimitives:RadBusyIndicator IsActive="True" x:Name="indicator"/>
