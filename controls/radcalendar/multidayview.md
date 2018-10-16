@@ -32,6 +32,7 @@ This section lists the key properties of MultiDayView you could use to set its t
 * **TimerRulerTickLength**: This property is of type *TimeSpan* and defines the density of the time ruler items.
 * **TimeLinesSpacing**: Defines the space between the lines on the DayView area in pixels.
 * **ShowCurrentTimeIndicator**: Provides the option to visually mark the current time in the time ruler and across the view. By default, it is True.
+* **WeekendsVisible**: Boolean property that will allow to exclude the weekends from the timeline, so that only the work week is displayed.
 
 All of the above are applied using the **MultiDayViewSettings** property of RadCalendar. Here is a quick example on how they could be set:
 

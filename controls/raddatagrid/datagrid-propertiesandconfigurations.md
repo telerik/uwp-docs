@@ -59,6 +59,7 @@ The style instance returned should target the DataGridGroupHeader type.
 * **[SelectedItems]({%slug datagrid-propertiesandconfigurations%})**: Gets the currently selected items within this instance. The type of items within the collection depends on the current *SelectionUnit* value:
 The data item (row) when the selection unit is *DataGridSelectionUnit.Row*. A *DataGridCellInfo* object when the selection unit is *DataGridSelectionUnit.Cell*.
 * **CanUserChooseColumns** (bool) - Gets or sets a value indicating whether the user can choose which columns are visible.
+* **ListenForNestedPropertyChange** (bool) - Allows the DataGrid to listen for changes of the nested properties' values. By default it is false. 
 
 Methods:
 
