@@ -21,11 +21,12 @@ The next example demonstrates a scenario with DataGrid RowDetails content which 
 First, let's use the following sample business objects:
 
 	public class DataItem
-	{
-		public string Country { get; set; }
-		public string Capital { get; set; }
-		public ObservableCollection<Customer> Details { get; set; }
-	}
+    {
+        public string Country { get; set; }
+        public string Capital { get; set; }
+        public bool HasRowDetails { get; set; }
+        public ObservableCollection<Customer> Details { get; set; }
+    }
 	public class Customer
 	{
 		public string Name { get; set; }
@@ -33,7 +34,9 @@ First, let's use the following sample business objects:
 		public string Email { get; set; }
 	}
 
-And set the ItemsSource of the DataGrid to a collection of DataItem objects:
+where HasRowDetails property will mark whether the RowDetails template for this data item is displayed. 
+	
+Then, set the ItemsSource of the DataGrid to a collection of DataItem objects :
 
 	this.DataGrid.ItemsSource = new List<DataItem>
 	{
@@ -52,24 +55,26 @@ And set the ItemsSource of the DataGrid to a collection of DataItem objects:
 		item.Details.Add(new Customer() { Name = "Tom Haack", Company = "Aprico", Email = "tom.haack@aprico.com" });
 	}
 	
+In addition, you will need to add a private property of your DataItem type which will mark the currently checked CheckBox inside the TemplateColumn:
+
+	private DataItem currentCheckedItem;
+	
 Here is the DataGrid definition with the **RowDetailsTemplate** applied:
 
-	<grid:RadDataGrid x:Name="DataGrid" 
-					UserGroupMode="Disabled"
-					AutoGenerateColumns="False"
-					RowDetailsDisplayMode="Single"
-					UserFilterMode="Enabled">
+	<grid:RadDataGrid x:Name="DataGrid"
+				  Grid.Row="1"
+				  UserGroupMode="Disabled"
+				  AutoGenerateColumns="False"
+				  RowDetailsDisplayMode="Single">
 		<grid:RadDataGrid.RowDetailsTemplate>
 			<DataTemplate>
 				<grid:RadDataGrid ItemsSource="{Binding Details}"
-								Background="LightGray"
-								UserGroupMode="Disabled"
-								UserEditMode="Inline"
-								AutoGenerateColumns="False">
+								  UserGroupMode="Disabled"
+								  AutoGenerateColumns="False">
 					<grid:RadDataGrid.Columns>
 						<grid:DataGridTextColumn PropertyName="Name"/>
 						<grid:DataGridTextColumn PropertyName="Company"/>
-						<grid:DataGridTextColumn PropertyName="Email"/>
+						<grid:DataGridTextColumn SizeMode="Stretch" PropertyName="Email"/>
 					</grid:RadDataGrid.Columns>
 				</grid:RadDataGrid>
 			</DataTemplate>
@@ -78,28 +83,35 @@ Here is the DataGrid definition with the **RowDetailsTemplate** applied:
 			<grid:DataGridTemplateColumn SizeMode="Fixed" Width="40">
 				<grid:DataGridTemplateColumn.CellContentTemplate>
 					<DataTemplate>
-						<CheckBox Checked="CheckBox_Checked" 
-								Unchecked="CheckBox_Unchecked" 
-								Margin="10"/>
+						<CheckBox Margin="10" IsChecked="{Binding HasRowDetails, Mode=TwoWay}" Click="OnCheckBoxClick"/>
 					</DataTemplate>
 				</grid:DataGridTemplateColumn.CellContentTemplate>
 			</grid:DataGridTemplateColumn>
-			<grid:DataGridTextColumn CanUserFilter="True" 
-								PropertyName="Country"/>
-			<grid:DataGridTextColumn CanUserFilter="True" 
-								PropertyName="Capital"/>
+			<grid:DataGridTextColumn PropertyName="Country"/>
+			<grid:DataGridTextColumn PropertyName="Capital"/>
 		</grid:RadDataGrid.Columns>
 	</grid:RadDataGrid>
 
-Finally, add the needed CheckBox events for expanding/collapsing the RowDetails:
+Finally, add the CheckBox Click event for expanding/collapsing the RowDetails:
 
-	private void CheckBox_Checked(object sender, RoutedEventArgs e)
+	private void OnCheckBoxClick(object sender, RoutedEventArgs e)
 	{
-		this.DataGrid.ShowRowDetailsForItem((sender as CheckBox).DataContext);
-	}
-	private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
-	{
-		this.DataGrid.HideRowDetailsForItem((sender as CheckBox).DataContext);
+		var cb = (CheckBox)sender;
+		var newCheckedItem = (DataItem)cb.DataContext;
+		if (cb.IsChecked.HasValue && cb.IsChecked.Value)
+		{
+			this.DataGrid.ShowRowDetailsForItem(newCheckedItem);
+		}
+		else
+		{
+			this.DataGrid.HideRowDetailsForItem(newCheckedItem);
+		}
+
+		if (currentCheckedItem != null)
+		{
+			currentCheckedItem.HasRowDetails = false;
+		}
+		currentCheckedItem = newCheckedItem;
 	}
 	
 Here is the final result:
