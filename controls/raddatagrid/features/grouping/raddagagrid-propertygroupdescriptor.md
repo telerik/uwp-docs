@@ -30,9 +30,13 @@ First, define a DataGrid instance in XAML with a PropertyGroupDescriptor which p
 
 	<grid:RadDataGrid Width="600" Height="460" x:Name="grid">
 	    <grid:RadDataGrid.GroupDescriptors>
-	        <grid:PropertyGroupDescriptor PropertyName="Country" />
-	        </grid:RadDataGrid.GroupDescriptors>
+	        <telerikCore:PropertyGroupDescriptor PropertyName="Country" />
+	    </grid:RadDataGrid.GroupDescriptors>
 	</grid:RadDataGrid>
+
+where *telerikCore* namespace is:
+
+	xmlns:telerikCore="using:Telerik.Data.Core"
 
 Next, create sample data and add it to the DataContext of our DataGrid:
 

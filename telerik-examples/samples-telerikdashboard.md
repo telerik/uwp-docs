@@ -32,7 +32,7 @@ The Telerik Dashboard application displays some real-world usages of the data vi
 You can find the Telerik Dashboard source code on couple places.
 * In the Telerik UI for Universal Windows Platform installation folder. 
 	
-	You can open the installation folder. The dashboard example is located in the following folder *~\Telerik\UI for Universal Windows Platform RX 201X\SampleApps\SalesDashboard.UWP*.
+	You can open the installation folder. The dashboard example is located in the following folder *~\Progress\Telerik UI for UWP RX 201X\SampleApps\SalesDashboard.UWP*.
 
 
 * Under the download page of your **Telerik** account.
