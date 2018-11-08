@@ -42,13 +42,17 @@ And set the KeyLookup property to this class:
 
 	<grid:RadDataGrid Width="600" Height="460" x:Name="grid">
 	    <grid:RadDataGrid.GroupDescriptors>
-	        <grid:DelegateGroupDescriptor>
-	            <grid:DelegateGroupDescriptor.KeyLookup>
+	        <telerikCore:DelegateGroupDescriptor>
+	            <telerikCore:DelegateGroupDescriptor.KeyLookup>
 	                <local:CustomIKeyLookup/>
-	            </grid:DelegateGroupDescriptor.KeyLookup>
-	        </grid:DelegateGroupDescriptor>
+	            </telerikCore:DelegateGroupDescriptor.KeyLookup>
+	        </telerikCore:DelegateGroupDescriptor>
 	    </grid:RadDataGrid.GroupDescriptors>
 	</grid:RadDataGrid>
+	
+where *telerikCore* namespace is:
+
+	xmlns:telerikCore="using:Telerik.Data.Core"
 
 As you can see, in this case the key we return is the first letter from each City.
 

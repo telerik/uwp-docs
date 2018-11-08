@@ -25,6 +25,7 @@ Here is an example of how to add a PropertyAggregateDescriptor to a RadDataGrid.
 You will need to define the telerikCore namespace like this
 
 	xmlns:telerikGrid="using:Telerik.UI.Xaml.Controls.Grid"
+    xmlns:telerikCore="using:Telerik.Data.Core"
  
 >You can get the aggregate value/s through the GetAggregateValue and GetAggregateValues methods of the [IDataView]({%slug raddatagrid-dataview%}) interface.
 

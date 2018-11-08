@@ -46,3 +46,9 @@ Here's the data:
 		public string Lecture { get; set; }
 		public DateTime Time { get; set; }
 	}
+	
+In addition, you could use **CellContentFormat** to format the time using any of the [.NET Standard Date and Time Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings).
+
+Here is a quick example:
+
+	<grid:DataGridTimeColumn PropertyName="Time" Header="Start" CellContentFormat="{}{0:T}" />
