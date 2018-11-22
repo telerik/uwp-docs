@@ -30,8 +30,6 @@ This help article shows how to create a DataGrid from scratch using the DataGrid
 >
 >Alternatively, you can add a reference to **Telerik UI for {{ site.framework_name }} SDK**.
 
->Here is a complete list of all breaking changes introduced in Q1 2015: [Breaking Changes And Backwards Compatibility]({%slug common-breakingchanges%})
-
 Next, add the **Telerik.UI.Xaml.Controls.Grid** namespace:
 	
 	xmlns:telerikGrid="using:Telerik.UI.Xaml.Controls.Grid"
