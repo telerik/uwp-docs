@@ -359,7 +359,7 @@ edit_repo_url: https://github.com/telerik/uwp-docs/edit/master
 download: https://www.telerik.com/download-trial-file/v2-b/ui-for-universal-windows-platform
 nav:
   "Demos": https://www.microsoft.com/en-us/p/telerik-ui-for-uwp-examples/9n3fgcz50qnl?activetab=pivot:overviewtab
-  "What's New": https://www.telerik.com/support/whats-new/uwp
+  "Whats New": https://www.telerik.com/support/whats-new/uwp
   "Release History": https://www.telerik.com/support/whats-new/uwp/release-history
   "About": https://www.telerik.com/universal-windows-platform-ui
   "Pricing": https://www.telerik.com/purchase/universal-windows-platform
