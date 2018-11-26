@@ -27,9 +27,14 @@ First, define a DataGrid instance in XAML with a PropertySortDescriptor which po
 
 	<grid:RadDataGrid Width="600" Height="460" x:Name="grid">
 	    <grid:RadDataGrid.SortDescriptors>
-	        <grid:PropertySortDescriptor PropertyName="Country"/>
+	        <dataCore:PropertySortDescriptor PropertyName="Country"/>
 	    </grid:RadDataGrid.SortDescriptors>
 	</grid:RadDataGrid>
+
+Be aware that you need to define the correct namespace for PropertySortDescriptor in your .xaml file, which is Telerik.Data.Core
+
+	xmlns:grid="using:Telerik.UI.Xaml.Controls.Grid"
+	xmlns:dataCore="using:Telerik.Data.Core"
 
 Then create sample data and add it to the datacontext of the DataGrid:
 
