@@ -30,6 +30,7 @@ The developer can provide information about the object and its properties which 
         public double Salary { get; set; }
     }
 
+ Make sure you're using #Telerik.Data.Core, or the Display attribute will resolve to a SystemComponent version.
 # External Provider
 
 If the developer has no access to the type of its Item he can provide this metadata through implementing the **EntityProperty** class or overriding the default implementaion - **RuntimeEntityProperty** which works with runtime objects.
