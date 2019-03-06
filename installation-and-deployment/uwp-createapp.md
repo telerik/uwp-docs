@@ -13,7 +13,7 @@ position: 3
 The following example describes what steps you should perform in order to add Telerik UI for UWP in your application.
 
 ## Requirements
-Before walking through this example, you must have installed **Telerik UI for UWP** and **Visual Studio 2015/17** on your machine.
+Before walking through this example, you need to have **Telerik UI for UWP** and **Visual Studio 2015** (or later - VS17, VS19) installed on your machine.
 
 ## Create New Application
 
