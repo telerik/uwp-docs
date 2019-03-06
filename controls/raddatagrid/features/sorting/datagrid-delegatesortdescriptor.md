@@ -27,13 +27,18 @@ Now, we will show a simple example:
 
 	<grid:RadDataGrid Width="600" Height="460" x:Name="Grid">
 	    <grid:RadDataGrid.SortDescriptors>
-	        <grid:DelegateSortDescriptor>
-	            <grid:DelegateSortDescriptor.KeyLookup>
+	        <dataCore:DelegateSortDescriptor>
+	            <dataCore:DelegateSortDescriptor.KeyLookup>
 	                <local:CustomIKeyLookup/>
-	            </grid:DelegateSortDescriptor.KeyLookup>
-	        </grid:DelegateSortDescriptor>
+	            </dataCore:DelegateSortDescriptor.KeyLookup>
+	        </dataCore:DelegateSortDescriptor>
 	    </grid:RadDataGrid.SortDescriptors>
 	</grid:RadDataGrid>
+
+Be aware that you need to define the correct namespace for DelegateSortDescriptor in your .xaml file, which is Telerik.Data.Core
+
+	xmlns:grid="using:Telerik.UI.Xaml.Controls.Grid"
+	xmlns:dataCore="using:Telerik.Data.Core"
 
 Here we create a custom class that implement the IKeyLookup interface where the context we receive is our object:
 
