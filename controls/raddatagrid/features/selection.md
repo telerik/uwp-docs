@@ -30,6 +30,7 @@ First, you can choose the **Unit** that you will be allowed to select and then t
 * **SelectionMode** property (type of DataGridSelectionMode):
 	* **Single**: Single unit may be selected(by default).
 	* **Multiple**: Multiple units may be selected.
+	* **Extended**: Items are added to the selection only by combining the mouse clicks with the Ctrl or Shift keys. 
 	* **None**: No selection is allowed.
 
 Once you make a selection, you can get or modify a collection with the selected Items by using:
