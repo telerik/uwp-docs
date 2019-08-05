@@ -11,32 +11,20 @@ position: 0
 # Implicit Styling
 
 This article demonstrates how to style specific elements of the grid through implicit styles.
-The Style that defines the appearance of the element should be defined in the **Resources** of the grid
-and the **TargetType** property of the style specifies which element will be styled.
-Below are listed the parts that could be targetted.
+The Style that defines the appearance of the element should be defined in the **Resources** of the grid and the **TargetType** property of the style specifies which element will be styled.
+
+Below are listed the parts that could be targeted.
 
 >The following namespace has to be added to the Page: **xmlns:gridPrimitives="using:Telerik.UI.Xaml.Controls.Grid.Primitives"**
 
 ## Hover Control
 
-This is how you can change the appearance of a Cell/Row(depends on the current SelectionUnit).
+This is how you can change the appearance of a Cell/Row(depends on the current SelectionUnit) when the mouse goes over it.
 
 	<telerikGrid:RadDataGrid.Resources>
 	    <Style TargetType="gridPrimitives:DataGridHoverControl">
 	        <Setter Property="Background" Value="Red"/>
 	        <Setter Property="Opacity" Value="0.5"/>
-	    </Style>
-	</telerikGrid:RadDataGrid.Resources>
-
-## SelectionRegionBackground Control
-
-This is how you can change the appearance of the Selected Cell/Row(depends on the current SelectionUnit).
-
-	<telerikGrid:RadDataGrid.Resources>
-	    <Style TargetType="gridPrimitives:SelectionRegionBackgroundControl">
-	        <Setter Property="Background" Value="Red"/>
-	        <Setter Property="BorderBrush" Value="Green"/>
-	        <Setter Property="BorderThickness" Value="2"/>
 	    </Style>
 	</telerikGrid:RadDataGrid.Resources>
 
@@ -50,6 +38,20 @@ This is how you can change the appearance of the Selected Cell/Row(depends on th
 	    </Style>
 	</telerikGrid:RadDataGrid.Resources>
 
+## SelectionRegionBackground Control
+
+This is how you can change the appearance of the Selected Cell/Row(depends on the current SelectionUnit). 
+
+	<telerikGrid:RadDataGrid.Resources>
+	    <Style TargetType="gridPrimitives:SelectionRegionBackgroundControl">
+	        <Setter Property="Background" Value="Red"/>
+	        <Setter Property="BorderBrush" Value="Green"/>
+	        <Setter Property="BorderThickness" Value="2"/>
+	    </Style>
+	</telerikGrid:RadDataGrid.Resources>
+	
+> Please keep in mind that SelectionRegionBorder control is rendered over the SelectionRegionBackground control.
+	
 ## Currency Control
 
 This is how you can change the appearance of the Currency Control, i.e. the appearance of the Current Item.

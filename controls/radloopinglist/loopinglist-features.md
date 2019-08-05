@@ -61,6 +61,6 @@ RadLoopingList can be put into a read only state via the **IsManipulationEnabled
 
 ## Events
 
-RadLoopingList exposes two very simple events. These are **SelectedIndexChanged** and **ScrollCompleted**.
-ScrollCompleted is fired when the scrolling animation finishes. It is important to note that snapping also triggers this event.
+RadLoopingList exposes two very simple events. These are **SelectedIndexChanged** and **IsExpandedChanged**.
+IsExpandedChanged is raised when **IsExpanded** property of the control is updated.
 SelectedIndexChanged on the other hand fires when the user selects an item, when the **SelectedIndex** property of RadLoopingList is set through code and when the item is automatically centered and selected by the snapping feature.
