@@ -19,23 +19,37 @@ To learn more about the localization take a look at these articles:
 
 ## Localization Keys for RadDataGrid
 
-* **And**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **CaseSensitiveMode**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **ClearFilter**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **Contains**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **DoesNotContain**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **DragToGroup**: [Relates to the Grouping UI.]({%slug datagrid-grouping-overview%})
-* **EndsWith**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **EqualsTo**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **Filter**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **IsFalse**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **IsGreaterThan**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **IsGreaterThanOrEqualTo**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **IsLessThan**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **IsLessThanOrEqualTo**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **IsTrue**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **Or**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})
-* **StartsWith**: [Relates to the Filtering UI.]({%slug datagrid-filtering-overview%})</table>
+| Localization Key 					| Default Value 		 	| Relates to 	|
+| --------------------------------- | ------------------------- | ------------- |
+| **And**							| And						| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **Cancel**	   					| Cancel				 	| &nbsp;		|
+| **CaseSensitiveMode**				| Case-sensitive mode is 	| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **ClearFilter**					| Clear filter 			 	| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **ColumnChooserHeader**			| ALL COLUMNS				|				|	
+| **Contains**						| Contains					| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **DataOperationsButtonFilter**	| Filter					|				|
+| **DataOperationsButtonGroup**		| Group by					|				|
+| **DataOperationsButtonSort**		| Sort						|				|
+| **DataOperationsButtonUngroup** 	| Ungroup by				|				|
+| **DoesNotContain**				| Does not contain			| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **DoesNotEqualTo**				| Is not equal to			| 				|
+| **DragToGroup**					| Drag a column header here to group | [Grouping UI]({%slug datagrid-grouping-overview%}) |
+| **EndsWith**						| Ends with					| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **EqualsTo**						| Is equal to				| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **FilterButton**					| Apply						|				|
+| **FilterHeader**					| FILTER					| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **IsFalse**						| is false					| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **IsGreaterThan**					| Is greater than			| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **IsGreaterThanOrEqualTo**		| Is greater than or equal to | [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **IsLessThan**					| Is less than				| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **IsLessThanOrEqualTo**			| Is less than or equal to	| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **IsTrue**						| is true					| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **LoadMoreRows**					| load more rows			|				|
+| **Off**							| off						|				|
+| **On**							| on						|				|
+| **Or**							| Or						| [Filtering UI]({%slug datagrid-filtering-overview%}) |
+| **Save**							| Save**					|				|
+| **StartsWith**					| Starts with				| [Filtering UI]({%slug datagrid-filtering-overview%}) |
 
 # See Also
 
