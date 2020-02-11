@@ -339,6 +339,111 @@ defaults:
     values:
         layout: "documentation"
         category: "default"
+-
+    scope:
+        path: "controls/radautocompletebox"
+    values:
+        title_prefix: "UWP AutoCompleteBox Documentation"
+-
+    scope:
+        path: "controls/radbulletgraph"
+    values:
+        title_prefix: "UWP BulletGraph Documentation"   
+-
+    scope:
+        path: "controls/radbusyindicator"
+    values:
+        title_prefix: "UWP BusyIndicator Documentation"   
+-
+    scope:
+        path: "controls/radcalendar"
+    values:
+        title_prefix: "UWP Calendar Documentation"  
+-
+    scope:
+        path: "controls/radchart"
+    values:
+        title_prefix: "UWP Chart Documentation"   
+-
+    scope:
+        path: "controls/raddataboundlistbox"
+    values:
+        title_prefix: "UWP DataboundListbox Documentation"   
+-
+    scope:
+        path: "controls/raddataform"
+    values:
+        title_prefix: "UWP DataForm Documentation"   
+-
+    scope:
+        path: "controls/raddatagrid"
+    values:
+        title_prefix: "UWP DataGrid Documentation"   
+-
+    scope:
+        path: "controls/raddatepicker-and-radtimepicker"
+    values:
+        title_prefix: "UWP DatePicker and TimePicker Documentation"  
+-
+    scope:
+        path: "controls/radexpander"
+    values:
+        title_prefix: "UWP ExpanderControl Documentation"   
+-
+    scope:
+        path: "controls/radgauge"
+    values:
+        title_prefix: "UWP Gauge Documentation"   
+-
+    scope:
+        path: "controls/radhubtile"
+    values:
+        title_prefix: "UWP HubTile Documentation"   
+-
+    scope:
+        path: "controls/radlistview"
+    values:
+        title_prefix: "UWP ListView Documentation"   
+-
+    scope:
+        path: "controls/radloopinglist"
+    values:
+        title_prefix: "UWP LoopingList Documentation"
+-
+    scope:
+        path: "controls/radmap"
+    values:
+        title_prefix: "UWP Map Documentation"         
+-
+    scope:
+        path: "controls/radnumericbox"
+    values:
+        title_prefix: "UWP NumericBox Documentation"         
+-
+    scope:
+        path: "controls/radradialmenu"
+    values:
+        title_prefix: "UWP RadialMenu Documentation"         
+-
+    scope:
+        path: "controls/radrangeslider"
+    values:
+        title_prefix: "UWP RangeSlider Documentation"         
+-
+    scope:
+        path: "controls/radrating"
+    values:
+        title_prefix: "UWP Rating Documentation"         
+-
+    scope:
+        path: "controls/radsidedrawer"
+    values:
+        title_prefix: "UWP SideDrawer Documentation"         
+-
+    scope:
+        path: "controls/radpagination"
+    values:
+        title_prefix: "UWP Pagination Documentation"                 
 
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
