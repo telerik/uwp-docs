@@ -1,7 +1,7 @@
 ---
 title: MultiDayView
 page_title: MultiDayView
-description: MultiDayView
+description: Check our &quot;MultiDayView&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-multidayview
 tags: dayview, multidayview
 published: True

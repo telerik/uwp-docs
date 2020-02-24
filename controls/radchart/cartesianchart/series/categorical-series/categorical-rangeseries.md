@@ -1,7 +1,7 @@
 ---
 title: Range Series
 page_title: Range Series
-description: Range Series
+description: Check our &quot;Range Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-rangeseries
 tags: range,series
 published: True

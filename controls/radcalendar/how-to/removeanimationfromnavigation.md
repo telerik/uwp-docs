@@ -1,7 +1,7 @@
 ---
 title: Remove the Animation When Navigate 
 page_title: Remove the Animation When Navigate 
-description: Remove the Animation When Navigate 
+description: Check our &quot;Remove the Animation When Navigate&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-removeanimationfromnavigation
 tags: remove,the,animation,when,navigate,
 published: True

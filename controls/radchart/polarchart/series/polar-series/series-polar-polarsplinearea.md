@@ -1,7 +1,7 @@
 ---
 title: Polar Spline Area Series
 page_title: Polar Spline Area Series
-description: Polar Spline Area Series
+description: Check our &quot;Polar Spline Area Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-polarchart-series-polar-polarsplinearea
 tags: polar,spline,area,series
 published: True

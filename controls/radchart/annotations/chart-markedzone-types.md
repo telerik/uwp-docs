@@ -1,7 +1,7 @@
 ---
 title: Marked Zone Annotation
 page_title: Marked Zone Annotation
-description: Marked Zone Annotation
+description: Check our &quot;Marked Zone Annotation&quot; documentation article for RadChart for UWP control.
 slug: chart-annotations-markedzone-types
 tags: marked,zone,annotation
 published: True

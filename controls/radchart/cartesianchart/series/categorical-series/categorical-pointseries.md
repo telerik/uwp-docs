@@ -1,7 +1,7 @@
 ---
 title: Point Series
 page_title: Point Series
-description: Point Series
+description: Check our &quot;Point Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-pointseries
 tags: pointseries,point
 published: True

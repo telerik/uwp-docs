@@ -1,7 +1,7 @@
 ---
 title: Bar Series
 page_title: Bar Series
-description: Bar Series
+description: Check our &quot;Bar Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-barseries
 tags: bar,series
 published: True

@@ -1,7 +1,7 @@
 ---
 title: GridLine Annotation Types
 page_title: GridLine Annotation Types
-description: GridLine Annotation Types
+description: Check our &quot;GridLine Annotation Types&quot; documentation article for RadChart for UWP control.
 slug: chart-annotations-gridline-types
 tags: gridline,annotation,types
 published: True

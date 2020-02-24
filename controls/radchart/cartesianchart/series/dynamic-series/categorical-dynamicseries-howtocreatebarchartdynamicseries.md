@@ -1,7 +1,7 @@
 ---
 title: How to Generate a Dynamic Series Using a Collection of Collections
 page_title: How to Generate a Dynamic Series Using a Collection of Collections
-description: How to Generate a Dynamic Series Using a Collection of Collections
+description: Check our &quot;How to Generate a Dynamic Series Using a Collection of Collections&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-dynamicseries-howtocreatebarchartdynamicseries
 tags: how,to,generate,a,dynamic,series,using,a,collection,of,collections
 published: True

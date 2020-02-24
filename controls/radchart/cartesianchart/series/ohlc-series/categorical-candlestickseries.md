@@ -1,7 +1,7 @@
 ---
 title: CandlestickSeries
 page_title: CandlestickSeries
-description: CandlestickSeries
+description: Check our &quot;CandlestickSeries&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-candlestickseries
 tags: candlestickseries
 published: True

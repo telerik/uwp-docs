@@ -1,7 +1,7 @@
 ---
 title: Scatter Area Series
 page_title: Scatter Area Series
-description: Scatter Area Series
+description: Check our &quot;Scatter Area Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-skatter-scatterareaseries
 tags: scatter,area,series
 published: True

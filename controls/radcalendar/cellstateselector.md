@@ -1,7 +1,7 @@
 ---
 title: Special Slots
 page_title: Special Slots
-description: Special Slots
+description: Check our &quot;Special Slots&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-cellstateselector
 tags: special,slots
 published: True

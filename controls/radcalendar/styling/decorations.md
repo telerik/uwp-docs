@@ -1,7 +1,7 @@
 ---
 title: Decorations
 page_title: Decorations
-description: Decorations
+description: Check our &quot;Decorations&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-decorations
 tags: decorations
 published: True

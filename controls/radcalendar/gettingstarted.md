@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: Getting Started
-description: Getting Started
+description: Check our &quot;Getting Started&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-gettingstarted
 tags: getting,started
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Suggestion Items Styling
 page_title: Suggestion Items Styling
-description: Suggestion Items Styling
+description: Check our &quot;Suggestion Items Styling&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-itemtemplates
 tags: suggestion,items,styling
 published: True

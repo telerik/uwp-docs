@@ -1,7 +1,7 @@
 ---
 title: Localization Keys
 page_title: Localization Keys
-description: Localization Keys
+description: Check our &quot;Localization Keys&quot; documentation article for RadChart for UWP control.
 slug: radchart-localizationkeys
 tags: localization,keys
 published: True

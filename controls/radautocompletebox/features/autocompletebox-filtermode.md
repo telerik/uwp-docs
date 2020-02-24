@@ -1,7 +1,7 @@
 ---
 title: Filter Modes
 page_title: Filter Modes
-description: Filter Modes
+description: Check our &quot;Filter Modes&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-filtermode
 tags: filter,modes
 published: True

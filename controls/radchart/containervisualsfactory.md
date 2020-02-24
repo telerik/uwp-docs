@@ -1,7 +1,7 @@
 ---
 title: ContainerVisualsFactory
 page_title: ContainerVisualsFactory
-description: ContainerVisualsFactory
+description: Check our &quot;ContainerVisualsFactory&quot; documentation article for RadChart for UWP control.
 slug: radchart-containervisualsfactory
 tags: containervisualsfactory
 published: True

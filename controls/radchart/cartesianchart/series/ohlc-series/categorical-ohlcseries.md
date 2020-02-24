@@ -1,7 +1,7 @@
 ---
 title: OhlcSeries
 page_title: OhlcSeries
-description: OhlcSeries
+description: Check our &quot;OhlcSeries&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-ohlcseries
 tags: ohlcseries
 published: True

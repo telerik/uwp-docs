@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview
-description: Overview
+description: Check our &quot;Overview&quot; documentation article for RadBulletGraph for UWP control.
 slug: bulletgraph-overview
 tags: overview
 published: True

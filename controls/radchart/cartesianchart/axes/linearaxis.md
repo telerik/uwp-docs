@@ -1,7 +1,7 @@
 ---
 title: Linear Axis
 page_title: Linear Axis
-description: Linear Axis
+description: Check our &quot;Linear Axis&quot; documentation article for RadChart for UWP control.
 slug: radchart-axes-linearaxis
 tags: linear,axis
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Currency
 page_title: Currency
-description: Currency
+description: Check our &quot;Currency&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-currency
 tags: currency
 published: True

@@ -1,7 +1,7 @@
 ---
 title: PolarSeries Class
 page_title: PolarSeries Class
-description: PolarSeries Class
+description: Check our &quot;PolarSeries Class&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-polarchart-series-polarseriesclass
 tags: polarseries,class
 published: True

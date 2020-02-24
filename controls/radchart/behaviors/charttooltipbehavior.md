@@ -1,7 +1,7 @@
 ---
 title: ToolTip Behavior
 page_title: ToolTip Behavior
-description: ToolTip Behavior
+description: Check our &quot;ToolTip Behavior&quot; documentation article for RadChart for UWP control.
 slug: radchart-behaviors-charttooltipbehavior
 tags: tooltip,behavior
 published: True

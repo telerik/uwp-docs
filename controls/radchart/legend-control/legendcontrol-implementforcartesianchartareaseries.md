@@ -1,7 +1,7 @@
 ---
 title: Implement a Legend Control for a Cartesian Chart with Area Series
 page_title: Implement a Legend Control for a Cartesian Chart with Area Series
-description: Implement a Legend Control for a Cartesian Chart with Area Series
+description: Check our &quot;Implement a Legend Control for a Cartesian Chart with Area Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-legendcontrol-implementforcartesianchartareaseries
 tags: implement,a,legend,control,for,a,cartesian,chart,with,area,series
 published: True

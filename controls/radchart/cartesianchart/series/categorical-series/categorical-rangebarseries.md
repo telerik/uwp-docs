@@ -1,7 +1,7 @@
 ---
 title: RangeBar Series
 page_title: RangeBar Series
-description: RangeBar Series
+description: Check our &quot;RangeBar Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-rangebarseries
 tags: rangebar,series
 published: True

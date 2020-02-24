@@ -1,7 +1,7 @@
 ---
 title: Scatter Spline Area Series
 page_title: Scatter Spline Area Series
-description: Scatter Spline Area Series
+description: Check our &quot;Scatter Spline Area Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-skatter-scattersplineareaseries
 tags: scatter,spline,area,series
 published: True

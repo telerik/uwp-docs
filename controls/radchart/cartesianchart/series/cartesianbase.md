@@ -1,7 +1,7 @@
 ---
 title: CartesianSeries Class
 page_title: CartesianSeries Class
-description: CartesianSeries Class
+description: Check our &quot;CartesianSeries Class&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-cartesianbase
 tags: cartesianseries,class
 published: True

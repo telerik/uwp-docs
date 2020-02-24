@@ -1,7 +1,7 @@
 ---
 title: How to Reverse RadBulletGraph Scale
 page_title: How to Reverse RadBulletGraph Scale
-description: How to Reverse RadBulletGraph Scale
+description: Check our &quot;How to Reverse RadBulletGraph Scale&quot; documentation article for RadBulletGraph for UWP control.
 slug: bulletgraph-how-to-reverse-scale
 tags: how,to,reverse,radbulletgraph,scale
 published: True

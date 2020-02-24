@@ -1,7 +1,7 @@
 ---
 title: Ohlc Series Descriptor
 page_title: Ohlc Series Descriptor
-description: Ohlc Series Descriptor
+description: Check our &quot;Ohlc Series Descriptor&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-dynamicseries-seriesdescriptors-ohlcseriesdescriptor
 tags: ohlc,series,descriptor
 published: True

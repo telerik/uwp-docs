@@ -1,7 +1,7 @@
 ---
 title: Radar Line Series
 page_title: Radar Line Series
-description: Radar Line Series
+description: Check our &quot;Radar Line Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-polarchart-series-radar-radarline
 tags: radar,line,series
 published: True

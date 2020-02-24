@@ -1,7 +1,7 @@
 ---
 title: Filter Start Threshold
 page_title: Filter Start Threshold
-description: Filter Start Threshold
+description: Check our &quot;Filter Start Threshold&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-filterstartthreshold
 tags: filter,start,threshold
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Radar Point Series
 page_title: Radar Point Series
-description: Radar Point Series
+description: Check our &quot;Radar Point Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-polarchart-series-radar-radarpoint
 tags: radar,point,series
 published: True

@@ -1,7 +1,7 @@
 ---
 title: CartesianAxis Class
 page_title: CartesianAxis Class
-description: CartesianAxis Class
+description: Check our &quot;CartesianAxis Class&quot; documentation article for RadChart for UWP control.
 slug: radchart-axes-cartesianaxis
 tags: cartesianaxis,class
 published: True

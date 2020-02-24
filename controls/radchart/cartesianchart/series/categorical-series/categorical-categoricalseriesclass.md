@@ -1,7 +1,7 @@
 ---
 title: Categorical Series Class
 page_title: Categorical Series Class
-description: Categorical Series Class
+description: Check our &quot;Categorical Series Class&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-cartesianchart-series-categorical-categoricalseriesclass
 tags: categorical,series,class
 published: True

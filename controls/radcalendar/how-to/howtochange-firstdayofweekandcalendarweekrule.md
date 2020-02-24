@@ -1,7 +1,7 @@
 ---
 title: Change First Day of Week and Calendar Week Rule
 page_title: Change First Day of Week and Calendar Week Rule
-description: Change First Day of Week and Calendar Week Rule
+description: Check our &quot;Change First Day of Week and Calendar Week Rule&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-howtochange-firstdayofweekandcalendarweekrule
 tags: change,first,day,of,week,and,calendar,week,rule
 published: True

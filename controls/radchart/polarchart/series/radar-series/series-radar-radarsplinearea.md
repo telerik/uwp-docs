@@ -1,7 +1,7 @@
 ---
 title: Radar Spline Area Series
 page_title: Radar Spline Area Series
-description: Radar Spline Area Series
+description: Check our &quot;Radar Spline Area Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-polarchart-series-radar-radarsplinearea
 tags: radar,spline,area,series
 published: True

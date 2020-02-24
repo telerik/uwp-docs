@@ -1,7 +1,7 @@
 ---
 title: Categorical Series Descriptor
 page_title: Categorical Series Descriptor
-description: Categorical Series Descriptor
+description: Check our &quot;Categorical Series Descriptor&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-dynamicseries-seriesdescriptors-categoricalseriesdescriptor
 tags: categorical,series,descriptor
 published: True

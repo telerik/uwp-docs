@@ -1,7 +1,7 @@
 ---
 title: Step Line Series
 page_title: Step Line Series
-description: Step Line Series
+description: Check our &quot;Step Line Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categoricalseries-steplineseries
 tags: step,line,series
 published: True

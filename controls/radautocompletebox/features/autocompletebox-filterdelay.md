@@ -1,7 +1,7 @@
 ---
 title: Filter Delay
 page_title: Filter Delay
-description: Filter Delay
+description: Check our &quot;Filter Delay&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-filterdelay
 tags: filter,delay
 published: True

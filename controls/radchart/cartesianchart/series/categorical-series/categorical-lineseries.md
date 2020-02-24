@@ -1,7 +1,7 @@
 ---
 title: Line Series
 page_title: Line Series
-description: Line Series
+description: Check our &quot;Line Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-lineseries
 tags: line,series
 published: True

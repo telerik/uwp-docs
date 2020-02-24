@@ -1,7 +1,7 @@
 ---
 title: Annotation Labels
 page_title: Annotation Labels
-description: Annotation Labels
+description: Check our &quot;Annotation Labels&quot; documentation article for RadChart for UWP control.
 slug: chart-annotations-labels
 tags: annotation,labels
 published: True

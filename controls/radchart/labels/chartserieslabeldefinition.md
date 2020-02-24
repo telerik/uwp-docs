@@ -1,7 +1,7 @@
 ---
 title: Label Definitions
 page_title: Label Definitions
-description: Label Definitions
+description: Check our &quot;Label Definitions&quot; documentation article for RadChart for UWP control.
 slug: radchart-labels-chartserieslabeldefinition
 tags: label,definitions
 published: True

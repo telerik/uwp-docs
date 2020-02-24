@@ -1,7 +1,7 @@
 ---
 title: Display Custom Event Information in Calendar Cells
 page_title: Display Custom Event Information in Calendar Cells
-description: Display Custom Event Information in Calendar Cells
+description: Check our &quot;Display Custom Event Information in Calendar Cells&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-customeventinformation
 tags: display,custom,event,information,in,calendar,cells
 published: True

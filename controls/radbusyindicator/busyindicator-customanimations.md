@@ -1,7 +1,7 @@
 ---
 title: Custom Animations
 page_title: Custom Animations
-description: Custom Animations
+description: Check our &quot;Custom Animations&quot; documentation article for RadBusyIndicator for UWP control.
 slug: busyindicator-customanimations
 tags: custom,animations
 published: True

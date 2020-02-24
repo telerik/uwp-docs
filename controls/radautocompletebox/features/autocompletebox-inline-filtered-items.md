@@ -1,7 +1,7 @@
 ---
 title: Inline Filtered Items Display
 page_title: Inline Filtered Items Display
-description: Inline Filtered Items Display
+description: Check our &quot;Inline Filtered Items Display&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-inline-filtered-items
 tags: inline,filtered,items,display
 published: True

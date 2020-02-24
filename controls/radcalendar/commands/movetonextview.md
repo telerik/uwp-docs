@@ -1,7 +1,7 @@
 ---
 title: MoveToNextView
 page_title: MoveToNextView
-description: MoveToNextView
+description: Check our &quot;MoveToNextView&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-commands-movetonextview
 tags: movetonextview
 published: True

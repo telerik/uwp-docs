@@ -1,7 +1,7 @@
 ---
 title: Categorical Axis
 page_title: Categorical Axis
-description: Categorical Axis
+description: Check our &quot;Categorical Axis&quot; documentation article for RadChart for UWP control.
 slug: radchart-axes-categoricalaxis
 tags: categorical,axis
 published: True

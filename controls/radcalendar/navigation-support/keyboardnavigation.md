@@ -1,7 +1,7 @@
 ---
 title: Keyboard Navigation
 page_title: Keyboard Navigation
-description: Keyboard Navigation
+description: Check our &quot;Keyboard Navigation&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-keyboardnavigation
 tags: keyboard,navigation
 published: True

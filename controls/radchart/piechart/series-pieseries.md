@@ -1,7 +1,7 @@
 ---
 title: Pie Series
 page_title: Pie Series
-description: Pie Series
+description: Check our &quot;Pie Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-pieseries
 tags: pie,series
 published: True
