@@ -1,7 +1,7 @@
 ---
 title: Features
 page_title: Features
-description: RadSideDrawer Features
+description: Check our &quot;Features&quot; documentation article for RadSideDrawer for UWP control.
 slug: sidedrawer-features
 tags: sidedrawer,radsidedrawer,features
 published: True

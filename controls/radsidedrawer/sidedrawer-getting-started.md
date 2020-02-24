@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: Getting Started
-description: RadSideDrawer Getting Started
+description: Check our &quot;Getting Started&quot; documentation article for RadSideDrawer for UWP control.
 slug: sidedrawer-getting-started
 tags: sidedrawer,radsidedrawer
 published: True

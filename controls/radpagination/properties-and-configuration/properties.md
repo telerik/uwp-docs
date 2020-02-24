@@ -1,7 +1,7 @@
 ---
 title: Pagination
 page_title: Pagination
-description: Pagination
+description: Check our &quot;Pagination&quot; documentation article for RadPagination for UWP control.
 slug: radpagination-properties
 tags: pagination
 published: True

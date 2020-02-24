@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: Styling
-description: Styling
+description: Check our &quot;Styling&quot; documentation article for RadPagination for UWP control.
 slug: radpagination-styling
 tags: styling
 published: True
