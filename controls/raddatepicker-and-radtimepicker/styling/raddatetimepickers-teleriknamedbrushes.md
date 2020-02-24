@@ -1,7 +1,7 @@
 ---
 title: Telerik Named Brushes
 page_title: Telerik Named Brushes
-description: Telerik Named Brushes
+description: Check our &quot;Telerik Named Brushes&quot; documentation article for RadDatePicker and RadTimePicker for UWP controls.
 slug: raddatetimepickers-teleriknamedbrushes
 tags: telerik,named,brushes
 published: True

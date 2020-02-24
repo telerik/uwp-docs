@@ -1,7 +1,7 @@
 ---
 title: Selector Properties
 page_title: Selector Properties
-description: Selector Properties
+description: Check our &quot;Selector Properties&quot; documentation article for RadDatePicker and RadTimePicker for UWP controls.
 slug: raddatetimepickers-properties-selectorproperties
 tags: selector,properties
 published: True

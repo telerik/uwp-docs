@@ -1,7 +1,7 @@
 ---
 title: Explicit Styling
 page_title: Explicit Styling
-description: Explicit Styling
+description: Check our &quot;Explicit Styling&quot; documentation article for RadDatePicker and RadTimePicker for UWP controls.
 slug: raddatetimepickers-explicitstyling
 tags: explicit,styling
 published: True

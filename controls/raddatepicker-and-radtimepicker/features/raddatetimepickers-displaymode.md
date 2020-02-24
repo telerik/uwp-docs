@@ -1,7 +1,7 @@
 ---
 title: Display Mode
 page_title: Display Mode
-description: Display Mode
+description: Check our &quot;Display Mode&quot; documentation article for RadDatePicker and RadTimePicker for UWP controls.
 slug: raddatetimepickers-features-displaymode
 tags: display,mode
 published: True
