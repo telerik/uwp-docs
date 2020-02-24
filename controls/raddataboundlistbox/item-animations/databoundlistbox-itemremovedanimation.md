@@ -1,7 +1,7 @@
 ---
 title: Item Removed Animation
 page_title: Item Removed Animation
-description: Item Removed Animation
+description: Check our &quot;Item Removed Animation&quot; documentation article for RadDataBoundListBox for UWP control.
 slug: databoundlistbox-itemremovedanimation
 tags: item,removed,animation
 published: True

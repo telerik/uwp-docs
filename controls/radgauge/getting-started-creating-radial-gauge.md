@@ -1,7 +1,7 @@
 ---
 title: Getting started
 page_title: Getting started
-description: Getting started
+description: Check our &quot;Getting started&quot; documentation article for RadGauge for UWP control.
 slug: radgauge-getting-started-creating-radial-gauge
 tags: getting,started
 published: True

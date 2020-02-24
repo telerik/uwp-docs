@@ -1,7 +1,7 @@
 ---
 title: Marker Indicator
 page_title: Marker Indicator
-description: Marker Indicator
+description: Check our &quot;Marker Indicator&quot; documentation article for RadGauge for UWP control.
 slug: gauge-marker-indicator
 tags: marker,indicator
 published: True

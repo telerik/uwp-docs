@@ -1,7 +1,7 @@
 ---
 title: Frozen Group Headers
 page_title: Frozen Group Headers
-description: RadListView Frozen Group Headers
+description: Check our &quot;Frozen Group Headers&quot; documentation article for RadListView for UWP control.
 slug: radlistview-frozen-group-headers
 tags: radlistview,listview,frozen-group-headers
 published: True

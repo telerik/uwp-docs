@@ -1,7 +1,7 @@
 ---
 title: Get Row Item and DataGridCellInfo Item from a Physical Point
 page_title: Get Row Item and DataGridCellInfo Item from a Physical Point
-description: Get Row Item and DataGridCellInfo Item from a Physical Point
+description: Check our &quot;Get Row Item and DataGridCellInfo Item from a Physical Point&quot; documentation article for RadDataGrid for UWP control.
 slug: raddatagrid-howto-getitemfromphysicalpoint
 tags: get,row,item,and,datagridcellinfo,item,from,a,physical,point
 published: True

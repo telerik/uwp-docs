@@ -1,7 +1,7 @@
 ---
 title: GettingStarted
 page_title: GettingStarted
-description: GettingStarted
+description: Check our &quot;GettingStarted&quot; documentation article for RadHubTile for UWP control.
 slug: radhubtile-gettingstarted
 tags: gettingstarted
 published: True

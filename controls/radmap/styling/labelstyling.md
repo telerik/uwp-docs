@@ -1,7 +1,7 @@
 ---
 title: Label Styling
 page_title: Label Styling
-description: Label Styling
+description: Check our &quot;Label Styling&quot; documentation article for RadMap for UWP control.
 slug: radmap-labelstyling
 tags: label,styling
 published: True

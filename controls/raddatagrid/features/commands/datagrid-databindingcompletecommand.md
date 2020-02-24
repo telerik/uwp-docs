@@ -1,7 +1,7 @@
 ---
 title: DataBindingComplete Command
 page_title: DataBindingComplete Command
-description: DataBindingComplete Command
+description: Check our &quot;DataBindingComplete Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-databindingcompletecommand
 tags: databindingcomplete,command
 published: True

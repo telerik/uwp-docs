@@ -1,7 +1,7 @@
 ---
 title: RadialMenuItem Command
 page_title: RadialMenuItem Command
-description: RadialMenuItem Command
+description: Check our &quot;RadialMenuItem Command&quot; documentation article for RadRadialMenu for UWP control.
 slug: radialmenu-commands-radialmenuitemcommand
 tags: radialmenuitem,command
 published: True

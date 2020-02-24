@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: Getting Started
-description: RadLoopingList Getting Started
+description: Check our &quot;Getting Started&quot; documentation article for RadLoopingList for UWP control.
 slug: loopinglist-getting-started
 tags: radloopinglist,loopinglist
 published: True

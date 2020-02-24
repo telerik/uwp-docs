@@ -1,7 +1,7 @@
 ---
 title: Item Checkboxes
 page_title: Item Checkboxes
-description: RadListView Item Checkboxes
+description: Check our &quot;Item Checkboxes&quot; documentation article for RadListView for UWP control.
 slug: radlistview-item-checkboxes
 tags: radlistview,listview,checkboxes,selection
 published: True

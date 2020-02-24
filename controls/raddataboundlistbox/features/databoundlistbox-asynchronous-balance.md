@@ -1,7 +1,7 @@
 ---
 title: Asynchronous Balance
 page_title: Asynchronous Balance
-description: Asynchronous Balance
+description: Check our &quot;Asynchronous Balance&quot; documentation article for RadDataBoundListBox for UWP control.
 slug: databoundlistbox-asynchronous-balance
 tags: asynchronous,balance
 published: True

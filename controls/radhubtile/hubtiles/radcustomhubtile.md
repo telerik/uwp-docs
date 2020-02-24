@@ -1,7 +1,7 @@
 ---
 title: CustomHubTile
 page_title: CustomHubTile
-description: CustomHubTile
+description: Check our &quot;CustomHubTile&quot; documentation article for RadHubTile for UWP control.
 slug: radhubtile-radcustomhubtile
 tags: customhubtile
 published: True

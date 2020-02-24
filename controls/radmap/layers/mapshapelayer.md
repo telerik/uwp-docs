@@ -1,7 +1,7 @@
 ---
 title: MapShapeLayer
 page_title: MapShapeLayer
-description: MapShapeLayer
+description: Check our &quot;MapShapeLayer&quot; documentation article for RadMap for UWP control.
 slug: radmap-mapshapelayer
 tags: mapshapelayer
 published: True

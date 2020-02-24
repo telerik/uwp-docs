@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: Commands
-description: RadListView Commands
+description: Check our &quot;Commands&quot; documentation article for RadListView for UWP control.
 slug: radlistview-commands
 tags: radlistview,listview,commands
 published: True

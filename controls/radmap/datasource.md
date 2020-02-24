@@ -1,7 +1,7 @@
 ---
 title: Data Source
 page_title: Data Source
-description: Data Source
+description: Check our &quot;Data Source&quot; documentation article for RadMap for UWP control.
 slug: radmap-datasource
 tags: data,source
 published: True

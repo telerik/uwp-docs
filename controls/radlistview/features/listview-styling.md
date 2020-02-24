@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: Styling
-description: RadListView Styling
+description: Check our &quot;Styling&quot; documentation article for RadListView for UWP control.
 slug: radlistview-styling
 tags: radlistview,listview,styling
 published: True

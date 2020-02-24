@@ -1,7 +1,7 @@
 ---
 title: CommitEdit Command
 page_title: CommitEdit Command
-description: CommitEdit Command
+description: Check our &quot;CommitEdit Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-editingcommands-commiteditcommand
 tags: commitedit,command
 published: True

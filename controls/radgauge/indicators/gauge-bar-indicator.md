@@ -1,7 +1,7 @@
 ---
 title: Bar Indicators
 page_title: Bar Indicators
-description: Bar Indicators
+description: Check our &quot;Bar Indicators&quot; documentation article for RadGauge for UWP control.
 slug: gauge-bar-indicator
 tags: bar,indicators
 published: True

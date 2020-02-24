@@ -1,7 +1,7 @@
 ---
 title: CellHolding Command
 page_title: CellHolding Command
-description: CellHolding Command
+description: Check our &quot;CellHolding Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-cellholdingcommand
 tags: cellholding,command
 published: True

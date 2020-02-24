@@ -1,7 +1,7 @@
 ---
 title: Customize the RadialMenuItem Content
 page_title: Customize the RadialMenuItem Content
-description: Customize the RadialMenuItem Content
+description: Check our &quot;Customize the RadialMenuItem Content&quot; documentation article for RadRadialMenu for UWP control.
 slug: radialmenu-howto-radialmenuitemcontrol
 tags: customize,the,radialmenuitem,content
 published: True

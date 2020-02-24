@@ -1,7 +1,7 @@
 ---
 title: GroupHeaderTap Command
 page_title: GroupHeaderTap Command
-description: GroupHeaderTap Command
+description: Check our &quot;GroupHeaderTap Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-groupheadertapcommand
 tags: groupheadertap,command
 published: True

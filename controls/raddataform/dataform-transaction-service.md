@@ -1,7 +1,7 @@
 ---
 title: Transaction Service
 page_title: Transaction Service
-description: Transaction Service
+description: Check our &quot;Transaction Service&quot; documentation article for RadDataForm for UWP control.
 slug: dataform-transactionservice
 tags: transactionservice, raddataform
 published: True

@@ -1,7 +1,7 @@
 ---
 title: LoadMoreData Command
 page_title: LoadMoreData Command
-description: LoadMoreData Command
+description: Check our &quot;LoadMoreData Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-loadmoredatacommand
 tags: loadmoredata,command
 published: True

@@ -1,7 +1,7 @@
 ---
 title: PropertySortDescriptor
 page_title: PropertySortDescriptor
-description: PropertySortDescriptor
+description: Check our &quot;PropertySortDescriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-sorting-propertynamesortdescriptor
 tags: propertysortdescriptor
 published: True

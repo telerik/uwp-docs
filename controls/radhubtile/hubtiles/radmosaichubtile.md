@@ -1,7 +1,7 @@
 ---
 title: MosaicHubTile
 page_title: MosaicHubTile
-description: MosaicHubTile
+description: Check our &quot;MosaicHubTile&quot; documentation article for RadHubTile for UWP control.
 slug: radhubtile-radmosaichubtile
 tags: mosaichubtile
 published: True

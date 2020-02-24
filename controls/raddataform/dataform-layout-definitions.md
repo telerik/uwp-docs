@@ -1,7 +1,7 @@
 ---
 title: Layout Definitions
 page_title: Layout Definitions
-description: Layout Definitions
+description: Check our &quot;Layout Definitions&quot; documentation article for RadDataForm for UWP control.
 slug: dataform-layout-definitions
 tags: layoutdefinitions, raddataform
 published: True

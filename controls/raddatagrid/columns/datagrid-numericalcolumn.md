@@ -1,7 +1,7 @@
 ---
 title: Numerical Column
 page_title: Numerical Column
-description: Numerical Column
+description: Check our &quot;Numerical Column&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-numericalcolumn
 tags: numerical,column
 published: True

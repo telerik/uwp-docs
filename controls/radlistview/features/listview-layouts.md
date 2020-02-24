@@ -1,7 +1,7 @@
 ---
 title: Layouts
 page_title: Layouts
-description: RadListView Layouts
+description: Check our &quot;Layouts&quot; documentation article for RadListView for UWP control.
 slug: radlistview-layouts
 tags: radlistview,listview,layouts
 published: True

@@ -1,7 +1,7 @@
 ---
 title: ColumnHeaderTap Command
 page_title: ColumnHeaderTap Command
-description: ColumnHeaderTap Command
+description: Check our &quot;ColumnHeaderTap Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-columnheadertapcommand
 tags: columnheadertap,command
 published: True

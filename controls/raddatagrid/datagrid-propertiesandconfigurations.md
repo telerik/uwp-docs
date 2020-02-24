@@ -1,7 +1,7 @@
 ---
 title: Properties and Configurations
 page_title: Properties and Configurations
-description: Properties and Configurations
+description: Check our &quot;Properties and Configurations&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-propertiesandconfigurations
 tags: properties,and,configurations
 published: True

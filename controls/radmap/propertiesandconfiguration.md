@@ -1,7 +1,7 @@
 ---
 title: Properties And Configuration
 page_title: Properties And Configuration
-description: Properties And Configuration
+description: Check our &quot;Properties And Configuration&quot; documentation article for RadMap for UWP control.
 slug: radmap-propertiesandconfiguration
 tags: properties,and,configuration
 published: True

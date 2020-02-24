@@ -1,7 +1,7 @@
 ---
 title: ToggleColumnVisibility Command
 page_title: ToggleColumnVisibility Command
-description: ToggleColumnVisibility Command
+description: Check our &quot;ToggleColumnVisibility Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-togglecolumnvisibilitycommand
 tags: column,visibility,command
 published: True

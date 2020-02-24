@@ -1,7 +1,7 @@
 ---
 title: Pull to Refresh
 page_title: Pull to Refresh
-description: RadListView Pull to Refresh
+description: Check our &quot;Pull to Refresh&quot; documentation article for RadListView for UWP control.
 slug: radlistview-pulltorefresh
 tags: radlistview,listview,pull,refresh
 published: True

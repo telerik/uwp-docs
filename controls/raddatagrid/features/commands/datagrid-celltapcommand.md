@@ -1,7 +1,7 @@
 ---
 title: CellTap Command
 page_title: CellTap Command
-description: CellTap Command
+description: Check our &quot;CellTap Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-celltapcommand
 tags: celltap,command
 published: True

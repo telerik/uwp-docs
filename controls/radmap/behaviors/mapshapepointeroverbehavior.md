@@ -1,7 +1,7 @@
 ---
 title: MapShapePointerOverBehavior
 page_title: MapShapePointerOverBehavior
-description: MapShapePointerOverBehavior
+description: Check our &quot;MapShapePointerOverBehavior&quot; documentation article for RadMap for UWP control.
 slug: radmap-behaviors-mapshapepointeroverbehavior
 tags: mapshapepointeroverbehavior
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Use One RadRadialMenu for Many Target Elements
 page_title: Use One RadRadialMenu for Many Target Elements
-description: Use One RadRadialMenu for Many Target Elements
+description: Check our &quot;Use One RadRadialMenu for Many Target Elements&quot; documentation article for RadRadialMenu for UWP control.
 slug: radialmenu-howto-onemenuformultipletargets
 tags: use,one,radradialmenu,for,many,target,elements
 published: True

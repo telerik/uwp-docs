@@ -1,7 +1,7 @@
 ---
 title: Selection
 page_title: Selection
-description: RadListView Selection
+description: Check our &quot;Selection&quot; documentation article for RadListView for UWP control.
 slug: radlistview-selection
 tags: radlistview,listview,selection
 published: True

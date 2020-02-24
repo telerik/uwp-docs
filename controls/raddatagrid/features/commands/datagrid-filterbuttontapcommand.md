@@ -1,7 +1,7 @@
 ---
 title: FilterButtonTap Command
 page_title: FilterButtonTap Command
-description: FilterButtonTap Command
+description: Check our &quot;FilterButtonTap Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-filterbuttontapcommand
 tags: filterbuttontap,command
 published: True

@@ -1,7 +1,7 @@
 ---
 title: MapPanAndZoomBehavior
 page_title: MapPanAndZoomBehavior
-description: MapPanAndZoomBehavior
+description: Check our &quot;MapPanAndZoomBehavior&quot; documentation article for RadMap for UWP control.
 slug: radmap-behaviors-mappanandzoombehavior
 tags: mappanandzoombehavior
 published: True

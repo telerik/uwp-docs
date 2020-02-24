@@ -1,7 +1,7 @@
 ---
 title: PropertyGroupDescriptor
 page_title: PropertyGroupDescriptor
-description: PropertyGroupDescriptor
+description: Check our &quot;PropertyGroupDescriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: raddagagrid-grouping-propertygroupdescriptor
 tags: propertygroupdescriptor
 published: True

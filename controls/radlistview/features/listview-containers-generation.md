@@ -1,7 +1,7 @@
 ---
 title: Containers Generation
 page_title: Containers Generation
-description: RadListView Containers Generation
+description: Check our &quot;Containers Generation&quot; documentation article for RadListView for UWP control.
 slug: listview-containers-generation
 tags: radlistview,listview,containers
 published: True

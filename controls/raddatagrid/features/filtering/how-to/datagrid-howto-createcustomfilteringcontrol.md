@@ -1,7 +1,7 @@
 ---
 title: Create Custom Filtering Control
 page_title: Create Custom Filtering Control
-description: Create Custom Filtering Control
+description: Check our &quot;Create Custom Filtering Control&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-filtering-howto-createcustomfilteringcontrol
 tags: create,custom,filtering,control
 published: True

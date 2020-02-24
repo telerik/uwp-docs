@@ -1,7 +1,7 @@
 ---
 title: CellFlyoutAction Command
 page_title: CellFlyoutAction Command
-description: CellFlyoutAction Command
+description: Check our &quot;CellFlyoutAction Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-cellflyoutaction
 tags: cell, flyout, action, command
 published: True

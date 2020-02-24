@@ -1,7 +1,7 @@
 ---
 title: Text Column
 page_title: Text Column
-description: Text Column
+description: Check our &quot;Text Column&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-textcolumn
 tags: text,column
 published: True

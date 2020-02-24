@@ -1,7 +1,7 @@
 ---
 title: Enable a Cell Context Flyout
 page_title: Enable a Cell Context Flyout
-description: Enable a Cell Context Flyout
+description: Check our &quot;Enable a Cell Context Flyout&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-howto-set-column-header-flyout
 tags: disable,column,flyout,cell,context
 published: True

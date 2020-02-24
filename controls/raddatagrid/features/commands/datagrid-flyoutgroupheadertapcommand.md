@@ -1,7 +1,7 @@
 ---
 title: FlyoutGroupHeader Command
 page_title: FlyoutGroupHeader Command
-description: FlyoutGroupHeader Command
+description: Check our &quot;FlyoutGroupHeader Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-flyoutgroupheadertapcommand
 tags: flyoutgroupheader,command
 published: True

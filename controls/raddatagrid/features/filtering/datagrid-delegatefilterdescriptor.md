@@ -1,7 +1,7 @@
 ---
 title: Delegate Filter Descriptor
 page_title: Delegate Filter Descriptor
-description: Delegate Filter Descriptor
+description: Check our &quot;Delegate Filter Descriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-filtering-delegatefilterdescriptor
 tags: delegate,filter,descriptor
 published: True

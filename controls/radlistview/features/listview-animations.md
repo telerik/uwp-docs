@@ -1,7 +1,7 @@
 ---
 title: Item Animations
 page_title: Item Animations
-description: RadListView Item Animations
+description: Check our &quot;Item Animations&quot; documentation article for RadListView for UWP control.
 slug: radlistview-item-animations
 tags: radlistview,listview,animations,itemanimations
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: Getting Started
-description: Getting Started
+description: Check our &quot;Getting Started&quot; documentation article for RadDataForm for UWP control.
 slug: dataform-gettingstarted
 tags: gettingstarted, raddataform
 published: True

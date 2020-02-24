@@ -1,7 +1,7 @@
 ---
 title: CellDoubleTap Command
 page_title: CellDoubleTap Command
-description: CellDoubleTap Command
+description: Check our &quot;CellDoubleTap Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-celldoubletappedcommand
 tags: celldoubletap,command
 published: True

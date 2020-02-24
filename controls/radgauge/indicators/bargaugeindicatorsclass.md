@@ -1,7 +1,7 @@
 ---
 title: BarGaugeIndicator Class
 page_title: BarGaugeIndicator Class
-description: BarGaugeIndicator Class
+description: Check our &quot;BarGaugeIndicator Class&quot; documentation article for RadGauge for UWP control.
 slug: radgauge-indicators-bargaugeindicatorsclass
 tags: bargaugeindicator,class
 published: True

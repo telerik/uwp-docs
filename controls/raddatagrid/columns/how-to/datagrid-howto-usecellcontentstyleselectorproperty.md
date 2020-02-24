@@ -1,7 +1,7 @@
 ---
 title: Use the CellContentStyleSelector Property
 page_title: Use the CellContentStyleSelector Property
-description: Use the CellContentStyleSelector Property
+description: Check our &quot;Use the CellContentStyleSelector Property&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-howto-usecellcontentstyleselectorproperty
 tags: use,the,cellcontentstyleselector,property
 published: True

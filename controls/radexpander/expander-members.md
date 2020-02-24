@@ -1,7 +1,7 @@
 ---
 title: Members
 page_title: Members
-description: Members
+description: Check our &quot;Members&quot; documentation article for RadExpander for UWP control.
 slug: radexpander-members
 tags: overview
 published: True

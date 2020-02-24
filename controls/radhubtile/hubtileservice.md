@@ -1,7 +1,7 @@
 ---
 title: HubTile Service
 page_title: HubTile Service
-description: HubTile Service
+description: Check our &quot;HubTile Service&quot; documentation article for RadHubTile for UWP control.
 slug: radhubtile-hubtileservice
 tags: hubtile,service
 published: True

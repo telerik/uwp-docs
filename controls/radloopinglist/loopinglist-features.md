@@ -1,7 +1,7 @@
 ---
 title: Features
 page_title: Features
-description: RadLoopingList Features
+description: Check our &quot;Features&quot; documentation article for RadLoopingList for UWP control.
 slug: loopinglist-features
 tags: radloopinglist,loopinglist
 published: True

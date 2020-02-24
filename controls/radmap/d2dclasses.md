@@ -1,7 +1,7 @@
 ---
 title: D2DClasses
 page_title: D2DClasses
-description: D2DClasses
+description: Check our &quot;D2DClasses&quot; documentation article for RadMap for UWP control.
 slug: radmap-d2dclasses
 tags: d2dclasses
 published: True

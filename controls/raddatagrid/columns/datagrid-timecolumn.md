@@ -1,7 +1,7 @@
 ---
 title: Time Column
 page_title: Time Column
-description: Time Column
+description: Check our &quot;Time Column&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-timecolumn
 tags: time,column
 published: True

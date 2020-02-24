@@ -1,7 +1,7 @@
 ---
 title: Arrow Indicator
 page_title: Arrow Indicator
-description: Arrow Indicator
+description: Check our &quot;Arrow Indicator&quot; documentation article for RadGauge for UWP control.
 slug: gauge-arrow-indicator
 tags: arrow,indicator
 published: True

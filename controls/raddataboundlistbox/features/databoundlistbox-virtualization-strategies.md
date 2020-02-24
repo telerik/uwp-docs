@@ -1,7 +1,7 @@
 ---
 title: Virtualization Strategies
 page_title: Virtualization Strategies
-description: Virtualization Strategies
+description: Check our &quot;Virtualization Strategies&quot; documentation article for RadDataBoundListBox for UWP control.
 slug: databoundlistbox-virtualization-strategies
 tags: virtualization,strategies
 published: True

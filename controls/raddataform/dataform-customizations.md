@@ -1,7 +1,7 @@
 ---
 title: Customizations
 page_title: Customizations
-description: RadDataForm Customizations
+description: Check our &quot;Customizations&quot; documentation article for RadDataForm for UWP control.
 slug: dataform-customizations
 tags: dataform,raddataform,customizations
 published: True

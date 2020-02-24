@@ -1,7 +1,7 @@
 ---
 title: Boolean Filter Descriptor
 page_title: Boolean Filter Descriptor
-description: Boolean Filter Descriptor
+description: Check our &quot;Boolean Filter Descriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-filtering-booleanfilterdescriptor
 tags: boolean,filter,descriptor
 published: True

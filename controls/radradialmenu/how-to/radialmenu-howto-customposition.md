@@ -1,7 +1,7 @@
 ---
 title: Change the Menu Position
 page_title: Change the Menu Position
-description: Change the Menu Position
+description: Check our &quot;Change the Menu Position&quot; documentation article for RadRadialMenu for UWP control.
 slug: radialmenu-howto-customposition
 tags: change,the,menu,position
 published: True

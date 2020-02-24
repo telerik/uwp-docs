@@ -1,7 +1,7 @@
 ---
 title: ComboBox Column
 page_title: ComboBox Column
-description: ComboBox Column
+description: Check our &quot;ComboBox Column&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-comboboxcolumn
 tags: combobox,column
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Decorations
 page_title: Decorations
-description: Decorations
+description: Check our &quot;Decorations&quot; documentation article for RadDataGrid for UWP control.
 slug: raddatagrid-decorations
 tags: decorations
 published: True

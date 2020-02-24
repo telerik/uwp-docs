@@ -1,7 +1,7 @@
 ---
 title: DelegateGroupDescriptor
 page_title: DelegateGroupDescriptor
-description: DelegateGroupDescriptor
+description: Check our &quot;DelegateGroupDescriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-grouping-delegategroupdescriptor
 tags: delegategroupdescriptor
 published: True

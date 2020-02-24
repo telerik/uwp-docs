@@ -1,7 +1,7 @@
 ---
 title: Data Virtualization Strategies
 page_title:  Data Virtualization
-description:  Data Virtualization
+description: Check our &quot;Data Virtualization Strategies&quot; documentation article for RadDataBoundListBox for UWP control.
 slug: databoundlistbox-data-virtualization
 tags: data,virtualization
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Radial Gauge
 page_title: Radial Gauge
-description: Radial Gauge
+description: Check our &quot;Radial Gauge&quot; documentation article for RadGauge for UWP control.
 slug: radgauge-gauges-radialgauge
 tags: radial,gauge
 published: True

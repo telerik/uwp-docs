@@ -1,7 +1,7 @@
 ---
 title: Implicit Styling
 page_title: Implicit Styling
-description: Implicit Styling
+description: Check our &quot;Implicit Styling&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-styling-implicitstyling
 tags: implicit,styling
 published: True

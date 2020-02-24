@@ -1,7 +1,7 @@
 ---
 title: Filtering
 page_title: Filtering
-description: RadListView Filtering
+description: Check our &quot;Filtering&quot; documentation article for RadListView for UWP control.
 slug: radlistview-filtering
 tags: radlistview,listview,filtering
 published: True
