@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: Commands
-description: RadSideDrawer Commands
+description: Check our &quot;Commands&quot; documentation article for RadSideDrawer for UWP control.
 slug: sidedrawer-commands
 tags: sidedrawer,radsidedrawer,commands
 published: True

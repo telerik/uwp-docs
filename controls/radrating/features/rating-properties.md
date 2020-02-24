@@ -1,7 +1,7 @@
 ---
 title: Properties
 page_title: Properties
-description: Properties
+description: Check our &quot;Properties&quot; documentation article for RadRating for UWP control.
 slug: rating-properties
 tags: properties
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Item Content
 page_title: Item Content
-description: Item Content
+description: Check our &quot;Item Content&quot; documentation article for RadRating for UWP control.
 slug: rating-itemcontent
 tags: item,content
 published: True

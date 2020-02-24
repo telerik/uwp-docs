@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: Styling
-description: Styling
+description: Check our &quot;Styling&quot; documentation article for RadRangeSlider for UWP control.
 slug: radrangeslider-explicitstyling
 tags: styling
 published: True

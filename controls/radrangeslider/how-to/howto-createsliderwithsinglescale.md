@@ -1,7 +1,7 @@
 ---
 title: Create RadRangeSlider with a Single Scale
 page_title: Create RadRangeSlider with a Single Scale
-description: Create RadRangeSlider with a Single Scale
+description: Check our &quot;Create RadRangeSlider with a Single Scale&quot; documentation article for RadRangeSlider for UWP control.
 slug: radrangeslider-howto-createsliderwithsinglescale
 tags: create,radrangeslider,with,a,single,scale
 published: True

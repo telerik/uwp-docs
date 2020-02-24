@@ -1,7 +1,7 @@
 ---
 title: Customizations
 page_title: Customizations
-description: Customizations
+description: Check our &quot;Customizations&quot; documentation article for RadRating for UWP control.
 slug: rating-customizations
 tags: customizations
 published: True

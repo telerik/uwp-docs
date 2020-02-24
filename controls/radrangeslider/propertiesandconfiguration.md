@@ -1,7 +1,7 @@
 ---
 title: Properties and Configuration
 page_title: Properties and Configuration
-description: Properties and Configuration
+description: Check our &quot;Properties and Configuration&quot; documentation article for RadRangeSlider for UWP control.
 slug: radrangeslider-propertiesandconfiguration
 tags: properties,and,configuration
 published: True

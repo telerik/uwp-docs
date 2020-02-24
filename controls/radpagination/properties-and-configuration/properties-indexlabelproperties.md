@@ -1,7 +1,7 @@
 ---
 title: Index Label
 page_title: Index Label
-description: Index Label
+description: Check our &quot;Index Label&quot; documentation article for RadPagination for UWP control.
 slug: radpagination-properties-indexlabelproperties
 tags: index,label
 published: True

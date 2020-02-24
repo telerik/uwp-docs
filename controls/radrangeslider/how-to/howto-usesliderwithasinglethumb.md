@@ -1,7 +1,7 @@
 ---
 title: Create RadRangeSlider with a Single Thumb
 page_title: Create RadRangeSlider with a Single Thumb
-description: Create RadRangeSlider with a Single Thumb
+description: Check our &quot;Create RadRangeSlider with a Single Thumb&quot; documentation article for RadRangeSlider for UWP control.
 slug: radrangeslider-howto-usesliderwithasinglethumb
 tags: create,radrangeslider,with,a,single,thumb
 published: True
