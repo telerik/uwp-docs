@@ -1,7 +1,7 @@
 ---
 title: Row Details
 page_title: Row Details
-description: Row Details
+description: Check our &quot;Row Details&quot; documentation article for RadDataGrid for UWP control.
 slug: raddatagrid-row-details
 tags: row, details
 published: True

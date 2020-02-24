@@ -1,7 +1,7 @@
 ---
 title: MapShapeSelectionBehavior
 page_title: MapShapeSelectionBehavior
-description: MapShapeSelectionBehavior
+description: Check our &quot;MapShapeSelectionBehavior&quot; documentation article for RadMap for UWP control.
 slug: radmap-behaviors-mapshapeselectionbehavior
 tags: mapshapeselectionbehavior
 published: True

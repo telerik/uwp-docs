@@ -1,7 +1,7 @@
 ---
 title: Template Column
 page_title: Template Column
-description: Template Column
+description: Check our &quot;Template Column&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-templatecolumn
 tags: template,column
 published: True

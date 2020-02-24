@@ -1,7 +1,7 @@
 ---
 title: Pull to Refresh
 page_title: Pull to Refresh
-description: Pull to Refresh
+description: Check our &quot;Pull to Refresh&quot; documentation article for RadDataBoundListBox for UWP control.
 slug: databoundlistbox-pulltorefresh
 tags: pull,to,refresh
 published: True

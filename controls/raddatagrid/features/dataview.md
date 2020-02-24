@@ -1,7 +1,7 @@
 ---
 title: DataView
 page_title: DataView
-description: DataView
+description: Check our &quot;DataView&quot; documentation article for RadDataGrid for UWP control.
 slug: raddatagrid-dataview
 tags: dataview
 published: True

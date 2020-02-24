@@ -1,7 +1,7 @@
 ---
 title: Inline Editor Icons
 page_title: Inline Editor Icons
-description: Inline Editor Icons
+description: Check our &quot;Inline Editor Icons&quot; documentation article for RadDataForm for UWP control.
 slug: dataform-inlineeditoricons
 tags: inlineeditoricons, raddataform
 published: True

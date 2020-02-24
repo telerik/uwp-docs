@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: Commands
-description: RadDataForm Commands
+description: Check our &quot;Commands&quot; documentation article for RadDataForm for UWP control.
 slug: dataform-commands
 tags: dataform,raddataform,commands
 published: True

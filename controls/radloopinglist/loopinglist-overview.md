@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview
-description: RadLoopingList Overview
+description: Check our &quot;Overview&quot; documentation article for RadLoopingList for UWP control.
 slug: loopinglist-overview
 tags: radloopinglist,loopinglist
 published: True

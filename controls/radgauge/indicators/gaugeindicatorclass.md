@@ -1,7 +1,7 @@
 ---
 title: GaugeIndicator Class
 page_title: GaugeIndicator Class
-description: GaugeIndicator Class
+description: Check our &quot;GaugeIndicator Class&quot; documentation article for RadGauge for UWP control.
 slug: radgauge-indicators-gaugeindicatorclass
 tags: gaugeindicator,class
 published: True

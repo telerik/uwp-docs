@@ -1,7 +1,7 @@
 ---
 title: Define RadRadialMenu as a Static Resource
 page_title: Define RadRadialMenu as a Static Resource
-description: Define RadRadialMenu as a Static Resource
+description: Check our &quot;Define RadRadialMenu as a Static Resource&quot; documentation article for RadRadialMenu for UWP control.
 slug: radialmenu-howto-definemenuasstaticresource
 tags: define,radradialmenu,as,a,static,resource
 published: True

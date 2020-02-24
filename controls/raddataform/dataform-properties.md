@@ -1,7 +1,7 @@
 ---
 title: Properties
 page_title: Properties
-description: Properties
+description: Check our &quot;Properties&quot; documentation article for RadDataForm for UWP control.
 slug: dataform-properties
 tags: properties, raddataform
 published: True

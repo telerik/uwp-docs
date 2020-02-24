@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview
-description: RadListView Overview
+description: Check our &quot;Overview&quot; documentation article for RadListView for UWP control.
 slug: radlistview-overview
 tags: radlistview,listview
 published: True

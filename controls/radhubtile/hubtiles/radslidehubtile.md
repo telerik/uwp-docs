@@ -1,7 +1,7 @@
 ---
 title: SlideHubTile
 page_title: SlideHubTile
-description: SlideHubTile
+description: Check our &quot;SlideHubTile&quot; documentation article for RadHubTile for UWP control.
 slug: radhubtile-radslidehubtile
 tags: slidehubtile
 published: True

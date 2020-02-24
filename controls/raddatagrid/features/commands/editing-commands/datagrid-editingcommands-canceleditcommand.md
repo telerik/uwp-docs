@@ -1,7 +1,7 @@
 ---
 title: CancelEdit Command
 page_title: CancelEdit Command
-description: CancelEdit Command
+description: Check our &quot;CancelEdit Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-editingcommands-canceleditcommand
 tags: canceledit,command
 published: True

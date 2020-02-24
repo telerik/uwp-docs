@@ -1,7 +1,7 @@
 ---
 title: Sorting
 page_title: Sorting
-description: RadListView Sorting
+description: Check our &quot;Sorting&quot; documentation article for RadListView for UWP control.
 slug: radlistview-sorting
 tags: radlistview,listview,sorting
 published: True

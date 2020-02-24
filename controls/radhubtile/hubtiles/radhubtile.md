@@ -1,7 +1,7 @@
 ---
 title: HubTile
 page_title: HubTile
-description: HubTile
+description: Check our &quot;HubTile&quot; documentation article for RadHubTile for UWP control.
 slug: radhubtile-radhubtile
 tags: hubtile
 published: True

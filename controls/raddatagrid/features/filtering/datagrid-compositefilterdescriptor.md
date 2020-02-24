@@ -1,7 +1,7 @@
 ---
 title: Composite Filter Descriptor
 page_title: Composite Filter Descriptor
-description: Composite Filter Descriptor
+description: Check our &quot;Composite Filter Descriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-filtering-compositefilterdescriptor
 tags: composite,filter,descriptor
 published: True

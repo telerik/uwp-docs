@@ -1,7 +1,7 @@
 ---
 title: Numerical Filter Descriptor
 page_title: Numerical Filter Descriptor
-description: Numerical Filter Descriptor
+description: Check our &quot;Numerical Filter Descriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-filtering-numericalfilterdescriptor
 tags: numerical,filter,descriptor
 published: True

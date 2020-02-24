@@ -1,7 +1,7 @@
 ---
 title: Image Column
 page_title: Image Column
-description: Image Column
+description: Check our &quot;Image Column&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-imagecolumn
 tags: image,column
 published: True

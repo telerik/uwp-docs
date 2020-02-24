@@ -1,7 +1,7 @@
 ---
 title: MapUserLayer
 page_title: MapUserLayer
-description: MapUserLayer
+description: Check our &quot;MapUserLayer&quot; documentation article for RadMap for UWP control.
 slug: radmap-mapuserlayer
 tags: mapuserlayer
 published: True

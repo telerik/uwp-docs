@@ -1,7 +1,7 @@
 ---
 title: ValidateCell Command
 page_title: ValidateCell Command
-description: ValidateCell Command
+description: Check our &quot;ValidateCell Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-validatecellcommand
 tags: validatecell,command
 published: True

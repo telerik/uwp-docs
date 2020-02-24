@@ -1,7 +1,7 @@
 ---
 title: PictureRotatorHubTile
 page_title: PictureRotatorHubTile
-description: PictureRotatorHubTile
+description: Check our &quot;PictureRotatorHubTile&quot; documentation article for RadHubTile for UWP control.
 slug: radhubtile-radpicturerotatorhubtile
 tags: picturerotatorhubtile
 published: True

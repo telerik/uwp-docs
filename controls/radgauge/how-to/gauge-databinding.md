@@ -1,7 +1,7 @@
 ---
 title: How to Bind to Business Objects
 page_title: How to Bind to Business Objects
-description: How to Bind to Business Objects
+description: Check our &quot;How to Bind to Business Objects&quot; documentation article for RadGauge for UWP control.
 slug: gauge-databinding
 tags: how,to,bind,to,business,objects
 published: True

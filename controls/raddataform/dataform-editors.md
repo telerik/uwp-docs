@@ -1,7 +1,7 @@
 ---
 title: Editors
 page_title: Editors
-description: RadDataForm Editors
+description: Check our &quot;Editors&quot; documentation article for RadDataForm for UWP control.
 slug: dataform-editors
 tags: dataform,raddataform,editors
 published: True

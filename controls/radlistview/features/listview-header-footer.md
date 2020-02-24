@@ -1,7 +1,7 @@
 ---
 title: Header and Footer
 page_title: Header and Footer
-description: RadListView Header and Footer
+description: Check our &quot;Header and Footer&quot; documentation article for RadListView for UWP control.
 slug: radlistview-header-footer
 tags: radlistview,listview,header,footer
 published: True

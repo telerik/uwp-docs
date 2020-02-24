@@ -1,7 +1,7 @@
 ---
 title: Set a Column's Width
 page_title: Set a Column's Width
-description: Set a Column's Width
+description: Check our &quot;Set a Column's Width&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-howto-setcolumnswidthusingsizemode
 tags: set,a,column's,width
 published: True

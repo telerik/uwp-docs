@@ -1,7 +1,7 @@
 ---
 title: Animation Mode
 page_title: Animation Mode
-description: Animation Mode
+description: Check our &quot;Animation Mode&quot; documentation article for RadDataBoundListBox for UWP control.
 slug: databoundlistbox-animations-animation-mode
 tags: animation,mode
 published: True

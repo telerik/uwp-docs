@@ -1,7 +1,7 @@
 ---
 title: PropertyAggregateDescriptor
 page_title: PropertyAggregateDescriptor
-description: PropertyAggregateDescriptor
+description: Check our &quot;PropertyAggregateDescriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-aggregates-propertyaggregatedescriptor
 tags: propertyaggregatedescriptor
 published: True

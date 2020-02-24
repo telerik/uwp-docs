@@ -1,7 +1,7 @@
 ---
 title: Validation
 page_title: Validation
-description: Validation
+description: Check our &quot;Validation&quot; documentation article for RadDataForm for UWP control.
 slug: dataform-validation
 tags: validation, raddataform
 published: True

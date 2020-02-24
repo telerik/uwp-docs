@@ -1,7 +1,7 @@
 ---
 title: DelegateAggregateDescriptor
 page_title: DelegateAggregateDescriptor
-description: DelegateAggregateDescriptor
+description: Check our &quot;DelegateAggregateDescriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-aggregates-delegateaggregatedescriptor
 tags: delegateaggregatedescriptor
 published: True

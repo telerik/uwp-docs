@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview
-description: Overview
+description: Check our &quot;Overview&quot; documentation article for RadDataForm for UWP control.
 slug: dataform-overview
 tags: overview, raddataform
 published: True

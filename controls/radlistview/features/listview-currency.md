@@ -1,7 +1,7 @@
 ---
 title: Currency
 page_title: Currency
-description: RadListView Currency
+description: Check our &quot;Currency&quot; documentation article for RadListView for UWP control.
 slug: radlistview-currency
 tags: radlistview,listview,currency
 published: True

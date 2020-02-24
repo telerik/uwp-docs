@@ -1,7 +1,7 @@
 ---
 title: HexHubTile
 page_title: HexHubTile
-description: HexHubTile
+description: Check our &quot;HexHubTile&quot; documentation article for RadHubTile for UWP control.
 slug: radhubtile-radhexhubtile
 tags: hex, hexhubtile
 published: True

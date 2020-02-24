@@ -1,7 +1,7 @@
 ---
 title: Item Reorder
 page_title: Item Reorder
-description: Item Reorder
+description: Check our &quot;Item Reorder&quot; documentation article for RadDataBoundListBox for UWP control.
 slug: databoundlistbox-itemreorder
 tags: item,reorder
 published: True

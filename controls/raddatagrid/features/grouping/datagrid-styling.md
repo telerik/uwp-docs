@@ -1,7 +1,7 @@
 ---
 title: Styling
 page_title: Styling
-description: Styling
+description: Check our &quot;Styling&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-grouping-styling
 tags: styling
 published: True

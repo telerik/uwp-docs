@@ -1,7 +1,7 @@
 ---
 title: CellPointerOver Command
 page_title: CellPointerOver Command
-description: CellPointerOver Command
+description: Check our &quot;CellPointerOver Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-cellpointerovercommand
 tags: cellpointerover,command
 published: True

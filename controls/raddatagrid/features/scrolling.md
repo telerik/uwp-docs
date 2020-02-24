@@ -1,7 +1,7 @@
 ---
 title: Programmatic Scrolling
 page_title: Programmatic Scrolling
-description: Programmatic Scrolling
+description: Check our &quot;Programmatic Scrolling&quot; documentation article for RadDataGrid for UWP control.
 slug: raddatagrid-scrolling
 tags: scrolling
 published: True

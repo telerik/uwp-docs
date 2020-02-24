@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: Getting Started
-description: RadListView Getting Started
+description: Check our &quot;Getting Started&quot; documentation article for RadListView for UWP control.
 slug: radlistview-getting-started
 tags: radlistview,listview
 published: True

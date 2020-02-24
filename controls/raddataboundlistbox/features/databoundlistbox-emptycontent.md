@@ -1,7 +1,7 @@
 ---
 title: Empty Content
 page_title: Empty Content
-description: Empty Content
+description: Check our &quot;Empty Content&quot; documentation article for RadDataBoundListBox for UWP control.
 slug: databoundlistbox-emptycontent
 tags: empty,content
 published: True

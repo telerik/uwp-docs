@@ -1,7 +1,7 @@
 ---
 title: Telerik Named Brushes
 page_title: Telerik Named Brushes
-description: Telerik Named Brushes
+description: Check our &quot;Telerik Named Brushes&quot; documentation article for RadRadialMenu for UWP control.
 slug: radialmenu-teleriknamedbrushes
 tags: telerik,named,brushes
 published: True

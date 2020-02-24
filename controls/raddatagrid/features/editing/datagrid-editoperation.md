@@ -1,7 +1,7 @@
 ---
 title: Edit Operation
 page_title: Edit Operation
-description: Edit Operation
+description: Check our &quot;Edit Operation&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-editing-editoperation
 tags: edit,operation
 published: True

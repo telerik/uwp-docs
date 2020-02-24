@@ -1,7 +1,7 @@
 ---
 title: Metadata
 page_title: Metadata
-description: Metadata
+description: Check our &quot;Metadata&quot; documentation article for RadDataForm for UWP control.
 slug: dataform-metadata
 tags: metadata, raddataform
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Set Column Header Style
 page_title: Set Column Header Style
-description: Set Column Header Style
+description: Check our &quot;Set Column Header Style&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-howto-setheaderstyle
 tags: set,column,header,style
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Basic
 page_title: Basic
-description: Basic
+description: Check our &quot;Basic&quot; documentation article for RadHubTile for UWP control.
 slug: radhubtile-properties
 tags: basic
 published: True

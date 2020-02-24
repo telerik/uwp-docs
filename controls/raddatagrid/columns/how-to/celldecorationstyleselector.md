@@ -1,7 +1,7 @@
 ---
 title: Use the CellDecorationStyleSelector Property
 page_title: Use the CellDecorationStyleSelector Property
-description: Use the CellDecorationStyleSelector Property
+description: Check our &quot;Use the CellDecorationStyleSelector Property&quot; documentation article for RadDataGrid for UWP control.
 slug: raddatagrid-celldecorationstyleselector
 tags: use,the,celldecorationstyleselector,property
 published: True

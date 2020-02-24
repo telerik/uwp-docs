@@ -1,7 +1,7 @@
 ---
 title: Grouping
 page_title: Grouping
-description: RadListView Grouping
+description: Check our &quot;Grouping&quot; documentation article for RadListView for UWP control.
 slug: radlistview-grouping
 tags: radlistview,listview,grouping
 published: True

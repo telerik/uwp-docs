@@ -1,7 +1,7 @@
 ---
 title: Empty Content
 page_title: Empty Content
-description: RadListView Empty Content
+description: Check our &quot;Empty Content&quot; documentation article for RadListView for UWP control.
 slug: radlistview-empty-content
 tags: radlistview,listview,empty,emptycontent
 published: True

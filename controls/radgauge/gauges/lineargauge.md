@@ -1,7 +1,7 @@
 ---
 title: Linear Gauge
 page_title: Linear Gauge
-description: Linear Gauge
+description: Check our &quot;Linear Gauge&quot; documentation article for RadGauge for UWP control.
 slug: radgauge-gauges-lineargauge
 tags: linear,gauge
 published: True

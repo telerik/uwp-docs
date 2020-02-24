@@ -1,7 +1,7 @@
 ---
 title: Explicit and Implicit Styling
 page_title: Explicit and Implicit Styling
-description: Explicit and Implicit Styling
+description: Check our &quot;Explicit and Implicit Styling&quot; documentation article for RadRadialMenu for UWP control.
 slug: radialmenu-styling-explicitandimplicitstyling
 tags: explicit,and,implicit,styling
 published: True

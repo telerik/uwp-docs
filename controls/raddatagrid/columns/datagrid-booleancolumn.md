@@ -1,7 +1,7 @@
 ---
 title: Boolean Column
 page_title: Boolean Column
-description: Boolean Column
+description: Check our &quot;Boolean Column&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-booleancolumn
 tags: boolean,column
 published: True

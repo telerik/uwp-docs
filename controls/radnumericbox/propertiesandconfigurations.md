@@ -1,7 +1,7 @@
 ---
 title: Properties and Configuration
 page_title: Properties and Configuration
-description: Properties and Configuration
+description: Check our &quot;Properties and Configuration&quot; documentation article for RadNumericBox for UWP control.
 slug: radnumericbox-propertiesandconfigurations
 tags: properties,and,configuration
 published: True

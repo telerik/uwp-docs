@@ -1,7 +1,7 @@
 ---
 title: Item Added Animation
 page_title: Item Added Animation
-description: Item Added Animation
+description: Check our &quot;Item Added Animation&quot; documentation article for RadDataBoundListBox for UWP control.
 slug: databoundlistbox-itemaddedanimation
 tags: item,added,animation
 published: True

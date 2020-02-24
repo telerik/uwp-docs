@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview
-description: Overview
+description: Check our &quot;Overview&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-overview
 tags: overview
 published: True

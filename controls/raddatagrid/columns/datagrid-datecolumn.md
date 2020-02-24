@@ -1,7 +1,7 @@
 ---
 title: Date Column
 page_title: Date Column
-description: Date Column
+description: Check our &quot;Date Column&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-datecolumn
 tags: date,column
 published: True

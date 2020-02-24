@@ -1,7 +1,7 @@
 ---
 title: Data Virtualization
 page_title: Data Virtualization
-description: Data Virtualization
+description: Check our &quot;Data Virtualization&quot; documentation article for RadDataGrid for UWP control.
 slug: raddatagrid-datavirtualization
 tags: data,virtualization
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Diplay Column header flyout
 page_title: Diplay Column header flyout
-description: Diplay Column header flyout
+description: Check our &quot;Diplay Column header flyout&quot; documentation article for RadDataGrid for UWP control.
 slug: raddatagrid-howto-diplaycolumnheaderflyout
 tags: get,grouping,sorting,data,operations,flyout
 published: True

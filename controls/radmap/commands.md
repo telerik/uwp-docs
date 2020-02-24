@@ -1,7 +1,7 @@
 ---
 title: Commands
 page_title: Commands
-description: Commands
+description: Check our &quot;Commands&quot; documentation article for RadMap for UWP control.
 slug: radmap-commands
 tags: commands
 published: True

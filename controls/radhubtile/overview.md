@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview
-description: Overview
+description: Check our &quot;Overview&quot; documentation article for RadHubTile for UWP control.
 slug: radhubtile-overview
 tags: overview
 published: True

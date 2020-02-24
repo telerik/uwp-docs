@@ -1,7 +1,7 @@
 ---
 title: Programmatic Scrolling
 page_title: Programmatic Scrolling
-description: RadListView Programmatic Scrolling
+description: Check our &quot;Programmatic Scrolling&quot; documentation article for RadListView for UWP control.
 slug: radlistview-programmatic-scrolling
 tags: radlistview,listview,programmatic,scrolling
 published: True

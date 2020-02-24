@@ -1,7 +1,7 @@
 ---
 title: GenerateColumn Command
 page_title: GenerateColumn Command
-description: GenerateColumn Command
+description: Check our &quot;GenerateColumn Command&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-commands-generatecolumncommand
 tags: generatecolumn,command
 published: True

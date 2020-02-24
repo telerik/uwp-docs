@@ -1,7 +1,7 @@
 ---
 title: Synchronizing with Current Item
 page_title: Synchronizing with Current Item
-description: Synchronizing with Current Item
+description: Check our &quot;Synchronizing with Current Item&quot; documentation article for RadDataBoundListBox for UWP control.
 slug: databoundlistbox-synchronizing-with-currentitem
 tags: synchronizing,with,current,item
 published: True

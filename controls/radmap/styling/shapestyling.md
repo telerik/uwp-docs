@@ -1,7 +1,7 @@
 ---
 title: Shape Styling
 page_title: Shape Styling
-description: Shape Styling
+description: Check our &quot;Shape Styling&quot; documentation article for RadMap for UWP control.
 slug: radmap-shapestyling
 tags: shape,styling
 published: True

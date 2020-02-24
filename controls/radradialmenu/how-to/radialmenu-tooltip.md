@@ -1,7 +1,7 @@
 ---
 title: Customize the ToolTip
 page_title: Customize the ToolTip
-description: Customize the ToolTip
+description: Check our &quot;Customize the ToolTip&quot; documentation article for RadRadialMenu for UWP control.
 slug: radialmenu-tooltip
 tags: customize,the,tooltip
 published: True

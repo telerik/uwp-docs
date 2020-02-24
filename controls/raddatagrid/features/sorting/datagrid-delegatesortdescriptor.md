@@ -1,7 +1,7 @@
 ---
 title: DelegateSortDescriptor
 page_title: DelegateSortDescriptor
-description: DelegateSortDescriptor
+description: Check our &quot;DelegateSortDescriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-sorting-delegatesortdescriptor
 tags: delegatesortdescriptor
 published: True

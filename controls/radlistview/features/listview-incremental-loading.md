@@ -1,7 +1,7 @@
 ---
 title: Incremental Loading
 page_title: Incremental Loading
-description: RadListView Incremental Loading
+description: Check our &quot;Incremental Loading&quot; documentation article for RadListView for UWP control.
 slug: radlistview-incremental-loading
 tags: radlistview,listview,data,virtualization,incremental,loading
 published: True

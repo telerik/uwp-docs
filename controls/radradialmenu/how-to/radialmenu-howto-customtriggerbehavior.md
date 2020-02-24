@@ -1,7 +1,7 @@
 ---
 title: Define Custom Trigger Behavior
 page_title: Define Custom Trigger Behavior
-description: Define Custom Trigger Behavior
+description: Check our &quot;Define Custom Trigger Behavior&quot; documentation article for RadRadialMenu for UWP control.
 slug: radialmenu-howto-customtriggerbehavior
 tags: define,custom,trigger,behavior
 published: True

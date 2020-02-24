@@ -1,7 +1,7 @@
 ---
 title: Resize a Column with the UI
 page_title: Resize a Column with the UI
-description: How to Resize a Column with the UI
+description: Check our &quot;Resize a Column with the UI&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-howto-resizecolumn
 tags: column,resize
 published: True

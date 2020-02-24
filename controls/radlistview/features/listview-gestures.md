@@ -1,7 +1,7 @@
 ---
 title: Gestures
 page_title: Gestures
-description: RadListView Gestures
+description: Check our &quot;Gestures&quot; documentation article for RadListView for UWP control.
 slug: radlistview-gestures
 tags: radlistview,listview,gestures,swipe,reorder,drag
 published: True

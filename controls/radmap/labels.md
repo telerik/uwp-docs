@@ -1,7 +1,7 @@
 ---
 title: Labels
 page_title: Labels
-description: Labels
+description: Check our &quot;Labels&quot; documentation article for RadMap for UWP control.
 slug: radmap-labels
 tags: labels
 published: True

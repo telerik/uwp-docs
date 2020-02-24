@@ -1,7 +1,7 @@
 ---
 title: MapShapeTooltipBehavior
 page_title: MapShapeTooltipBehavior
-description: MapShapeTooltipBehavior
+description: Check our &quot;MapShapeTooltipBehavior&quot; documentation article for RadMap for UWP control.
 slug: radmap-behaviors-mapshapetooltipbehavior
 tags: mapshapetooltipbehavior
 published: True

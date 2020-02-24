@@ -1,7 +1,7 @@
 ---
 title: Use the CellContentTemplateSelector Property
 page_title: Use the CellContentTemplateSelector Property
-description: Use the CellContentTemplateSelector Property
+description: Check our &quot;Use the CellContentTemplateSelector Property&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-columns-howto-usecellcontenttemplateselectorproperty
 tags: use,the,cellcontenttemplateselector,property
 published: True

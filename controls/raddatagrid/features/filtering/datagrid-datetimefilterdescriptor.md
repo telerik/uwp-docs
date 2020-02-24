@@ -1,7 +1,7 @@
 ---
 title: DateTime Filter Descriptor
 page_title: DateTime Filter Descriptor
-description: DateTime Filter Descriptor
+description: Check our &quot;DateTime Filter Descriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-filtering-datetimefilterdescriptor
 tags: datetime,filter,descriptor
 published: True

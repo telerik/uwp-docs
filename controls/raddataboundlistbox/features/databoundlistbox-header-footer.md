@@ -1,7 +1,7 @@
 ---
 title: Header and Footer
 page_title: Header and Footer
-description: Header and Footer
+description: Check our &quot;Header and Footer&quot; documentation article for RadDataBoundListBox for UWP control.
 slug: databoundlistbox-header-footer
 tags: header,and,footer
 published: True

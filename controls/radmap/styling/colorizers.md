@@ -1,7 +1,7 @@
 ---
 title: Shape Colorizers
 page_title: Shape Colorizers
-description: Shape Colorizers
+description: Check our &quot;Shape Colorizers&quot; documentation article for RadMap for UWP control.
 slug: radmap-colorizers
 tags: shape,colorizers
 published: True

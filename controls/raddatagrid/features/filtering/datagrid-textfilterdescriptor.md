@@ -1,7 +1,7 @@
 ---
 title: Text Filter Descriptor
 page_title: Text Filter Descriptor
-description: Text Filter Descriptor
+description: Check our &quot;Text Filter Descriptor&quot; documentation article for RadDataGrid for UWP control.
 slug: datagrid-filtering-textfilterdescriptor
 tags: text,filter,descriptor
 published: True

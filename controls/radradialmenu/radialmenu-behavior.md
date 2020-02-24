@@ -1,7 +1,7 @@
 ---
 title: RadRadialMenu as a Context Menu
 page_title: RadRadialMenu as a Context Menu
-description: RadRadialMenu as a Context Menu
+description: Check our &quot;RadRadialMenu as a Context Menu&quot; documentation article for RadRadialMenu for UWP control.
 slug: radialmenu-behavior
 tags: radradialmenu,as,a,context,menu
 published: True

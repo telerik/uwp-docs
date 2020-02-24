@@ -1,7 +1,7 @@
 ---
 title: Segmented Indicators
 page_title: Segmented Indicators
-description: Segmented Indicators
+description: Check our &quot;Segmented Indicators&quot; documentation article for RadGauge for UWP control.
 slug: radgauge-segmented-indicator
 tags: segmented,indicators
 published: True
