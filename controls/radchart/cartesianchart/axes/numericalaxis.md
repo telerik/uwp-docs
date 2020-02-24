@@ -1,7 +1,7 @@
 ---
 title: NumericalAxis Class
 page_title: NumericalAxis Class
-description: NumericalAxis Class
+description: Check our &quot;NumericalAxis Class&quot; documentation article for RadChart for UWP control.
 slug: radchart-axes-numericalclass
 tags: numericalaxis,class
 published: True

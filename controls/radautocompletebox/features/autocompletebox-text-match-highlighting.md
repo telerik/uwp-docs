@@ -1,7 +1,7 @@
 ---
 title: Text Match Highlighting
 page_title: Text Match Highlighting
-description: Text Match Highlighting
+description: Check our &quot;Text Match Highlighting&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-text-match-highlighting
 tags: text,match,highlighting
 published: True

@@ -1,7 +1,7 @@
 ---
 title: MoveToUpperView
 page_title: MoveToUpperView
-description: MoveToUpperView
+description: Check our &quot;MoveToUpperView&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-commands-movetoupperview
 tags: movetoupperview
 published: True

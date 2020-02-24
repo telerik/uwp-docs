@@ -1,7 +1,7 @@
 ---
 title: PointTemplateSeries Class
 page_title: PointTemplateSeries Class
-description: PointTemplateSeries Class
+description: Check our &quot;PointTemplateSeries Class&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-pointtemplateseries
 tags: pointtemplateseries,class
 published: True

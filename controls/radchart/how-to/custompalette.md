@@ -1,7 +1,7 @@
 ---
 title: Define and Use Custom Chart Palette
 page_title: Define and Use Custom Chart Palette
-description: Define and Use Custom Chart Palette
+description: Check our &quot;Define and Use Custom Chart Palette&quot; documentation article for RadChart for UWP control.
 slug: radchart-custompalette
 tags: define,and,use,custom,chart,palette
 published: True

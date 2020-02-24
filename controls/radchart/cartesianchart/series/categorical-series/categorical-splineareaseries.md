@@ -1,7 +1,7 @@
 ---
 title: Spline Area Series
 page_title: Spline Area Series
-description: Spline Area Series
+description: Check our &quot;Spline Area Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-splineareaseries
 tags: spline,area,series
 published: True

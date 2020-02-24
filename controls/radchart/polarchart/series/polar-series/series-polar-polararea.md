@@ -1,7 +1,7 @@
 ---
 title: Polar Area Series
 page_title: Polar Area Series
-description: Polar Area Series
+description: Check our &quot;Polar Area Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-polarchart-series-polar-polararea
 tags: polar,area,series
 published: True

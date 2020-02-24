@@ -1,7 +1,7 @@
 ---
 title: Multiple Axes
 page_title: Multiple Axes
-description: Multiple Axes
+description: Check our &quot;Multiple Axes&quot; documentation article for RadChart for UWP control.
 slug: radchart-axes-multipleaxes
 tags: multiple,axes
 published: True

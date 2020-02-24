@@ -1,7 +1,7 @@
 ---
 title: Series Provider
 page_title: Series Provider
-description: Series Provider
+description: Check our &quot;Series Provider&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-dynamicseries-chartseriesprovider
 tags: series,provider
 published: True

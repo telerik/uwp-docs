@@ -1,7 +1,7 @@
 ---
 title: Properties And Configuration
 page_title: Properties And Configuration
-description: Properties And Configuration
+description: Check our &quot;Properties And Configuration&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-propertiesandconfiguration
 tags: properties,and,configuration
 published: True

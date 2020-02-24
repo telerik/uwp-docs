@@ -1,7 +1,7 @@
 ---
 title: Implement a Legend Control in Unbound Mode
 page_title: Implement a Legend Control in Unbound Mode
-description: Implement a Legend Control in Unbound Mode
+description: Check our &quot;Implement a Legend Control in Unbound Mode&quot; documentation article for RadChart for UWP control.
 slug: radchart-legendcontrol-unboundmode
 tags: implement,a,legend,control,in,unbound,mode
 published: True

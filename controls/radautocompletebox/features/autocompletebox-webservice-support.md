@@ -1,7 +1,7 @@
 ---
 title: Filtering Items with Web Service 
 page_title: Filtering Items with Web Service 
-description: Filtering Items with Web Service 
+description: Check our &quot;Filtering Items with Web Service&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-webservice-support
 tags: filtering,items,with,web,service,
 published: True

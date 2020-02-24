@@ -1,7 +1,7 @@
 ---
 title: Scatter Line Series
 page_title: Scatter Line Series
-description: Scatter Line Series
+description: Check our &quot;Scatter Line Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-skatter-scatterlineseries
 tags: scatter,line,series
 published: True

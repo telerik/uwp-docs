@@ -1,7 +1,7 @@
 ---
 title: Inverse Axes
 page_title: Inverse Axes
-description: Inverse Axes
+description: Check our &quot;Inverse Axes&quot; documentation article for RadChart for UWP control.
 slug: radchart-axes-inverseaxes
 tags: inverse,axes
 published: True

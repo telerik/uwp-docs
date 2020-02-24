@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 page_title: Getting Started
-description: Getting Started
+description: Check our &quot;Getting Started&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-gettingstarted
 tags: getting,started
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Scatter Series Descriptor
 page_title: Scatter Series Descriptor
-description: Scatter Series Descriptor
+description: Check our &quot;Scatter Series Descriptor&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-dynamicseries-seriesdescriptors-scatterseriesdescriptor
 tags: scatter,series,descriptor
 published: True

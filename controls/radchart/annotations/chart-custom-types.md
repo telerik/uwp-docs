@@ -1,7 +1,7 @@
 ---
 title: Custom Annotation Types
 page_title: Custom Annotation Types
-description: Custom Annotation Types
+description: Check our &quot;Custom Annotation Types&quot; documentation article for RadChart for UWP control.
 slug: chart-annotations-custom-types
 tags: custom,annotation,types
 published: True

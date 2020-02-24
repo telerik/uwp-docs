@@ -1,7 +1,7 @@
 ---
 title: Implement a Legend Control for a PieSeries
 page_title: Implement a Legend Control for a PieSeries
-description: Implement a Legend Control for a PieSeries
+description: Check our &quot;Implement a Legend Control for a PieSeries&quot; documentation article for RadChart for UWP control.
 slug: radchart-legendcontrol-legendcontrolforpiechart
 tags: implement,a,legend,control,for,a,pieseries
 published: True

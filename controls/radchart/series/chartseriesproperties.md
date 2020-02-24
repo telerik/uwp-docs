@@ -1,7 +1,7 @@
 ---
 title: ChartSeries Class
 page_title: ChartSeries Class
-description: ChartSeries Class
+description: Check our &quot;ChartSeries Class&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-chartseriesproperties
 tags: chartseries,class
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Animation Types
 page_title: Animation Types
-description: Animation Types
+description: Check our &quot;Animation Types&quot; documentation article for RadBusyIndicator for UWP control.
 slug: busyindicator-animationtypes
 tags: animation,types
 published: True

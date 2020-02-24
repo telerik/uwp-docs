@@ -1,7 +1,7 @@
 ---
 title: Customizing Scale Ticks
 page_title: Customizing Scale Ticks
-description: Customizing Scale Ticks
+description: Check our &quot;Customizing Scale Ticks&quot; documentation article for RadBulletGraph for UWP control.
 slug: bulletgraph-features-customizing-ticks
 tags: customizing,scale,ticks
 published: True

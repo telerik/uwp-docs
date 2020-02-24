@@ -1,7 +1,7 @@
 ---
 title: Selection Behavior
 page_title: Selection Behavior
-description: Selection Behavior
+description: Check our &quot;Selection Behavior&quot; documentation article for RadChart for UWP control.
 slug: radchart-behaviors-chartselectionbehavior
 tags: selection,behavior
 published: True

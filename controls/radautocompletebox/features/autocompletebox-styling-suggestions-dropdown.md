@@ -1,7 +1,7 @@
 ---
 title: Drop-down Styling
 page_title: Drop-down Styling
-description: Drop-down Styling
+description: Check our &quot;Drop-down Styling&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-styling-suggestions-dropdown
 tags: drop-down,styling
 published: True

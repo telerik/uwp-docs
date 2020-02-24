@@ -1,7 +1,7 @@
 ---
 title: PlotBand Annotation Types
 page_title: PlotBand Annotation Types
-description: PlotBand Annotation Types
+description: Check our &quot;PlotBand Annotation Types&quot; documentation article for RadChart for UWP control.
 slug: chart-annotations-plotband-types
 tags: plotband,annotation,types
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Programatic Navigation
 page_title: Programatic Navigation
-description: Programatic Navigation
+description: Check our &quot;Programatic Navigation&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-programaticnavigation
 tags: programatic,navigation
 published: True

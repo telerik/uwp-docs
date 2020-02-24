@@ -1,7 +1,7 @@
 ---
 title: How to Generate a Dynamic Seires Using a Collection of ViewModels
 page_title: How to Generate a Dynamic Seires Using a Collection of ViewModels
-description: How to Generate a Dynamic Seires Using a Collection of ViewModels
+description: Check our &quot;How to Generate a Dynamic Seires Using a Collection of ViewModels&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-dynamicseries-usingviewmodelscollection
 tags: how,to,generate,a,dynamic,seires,using,a,collection,of,viewmodels
 published: True

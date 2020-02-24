@@ -1,7 +1,7 @@
 ---
 title: DateTime Axis
 page_title: DateTime Axis
-description: DateTime Axis
+description: Check our &quot;DateTime Axis&quot; documentation article for RadChart for UWP control.
 slug: radchart-axes-datetimeaxes
 tags: datetime,axis
 published: True

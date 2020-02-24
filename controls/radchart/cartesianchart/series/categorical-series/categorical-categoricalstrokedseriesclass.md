@@ -1,7 +1,7 @@
 ---
 title: Categorical Stroked Series Class
 page_title: Categorical Stroked Series Class
-description: Categorical Stroked Series Class
+description: Check our &quot;Categorical Stroked Series Class&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-cartesianchart-series-categoricalseries-categoricalstrokedseriesclass
 tags: categorical,stroked,series,class
 published: True

@@ -1,7 +1,7 @@
 ---
 title: Logarithmic Axis
 page_title: Logarithmic Axis
-description: Logarithmic Axis
+description: Check our &quot;Logarithmic Axis&quot; documentation article for RadChart for UWP control.
 slug: radchart-axes-logarithmicaxis
 tags: logarithmic,axis
 published: True

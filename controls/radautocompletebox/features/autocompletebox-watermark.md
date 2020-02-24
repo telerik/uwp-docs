@@ -1,7 +1,7 @@
 ---
 title: Watermark Support
 page_title: Watermark Support
-description: Watermark Support
+description: Check our &quot;Watermark Support&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-watermark
 tags: watermark,support
 published: True

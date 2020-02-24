@@ -1,7 +1,7 @@
 ---
 title: Radar Area Series
 page_title: Radar Area Series
-description: Radar Area Series
+description: Check our &quot;Radar Area Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-polarchart-series-radar-radararea
 tags: radar,area,series
 published: True

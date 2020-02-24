@@ -1,7 +1,7 @@
 ---
 title: Doughnut Series
 page_title: Doughnut Series
-description: Doughnut Series
+description: Check our &quot;Doughnut Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-doughnutseries
 tags: doughnut,series
 published: True

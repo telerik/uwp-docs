@@ -1,7 +1,7 @@
 ---
 title: Scatter Point Series
 page_title: Scatter Point Series
-description: Scatter Point Series
+description: Check our &quot;Scatter Point Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-skatter-scatterpointseries
 tags: scatter,point,series
 published: True

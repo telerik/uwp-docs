@@ -1,7 +1,7 @@
 ---
 title: Polar Point Series
 page_title: Polar Point Series
-description: Polar Point Series
+description: Check our &quot;Polar Point Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-polarchart-series-polar-polarpoint
 tags: polar,point,series
 published: True

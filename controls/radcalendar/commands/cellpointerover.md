@@ -1,7 +1,7 @@
 ---
 title: CellPointerOver
 page_title: CellPointerOver
-description: CellPointerOver
+description: Check our &quot;CellPointerOver&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-commands-cellpointerover
 tags: cellpointerover
 published: True

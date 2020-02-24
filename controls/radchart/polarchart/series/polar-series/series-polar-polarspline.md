@@ -1,7 +1,7 @@
 ---
 title: Polar Spline Series
 page_title: Polar Spline Series
-description: Polar Spline Series
+description: Check our &quot;Polar Spline Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-polarchart-series-polar-polarspline
 tags: polar,spline,series
 published: True

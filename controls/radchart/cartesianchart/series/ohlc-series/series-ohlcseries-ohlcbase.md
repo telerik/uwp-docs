@@ -1,7 +1,7 @@
 ---
 title: OhlcSeriesBase Class
 page_title: OhlcSeriesBase Class
-description: OhlcSeriesBase Class
+description: Check our &quot;OhlcSeriesBase Class&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-cartesianchart-series-ohlcseries-ohlcbase
 tags: ohlcseriesbase,class
 published: True

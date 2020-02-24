@@ -1,7 +1,7 @@
 ---
 title: Spline Series
 page_title: Spline Series
-description: Spline Series
+description: Check our &quot;Spline Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-splineseries
 tags: spline,series
 published: True

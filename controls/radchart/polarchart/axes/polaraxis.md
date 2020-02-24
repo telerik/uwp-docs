@@ -1,7 +1,7 @@
 ---
 title: Polar Axis
 page_title: Polar Axis
-description: Polar Axis
+description: Check our &quot;Polar Axis&quot; documentation article for RadChart for UWP control.
 slug: radchart-axes-polaraxis
 tags: polar,axis
 published: True

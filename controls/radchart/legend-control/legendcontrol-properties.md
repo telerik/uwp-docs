@@ -1,7 +1,7 @@
 ---
 title: Properties
 page_title: Properties
-description: Properties
+description: Check our &quot;Properties&quot; documentation article for RadChart for UWP control.
 slug: radchart-legendcontrol-properties
 tags: properties
 published: True

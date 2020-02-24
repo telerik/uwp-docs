@@ -1,7 +1,7 @@
 ---
 title: MoveToPreviousView
 page_title: MoveToPreviousView
-description: MoveToPreviousView
+description: Check our &quot;MoveToPreviousView&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-commands-movetopreviousview
 tags: movetopreviousview
 published: True

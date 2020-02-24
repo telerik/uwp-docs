@@ -1,7 +1,7 @@
 ---
 title: RangeSeriesBase Class
 page_title: RangeSeriesBase Class
-description: RangeSeriesBase Class
+description: Check our &quot;RangeSeriesBase Class&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-rangeseriesbase
 tags: rangeseriesbase,class
 published: True

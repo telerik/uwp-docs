@@ -1,7 +1,7 @@
 ---
 title: Customizing Scale Labels
 page_title: Customizing Scale Labels
-description: Customizing Scale Labels
+description: Check our &quot;Customizing Scale Labels&quot; documentation article for RadBulletGraph for UWP control.
 slug: bulletgraph-customizing-scale-labels
 tags: customizing,scale,labels
 published: True

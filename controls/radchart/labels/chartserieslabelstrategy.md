@@ -1,7 +1,7 @@
 ---
 title: Label Strategy
 page_title: Label Strategy
-description: Label Strategy
+description: Check our &quot;Label Strategy&quot; documentation article for RadChart for UWP control.
 slug: radchart-labels-chartserieslabelstrategy
 tags: label,strategy
 published: True

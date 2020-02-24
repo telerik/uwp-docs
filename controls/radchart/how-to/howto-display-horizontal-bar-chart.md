@@ -1,7 +1,7 @@
 ---
 title: Display Horizontal Bar Chart
 page_title: Display Horizontal Bar Chart
-description: Display Horizontal Bar Chart
+description: Check our &quot;Display Horizontal Bar Chart&quot; documentation article for RadChart for UWP control.
 slug: radchart-howto-display-horizontal-bar-chart
 tags: display,horizontal,bar,chart
 published: True

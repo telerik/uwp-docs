@@ -1,7 +1,7 @@
 ---
 title: Scatter Spline Series
 page_title: Scatter Spline Series
-description: Scatter Spline Series
+description: Check our &quot;Scatter Spline Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-skatter-scattersplineseries
 tags: scatter,spline,series
 published: True

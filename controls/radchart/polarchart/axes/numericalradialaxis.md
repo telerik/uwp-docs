@@ -1,7 +1,7 @@
 ---
 title: NumericalRadial Axis
 page_title: NumericalRadial Axis
-description: NumericalRadial Axis
+description: Check our &quot;NumericalRadial Axis&quot; documentation article for RadChart for UWP control.
 slug: radchart-axes-numericalradialaxis
 tags: numericalradial,axis
 published: True

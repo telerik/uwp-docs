@@ -1,7 +1,7 @@
 ---
 title: Drop-down Behavior
 page_title: Drop-down Behavior
-description: Drop-down Behavior
+description: Check our &quot;Drop-down Behavior&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-dropdown-customization
 tags: drop-down,behavior
 published: True

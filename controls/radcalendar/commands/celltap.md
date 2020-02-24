@@ -1,7 +1,7 @@
 ---
 title: CellTap
 page_title: CellTap
-description: CellTap
+description: Check our &quot;CellTap&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-commands-celltap
 tags: celltap
 published: True

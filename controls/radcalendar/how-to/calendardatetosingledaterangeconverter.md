@@ -1,7 +1,7 @@
 ---
 title: Bind a DateTime Instance to Calendar SelectedDateRange Property
 page_title: Bind a DateTime Instance to Calendar SelectedDateRange Property
-description: Bind a DateTime Instance to Calendar SelectedDateRange Property
+description: Check our &quot;Bind a DateTime Instance to Calendar SelectedDateRange Property&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-calendardatetosingledaterangeconverter
 tags: bind,a,datetime,instance,to,calendar,selecteddaterange,property
 published: True

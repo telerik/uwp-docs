@@ -1,7 +1,7 @@
 ---
 title: Binding to Complex Business Objects
 page_title: Binding to Complex Business Objects
-description: Binding to Complex Business Objects
+description: Check our &quot;Binding to Complex Business Objects&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-complex-business-objects
 tags: binding,to,complex,business,objects
 published: True

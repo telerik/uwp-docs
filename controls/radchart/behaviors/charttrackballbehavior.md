@@ -1,7 +1,7 @@
 ---
 title: TrackBall Behavior
 page_title: TrackBall Behavior
-description: TrackBall Behavior
+description: Check our &quot;TrackBall Behavior&quot; documentation article for RadChart for UWP control.
 slug: radchart-behaviors-charttrackballbehavior
 tags: trackball,behavior
 published: True

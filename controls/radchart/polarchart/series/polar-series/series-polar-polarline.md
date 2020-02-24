@@ -1,7 +1,7 @@
 ---
 title: Polar Line Series
 page_title: Polar Line Series
-description: Polar Line Series
+description: Check our &quot;Polar Line Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-series-polarchart-series-polar-polarline
 tags: polar,line,series
 published: True

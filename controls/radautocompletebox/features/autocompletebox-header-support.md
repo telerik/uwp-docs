@@ -1,7 +1,7 @@
 ---
 title: Header Support
 page_title: Header Support
-description: Header Support
+description: Check our &quot;Header Support&quot; documentation article for RadAutoCompleteBox for UWP control.
 slug: autocompletebox-header-support
 tags: header,support
 published: True

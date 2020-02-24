@@ -1,7 +1,7 @@
 ---
 title: Custom Line Annotation
 page_title: Custom Line Annotation
-description: Custom Line Annotation
+description: Check our &quot;Custom Line Annotation&quot; documentation article for RadChart for UWP control.
 slug: chart-annotations-customline-types
 tags: custom,line,annotation
 published: True

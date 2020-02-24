@@ -1,7 +1,7 @@
 ---
 title: MoveToLowerView
 page_title: MoveToLowerView
-description: MoveToLowerView
+description: Check our &quot;MoveToLowerView&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-commands-movetolowerview
 tags: movetolowerview
 published: True

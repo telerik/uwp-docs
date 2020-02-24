@@ -1,7 +1,7 @@
 ---
 title: How to Define Qualitative Indicators
 page_title: How to Define Qualitative Indicators
-description: How to Define Qualitative Indicators
+description: Check our &quot;How to Define Qualitative Indicators&quot; documentation article for RadBulletGraph for UWP control.
 slug: bulletgraph-how-to-add-qualitative-indicators
 tags: how,to,define,qualitative,indicators
 published: True

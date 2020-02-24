@@ -1,7 +1,7 @@
 ---
 title: MoveToDate
 page_title: MoveToDate
-description: MoveToDate
+description: Check our &quot;MoveToDate&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-commands-movetodate
 tags: movetodate
 published: True

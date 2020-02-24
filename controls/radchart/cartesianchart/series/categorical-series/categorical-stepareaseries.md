@@ -1,7 +1,7 @@
 ---
 title: Step Area Series
 page_title: Step Area Series
-description: Step Area Series
+description: Check our &quot;Step Area Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categoricalseries-stepareaseries
 tags: step,area,series
 published: True

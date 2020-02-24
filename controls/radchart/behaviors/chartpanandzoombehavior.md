@@ -1,7 +1,7 @@
 ---
 title: Pan and Zoom Behvior
 page_title: Pan and Zoom Behvior
-description: Pan and Zoom Behvior
+description: Check our &quot;Pan and Zoom Behvior&quot; documentation article for RadChart for UWP control.
 slug: radchart-behaviors-chartpanandzoombehavior
 tags: pan,and,zoom,behvior
 published: True

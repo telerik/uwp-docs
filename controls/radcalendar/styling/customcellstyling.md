@@ -1,7 +1,7 @@
 ---
 title: Custom Cell Styling
 page_title: Custom Cell Styling
-description: Custom Cell Styling
+description: Check our &quot;Custom Cell Styling&quot; documentation article for RadCalendar for UWP control.
 slug: radcalendar-customcellstyling
 tags: custom,cell,styling
 published: True

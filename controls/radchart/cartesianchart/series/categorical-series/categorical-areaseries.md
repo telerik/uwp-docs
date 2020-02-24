@@ -1,7 +1,7 @@
 ---
 title: Area Series
 page_title: Area Series
-description: Area Series
+description: Check our &quot;Area Series&quot; documentation article for RadChart for UWP control.
 slug: radchart-cartesianchart-series-categorical-areaseries
 tags: area,series
 published: True
