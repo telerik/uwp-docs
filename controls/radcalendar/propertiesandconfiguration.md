@@ -58,7 +58,7 @@ With R2 2020 Official Release of Telerik UI for UWP, the RadCalendar control pro
 
 The image below shows how the calendar looks when FooterVisibility is set to Visible:
 
-![Calendar-footer visibility](images/Calendar-foter-visibility.png)
+![Calendar-footer visibility](images/Calendar-footer-visibility.png)
 
 ### CellFormats
 
