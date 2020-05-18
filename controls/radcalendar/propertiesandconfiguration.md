@@ -39,7 +39,7 @@ position: 3
 * **[Selection Properties]({%slug radcalendar-selection%})**
 * **[CellStyling Properties]({%slug radcalendar-customcellstyling%})**
 
-#### HeaderFormats 
+### HeaderFormats 
 
 The following properties get or set the format of the navigation header in different view modes:
 
@@ -48,7 +48,19 @@ The following properties get or set the format of the navigation header in diffe
 * **DecadeViewHeaderFormat** (string): The default value is "{0:yyyy} ~ {1:yyyy}".
 * **CenturyViewHeaderFormat** (string): The default value is "{0:yyyy} ~ {1:yyyy}".
 
-#### CellFormats
+### FooterVisibility
+
+With R2 2020 Official Release of Telerik UI for UWP, the RadCalendar control provides the option to toggle its the footer visibility through the following property:
+ 
+* **FooterVisibility**(*Windows.UI.Xaml.Visivility*): Specifies the display state of the footer. The default value is *Callapsed*. In order to visualize the footer you need to set **FooterVisibility** to *Visible*.
+
+>note In adition when the FooterVisibility is Visible a `+` button is displayed inside the footer. The button has the **FooterButtonClicked** event which occurs when the `+` button is clicked.
+
+The image below shows how the calendar looks when FooterVisibility is set to Visible:
+
+![Calendar-footer visibility](images/Calendar-footer-visibility.png)
+
+### CellFormats
 
 The following properties get or set the format of the cell content in different view modes:
 
