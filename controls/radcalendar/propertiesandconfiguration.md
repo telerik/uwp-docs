@@ -50,7 +50,7 @@ The following properties get or set the format of the navigation header in diffe
 
 ### FooterVisibility
 
-With R2 2020 Official Release of Telerik UI for UWP, the RadCalendar control provides the option to toggle the footer visibility through the following property:
+With R2 2020 Official Release of Telerik UI for UWP, the RadCalendar control provides the option to toggle its the footer visibility through the following property:
  
 * **FooterVisibility**(*Windows.UI.Xaml.Visivility*): Specifies the display state of the footer. The default value is *Callapsed*. In order to visualize the footer you need to set **FooterVisibility** to *Visible*.
 
