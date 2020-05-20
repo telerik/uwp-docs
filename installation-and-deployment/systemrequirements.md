@@ -13,8 +13,10 @@ position: 0
 {% if site.site_name == 'UWP' %}
 * **Operating system**: **Telerik UI for Universal Windows Platform** requires that Microsoft Windows 10 or higher are installed on the machine where the product will be used. Older operating systems, like Windows 7, Windows 8.1, Windows Phone 8 or Windows Server 2008 are not supported.              
 
-* **Development Environment**: **Telerik UI for Universal Windows Platform** requires that Microsoft Visual Studio 2015 or higher with [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk) is installed on the development machine where the product will be used. Older versions of Visual Studio are not supported.
+* **Development Environment**: **Telerik UI for Universal Windows Platform** requires that Microsoft Visual Studio 2015 or higher with [Windows 10 SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/) is installed on the development machine where the product will be used. Older versions of Visual Studio are not supported.
 {% endif %}
+
+> The minimum supported Windows SDK version is 10.0.10586.0.
 
 {% if site.site_name == 'WIN8' %}
 * **Operating system**: **Telerik UI for Windows Universal** requires that Microsoft Windows 8.1 or higher are installed on the machine where the product will be used. Older operating systems, like Windows 7, Windows Phone 8 or Windows Server 2008 are not supported.              
