@@ -10,6 +10,8 @@ position:
 
 # Programmatic Scrolling
 
-RadListView exposes the following methods for programmatic scrolling to a specific data item: 
+RadListView exposes the following methods for programmatic scrolling to a specific data item/location: 
 
 * **ScrollItemIntoView(object item)**: Attempts to bring the specified data item into the view asynchronously.
+
+* **ScrollToPosition(Point position)**: Attempts to scroll the ListView to the specified position.

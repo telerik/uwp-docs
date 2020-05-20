@@ -14,7 +14,7 @@ RadDataGrid allows editing an already populated items through the UI.
 
 ## Inline Editing
 
->First, the RadDataGrid.UserEditModeshould be set to DataGridUserEditMode.**Inline**. 
+>First, the RadDataGrid.UserEditMode should be set to DataGridUserEditMode.**Inline**. 
 
 Then, the following operations can be performed by a user:
 
@@ -26,7 +26,7 @@ Then, the following operations can be performed by a user:
 
 ## External Editing
 
->First, the RadDataGrid.UserEditModeshould be set to DataGridUserEditMode.**External**. 
+>First, the RadDataGrid.UserEditMode should be set to DataGridUserEditMode.**External**. 
 
 Then, the following operations can be performed by a user:
 

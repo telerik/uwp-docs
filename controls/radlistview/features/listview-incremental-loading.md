@@ -21,9 +21,9 @@ The **IncrementalLoadingMode** property specifies how new items are requested. T
 
 The RadListView also supports LoadMoreDataCommand that by default is executed to load new data. You can find more information about the list view commands [here]({% slug radlistview-commands %}).
 
-## Example
+## Using IncrementalLoading Collection
 
-This example demonstrates how to use the incremental loading functionality.
+This example demonstrates how to use the incremental loading functionality. Please note that the approach works for both Automatic and Explicit loading modes.
 
 Here is the RadListView XAML declaration:
 	
@@ -61,7 +61,7 @@ This is the view model class:
             var result = Enumerable.Range(this.currentCount, (int)count).Select(x => new Item { Text = "item " + x }).ToList();
             currentCount += (int)count;
             return result;
-        }
+        }	
     }
 
 	public class Item 
@@ -72,3 +72,91 @@ This is the view model class:
 Here is the result:
 
 ![RadListView incremental loading](images/listview-data-virtualization.png "RadListView Incremental Loading")
+
+## Using LoadMoreDataCommand
+
+This example demonstrates how you can utilize LoadMoreDataCommand to load items - the approach works for both Automatic and Explicit loading modes.
+
+Here is the RadListView XAML declaration:
+
+	<telerikDataControls:RadListView x:Name="ListView" ItemsSource="{Binding Items}" />
+
+This is the view model class:
+
+	public class ViewModel
+	{
+		public ViewModel()
+		{
+			this.Items = new ObservableCollection<int>();
+			this.AddItems(40);
+		}
+
+		public ObservableCollection<int> Items { get; }
+
+		public void AddItems(int count)
+		{
+			for (int i = 0; i < count; i++)
+			{
+				this.Items.Add(this.Items.Count);
+			}
+		}
+	}
+	
+Here is the LoadMoreDataCommand implementation:
+
+	public class CustomLoadOnDemandCommand : LoadMoreDataCommand
+	{
+		private int lodCounter;
+
+		public CustomLoadOnDemandCommand()
+			:base()
+		{
+			this.Id = CommandId.LoadMoreData;
+		}
+
+		public override bool CanExecute(object parameter)
+		{
+			LoadMoreDataContext context = (LoadMoreDataContext)parameter;
+			LoadOnDemandCommand.ViewModel viewModel = (LoadOnDemandCommand.ViewModel)context.DataContext;
+
+			bool canExecute = viewModel.Items.Count < 100;
+			return canExecute;
+		}
+
+		public async override void Execute(object parameter)
+		{
+			base.Execute(parameter);
+
+			LoadMoreDataContext context = (LoadMoreDataContext)parameter;
+			LoadOnDemandCommand.ViewModel viewModel = (LoadOnDemandCommand.ViewModel)context.DataContext;
+			this.lodCounter++;
+
+			if (this.lodCounter % 3 == 0)
+			{
+				// If we do not need to get new data asynchronously, we can add the new items right away.
+				viewModel.AddItems(15);
+			}
+			else
+			{
+				// If we need to get new data asynchronously, we must manually update the loading status.
+
+				this.Owner.ChangeDataLoadingStatus(BatchLoadingStatus.ItemsRequested);
+
+				// Mimic getting data from server asynchronously.
+				await Task.Delay(2000);
+
+				viewModel.AddItems(15);
+
+				this.Owner.ChangeDataLoadingStatus(BatchLoadingStatus.ItemsLoaded);
+			}
+		}
+	}
+		
+Lastly, add the defined above command to the ListView Commands collection:
+
+
+	this.ListView.Commands.Add(new CustomLoadOnDemandCommand());
+
+	this.DataContext = new ViewModel();
+	
+

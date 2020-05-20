@@ -10,7 +10,7 @@ position: 1
 
 # BarGaugeIndicator Class
 
->**BarGaugeIndicator** class inherits from the **GaugeIndicator** class - [See the inherited properties](%slug radgauge-indicators-gaugeindicatorclass%).
+>**BarGaugeIndicator** class inherits from the **GaugeIndicator** class - [See the inherited properties]({%slug radgauge-indicators-gaugeindicatorclass%}).
 
 **BarGaugeIndicator** class is a base class that defines properties for the following indicators:
 
