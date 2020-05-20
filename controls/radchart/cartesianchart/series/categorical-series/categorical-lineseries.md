@@ -21,7 +21,7 @@ The **LineSeries** are represented on the chart as data points connected with st
 
 ## Example
 
-Here's an example of how to create a **RadCartesianChart** with**LineSeries**.
+Here's an example of how to create a **RadCartesianChart** with **LineSeries**.
 
 1. First, create a class for the sample data.
 

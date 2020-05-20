@@ -12,7 +12,13 @@ position: 0
 
 This article describes how to use the SizeMode and Width properties.
 
-The width of each column in a RadDataGrid depends on its SizeMode and Width properties. We’ll walk through an example that shows how the size of each column changes depending on the value of the SizeMode property:
+The width of each column in a RadDataGrid depends on its **SizeMode** and **Width** properties. We’ll walk through an example that shows how the size of each column changes depending on the value of the SizeMode property.
+
+**SizeMode** property is of enum type *DataGridColumnSizeMode* and could be set to any of the following values:
+
+* Fixed: The column has a fixed width as defined by its Width property.
+* Stretch: The column is stretched to the available width proportionally to its desired width. This is the default SizeMode value.
+* Auto: The columns is sized to its desired width. That is the maximum desired width of all associated cells.
 
 To begin this example, we set the ItemsSource of a DataGrid:
 

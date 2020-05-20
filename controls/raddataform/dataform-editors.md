@@ -39,6 +39,26 @@ The developer can register **Custom Editors** or **Views**(for read-only propert
 
 #Example#
 
-     this.form.RegisterTypeEditor(typeof(List<string>), typeof(ListEditor));
+     this.DataForm.RegisterPropertyEditor("ProductName", typeof(CustomStringEditorDF));
+	 
+Where the CustomStringEditorDF implements the **ITypeEditor** interface:
 
-Where the ListEditor implements the **ITypeEditor** interface.
+	public class CustomStringEditorDF : Control, ITypeEditor
+	{
+		public string Text
+		{
+			get { return (string)GetValue(TextProperty); }
+			set { SetValue(TextProperty, value); }
+		}
+
+		public static readonly DependencyProperty TextProperty =
+			DependencyProperty.Register("Text", typeof(string), typeof(CustomStringEditorDF), new PropertyMetadata(null));
+			
+		public void BindEditor()
+		{
+			Binding b = new Binding();
+			b.Mode = BindingMode.TwoWay;
+			b.Path = new PropertyPath("PropertyValue");
+			this.SetBinding(CustomStringEditorDF.TextProperty, b);
+		}
+	}

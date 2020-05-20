@@ -24,6 +24,9 @@ Here are the properties supported by the RadNumericBox control:
 * **Value**: Gets or sets the current Value. This value may be coerced to fit the current range restrictions. Defaults to 0.
 * **ValueFormat**:Gets or sets the string that is used to format the current Value of the component.
 The String.Format routine is used and the value specified should be in the form required by this method: **{ index[,alignment][ :formatString] }**.
+
+> You can check the available format strings in the [Standard Numeric Format Strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings) topic on Microsoft Docs.
+
 * **ValueString**:Gets the current string representation of the Value property, as displayed in the TextBox part.
 * **Watermark**: Gets or sets the object that represents the Watermark displayed by the control. The Watermark is visible when the current Value is not set (null).
 * **WatermarkTemplate**:Gets or sets the DataTemplate instance that defines the appearance of the Watermark value.

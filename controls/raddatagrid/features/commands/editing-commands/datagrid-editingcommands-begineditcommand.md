@@ -42,8 +42,8 @@ This example creates a class that inherits from the *DataGridCommand* and then a
 
 Here is the XAML declaration:
 
-	<telerikGrid:RadDataGrid>
-	    <telerikGrid:RadDataGrid.Commands UserEditMode="Inline">
+	<telerikGrid:RadDataGrid UserEditMode="Inline">
+	    <telerikGrid:RadDataGrid.Commands>
 	        <local:CustomBeginEditCommand />
 	    </telerikGrid:RadDataGrid.Commands>
 	</telerikGrid:RadDataGrid>
