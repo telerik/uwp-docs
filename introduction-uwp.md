@@ -99,7 +99,7 @@ Telerik UI for UWP has an open source version which can be downloaded from the [
 
 For any issues you might encounter while working with UI for UWP, use any of the available support channels:
 
-- UI for UWP license holders and active trialists can take advantage of the outstanding customer support delivered by the developers building the library. To submit a support ticket, use our [support system](https://www.telerik.com/account/support-tickets/my-support-tickets.aspx).
+- UI for UWP license holders and active trialists can take advantage of the outstanding customer support delivered by the developers building the library. To submit a support ticket, use our [UI for UWP dedicated support](https://www.telerik.com/account/support-tickets?pid=1653) system.
 - [UI for UWP forum](https://www.telerik.com/forums/ui-for-universal-windows-platform) is part of the free support you can get from the community and from the UI for UWP team on all kinds of general issues.
 - [UI for UWP feedback portal](https://feedback.telerik.com/uwp) provides information on the features in discussion and also the planned ones for release.
 - [UI for UWP GitHub issue list](https://github.com/telerik/UI-For-UWP/issues) can be used for bug reports.
@@ -107,9 +107,8 @@ For any issues you might encounter while working with UI for UWP, use any of the
      
 ## Related Links
 
-- Telerik UI for UWP product page - https://www.telerik.com/universal-windows-platform-ui
-
-- Latest news for Telerik UI for UWP - https://www.telerik.com/support/whats-new/uwp
+- [Telerik UI for UWP product page](https://www.telerik.com/universal-windows-platform-ui)
+- [Latest news for Telerik UI for UWP](https://www.telerik.com/support/whats-new/uwp)
 
 ## Help us Improve the Telerik UI for Universal Windows Platform Documentation
 
