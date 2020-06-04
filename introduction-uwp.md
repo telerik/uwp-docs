@@ -104,7 +104,12 @@ For any issues you might encounter while working with UI for UWP, use any of the
 - [UI for UWP feedback portal](https://feedback.telerik.com/uwp) provides information on the features in discussion and also the planned ones for release.
 - [UI for UWP GitHub issue list](https://github.com/telerik/UI-For-UWP/issues) can be used for bug reports.
 - You may still need a tailor-made solution for your project. In such cases, go straight to [Progress Services](https://www.progress.com/services).
-     
+  
+## Learning Resources
+
+* [Virtual Classroom](https://progress.exceedlms.com/student/path/369640-telerik-uwp)
+* [Support Resources Hub Page](https://www.telerik.com/support/uwp)
+  
 ## Related Links
 
 - [Telerik UI for UWP product page](https://www.telerik.com/universal-windows-platform-ui)
