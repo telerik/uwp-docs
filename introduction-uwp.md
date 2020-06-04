@@ -8,13 +8,13 @@ published: True
 position: -1
 ---
 
-# Introduction
+# Welcome to Telerik UI for UWP
 
 Thank you for choosing **Telerik UI for Universal Windows Platform!**
 
 Telerik UI for Universal Windows Platform is built to target Universal Windows Platform application development and deliver a unique experience based on the [Microsoft UX guidelines for Windows Runtime apps](http://msdn.microsoft.com/en-us/library/windows/apps/hh465424.aspx).  
 
-To read more about the benefits of using Telerik UI for UWP, please visit the [product overview page](https://www.telerik.com/universal-windows-platform-ui).
+To learn more please visit the [Telerik UI for UWP](https://www.telerik.com/universal-windows-platform-ui) product overview page.
 
 <style>
 /* UWP download trial button */
