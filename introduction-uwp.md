@@ -1,14 +1,14 @@
 ---
 title: Introduction
 page_title: Introduction
-description: Introduction
+description: Learn how to decrease development time and build stunning UWP apps with Telerik UWP controls
 slug: UWP-Introduction
 tags: introduction, universal
 published: True
 position: -1
 ---
 
-# Welcome to Telerik UI for UWP
+## Welcome to Telerik UI for UWP
 
 Thank you for choosing **Telerik UI for Universal Windows Platform!**
 
