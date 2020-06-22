@@ -1,5 +1,5 @@
 # The public documentation URL, used for sitemap.xml
-url: "https://docs.telerik.com/devtools/universal-windows-platform/"
+url: "https://docs.telerik.com/devtools/universal-windows-platform"
 site_name: UWP
 
 destination: _site
