@@ -17,7 +17,7 @@ The **CategoricalSeries** abstract class inherits from the base **CartesianSerie
 >**CategoricalSeries** class inherits from the **CartesianSeries** class - [See the inherited properties]({%slug radchart-series-cartesianbase%}).
 
 * **CombineMode**: Gets or sets the combination mode to be used when data points are plotted. The available modes are:
-* **None**: The series are not combined - each series is plotted independently.
+	* **None**: The series are not combined - each series is plotted independently.
 	* **Cluster**: Series are combined next to each other (applicable for **BarSeries**).
 	* **Stack**: Series form stacks.
 	* **Stack100**: Series for stacks that occupy 100% of the plot area and the characterictic size of each series is proportional to its relative value.
