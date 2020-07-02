@@ -14,7 +14,7 @@ The **RadLegendControl** could be bound to a chart with multiple series and the 
 
 ## Example
 
-Here's an example of how to implement a RadLegendControl**** for a **RadCartesianChart** with two **AreaSeries**.
+Here's an example of how to implement a **RadLegendControl** for a **RadCartesianChart** with two **AreaSeries**.
 
 ![Cartesian Area Series Legend Contro](images/CartesianAreaSeriesLegendContro.png)
 
