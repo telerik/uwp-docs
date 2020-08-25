@@ -41,18 +41,9 @@ div#uwp_trial .uwp_download_btn {
 }
 </style>
 
-<script type="text/javascript">
-
-  $(document).ready(function(){
-	  var $btnWin = $(".js-btnWin");
-      $btnWin.show();
-  });
-
-</script>
-
 <div id="uwp_trial">
 <br />
-<a href="https://www.telerik.com/download-trial-file/v2-b/ui-for-universal-windows-platform" class="uwp_download_btn js-btnWin" style="display: none">Download Free Trial</a>
+<a href="https://www.telerik.com/download-trial-file/v2-b/ui-for-universal-windows-platform" class="uwp_download_btn js-btnWin">Download Free Trial</a>
 </div>
 
 ![Telerik UI for UWP](uwp-introduction.png)
