@@ -38,12 +38,7 @@ In order to style the Increase/Decrease button explicitly, you have to edit the 
 
 You can change every property you wish to custom value but remember that all of them should be present in the style. Then you have to set the Increase/DecreaseButtonStyle property of the RadNumericBox to the custom style as shown in the example below.
 
-
-{{region NumericButtonSetStyle}}
 	<telerik:RadNumericBox DecreaseButtonStyle="{StaticResource CustomButtonStyle}" />
-	{{endregion}}
-
-
 
 ## Styling the Header
 
