@@ -27,4 +27,4 @@ Shadows are commonly used to create depth in the interface and help users differ
 
 ## See Also
 
-- [Getting Started]({%slug shadow-getting-started %})
+- [Getting Started]({%slug shadow-gettingstarted%})

@@ -85,8 +85,6 @@ Next, create sample data and set it to the DataContext of our DataGrid:
 
 *DataClass* is a custom class defining our objects:
 
-
-{{region DataClass}}
 	public class DataClass
 	{
 		public string City { get; set; }
