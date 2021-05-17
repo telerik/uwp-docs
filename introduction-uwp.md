@@ -72,6 +72,7 @@ Our suite features the following controls for UWP platform development:
 * [RadRadialMenu]({%slug radialmenu-overview%}) 
 * [RadRangeSlider]({%slug radrangeslider-overview%}) 
 * [RadRating]({%slug rating-overview%})
+* [RadShadow]({%slug shadow-overview%})
 * [RadSideDrawer]({%slug sidedrawer-getting-started%})
 
 ## Getting Started with Telerik UI for UWP
