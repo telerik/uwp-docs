@@ -290,6 +290,9 @@ navigation:
     controls/radsidedrawer:
         title: "SideDrawer"
         position: 1
+    controls/radshadow:
+        title: "Shadow"
+        position: 1
     telerik-examples:
         title: "Telerik Examples"
         position: 6
@@ -440,6 +443,11 @@ defaults:
     values:
         title_prefix: "UWP SideDrawer Documentation"         
 -
+    scope:
+        path: "controls/radshadow"
+    values:
+        title_prefix: "UWP Shadow Documentation"         
+        
     scope:
         path: "controls/radpagination"
     values:
