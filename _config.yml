@@ -482,7 +482,6 @@ footer:
 -
   title: "Getting Started"
   links:
-    "Install Now": https://www.telerik.com/download-trial-file/v2-b/ui-for-universal-windows-platform
     "Demos": https://www.microsoft.com/en-us/p/telerik-ui-for-uwp-examples/9n3fgcz50qnl?activetab=pivot:overviewtab
 -
   title: "Community"
