@@ -20,7 +20,8 @@ Technically, RadBusyIndicator hosts its animation in a control which is part of 
 
 The following XAML code gives an example of how an animation providing style could be defined:
 
-	<Style x:Key="DefaultIndicatorAnimation" TargetType="telerikPrimitivesBusyIndicator:BusyIndicatorAnimation">
+```xml
+	<Style x:Key="DefaultIndicatorAnimation" TargetType="indicator:BusyIndicatorAnimation">
 		<Setter Property="Template">
 			<Setter.Value>
 				<ControlTemplate>
@@ -47,3 +48,6 @@ The following XAML code gives an example of how an animation providing style cou
 			</Setter.Value>
 		</Setter>
 	</Style>
+```
+
+> Note: You will need to add the following namespace `xmlns:indicator="using:Telerik.UI.Xaml.Controls.Primitives.BusyIndicator"` to resolve the **BusyIndicatorAnimation** type.
