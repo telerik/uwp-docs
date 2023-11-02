@@ -25,11 +25,13 @@ To install **Telerik UI for Windows Universal** suite, you have to follow these 
 {% if site.site_name == 'UWP' %}
 To install **Telerik UI for Universal Windows Platform** suite, you have to follow these steps:        
 
-1. Go to the [Product page](http://www.telerik.com/universal-windows-platform-ui).
+1. Go to your [Telerik account](http://www.telerik.com/account/).
 
-2. Click on the **Download Free Trial** button.
+2. Click on the **Downloads** tab and then type in the search **UI for UWP** or choose the **UI for UWP** from the products list.
 
-3. Run the downloaded installer and complete the installation.
+3. The next page allows you to download the DLLs, NuGet packages, source code and the **automatic installation .msi file** for the suite.
+
+4. From the displayed list, choose the installation file you would like to download.
 {% endif %}
 
 # See Also
